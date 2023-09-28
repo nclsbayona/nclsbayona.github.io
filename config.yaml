@@ -307,7 +307,7 @@ params:
 
       - title: "My Cool Webpage"
         content: I developed my Cool Webpage using , in the past I tried to use firstly Angular, Ionic and also some other Web APIs to make my personal webpage but looking after dependency conflicts was tedious, so then I tried a more simple approach using HTML and Bootstrap mainly but I felt my webpage was missing something, so I decided to switch to a more minimalistic approach and now I'm using Hugo for static site generation. I think it's also a good idea to say I'm more backend-oriented but I think I can handle frontend pretty good
-        image: /images/projects/webpage.jpg
+        image: /images/projects/webpage.png
         featured:
           name: Watch It Live!
           link: https://nclsbayona.github.io
@@ -320,7 +320,7 @@ params:
 
       - title: "My Cool LoadBalancer"
         content: I developed a LoadBalancer using Go, Java, Python and PostgreSQL. This project was developed as an Introduction to Distributed Systems class project but I really worked hard on this one so I could practice my skills as a developer. This LoadBalancer is fault tolerant and I also worked on Dockerfiles so there was no need to install the required tools on the machine it was meant to run on. It also includes a video explaining how it works.
-        image: /images/projects/loadbalancer.jpg
+        image: /images/projects/load-balancer.png
         featured:
           name: Watch It On GitHub!
           link: https://github.com/nclsbayona/LoadBalancer
@@ -335,7 +335,7 @@ params:
 
       - title: "My Cool Microservices App"
         content: I developed a Microservices App using Java (Spring Boot), I decided to use Spring for this one because it's easy to use and offers libraries for various tasks that are need to be done in a Microservice architecture project. I also made a client CLI app in Go (Using Bubbletea framework for Go) and all this are built into docker images that can be deployed using Docker Compose using Jenkins.
-        image: /images/projects/microservices-app.jpg
+        image: /images/projects/microservices-app.png
         featured:
           name: Watch It On GitHub!
           link: https://github.com/nclsbayona/Tecnoverde
