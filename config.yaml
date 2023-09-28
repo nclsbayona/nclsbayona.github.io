@@ -12,6 +12,8 @@ outputs:
 
 Paginate: 3
 enableRobotsTXT: true
+disqusShortname: "nclsbayona"
+# googleAnalytics: G-MEASUREMENT_ID
 
 markup:
   goldmark:

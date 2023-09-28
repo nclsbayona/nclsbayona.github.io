@@ -2,15 +2,22 @@
 title: "Quantum Cybersecurity"
 date: 2023-09-28T10:52:01-05:00
 draft: false
+author: nclsbayona
+tags:
+  - Cyber Security
+  - Quantum Computing
+image: https://henry.law/wp-content/uploads/2020/06/quantum2-3-2048x1170.jpeg
+description: In this blog post we talk about Quantum Computing and some Security-Related Concerns
+toc:
 ---
 
 # CyberSec and Quantum Computing
 
-![Quantum Computing](https://iit-techambit.in/content/images/size/w2000/2020/05/download.png)
-
-In this guide, we'll delve into the fascinating world of quantum computing, exploring its potential impact on our lives and the critical security concerns it raises. This article was written using ChatGPT since I'm not an expert in quantum computing or cybersecurity, but I found this content interesting, that's why I decided to put some effort on adjusting this so that It sounded more like something I would say and share it.
+![Quantum Computing](https://henry.law/wp-content/uploads/2020/06/quantum2-3-2048x1170.jpeg)
 
 ## 1. Introduction
+
+In this guide, we'll delve into the fascinating world of quantum computing, exploring its potential impact on our lives and the critical security concerns it raises. This article was written using ChatGPT since I'm not an expert in quantum computing or cybersecurity, but I found this content interesting, that's why I decided to put some effort on adjusting this so that It sounded more like something I would say and share it.
 
 Quantum computing is an emerging field that harnesses the principles of quantum mechanics to perform calculations at speeds that are just unimaginable with classical computers. This guide aims to demystify quantum computing and explore how it will shape our future, particularly in the realm of cybersecurity. However before talking about quantum computing, we need to talk about quantum physics, since there's a strong relation in those two worlds.
 
