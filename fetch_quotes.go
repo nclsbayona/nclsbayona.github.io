@@ -66,7 +66,7 @@ func assertFileExists(file_name string){
   
   if _, err = os.Stat("contents"); errors.Is(err, os.ErrNotExist) {
 		for err != nil {
-      fmt.Printf("Failed to directory contents : %s\n", err)
+      	  fmt.Printf("Failed to create directory contents : %s\n", err)
 		  err = os.Mkdir("contents", os.ModePerm)
 		}
 	}
