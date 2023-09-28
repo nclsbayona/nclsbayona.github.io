@@ -1,38 +1,14 @@
 ---
-title: "Quantum_cybersecurity"
+title: "Quantum Cybersecurity"
 date: 2023-09-28T10:52:01-05:00
 draft: false
 ---
 
-# Quantum Computing, Cybersecurity, and You
+# CyberSec and Quantum Computing
 
 ![Quantum Computing](https://iit-techambit.in/content/images/size/w2000/2020/05/download.png)
 
 In this guide, we'll delve into the fascinating world of quantum computing, exploring its potential impact on our lives and the critical security concerns it raises. This article was written using ChatGPT since I'm not an expert in quantum computing or cybersecurity, but I found this content interesting, that's why I decided to put some effort on adjusting this so that It sounded more like something I would say and share it.
-
-## Table of Contents
-1. **Introduction**
-2. **Understanding Quantum Physics**
-   - 2.1 Superposition
-   - 2.2 Entanglement
-   - 2.3 Uncertainity Principle
-3. **What is Quantum Computing?**
-   - 3.1 Quantum Bits (Qubits)
-   - 3.2 Quantum Gates
-   - 3.3 Quantum Algorithms
-4. **Quantum Computing's Quantum Foundation**
-5. **Quantum Computing's Role in Everyday Life**
-   - 4.1 Advancements in Drug Discovery
-   - 4.2 Optimizing Supply Chains
-   - 4.3 Cryptography and Data Security
-6. **Security Concerns with Quantum Computing**
-   - 5.1 Shor's Algorithm and RSA Encryption
-   - 5.2 Post-Quantum Cryptography
-   - 5.3 Quantum Key Distribution (QKD)
-7. **Conclusion**
-8. **Further Resources**
-
----
 
 ## 1. Introduction
 
