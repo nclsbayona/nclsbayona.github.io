@@ -10,6 +10,10 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  # Runs everyday at 10:00 UTC
+  schedule:
+    - cron: '0 10 * * *'
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -46,6 +50,12 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '^1.13.1' # The Go version to download (if necessary) and use.
+      - name: Get Quotes
+        run: go fetch_quotes.go
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
