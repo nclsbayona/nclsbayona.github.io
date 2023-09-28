@@ -1,7 +1,7 @@
 ---
 title: "Quotes by Babe Ruth"
 date: 2023-09-28T18:48:10-05:00
-draft: true
+draft: false
 author: Babe Ruth
 tags:
   - Quotes
