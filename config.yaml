@@ -10,7 +10,7 @@ outputs:
   page:
     - "HTML"
 
-Paginate: 3
+Paginate: 15
 enableRobotsTXT: true
 disqusShortname: "nclsbayona"
 # googleAnalytics: G-MEASUREMENT_ID
