@@ -7,6 +7,7 @@ import (
 	"io/ioutil"
 	"net/http"
 	"os"
+	"strconv"
 	"strings"
 	"syscall"
 	"time"
@@ -92,13 +93,13 @@ func assertFileExists(file_name string) {
 		author_name := capitalizeFirst(strings.ReplaceAll(file_name, "_", " "))
 		description := fmt.Sprintf("Quotes by %s", author_name)
 		times := time.Now()
-		year := times.Year()
+		year := strconv.Itoa(times.Year())
 		month := int(times.Month())
-		day := times.Day()
+		day := strconv.Itoa(times.Day())
 		var lines = []string{
 			"---",
 			fmt.Sprintf("title: %s", description),
-			fmt.Sprintf("date: %d-%02d-%02dT12:24:57-02:00", year, month, day),
+			fmt.Sprintf("date: %s-%02d-%sT10:15:25-02:00", year, month, day),
 			"draft: false",
 			fmt.Sprintf("author: %s", author_name),
 			fmt.Sprintf("description: %s", description),
