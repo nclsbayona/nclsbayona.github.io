@@ -56,6 +56,8 @@ jobs:
           go-version: '^1.13.1' # The Go version to download (if necessary) and use.
       - name: Get Quotes
         run: go run fetch_quotes.go
+      - name: Show all
+        run: ls -lR
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
