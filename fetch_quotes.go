@@ -66,6 +66,8 @@ func assertFileExists(file_name string) {
 	file_name = fmt.Sprintf("content/quotes/%s.md", file_name)
 	var err error
 
+	fmt.Printf("Checking for file ' %s '", file_name)
+
 	if _, err = os.Stat("content"); errors.Is(err, os.ErrNotExist) {
 		for err != nil {
 			fmt.Printf("Failed to create directory content : %s\n", err)
@@ -167,7 +169,7 @@ func main() {
 			file_name = "anonymous"
 		}
 		assertFileExists(file_name)
-		go addQuoteToFile(quote.Quote, file_name)
+		addQuoteToFile(quote.Quote, file_name)
 	}
 
 }
