@@ -58,7 +58,7 @@ func addQuoteToFile(quote string, file_name string) {
 	// When file is available, lock it and defer unlock
 	defer syscall.Flock(int(file.Fd()), syscall.LOCK_UN)
 	// Now we can write the file
-	file.WriteString(fmt.Sprintf("\n## %s", quote))
+	file.WriteString(fmt.Sprintf("\n\n## %s", quote))
 	fmt.Printf("Wrote %s to %s", quote, file_name)
 }
 
