@@ -37,7 +37,7 @@ func capitalizeFirst(name string) string{
 }
 
 func addQuoteToFile(quote string, file_name string){
-  file_name = fmt.Sprintf("contents/quotes/%s.md", file_name)
+  file_name = fmt.Sprintf("content/quotes/%s.md", file_name)
   var file *os.File
   file, err := os.OpenFile(file_name, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0666)
    for err != nil {
@@ -61,20 +61,20 @@ func addQuoteToFile(quote string, file_name string){
 }
 
 func assertFileExists(file_name string){
-  file_name = fmt.Sprintf("contents/quotes/%s.md", file_name)
+  file_name = fmt.Sprintf("content/quotes/%s.md", file_name)
   var err error
   
-  if _, err = os.Stat("contents"); errors.Is(err, os.ErrNotExist) {
+  if _, err = os.Stat("content"); errors.Is(err, os.ErrNotExist) {
 	for err != nil {
-      	fmt.Printf("Failed to create directory contents : %s\n", err)
-		err = os.Mkdir("contents", os.ModePerm)
+      	fmt.Printf("Failed to create directory content : %s\n", err)
+		err = os.Mkdir("content", os.ModePerm)
 	}
 }
 
-if _, err = os.Stat("contents/quotes"); errors.Is(err, os.ErrNotExist) {
+if _, err = os.Stat("content/quotes"); errors.Is(err, os.ErrNotExist) {
 	for err != nil {
-      	fmt.Printf("Failed to create directory contents/quotes : %s\n", err)
-		err = os.Mkdir("contents/quotes", os.ModePerm)
+      	fmt.Printf("Failed to create directory content/quotes : %s\n", err)
+		err = os.Mkdir("content/quotes", os.ModePerm)
 	}
 }
 
@@ -87,7 +87,7 @@ if _, err = os.Stat("contents/quotes"); errors.Is(err, os.ErrNotExist) {
       f, err = os.Create(file_name)
     }
     defer f.Close()
-    file_name = strings.ReplaceAll(file_name, "contents/", "")
+    file_name = strings.ReplaceAll(file_name, "content/", "")
     file_name = strings.ReplaceAll(file_name, ".md", "")
     author_name := capitalizeFirst(strings.ReplaceAll(file_name, "_", " "))
     description := fmt.Sprintf("Quotes by %s", author_name)
@@ -112,7 +112,7 @@ if _, err = os.Stat("contents/quotes"); errors.Is(err, os.ErrNotExist) {
         fmt.Printf("Failed to write line %s in file %s : %s", line, file_name, err)
         for err != nil{
           fmt.Printf("Failed to remove file %s : %s\nRetrying...\n\n", file_name, err)
-          err = os.Remove(fmt.Sprintf("contents/quotes/%s.md", file_name))
+          err = os.Remove(fmt.Sprintf("content/quotes/%s.md", file_name))
         }
         fmt.Printf("Removed file %s ...", file_name)
 		    return
