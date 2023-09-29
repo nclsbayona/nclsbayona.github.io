@@ -59,6 +59,7 @@ func addQuoteToFile(quote string, file_name string) {
 	defer syscall.Flock(int(file.Fd()), syscall.LOCK_UN)
 	// Now we can write the file
 	file.WriteString(fmt.Sprintf("\n## %s", quote))
+	fmt.Printf("Wrote %s to %s", quote, file_name)
 }
 
 func assertFileExists(file_name string) {
