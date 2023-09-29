@@ -11,6 +11,7 @@ import (
 	"syscall"
 	"time"
 	"unicode"
+	"strconv"
 )
 
 type sQuote struct {
@@ -91,10 +92,14 @@ func assertFileExists(file_name string) {
 		file_name = strings.ReplaceAll(file_name, ".md", "")
 		author_name := capitalizeFirst(strings.ReplaceAll(file_name, "_", " "))
 		description := fmt.Sprintf("Quotes by %s", author_name)
+		times := time.Now()
+		year := strconv.Itoa(times.Year())
+		month := strconv.Itoa(int(times.Month()))
+		day := strconv.Itoa(times.Day())
 		var lines = []string{
 			"---",
 			fmt.Sprintf("title: %s", description),
-			fmt.Sprintf("date: %s", time.Now()),
+			fmt.Sprintf("date: %s-%s-%sT12:24:57-02:00", year, month, day),
 			"draft: false",
 			fmt.Sprintf("author: %s", author_name),
 			fmt.Sprintf("description: %s", description),

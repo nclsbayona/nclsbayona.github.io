@@ -364,10 +364,10 @@ params:
 
   footer:
     recentPosts:
-      enable: false
-      # path: "blogs"
-      # count: 3
-      # title: Recent Posts
+      enable: true
+      path: "/blogs"
+      count: 3
+      title: Recent Posts
       # disableFeaturedImage: false
     socialNetworks:
       github: "https://github.com/nclsbayona"
