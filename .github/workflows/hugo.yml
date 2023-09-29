@@ -67,8 +67,6 @@ jobs:
           HUGO_ENV: production
         run: |
           hugo \
-            --gc \
-            --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             -t hugo-profile
       - name: Upload artifact
