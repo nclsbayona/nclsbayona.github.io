@@ -10,6 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Morgan Wootten. Enjoy!
+## Leadership starts at the top.
 
-
-## You win more from losing than winning.

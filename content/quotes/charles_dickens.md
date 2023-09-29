@@ -10,6 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Charles Dickens. Enjoy!
+## Happiness is a gift and the trick is not to expect it, but to delight in it when it comes.
 
-
-## We need never be ashamed of our tears.

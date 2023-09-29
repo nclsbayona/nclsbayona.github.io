@@ -10,6 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Theodore Roosevelt. Enjoy!
+## Do what you can, with what you have, where you are.
 
-
-## Old age is like everything else. To make a success of it, you've got to start young.

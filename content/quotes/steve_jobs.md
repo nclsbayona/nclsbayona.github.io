@@ -10,3 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Steve Jobs. Enjoy!
+## Quality is more important than quantity. One home run is much better than two doubles.
+

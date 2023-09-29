@@ -10,6 +10,7 @@ tags:
 ---
  
 # Here you have some quotes by Robin Sharma. Enjoy!
+## Stop being a prisoner of your past. Become the architect of your future.
 
+## We are all here for some special reason.
 
-## Victims recite problems, leaders provide solutions.

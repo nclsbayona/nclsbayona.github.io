@@ -10,6 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
+## No great mind has ever existed without a touch of madness.
 
-
-## For the things we have to learn before we can do them, we learn by doing them.

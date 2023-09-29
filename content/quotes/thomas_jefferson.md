@@ -10,6 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Thomas Jefferson. Enjoy!
+## I like the dreams of the future better than the history of the past.
 
-
-## The glow of one warm thought is to me worth more than money.

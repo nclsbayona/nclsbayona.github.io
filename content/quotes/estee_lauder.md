@@ -10,6 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Estee Lauder. Enjoy!
+## Be strong. Be confident. Be the star of your own life.
 
-
-## Confidence breeds beauty.  

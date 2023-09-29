@@ -10,6 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Thich Nhat Hanh. Enjoy!
+## My actions are my only true belongings. I cannot escape the consequences of my actions. My actions are the ground upon which I stand.
 
-
-## Feelings come and go like clouds in a windy sky. Conscious breathing is my anchor.

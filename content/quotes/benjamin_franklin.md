@@ -10,6 +10,7 @@ tags:
 ---
  
 # Here you have some quotes by Benjamin Franklin. Enjoy!
+## Either write something worth reading or do something worth writing.
 
+## He that can have patience can have what he will.
 
-## We are all born ignorant, but one must work hard to remain stupid.
