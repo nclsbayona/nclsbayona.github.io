@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## The prettiest eyes have cried the most.
+## Only those who do nothing at all make no mistakes.
 

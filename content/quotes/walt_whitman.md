@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Walt Whitman. Enjoy!
-## The future is no more uncertain than the present.
+## Keep your face always toward the sunshine -  shadows will fall behind you.
 

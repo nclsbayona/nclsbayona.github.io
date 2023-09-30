@@ -1,6 +1,6 @@
 ---
 title: Quotes by Dan Brown
-date: 2023-09-29T10:15:25-02:00
+date: 2023-09-30T10:15:25-02:00
 draft: false
 author: Dan Brown
 description: Quotes by Dan Brown
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Dan Brown. Enjoy!
-## Men go to far greater lengths to avoid what they fear than to obtain what they desire.
+## Everything is possible. The impossible just takes longer.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Robert Kiyosaki. Enjoy!
-## Often in the real world, it's not the smart that get ahead, but the bold.
+## We learn to walk by falling down. If we never fell down, we would never walk.
 

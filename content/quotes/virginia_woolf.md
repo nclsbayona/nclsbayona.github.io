@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Virginia Woolf. Enjoy!
-## The eyes of others our prisons; their thoughts our cages.
+## When you consider things like the stars, our affairs don't seem to matter very much, do they?
 

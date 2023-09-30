@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Celestine Chua. Enjoy!
-## In order to be walked over, you have to be lying down.
+## If you believe you can, you can. If you believe you can't, then, well you can't.
 

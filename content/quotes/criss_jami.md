@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Criss Jami. Enjoy!
-## A poet should be so crafty with words that he is envied even for his pains.
+## A liar knows that he is a liar, but one who speaks mere portions of truth in order to deceive is a craftsman of destruction.
 

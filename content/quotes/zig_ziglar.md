@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Zig Ziglar. Enjoy!
-## People often say that motivation doesn't last. Well, neither does bathing - that's why we recommend it daily.
+## Go as far as you can see and you will see further.  
 

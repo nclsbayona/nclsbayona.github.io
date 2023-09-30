@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Hans Christian Andersen. Enjoy!
-## Just living is not enough... one must have sunshine, freedom, and a little flower. 
+## The sun shines upon good and bad alike.
 

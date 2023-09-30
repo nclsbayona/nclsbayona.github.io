@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by William James. Enjoy!
-## Belief creates the actual fact.
+## There are no differences but differences of degree between different degrees of difference and no difference.
 

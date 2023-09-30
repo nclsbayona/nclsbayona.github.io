@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## Respect other people's feelings. It might mean nothing to you, but it could mean everything to them.
+## The more you trust yourself, the less you compare yourself to others.
 

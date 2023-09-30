@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Paulo Coelho. Enjoy!
-## It's the possibility of having a dream come true that makes life interesting.
+## Stay away from people who makes you feel like you are wasting their time.
 

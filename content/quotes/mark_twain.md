@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Mark Twain. Enjoy!
-## Anger is an acid that can do more harm to the vessel in which it is stored than to anything on which it is poured.
+## Always do what is right. It will gratify half of mankind and astound the other.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Harry S. Truman. Enjoy!
-## You can't have anything worthwhile without difficulties.
+## It is ignorance that causes most mistakes.
 

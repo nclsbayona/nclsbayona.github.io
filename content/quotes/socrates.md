@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Socrates. Enjoy!
-## Be of good cheer about death, and know this of a truth, that no evil can happen to a good man, either in life or after death.
+## An un-examined life is not worth living.
 

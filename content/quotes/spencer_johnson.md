@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Spencer Johnson. Enjoy!
-## Integrity is telling myself the truth. And honesty is telling the truth to other people.
+## Life moves on and so should we.
 

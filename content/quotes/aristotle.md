@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## Those who know, do. Those that understand, teach.
+## Knowing yourself is the beginning of all wisdom.
 

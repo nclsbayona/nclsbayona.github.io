@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Mother Teresa. Enjoy!
-## Peace begins with a smile.
+## Kind words can be short and easy to speak, but their echoes are truly endless.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Winston Churchill
-date: 2023-09-29T10:15:25-02:00
+date: 2023-09-30T10:15:25-02:00
 draft: false
 author: Winston Churchill
 description: Quotes by Winston Churchill
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Winston Churchill. Enjoy!
-## The farther backward you can look, the farther forward you are likely to see.
+## Courage is what it takes to stand up and speak. Courage is also what it takes to sit down and listen.
 

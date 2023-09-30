@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Dogen. Enjoy!
-## Life and death are of supreme importance. Time swiftly passes by and opportunity is lost.
+## A flower falls, even though we love it; and a weed grows, even though we do not love it.
 

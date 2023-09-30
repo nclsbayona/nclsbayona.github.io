@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Heraclitus. Enjoy!
-## Abundance of knowledge does not teach men to be wise.
+## We are most nearly ourselves when we achieve the seriousness of the child at play.
 

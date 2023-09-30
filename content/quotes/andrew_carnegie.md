@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Andrew Carnegie. Enjoy!
-## You cannot push anyone up a ladder unless he is willing to climb a little himself.
+## True it is, we only hate those whom we do not know.
 
