@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## Be thankful for everything that happens in your life; it's all an experience.
+## Respect other people's feelings. It might mean nothing to you, but it could mean everything to them.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Steve Maraboli. Enjoy!
-## I find the best way to love someone is not to change them, but instead, help them reveal the greatest version of themselves.
+## Letting go means to come to the realization that some people are a part of your history, but not a part of your destiny.
 

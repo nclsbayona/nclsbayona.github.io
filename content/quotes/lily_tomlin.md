@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lily Tomlin. Enjoy!
-## Man invented language to satisfy his deep need to complain.
+## Don't be afraid of missing opportunities. Behind every failure is an opportunity somebody wishes they had missed.
 

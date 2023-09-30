@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Zig Ziglar. Enjoy!
-## You don't have to be great to start, but you have to start to be great.  
+## Some of us learn from other people's mistakes and the rest of us have to be other people.  
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## The finish line is just the beginning of a whole new race.
+## The prettiest eyes have cried the most.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Robert Collier. Enjoy!
-## If you don't make things happen then things will happen to you.
+## Any thought that is passed on to the subconscious often enough and convincingly enough is finally accepted.
 

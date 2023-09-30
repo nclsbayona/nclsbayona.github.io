@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Mark Manson. Enjoy!
-## We suffer for the simple reason that suffering is biologically useful. It is nature's preferred agent for inspiring change.
+## This is the most simple and basic component of life: our struggles determine our successes.
 

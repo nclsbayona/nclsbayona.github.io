@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Og Mandino. Enjoy!
-## Always do your best. What you plant now, you will harvest later.
+## Failure is the highway to success.
 

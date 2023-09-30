@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Meister Eckhart. Enjoy!
-## It is in the darkness that one finds the light.
+## The eye with which I see God is the same eye with which God sees me.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by John Wooden. Enjoy!
-## Things turn out best for the people who make the best of the way things turn out.
+## Don't let what you cannot do interfere with what you can do.
 

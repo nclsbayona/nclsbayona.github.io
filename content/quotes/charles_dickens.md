@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Charles Dickens. Enjoy!
-## Every traveler has a home of his own, and he learns to appreciate it the more from his wandering.
+## We need never be ashamed of our tears.
 

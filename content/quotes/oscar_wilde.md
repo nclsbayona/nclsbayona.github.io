@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Oscar Wilde. Enjoy!
-## Experience is simply the name we give our mistakes. 
+## The truth is rarely pure and never simple. 
 

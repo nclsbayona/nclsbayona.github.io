@@ -1,6 +1,6 @@
 ---
 title: Quotes by F. Scott Fitzgerald
-date: 2023-09-29T10:15:25-02:00
+date: 2023-09-30T10:15:25-02:00
 draft: false
 author: F. Scott Fitzgerald
 description: Quotes by F. Scott Fitzgerald
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by F. Scott Fitzgerald. Enjoy!
-## The world only exists in your eyes. You can make it as big or as small as you want.
+## Never confuse a single defeat with a final defeat.
 

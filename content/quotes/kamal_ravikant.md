@@ -1,6 +1,6 @@
 ---
 title: Quotes by Kamal Ravikant
-date: 2023-09-29T10:15:25-02:00
+date: 2023-09-30T10:15:25-02:00
 draft: false
 author: Kamal Ravikant
 description: Quotes by Kamal Ravikant
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Kamal Ravikant. Enjoy!
-## The things I carry are my thoughts. That's it. They are the only weight. My thoughts determine whether I am free and light or burdened.
+## As you love yourself, life loves you back.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## The roots of education are bitter, but the fruit is sweet.
+## To perceive is to suffer.
 

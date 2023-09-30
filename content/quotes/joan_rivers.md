@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Joan Rivers. Enjoy!
-## I succeeded by saying what everyone else is thinking.
+## I never dwell on what happened. You can't change it. Move forward.
 

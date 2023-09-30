@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Dan Millman. Enjoy!
-## You don't have to control your thoughts; you just have to stop letting them control you.
+## Here and now...breathe and relax...in battle and in life.
 
