@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Naval Ravikant. Enjoy!
-## Meditate. It won't be fun but it will surface what you need to deal with.
+## You can have the mind or you can have the moment.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Nicolas Chamfort. Enjoy!
-## There are more people who wish to be loved than there are who are willing to love. 
+## Society is composed of two great classes those who have more dinners than appetite, and those who have more appetite than dinners.
 

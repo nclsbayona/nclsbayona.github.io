@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Robert Kiyosaki. Enjoy!
-## Life is much like going to the gym. The most painful part is deciding to go. Once you get past that, it's easy.
+## Often in the real world, it's not the smart that get ahead, but the bold.
 

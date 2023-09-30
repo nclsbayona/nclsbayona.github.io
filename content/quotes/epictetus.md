@@ -1,6 +1,6 @@
 ---
 title: Quotes by Epictetus
-date: 2023-09-29T10:15:25-02:00
+date: 2023-09-30T10:15:25-02:00
 draft: false
 author: Epictetus
 description: Quotes by Epictetus
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Epictetus. Enjoy!
-## It's not what happens to you, but how you react to it that matters.
+## He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.
 

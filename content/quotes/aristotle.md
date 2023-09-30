@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## To perceive is to suffer.
+## Those who know, do. Those that understand, teach.
 

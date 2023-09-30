@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Criss Jami. Enjoy!
-## To be heroic is to be courageous enough to die for something; to be inspirational is to be crazy enough to live a little.
+## A poet should be so crafty with words that he is envied even for his pains.
 

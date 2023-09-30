@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Celestine Chua. Enjoy!
-## If you are not living each day with excitement, energy, and passion, then you are not living true to your life purpose.
+## In order to be walked over, you have to be lying down.
 

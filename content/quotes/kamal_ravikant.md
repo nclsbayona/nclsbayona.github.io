@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Kamal Ravikant. Enjoy!
-## As you love yourself, life loves you back.
+## Darkness is the absence of light.
 

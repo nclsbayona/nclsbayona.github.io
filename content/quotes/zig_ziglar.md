@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Zig Ziglar. Enjoy!
-## Some of us learn from other people's mistakes and the rest of us have to be other people.  
+## People often say that motivation doesn't last. Well, neither does bathing - that's why we recommend it daily.
 

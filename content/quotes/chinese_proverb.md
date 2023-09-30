@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Chinese Proverb. Enjoy!
-## Better the cottage where one is merry than the palace where one weeps.
+## A little impatience will spoil great plans.
 

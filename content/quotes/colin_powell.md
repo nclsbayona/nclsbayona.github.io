@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Colin Powell. Enjoy!
-## Always focus on the front windshield and not the rear view mirror.
+## Great leaders are almost always great simplifiers, who can cut through argument, debate and doubt, to offer a solution everybody can understand.
 

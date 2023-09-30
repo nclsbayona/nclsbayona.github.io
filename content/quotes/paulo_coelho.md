@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Paulo Coelho. Enjoy!
-## Whatever you decide to do, make sure it makes you happy.
+## It's the possibility of having a dream come true that makes life interesting.
 

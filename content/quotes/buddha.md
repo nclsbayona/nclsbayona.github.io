@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Buddha. Enjoy!
-## Work out your own salvation. Do not depend on others.
+## Your work is to discover your work and then, with all your heart, to give yourself to it.
 

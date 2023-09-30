@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Tony Robbins. Enjoy!
-## If you can't, you must. If you must, you can.
+## Most people dabble their way through life, never deciding to master anything in particular.
 

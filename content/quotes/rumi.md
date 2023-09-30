@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Rumi. Enjoy!
-## Everything that is made beautiful and fair and lovely is made for the eye of one who sees.
+## Forget safety. Live where you fear to live.
 

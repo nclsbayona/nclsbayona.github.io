@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by John D. Rockefeller. Enjoy!
-## Giving is the secret of a healthy life. Not necessarily money, but whatever a person has of encouragement, sympathy and understanding.
+## Singleness of purpose is one of the chief essentials for success in life, no matter what may be one's aim.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Maxime Lagace. Enjoy!
-## The ego wants comfort and certainty. The soul wants to live fully.
+## Inner peace is when you realize that, in the end, nothing matters.
 

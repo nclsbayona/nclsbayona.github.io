@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lao Tzu. Enjoy!
-## Great acts are made up of small deeds.
+## At the center of your being you have the answer; you know who you are and you know what you want.
 

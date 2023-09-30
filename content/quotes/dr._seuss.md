@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Dr. Seuss. Enjoy!
-## People are weird. When we find someone with weirdness that is compatible with ours, we team up and call it love.
+## Be who you are and say what you feel because those who mind don't matter and those who matter don't mind.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Nikola Tesla. Enjoy!
-## We crave for new sensations but soon become indifferent to them. The wonders of yesterday are today common occurrences 
+## Our virtues and our failings are inseparable, like force and matter. When they separate, man is no more. 
 
