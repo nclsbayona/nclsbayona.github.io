@@ -82,13 +82,13 @@ func removeOldAndAssertFileExists(file_name string) {
 		}
 	}
 
-	_, err = os.Stat(file_name)
+	/* _, err = os.Stat(file_name)
 	if !errors.Is(err, os.ErrNotExist) {
 		err = os.Remove(file_name)
 		for err != nil {
 			err = os.Remove(file_name)
 		}
-	}
+	} */
 
 	var f *os.File
 	f, err = os.Create(file_name)
