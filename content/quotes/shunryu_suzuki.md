@@ -1,6 +1,6 @@
 ---
 title: Quotes by Shunryu Suzuki
-date: 2023-09-29T10:15:25-02:00
+date: 2023-09-30T10:15:25-02:00
 draft: false
 author: Shunryu Suzuki
 description: Quotes by Shunryu Suzuki
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Shunryu Suzuki. Enjoy!
-## Time goes from present to past.
+## Life is like stepping onto a boat which is about to sail out to sea and sink.
 

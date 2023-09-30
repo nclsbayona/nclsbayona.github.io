@@ -1,6 +1,6 @@
 ---
 title: Quotes by Charles Dickens
-date: 2023-09-29T10:15:25-02:00
+date: 2023-09-30T10:15:25-02:00
 draft: false
 author: Charles Dickens
 description: Quotes by Charles Dickens
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Charles Dickens. Enjoy!
-## The pain of parting is nothing to the joy of meeting again.
+## Every traveler has a home of his own, and he learns to appreciate it the more from his wandering.
 

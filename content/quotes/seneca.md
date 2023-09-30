@@ -1,6 +1,6 @@
 ---
 title: Quotes by Seneca
-date: 2023-09-29T10:15:25-02:00
+date: 2023-09-30T10:15:25-02:00
 draft: false
 author: Seneca
 description: Quotes by Seneca
@@ -10,9 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Seneca. Enjoy!
-## He suffers more than necessary, who suffers before it is necessary.  
-
-## We suffer more often in imagination than in reality.
-
-## We are always complaining that our days are few, and acting as though there would be no end of them.  
+## You want to live but do you know how to live? You are scared of dying and tell me, is the kind of life you lead really any different from being dead?
 
