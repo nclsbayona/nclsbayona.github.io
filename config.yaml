@@ -308,7 +308,7 @@ params:
             url: "https://github.com/nclsbayona/nclsbayona"
 
       - title: "My Cool Webpage"
-        content: I developed my Cool Webpage using , in the past I tried to use firstly Angular, Ionic and also some other Web APIs to make my personal webpage but looking after dependency conflicts was tedious, so then I tried a more simple approach using HTML and Bootstrap mainly but I felt my webpage was missing something, so I decided to switch to a more minimalistic approach and now I'm using Hugo for static site generation. I think it's also a good idea to say I'm more backend-oriented but I think I can handle frontend pretty good
+        content: I developed my Cool Webpage using Hugo and Markdown, in the past I tried to use firstly Angular, Ionic and also some other Web APIs to make my personal webpage but looking after dependency conflicts was tedious, so then I tried a more simple approach using HTML and Bootstrap mainly but I felt my webpage was missing something, so I decided to switch to a more minimalistic approach and now I'm using Hugo for static site generation. I think it's also a good idea to say I'm more backend-oriented but I think I can handle frontend pretty good
         image: /images/projects/webpage.png
         featured:
           name: Watch It Live!
@@ -352,7 +352,7 @@ params:
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
+    title: "Contact me!"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     email: nbayonaord@gmail.com
     btnName: Mail me
@@ -368,6 +368,12 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
+      # disableFeaturedImage: false
+    recentQuotes:
+      enable: true
+      path: "quotes"
+      count: 3
+      title: Check out some inspirational quotes!
       # disableFeaturedImage: false
     socialNetworks:
       github: "https://github.com/nclsbayona"
