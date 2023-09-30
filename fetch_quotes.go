@@ -62,7 +62,7 @@ func addQuoteToFile(quote string, file_name string) {
 	fmt.Printf("Wrote ' %s ' to ' %s '\n", quote, file_name)
 }
 
-func assertFileExists(file_name string) {
+func removeOldAndAssertFileExists(file_name string) {
 	file_name = fmt.Sprintf("content/quotes/%s.md", file_name)
 	var err error
 
@@ -83,50 +83,54 @@ func assertFileExists(file_name string) {
 	}
 
 	_, err = os.Stat(file_name)
-	if errors.Is(err, os.ErrNotExist) {
-		var f *os.File
-		f, err = os.Create(file_name)
+	if !errors.Is(err, os.ErrNotExist) {
+		err = os.Remove(file_name)
 		for err != nil {
-			fmt.Printf("Failed to create file %s : %s\n", file_name, err)
-			f, err = os.Create(file_name)
+			err = os.Remove(file_name)
 		}
-		defer f.Close()
-		file_name = strings.ReplaceAll(file_name, "content/quotes/", "")
-		file_name = strings.ReplaceAll(file_name, ".md", "")
-		author_name := capitalizeFirst(strings.ReplaceAll(file_name, "_", " "))
-		description := fmt.Sprintf("Quotes by %s", author_name)
-		times := time.Now()
-		year := strconv.Itoa(times.Year())
-		month := int(times.Month())
-		day := strconv.Itoa(times.Day())
-		var lines = []string{
-			"---",
-			fmt.Sprintf("title: %s", description),
-			fmt.Sprintf("date: %s-%02d-%sT10:15:25-02:00", year, month, day),
-			"draft: false",
-			fmt.Sprintf("author: %s", author_name),
-			fmt.Sprintf("description: %s", description),
-			"tags:",
-			"  - Quotes",
-			fmt.Sprintf("  - %s", author_name),
-			//fmt.Sprintf("image: %s", image),
-			"---",
-			" ",
-			fmt.Sprintf("# Here you have some quotes by %s. Enjoy!", author_name),
-		}
-		for _, line := range lines {
-			_, err := f.WriteString(line + "\n")
-			if err != nil {
-				fmt.Printf("Failed to write line %s in file %s : %s", line, file_name, err)
-				for err != nil {
-					fmt.Printf("Failed to remove file %s : %s\nRetrying...\n\n", file_name, err)
-					err = os.Remove(fmt.Sprintf("content/quotes/%s.md", file_name))
-				}
-				fmt.Printf("Removed file %s ...", file_name)
-				return
-			}
-		}
+	}
 
+	var f *os.File
+	f, err = os.Create(file_name)
+	for err != nil {
+		fmt.Printf("Failed to create file %s : %s\n", file_name, err)
+		f, err = os.Create(file_name)
+	}
+	defer f.Close()
+	file_name = strings.ReplaceAll(file_name, "content/quotes/", "")
+	file_name = strings.ReplaceAll(file_name, ".md", "")
+	author_name := capitalizeFirst(strings.ReplaceAll(file_name, "_", " "))
+	description := fmt.Sprintf("Quotes by %s", author_name)
+	times := time.Now()
+	year := strconv.Itoa(times.Year())
+	month := int(times.Month())
+	day := strconv.Itoa(times.Day())
+	var lines = []string{
+		"---",
+		fmt.Sprintf("title: %s", description),
+		fmt.Sprintf("date: %s-%02d-%sT10:15:25-02:00", year, month, day),
+		"draft: false",
+		fmt.Sprintf("author: %s", author_name),
+		fmt.Sprintf("description: %s", description),
+		"tags:",
+		"  - Quotes",
+		fmt.Sprintf("  - %s", author_name),
+		//fmt.Sprintf("image: %s", image),
+		"---",
+		" ",
+		fmt.Sprintf("# Here you have some quotes by %s. Enjoy!", author_name),
+	}
+	for _, line := range lines {
+		_, err := f.WriteString(line + "\n")
+		if err != nil {
+			fmt.Printf("Failed to write line %s in file %s : %s", line, file_name, err)
+			for err != nil {
+				fmt.Printf("Failed to remove file %s : %s\nRetrying...\n\n", file_name, err)
+				err = os.Remove(fmt.Sprintf("content/quotes/%s.md", file_name))
+			}
+			fmt.Printf("Removed file %s ...", file_name)
+			return
+		}
 	}
 
 }
@@ -168,7 +172,7 @@ func main() {
 		if file_name == "unknown" {
 			file_name = "anonymous"
 		}
-		assertFileExists(file_name)
+		removeOldAndAssertFileExists(file_name)
 		addQuoteToFile(quote.Quote, file_name)
 	}
 
