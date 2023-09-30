@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Richard Bach. Enjoy!
-## What the caterpillar calls the end of the world, the master calls a butterfly.
+## You're always free to change your mind and choose a different future, or a different past.
 
