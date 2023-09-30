@@ -164,6 +164,27 @@ func main() {
 		fmt.Println()
 	}
 
+	// Remove Old Quotes
+	// The target directory.
+	directory := "content/quotes/"
+	
+			// Open the directory and read all its files.
+	dirRead, _ := os.Open(directory)
+	dirFiles, _ := dirRead.Readdir(0)
+	
+			// Loop over the directory's files.
+	for index := range(dirFiles) {
+		fileHere := dirFiles[index]
+		
+		// Get name of file and its full path.
+		nameHere := fileHere.Name()
+		fullPath := directory + nameHere
+		
+		// Remove the file.
+		os.Remove(fullPath)
+		fmt.Println("Removed file:", fullPath)
+	}
+
 	/* Add to file */
 	for _, quote := range quotes {
 		var file_name string
@@ -172,26 +193,7 @@ func main() {
 		if file_name == "unknown" {
 			file_name = "anonymous"
 		}
-		// Remove Old Quotes
-		// The target directory.
-		directory := "content/quotes/"
-		
-		    // Open the directory and read all its files.
-		dirRead, _ := os.Open(directory)
-		dirFiles, _ := dirRead.Readdir(0)
-		
-		    // Loop over the directory's files.
-		for index := range(dirFiles) {
-			fileHere := dirFiles[index]
-			
-			// Get name of file and its full path.
-			nameHere := fileHere.Name()
-			fullPath := directory + nameHere
-			
-			// Remove the file.
-			os.Remove(fullPath)
-			fmt.Println("Removed file:", fullPath)
-		}
+
 		removeOldAndAssertFileExists(file_name)
 		addQuoteToFile(quote.Quote, file_name)
 	}
