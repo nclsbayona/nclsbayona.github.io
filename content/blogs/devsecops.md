@@ -8,7 +8,7 @@ tags:
   - Operations
   - Development
   - DevOps
-image: https://eadn-wc03-4064062.nxedge.io/cdn/wp-content/uploads/2020/12/devops_diagram-04.png
+image: https://www.pagerduty.com/wp-content/uploads/2021/03/image1-2.png
 description: In this blog post we talk about DevSecOps and its importance in today's world
 toc:
 ---
