@@ -75,6 +75,12 @@ In conclusion, a good development process is agile, version-controlled, and inte
 
 Are you ready to embark on your DevSecOps journey?
 
+Here you have some cool resources:
+
+[DevSecOps: Why you should care and how to get started](https://developers.redhat.com/articles/2022/01/27/devsecops-why-you-should-care-and-how-get-started)
+[What is DevSecOps?](https://www.redhat.com/en/topics/devops/what-is-devsecops)
+[What Is DevSecOps: Definition, Certifications & Careers](https://www.coursera.org/articles/devsecops)
+
 Happy coding and securing!
 
 ![DevSecOps](https://akumengroup.com/wp-content/uploads/2020/02/Animation-1.gif)
