@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ralph Waldo Emerson
-date: 2023-09-29T10:15:25-02:00
+date: 2023-09-30T10:15:25-02:00
 draft: false
 author: Ralph Waldo Emerson
 description: Quotes by Ralph Waldo Emerson
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ralph Waldo Emerson. Enjoy!
-## The world makes way for the man who knows where he is going.
+## For every minute you are angry you lose sixty seconds of happiness.
 

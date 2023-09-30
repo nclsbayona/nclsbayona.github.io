@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Colin Powell. Enjoy!
-## None of us can change our yesterdays but all of us can change our tomorrows.
+## Always focus on the front windshield and not the rear view mirror.
 

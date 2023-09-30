@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ming-Dao Deng. Enjoy!
-## Who you are is always right.
+## Those who attain the middle Dominate the whole.
 

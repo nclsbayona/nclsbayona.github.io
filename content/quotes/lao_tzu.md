@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lao Tzu. Enjoy!
-## If you do not change direction, you may end up where you are heading.
+## Great acts are made up of small deeds.
 

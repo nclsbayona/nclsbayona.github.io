@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Pema Chodron. Enjoy!
-## The most difficult times for many of us are the ones we give ourselves.
+## Nothing ever goes away until it has taught us what we need to know.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Vincent Van Gogh. Enjoy!
-## I put my heart and soul into my work, and I have lost my mind in the process.
+## Conscience is a man's compass. 
 

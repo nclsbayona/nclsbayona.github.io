@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Some of the greater things in life are unseen; that's why you close your eyes when you kiss, cry, or dream.
+## The finish line is just the beginning of a whole new race.
 

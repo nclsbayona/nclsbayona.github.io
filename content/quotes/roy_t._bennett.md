@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## Start each day with a positive thought and a grateful heart.
+## Be thankful for everything that happens in your life; it's all an experience.
 

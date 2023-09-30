@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Maxime Lagace. Enjoy!
-## Scared people want comfort and certainty so they avoid failure. People living fully seek challenges because this is where they feel alive.
+## The ego wants comfort and certainty. The soul wants to live fully.
 

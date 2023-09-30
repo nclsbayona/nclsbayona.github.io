@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## To lead an orchestra, you must turn your back on the crowd.
+## The roots of education are bitter, but the fruit is sweet.
 

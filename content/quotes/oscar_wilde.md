@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Oscar Wilde. Enjoy!
-## Be yourself; everyone else is already taken 
+## Experience is simply the name we give our mistakes. 
 

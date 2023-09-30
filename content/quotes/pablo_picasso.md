@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Pablo Picasso. Enjoy!
-## Action is the foundational key to all success.
+## Go and do the things you can't. That is how you get to do them.
 
