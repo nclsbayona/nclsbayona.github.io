@@ -174,7 +174,7 @@ func main() {
 		}
 		// Remove Old Quotes
 		// The target directory.
-		directory := "content/quotes"
+		directory := "content/quotes/"
 		
 		    // Open the directory and read all its files.
 		dirRead, _ := os.Open(directory)
