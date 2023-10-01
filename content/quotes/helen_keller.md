@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Helen Keller. Enjoy!
-## Life is either a daring adventure, or nothing.
+## Alone we can do so little; together we can do so much.
 

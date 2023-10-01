@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Dr. Seuss. Enjoy!
-## It's not about what it is, it's about what it can become.
+## You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.
 

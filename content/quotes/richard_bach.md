@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Richard Bach. Enjoy!
-## Remember where you came from, where you're going, and why you created this mess you got yourself into in the first place.
+## Argue for your limitations and sure enough, they're yours.
 

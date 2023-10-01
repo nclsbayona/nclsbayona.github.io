@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by James Allen. Enjoy!
-## As you think, you travel, and as you love, you attract.
+## The outer conditions of a person's life will always be found to reflect their inner beliefs.
 

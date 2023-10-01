@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ralph Waldo Emerson. Enjoy!
-## To be great is to be misunderstood.
+## Live in the sunshine, swim the sea, drink the wild air.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Socrates. Enjoy!
-## It is better to change an opinion than to persist in a wrong one.
+## The world is a puzzle; no need to make sense out of it.
 

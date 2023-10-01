@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Robin Sharma. Enjoy!
-## Victims recite problems, leaders provide solutions.
+## Getting lost along your path is a part of finding the path you are meant to be on.
 
