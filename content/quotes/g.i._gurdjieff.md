@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by G.I. Gurdjieff. Enjoy!
-## There is a cosmic law which says that every satisfaction must be paid for with a dissatisfaction.
+## Awakening is possible only for those who seek it and want it.
 

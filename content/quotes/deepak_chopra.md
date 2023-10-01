@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Deepak Chopra. Enjoy!
-## Walk with those seeking truth... RUN FROM THOSE WHO THINK THEY'VE FOUND IT.
+## You must find the place inside yourself where nothing is impossible.
 

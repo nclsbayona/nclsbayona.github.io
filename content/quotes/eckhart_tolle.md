@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eckhart Tolle. Enjoy!
-## Life is the dancer and you are the dance.
+## The primary cause of unhappiness is never the situation but your thoughts about it.
 

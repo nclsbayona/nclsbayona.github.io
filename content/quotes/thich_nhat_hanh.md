@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Thich Nhat Hanh. Enjoy!
-## There is no way to happiness - happiness is the way.
+## Feelings come and go like clouds in a windy sky. Conscious breathing is my anchor.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Audrey Hepburn. Enjoy!
-## Giving is living. If you stop wanting to give, there's nothing more to live for.
+## Good things aren't supposed to just fall into your lap.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Mary Engelbreit. Enjoy!
-## One loses many laughs by not laughing at oneself.
+## Happiness must be grown in one's own garden.
 

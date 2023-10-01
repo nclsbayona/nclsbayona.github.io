@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Carl Jung. Enjoy!
-## Your visions will become clear only when you can look into your own heart. Who looks outside, dreams; who looks inside, awakes.
+## No tree, it is said, can grow to heaven unless its roots reach down to hell.
 

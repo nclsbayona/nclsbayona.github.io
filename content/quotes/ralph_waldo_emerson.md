@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ralph Waldo Emerson. Enjoy!
-## Little minds have little worries, big minds have no time for worries.
+## To know even one life has breathed easier because you have lived. This is to have succeeded.
 

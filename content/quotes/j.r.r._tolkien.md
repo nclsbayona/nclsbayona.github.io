@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by J.R.R. Tolkien. Enjoy!
-## It's the job that's never started that takes the longest to finish.
+## The biggest adventure is what lies ahead.
 

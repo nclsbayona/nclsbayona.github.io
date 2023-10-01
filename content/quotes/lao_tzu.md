@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lao Tzu. Enjoy!
-## We shape clay into a pot, but it is the emptiness inside that holds whatever we want.
+## To lead the people, walk behind them.
 
