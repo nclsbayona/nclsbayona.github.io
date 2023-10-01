@@ -1,6 +1,6 @@
 ---
 title: Quotes by Seneca
-date: 2023-09-30T10:15:25-02:00
+date: 2023-10-1T10:15:25-02:00
 draft: false
 author: Seneca
 description: Quotes by Seneca
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Seneca. Enjoy!
-## Luck is what happens when preparation meets opportunity.  
+## Throw me to the wolves and I will return leading the pack.  
 

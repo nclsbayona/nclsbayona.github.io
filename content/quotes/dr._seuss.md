@@ -1,6 +1,6 @@
 ---
 title: Quotes by Dr. Seuss
-date: 2023-09-30T10:15:25-02:00
+date: 2023-10-1T10:15:25-02:00
 draft: false
 author: Dr. Seuss
 description: Quotes by Dr. Seuss
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Dr. Seuss. Enjoy!
-## Today you are you, that is truer than true. There is no one alive who is you-er than you.
+## Don't cry because it's over. Smile because it happened.
 

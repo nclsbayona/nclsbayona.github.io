@@ -1,6 +1,6 @@
 ---
 title: Quotes by Charles Dickens
-date: 2023-09-30T10:15:25-02:00
+date: 2023-10-1T10:15:25-02:00
 draft: false
 author: Charles Dickens
 description: Quotes by Charles Dickens
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Charles Dickens. Enjoy!
-## There is nothing in the world so irresistibly contagious as laughter and good humor.
+## A very little key will open a very heavy door.
 
