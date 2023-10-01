@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eckhart Tolle. Enjoy!
-## You can only lose something that you have, but you cannot lose something that you are.
+## Life is the dancer and you are the dance.
 

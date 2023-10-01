@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Arnold Schwarzenegger. Enjoy!
-## If you want to turn a vision into reality, you have to give 100% and never stop believing in your dream.
+## You'll get more from being a peacemaker than a warrior.
 

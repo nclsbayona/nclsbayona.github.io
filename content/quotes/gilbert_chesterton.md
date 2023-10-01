@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Gilbert Chesterton. Enjoy!
-## A dead thing can go with the stream, but only a living thing can go against it.
+## It isn't that they can't see the solution. It is that they can't see the problem.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## A little progress each day adds up to big results.
+## He who fails to plan, plans to fail.
 

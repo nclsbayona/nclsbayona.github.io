@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Norman Vincent Peale. Enjoy!
-## The trouble with most of us is that we'd rather be ruined by praise than saved by criticism.
+## Self-knowledge is the beginning of self-correction.
 

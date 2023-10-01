@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Deepak Chopra. Enjoy!
-## Each of us is a unique strand in the intricate web of life and here to make a contribution.
+## Walk with those seeking truth... RUN FROM THOSE WHO THINK THEY'VE FOUND IT.
 

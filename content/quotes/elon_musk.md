@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Elon Musk. Enjoy!
-## When something is important enough, you do it even if the odds are not in your favor.
+## If life is a video game, the graphics are great, but the plot is confusing and the tutorial is way too long.
 

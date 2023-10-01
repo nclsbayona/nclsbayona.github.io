@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Mark Twain. Enjoy!
-## A clear conscience is the sure sign of a bad memory.
+## I have never let my schooling interfere with my education.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Confucius. Enjoy!
-## Choose a job you love, and you will never have to work a day in your life. 
+## The man who asks a question is a fool for a minute, the man who does not ask is a fool for life.
 

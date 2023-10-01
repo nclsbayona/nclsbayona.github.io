@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Sun Tzu. Enjoy!
-## It is easy to love your friend, but sometimes the hardest lesson to learn is to love your enemy.
+## The wise warrior avoids the battle.
 

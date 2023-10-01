@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Josh Waitzkin. Enjoy!
-## Great ones are willing to get burned time and again as they sharpen their swords in the fire.
+## The human mind defines things in relation to one another - without light the notion of darkness would be unintelligible.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Criss Jami. Enjoy!
-## To seek greatness is the only righteous vengeance.
+## Confidence is like a dragon where, for every head cut off, two more heads grow back.
 

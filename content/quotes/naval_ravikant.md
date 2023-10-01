@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Naval Ravikant. Enjoy!
-## Good entrepreneurs don't fail because they stay at it.
+## If they wrote it to make money, don't read it.
 
