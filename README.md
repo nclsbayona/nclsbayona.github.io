@@ -2,3 +2,4 @@
 
 [![Deploy Hugo site to Pages](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/hugo.yml/badge.svg)](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/hugo.yml)
 
+[![Remove old runs](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/delete_old.yml/badge.svg)](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/delete_old.yml)
