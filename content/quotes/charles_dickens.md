@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Charles Dickens. Enjoy!
-## There is a wisdom of the head, and there is a wisdom of the heart.
+## The pain of parting is nothing to the joy of meeting again.
 

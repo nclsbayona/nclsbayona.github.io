@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Simon Sinek. Enjoy!
-## Most of us live our lives by accident - we live as it happens. Fulfilment comes when we live our lives on purpose.
+## The only way to 'find out if it will work out' is to do it.
 

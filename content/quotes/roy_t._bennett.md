@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## Life becomes easier and more beautiful when we can see the good in other people.
+## Believe in your infinite potential. Your only limitations are those you set upon yourself.
 

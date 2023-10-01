@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Confucius. Enjoy!
-## It does not matter how slowly you go so long as you do not stop.
+## Choose a job you love, and you will never have to work a day in your life. 
 

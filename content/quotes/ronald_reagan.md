@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ronald Reagan. Enjoy!
-## Trust, but verify.
+## The future doesn't belong to the faint-hearted; it belongs to the brave.
 

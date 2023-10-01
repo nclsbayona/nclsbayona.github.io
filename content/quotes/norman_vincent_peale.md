@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Norman Vincent Peale. Enjoy!
-## You become a worrier by practicing worry. You become free of worry by practicing the opposite.
+## The trouble with most of us is that we'd rather be ruined by praise than saved by criticism.
 

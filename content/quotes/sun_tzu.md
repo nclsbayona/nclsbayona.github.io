@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Sun Tzu. Enjoy!
-## Victorious warriors win first and then go to war, while defeated warriors go to war first and then seek to win.
+## It is easy to love your friend, but sometimes the hardest lesson to learn is to love your enemy.
 

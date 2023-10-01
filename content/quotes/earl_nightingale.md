@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Earl Nightingale. Enjoy!
-## Don't concern yourself with the money. Be of service. Build. Work. Dream. Create.
+## Successful people are not without problems. They're simply people who've learned to solve their problems.
 
