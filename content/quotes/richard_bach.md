@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Richard Bach. Enjoy!
-## Your conscience is the measure of the honesty of your selfishness. Listen to it carefully.
+## Remember where you came from, where you're going, and why you created this mess you got yourself into in the first place.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## A random act of kindness, no matter how small, can make a tremendous impact on someone else's life.
+## Life becomes easier and more beautiful when we can see the good in other people.
 

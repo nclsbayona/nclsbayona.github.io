@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Benjamin Franklin. Enjoy!
-## Do not anticipate trouble, or worry about what may never happen. Keep in the sunlight.
+## Well done is better than well said.
 

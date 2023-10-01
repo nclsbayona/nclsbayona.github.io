@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Amelia Earhart. Enjoy!
-## The greatest work that kindness does to others is that it makes them kind themselves.
+## It is best to begin at the beginning.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lao Tzu. Enjoy!
-## Being deeply loved by someone gives you strength, while loving someone deeply gives you courage. 
+## A man with outward courage dares to die: a man with inner courage dares to live.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Abraham Lincoln. Enjoy!
-## Things may come to those who wait, but only the things left by those who hustle.
+## Give me six hours to chop down a tree and I will spend the first four sharpening the axe.
 

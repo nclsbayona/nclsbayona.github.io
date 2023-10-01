@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Judy Garland. Enjoy!
-## A heart is not judged by how much you love, but by how much you are loved by others.
+## If you have to be in a soap opera try not to be cast in the worst role.
 

@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eric Hoffer. Enjoy!
-## We lie the loudest when we lie to ourselves.
+## The search for happiness is one of the chief sources of unhappiness.
 

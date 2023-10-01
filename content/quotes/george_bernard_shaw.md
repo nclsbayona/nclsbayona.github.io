@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by George Bernard Shaw. Enjoy!
-## A gentleman is one who puts more into the world than he takes out.
+## The most tragic thing in the world is a man of genius who is not a man of honor.
 

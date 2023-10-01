@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Dr. Seuss. Enjoy!
-## Don't cry because it's over. Smile because it happened.
+## It's not about what it is, it's about what it can become.
 
