@@ -1,6 +1,6 @@
 ---
 title: Quotes by Thomas Jefferson
-date: 2023-10-1T10:15:25-02:00
+date: 2023-10-6T10:15:25-02:00
 draft: false
 author: Thomas Jefferson
 description: Quotes by Thomas Jefferson
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Thomas Jefferson. Enjoy!
-## Take care of your cents: dollars will take care of themselves.
+## Whenever you do a thing, act as if all the world were watching.
 
