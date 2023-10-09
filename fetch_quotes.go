@@ -104,11 +104,11 @@ func removeOldAndAssertFileExists(file_name string) {
 	times := time.Now()
 	year := strconv.Itoa(times.Year())
 	month := int(times.Month())
-	day := strconv.Itoa(times.Day())
+	day := int(times.Day())
 	var lines = []string{
 		"---",
 		fmt.Sprintf("title: %s", description),
-		fmt.Sprintf("date: %s-%02d-%sT10:15:25-02:00", year, month, day),
+		fmt.Sprintf("date: %s-%02d-%02dT10:15:25-02:00", year, month, day),
 		"draft: false",
 		fmt.Sprintf("author: %s", author_name),
 		fmt.Sprintf("description: %s", description),
