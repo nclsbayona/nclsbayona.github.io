@@ -108,7 +108,7 @@ func removeOldAndAssertFileExists(file_name string) {
 	var lines = []string{
 		"---",
 		fmt.Sprintf("title: %s", description),
-		fmt.Sprintf("date: %s-%02d-%02dT10:10:10-05:00", year, month, day),
+		// fmt.Sprintf("date: %s-%02d-%02dT10:10:10-05:00", year, month, day),
 		"draft: false",
 		fmt.Sprintf("author: %s", author_name),
 		fmt.Sprintf("description: %s", description),
