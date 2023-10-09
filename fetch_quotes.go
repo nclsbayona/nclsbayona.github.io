@@ -102,15 +102,10 @@ func removeOldAndAssertFileExists(file_name string) {
 	author_name := capitalizeFirst(strings.ReplaceAll(file_name, "_", " "))
 	description := fmt.Sprintf("Quotes by %s", author_name)
 	times := time.Now()
-	year := strconv.Itoa(times.Year())
-	month := int(times.Month())
-	day := int(times.Day())
-        monthString := fmt.Sprintf("%02d", month)
-        dayString := fmt.Sprintf("%02d", day)
 	var lines = []string{
 		"---",
 		fmt.Sprintf("title: %s", description),
-		fmt.Sprintf("date: %s-%s-%sT10:10:10-05:00", year, monthString, dayString),
+		fmt.Sprintf("date: %s", times.Format(time.RFC3339)),
 		"draft: false",
 		fmt.Sprintf("author: %s", author_name),
 		fmt.Sprintf("description: %s", description),
