@@ -1,6 +1,6 @@
 ---
 title: Quotes by Steve Jobs
-date: 2023-10-6T10:15:25-02:00
+date: 2023-10-09T10:15:25-02:00
 draft: false
 author: Steve Jobs
 description: Quotes by Steve Jobs
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Steve Jobs. Enjoy!
-## Don't let the noise of others' opinions drown out your own inner voice.
+## Quality is more important than quantity. One home run is much better than two doubles.
 

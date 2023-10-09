@@ -1,6 +1,6 @@
 ---
 title: Quotes by Colin R. Davis
-date: 2023-10-6T10:15:25-02:00
+date: 2023-10-09T10:15:25-02:00
 draft: false
 author: Colin R. Davis
 description: Quotes by Colin R. Davis

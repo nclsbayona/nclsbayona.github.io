@@ -1,6 +1,6 @@
 ---
 title: Quotes by Jim Rohn
-date: 2023-10-6T10:15:25-02:00
+date: 2023-10-09T10:15:25-02:00
 draft: false
 author: Jim Rohn
 description: Quotes by Jim Rohn
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Jim Rohn. Enjoy!
-## Attitude drives actions. Actions drive results. Results drive lifestyles.
+## Be fascinated instead of frustrated.
 

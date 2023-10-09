@@ -1,6 +1,6 @@
 ---
 title: Quotes by Thomas Jefferson
-date: 2023-10-6T10:15:25-02:00
+date: 2023-10-09T10:15:25-02:00
 draft: false
 author: Thomas Jefferson
 description: Quotes by Thomas Jefferson

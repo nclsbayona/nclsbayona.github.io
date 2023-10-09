@@ -1,6 +1,6 @@
 ---
 title: Quotes by Josh Waitzkin
-date: 2023-10-6T10:15:25-02:00
+date: 2023-10-09T10:15:25-02:00
 draft: false
 author: Josh Waitzkin
 description: Quotes by Josh Waitzkin
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Josh Waitzkin. Enjoy!
-## Still your waters.
+## The human mind defines things in relation to one another - without light the notion of darkness would be unintelligible.
 

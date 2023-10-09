@@ -1,6 +1,6 @@
 ---
 title: Quotes by Tony Robbins
-date: 2023-10-6T10:15:25-02:00
+date: 2023-10-09T10:15:25-02:00
 draft: false
 author: Tony Robbins
 description: Quotes by Tony Robbins
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Tony Robbins. Enjoy!
-## Where focus goes, energy flows.
+## The quality of your life is determined by the quality of questions you ask.
 
