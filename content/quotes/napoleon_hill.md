@@ -1,0 +1,14 @@
+---
+title: Quotes by Napoleon Hill
+date: 2023-10-09T03:07:21Z
+draft: false
+author: Napoleon Hill
+description: Quotes by Napoleon Hill
+tags:
+  - Quotes
+  - Napoleon Hill
+---
+ 
+# Here you have some quotes by Napoleon Hill. Enjoy!
+## It is literally true that you can succeed best and quickest by helping others succeed.
+
