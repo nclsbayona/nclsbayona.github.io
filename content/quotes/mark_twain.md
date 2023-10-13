@@ -1,6 +1,6 @@
 ---
 title: Quotes by Mark Twain
-date: 2023-10-09T03:07:21Z
+date: 2023-10-13T10:15:54Z
 draft: false
 author: Mark Twain
 description: Quotes by Mark Twain
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Mark Twain. Enjoy!
-## Never allow someone to be your priority while allowing yourself to be their option.
+## The fear of death follows from the fear of life. A man who lives fully is prepared to die at any time.
 

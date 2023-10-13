@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lolly Daskal
-date: 2023-10-09T03:07:21Z
+date: 2023-10-13T10:15:54Z
 draft: false
 author: Lolly Daskal
 description: Quotes by Lolly Daskal
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lolly Daskal. Enjoy!
-## There is no significance in life without struggle.
+## We become what we believe.
 

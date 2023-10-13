@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lily Tomlin
-date: 2023-10-09T03:07:21Z
+date: 2023-10-13T10:15:54Z
 draft: false
 author: Lily Tomlin
 description: Quotes by Lily Tomlin
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lily Tomlin. Enjoy!
-## The trouble with the rat race is that even if you win, you're still a rat.
+## The road to success is always under construction..
 

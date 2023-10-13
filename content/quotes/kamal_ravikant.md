@@ -1,6 +1,6 @@
 ---
 title: Quotes by Kamal Ravikant
-date: 2023-10-09T03:07:21Z
+date: 2023-10-13T10:15:54Z
 draft: false
 author: Kamal Ravikant
 description: Quotes by Kamal Ravikant
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Kamal Ravikant. Enjoy!
-## When something comes from within, when it is a part of you, you have no choice but to live it, to express it.
+## We don't stumble accidentally into an amazing life. It takes decision, a commitment to consistently work on ourselves.
 

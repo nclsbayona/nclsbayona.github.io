@@ -1,6 +1,6 @@
 ---
 title: Quotes by Dan Millman
-date: 2023-10-09T03:07:21Z
+date: 2023-10-13T10:15:54Z
 draft: false
 author: Dan Millman
 description: Quotes by Dan Millman
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Dan Millman. Enjoy!
-## While some of us act without thinking, too many of us think without acting.
+## There is no path to Peace. Peace is the path.
 

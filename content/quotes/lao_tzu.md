@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lao Tzu
-date: 2023-10-09T03:07:21Z
+date: 2023-10-13T10:15:54Z
 draft: false
 author: Lao Tzu
 description: Quotes by Lao Tzu
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lao Tzu. Enjoy!
-## A leader is best when people barely know he exists, when his work is done, his aim fulfilled, they will say: we did it ourselves.
+## Do the difficult things while they are easy and do the great things while they are small.
 
