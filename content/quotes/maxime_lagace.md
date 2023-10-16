@@ -1,6 +1,6 @@
 ---
 title: Quotes by Maxime Lagace
-date: 2023-10-16T19:51:29Z
+date: 2023-10-16T20:16:23Z
 draft: false
 author: Maxime Lagace
 description: Quotes by Maxime Lagace
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Maxime Lagace. Enjoy!
-## Closing your eyes and listening to silence is self-care.
+## Inner peace is when you realize that, in the end, nothing matters.
 

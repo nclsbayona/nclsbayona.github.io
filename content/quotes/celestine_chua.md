@@ -1,6 +1,6 @@
 ---
 title: Quotes by Celestine Chua
-date: 2023-10-16T19:51:29Z
+date: 2023-10-16T20:16:23Z
 draft: false
 author: Celestine Chua
 description: Quotes by Celestine Chua
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Celestine Chua. Enjoy!
-## Fear, uncertainty, and discomfort are your compasses toward growth.
+## Every moment you get is a gift. Spend it on things that matter. Don't spend it by dwelling on unhappy things.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eleanor Roosevelt
-date: 2023-10-16T19:51:29Z
+date: 2023-10-16T20:16:23Z
 draft: false
 author: Eleanor Roosevelt
 description: Quotes by Eleanor Roosevelt
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eleanor Roosevelt. Enjoy!
-## Work is always an antidote to depression.
+## Do what you feel in your heart to be right - for you'll be criticized anyway.
 

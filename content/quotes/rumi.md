@@ -1,6 +1,6 @@
 ---
 title: Quotes by Rumi
-date: 2023-10-16T19:51:29Z
+date: 2023-10-16T20:16:23Z
 draft: false
 author: Rumi
 description: Quotes by Rumi
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Rumi. Enjoy!
-## Take time like the river that never grows stale. Keep going and steady. No hurry, no rush.
+## Let the beauty of what you love be what you do.
 
