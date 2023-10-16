@@ -1,6 +1,6 @@
 ---
 title: Quotes by Marcus Aurelius
-date: 2023-10-13T10:15:54Z
+date: 2023-10-16T19:51:29Z
 draft: false
 author: Marcus Aurelius
 description: Quotes by Marcus Aurelius

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Celestine Chua
-date: 2023-10-13T10:15:54Z
+date: 2023-10-16T19:51:29Z
 draft: false
 author: Celestine Chua
 description: Quotes by Celestine Chua
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Celestine Chua. Enjoy!
-## By changing nothing, nothing changes.
+## Fear, uncertainty, and discomfort are your compasses toward growth.
 

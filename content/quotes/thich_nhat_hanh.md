@@ -1,6 +1,6 @@
 ---
 title: Quotes by Thich Nhat Hanh
-date: 2023-10-13T10:15:54Z
+date: 2023-10-16T19:51:29Z
 draft: false
 author: Thich Nhat Hanh
 description: Quotes by Thich Nhat Hanh
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Thich Nhat Hanh. Enjoy!
-## Hope is important because it can make the present moment less difficult to bear. If we believe that tomorrow will be better, we can bear a hardship today.
+## The present moment is filled with joy and happiness. If you are attentive, you will see it.
 

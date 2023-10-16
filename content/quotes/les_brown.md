@@ -1,6 +1,6 @@
 ---
 title: Quotes by Les Brown
-date: 2023-10-13T10:15:54Z
+date: 2023-10-16T19:51:29Z
 draft: false
 author: Les Brown
 description: Quotes by Les Brown
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Les Brown. Enjoy!
-## Know your gifts and share them.
+## Act the way you want to be and soon you'll be the way you act.
 
