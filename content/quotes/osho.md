@@ -1,6 +1,6 @@
 ---
 title: Quotes by Osho
-date: 2023-10-16T20:16:23Z
+date: 2023-10-20T10:15:15Z
 draft: false
 author: Osho
 description: Quotes by Osho
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Osho. Enjoy!
-## A fear-oriented man is always calculating, planning, arranging, safeguarding. His whole life is lost in this way.
+## Love is not about possession. Love is about appreciation.
 

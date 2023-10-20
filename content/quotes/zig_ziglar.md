@@ -1,6 +1,6 @@
 ---
 title: Quotes by Zig Ziglar
-date: 2023-10-16T20:16:23Z
+date: 2023-10-20T10:15:15Z
 draft: false
 author: Zig Ziglar
 description: Quotes by Zig Ziglar
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Zig Ziglar. Enjoy!
-## When you are tough on yourself, life is going to be infinitely easier on you.  
+## Go as far as you can see and you will see further.  
 
