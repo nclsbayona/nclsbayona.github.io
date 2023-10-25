@@ -1,6 +1,6 @@
 ---
 title: Quotes by Robin Sharma
-date: 2023-10-20T10:15:15Z
+date: 2023-10-25T19:59:40Z
 draft: false
 author: Robin Sharma
 description: Quotes by Robin Sharma
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Robin Sharma. Enjoy!
-## Everything is created twice, first in the mind and then in reality.
+## For your life to be great, your faith must be bigger than your fear.
 

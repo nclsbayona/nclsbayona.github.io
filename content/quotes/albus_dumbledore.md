@@ -1,6 +1,6 @@
 ---
 title: Quotes by Albus Dumbledore
-date: 2023-10-20T10:15:15Z
+date: 2023-10-25T19:59:40Z
 draft: false
 author: Albus Dumbledore
 description: Quotes by Albus Dumbledore
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Albus Dumbledore. Enjoy!
-## The best of us sometimes eat our words.  
+## It is our choices that show what we truly are, far more than our abilities.
 

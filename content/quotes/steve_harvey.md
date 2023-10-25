@@ -1,6 +1,6 @@
 ---
 title: Quotes by Steve Harvey
-date: 2023-10-20T10:15:15Z
+date: 2023-10-25T19:59:40Z
 draft: false
 author: Steve Harvey
 description: Quotes by Steve Harvey
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Steve Harvey. Enjoy!
-## Don't let your mind stop you.
+## Your dream has to be bigger than your fear.
 
