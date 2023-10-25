@@ -1,6 +1,6 @@
 ---
 title: Quotes by Paulo Coelho
-date: 2023-10-25T19:59:40Z
+date: 2023-10-25T20:04:48Z
 draft: false
 author: Paulo Coelho
 description: Quotes by Paulo Coelho
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Paulo Coelho. Enjoy!
-## The world is changed by your example, not by your opinion.
+## The less you respond to negative people, the more positive your life will become.
 

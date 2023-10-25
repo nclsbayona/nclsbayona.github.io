@@ -1,6 +1,6 @@
 ---
 title: Quotes by Shunryu Suzuki
-date: 2023-10-25T19:59:40Z
+date: 2023-10-25T20:04:48Z
 draft: false
 author: Shunryu Suzuki
 description: Quotes by Shunryu Suzuki
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Shunryu Suzuki. Enjoy!
-## Time goes from present to past.
+## Nothing we see or hear is perfect. But right there in the imperfection is perfect reality.
 
