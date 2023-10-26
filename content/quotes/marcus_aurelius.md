@@ -1,6 +1,6 @@
 ---
 title: Quotes by Marcus Aurelius
-date: 2023-10-26T23:10:31Z
+date: 2023-10-26T23:14:03Z
 draft: false
 author: Marcus Aurelius
 description: Quotes by Marcus Aurelius
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Marcus Aurelius. Enjoy!
-## The best revenge is to be unlike him who performed the injury.
+## The nearer a man comes to a calm mind, the closer he is to strength.
 

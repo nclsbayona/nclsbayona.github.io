@@ -1,6 +1,6 @@
 ---
 title: Quotes by Paramahansa Yogananda
-date: 2023-10-26T23:10:31Z
+date: 2023-10-26T23:14:03Z
 draft: false
 author: Paramahansa Yogananda
 description: Quotes by Paramahansa Yogananda
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Paramahansa Yogananda. Enjoy!
-## If you want to be sad, no one in the world can make you happy. But if you make up your mind to be happy, no one and nothing on earth can take that happiness from you.
+## When you are able to employ your will always for constructive purposes, you become the controller of your destiny.
 

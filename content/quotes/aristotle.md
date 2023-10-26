@@ -1,6 +1,6 @@
 ---
 title: Quotes by Aristotle
-date: 2023-10-26T23:10:31Z
+date: 2023-10-26T23:14:03Z
 draft: false
 author: Aristotle
 description: Quotes by Aristotle
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## No great mind has ever existed without a touch of madness.
+## Happiness is the meaning and the purpose of life, the whole aim and end of human existence.
 

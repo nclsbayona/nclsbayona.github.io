@@ -1,6 +1,6 @@
 ---
 title: Quotes by Audrey Hepburn
-date: 2023-10-26T23:10:31Z
+date: 2023-10-26T23:14:03Z
 draft: false
 author: Audrey Hepburn
 description: Quotes by Audrey Hepburn
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Audrey Hepburn. Enjoy!
-## To plant a garden is to believe in tomorrow.  
+## Why change? Everyone has his own style. When you have found it, you should stick to it.
 

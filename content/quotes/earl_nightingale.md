@@ -1,6 +1,6 @@
 ---
 title: Quotes by Earl Nightingale
-date: 2023-10-26T23:10:31Z
+date: 2023-10-26T23:14:03Z
 draft: false
 author: Earl Nightingale
 description: Quotes by Earl Nightingale
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Earl Nightingale. Enjoy!
-## Even if our home burns down we can rebuild it. But the things that we got for nothing, we can never replace.
+## Success is not the result of making money; making money is the result of success - and success is in direct proportion to our service.
 

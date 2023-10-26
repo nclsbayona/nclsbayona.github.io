@@ -1,6 +1,6 @@
 ---
 title: Quotes by Og Mandino
-date: 2023-10-26T23:10:31Z
+date: 2023-10-26T23:14:03Z
 draft: false
 author: Og Mandino
 description: Quotes by Og Mandino
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Og Mandino. Enjoy!
-## True wealth is of the heart, not of the purse.
+## Welcome every morning with a smile. Look on the new day as another gift from your Creator, another golden opportunity.
 

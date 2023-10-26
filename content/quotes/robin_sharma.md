@@ -1,6 +1,6 @@
 ---
 title: Quotes by Robin Sharma
-date: 2023-10-26T23:10:31Z
+date: 2023-10-26T23:14:03Z
 draft: false
 author: Robin Sharma
 description: Quotes by Robin Sharma
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Robin Sharma. Enjoy!
-## Big people don't make people feel small.
+## Change is hardest at the beginning, messiest in the middle and best at the end.
 

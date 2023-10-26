@@ -1,6 +1,6 @@
 ---
 title: Quotes by Chinese Proverb
-date: 2023-10-26T23:10:31Z
+date: 2023-10-26T23:14:03Z
 draft: false
 author: Chinese Proverb
 description: Quotes by Chinese Proverb
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Chinese Proverb. Enjoy!
-## Tension is who you think you should be. Relaxation is who you are.
+## Distant water does not put out a nearby fire.
 
