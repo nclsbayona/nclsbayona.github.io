@@ -1,6 +1,6 @@
 ---
 title: Quotes by Mother Teresa
-date: 2023-10-26T23:14:03Z
+date: 2023-10-26T23:17:47Z
 draft: false
 author: Mother Teresa
 description: Quotes by Mother Teresa
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Mother Teresa. Enjoy!
-## Do not wait for leaders; do it alone, person to person.
+## Intense love does not measure, it just gives.
 

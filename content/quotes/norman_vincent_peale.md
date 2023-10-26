@@ -1,6 +1,6 @@
 ---
 title: Quotes by Norman Vincent Peale
-date: 2023-10-26T23:14:03Z
+date: 2023-10-26T23:17:47Z
 draft: false
 author: Norman Vincent Peale
 description: Quotes by Norman Vincent Peale
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Norman Vincent Peale. Enjoy!
-## Stand up to your obstacles and do something about them. You'll find they haven't half the strength you think they have.
+## When you get up in the morning, you have two choices - either to be happy or to be unhappy. Just choose to be happy.
 

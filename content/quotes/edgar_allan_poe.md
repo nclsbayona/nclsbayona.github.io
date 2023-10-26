@@ -1,6 +1,6 @@
 ---
 title: Quotes by Edgar Allan Poe
-date: 2023-10-26T23:14:03Z
+date: 2023-10-26T23:17:47Z
 draft: false
 author: Edgar Allan Poe
 description: Quotes by Edgar Allan Poe
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Edgar Allan Poe. Enjoy!
-## The scariest monsters are the ones that lurk within our souls.
+## Every poem should remind the reader that they are going to die.
 
