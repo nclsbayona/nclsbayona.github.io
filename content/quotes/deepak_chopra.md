@@ -1,6 +1,6 @@
 ---
 title: Quotes by Deepak Chopra
-date: 2023-10-26T22:53:26Z
+date: 2023-10-26T23:00:38Z
 draft: false
 author: Deepak Chopra
 description: Quotes by Deepak Chopra
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Deepak Chopra. Enjoy!
-## Silence is the great teacher and to learn its lessons you must pay attention to it.
+## Every time you are tempted to react in the same old way, ask if you want to be a prisoner of the past or a pioneer of the future.
 

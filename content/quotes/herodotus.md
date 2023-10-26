@@ -1,6 +1,6 @@
 ---
 title: Quotes by Herodotus
-date: 2023-10-26T22:53:26Z
+date: 2023-10-26T23:00:38Z
 draft: false
 author: Herodotus
 description: Quotes by Herodotus
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Herodotus. Enjoy!
-## Great deeds are usually wrought at great risks.
+## In peace, sons bury their fathers. In war, fathers bury their sons. 
 
