@@ -20,7 +20,7 @@
             {{ if .Params.image }}
             <div class="col-sm-12 col-md-12 col-lg-3 px-3">
                 <div class="sticky-sidebar">
-                    <aside class="aboutImg">
+                    <a rel="noopener noreferrer" target="_blank"side class="aboutImg">
                         <div class="text-center">
                             <img src="{{ .Params.image }}" class="mx-auto rounded" alt="">
                         </div>
@@ -31,7 +31,7 @@
                             <ul class="list-inline pt-3 text-center">
                                 {{ range .Params.socialLinks.fontAwesomeIcons }}
                                 <li class="list-inline-item text-center">
-                                    <a href="{{ .url }}" target="_blank">
+                                    <a rel="noopener noreferrer" target="_blank" href="{{ .url }}" >
                                         <i class="{{ .icon }}"></i>
                                     </a>
                                 </li>
@@ -39,7 +39,7 @@
 
                                 {{ range .Params.socialLinks.customIcons }}
                                 <li class="list-inline-item text-center">
-                                    <a href="{{ .url }}" target="_blank" class="img-icon">
+                                    <a rel="noopener noreferrer" target="_blank" href="{{ .url }}"  class="img-icon">
                                         <img src="{{ .icon }}">
                                     </a>
                                 </li>
@@ -53,7 +53,7 @@
 
             <div class="col-sm-12 col-md-12 col-lg-6 pt-4 p-2">
                 <div class="pr-lg-4">
-                    <article class="page-content p-2">
+                    <a rel="noopener noreferrer" target="_blank"rticle class="page-content p-2">
                         {{ .Content | emojify }}
                     </article>
                 </div>
