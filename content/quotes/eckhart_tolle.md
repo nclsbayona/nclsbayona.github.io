@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eckhart Tolle
-date: 2023-10-26T22:49:17Z
+date: 2023-10-26T22:53:26Z
 draft: false
 author: Eckhart Tolle
 description: Quotes by Eckhart Tolle
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eckhart Tolle. Enjoy!
-## Realize deeply that the present moment is all you ever have. 
+## Acknowledging the good that you already have in your life is the foundation for all abundance.
 

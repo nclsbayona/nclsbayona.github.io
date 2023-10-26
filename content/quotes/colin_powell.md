@@ -1,6 +1,6 @@
 ---
 title: Quotes by Colin Powell
-date: 2023-10-26T22:49:17Z
+date: 2023-10-26T22:53:26Z
 draft: false
 author: Colin Powell
 description: Quotes by Colin Powell
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Colin Powell. Enjoy!
-## Giving back involves a certain amount of giving up.
+## Only by attracting the best people will you accomplish great deeds.
 

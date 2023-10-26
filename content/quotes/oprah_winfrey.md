@@ -1,6 +1,6 @@
 ---
 title: Quotes by Oprah Winfrey
-date: 2023-10-26T22:49:17Z
+date: 2023-10-26T22:53:26Z
 draft: false
 author: Oprah Winfrey
 description: Quotes by Oprah Winfrey
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Oprah Winfrey. Enjoy!
-## Follow your instincts. That is where true wisdom manifests itself.
+## You get in life what you have the courage to ask for.
 

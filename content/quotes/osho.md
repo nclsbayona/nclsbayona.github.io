@@ -1,6 +1,6 @@
 ---
 title: Quotes by Osho
-date: 2023-10-26T22:49:17Z
+date: 2023-10-26T22:53:26Z
 draft: false
 author: Osho
 description: Quotes by Osho
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Osho. Enjoy!
-## Don't seek, don't search, don't ask, don't knock, don't demand - relax.
+## Truth is not something outside to be discovered, it is something inside to be realized.
 
