@@ -90,6 +90,8 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
@@ -109,6 +111,6 @@ jobs:
         uses: zaproxy/action-baseline@v0.6.1
         with:
           docker_name: 'owasp/zap2docker-stable'
-          target: ${{ steps.deployment.outputs.page_url }}
+          target: ${{ needs.deploy.outputs.page_url }}
           rules_file_name: '.zap/rules.tsv'
           cmd_options: '-a'
