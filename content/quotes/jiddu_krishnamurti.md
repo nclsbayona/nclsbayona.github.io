@@ -1,6 +1,6 @@
 ---
 title: Quotes by Jiddu Krishnamurti
-date: 2023-10-26T23:00:38Z
+date: 2023-10-26T23:10:31Z
 draft: false
 author: Jiddu Krishnamurti
 description: Quotes by Jiddu Krishnamurti
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Jiddu Krishnamurti. Enjoy!
-## The constant assertion of belief is an indication of fear.
+## The whole of life, from the moment you are born to the moment you die, is a process of learning.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Kamal Ravikant
-date: 2023-10-26T23:00:38Z
+date: 2023-10-26T23:10:31Z
 draft: false
 author: Kamal Ravikant
 description: Quotes by Kamal Ravikant
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Kamal Ravikant. Enjoy!
-## As you love yourself, life loves you back.
+## Pain doesn't last. And when it's gone, we have something to show for it. Growth.
 
