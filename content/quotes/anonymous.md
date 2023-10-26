@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2023-10-26T23:34:12Z
+date: 2023-10-26T23:45:13Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Life is ten percent what you experience and ninety percent how you respond to it.
+## Your problem isn't the problem. Your reaction is the problem.
 
