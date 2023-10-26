@@ -34,13 +34,13 @@
                 <div class="card-footer py-3">
                     {{ range .Params.links }}
                     <span class="m-1 mx-2">
-                        <a href="{{ .url }}" target="_blank">
+                        <a rel="noopener noreferrer" target="_blank" href="{{ .url }}" >
                             <i class="{{ .icon }}"></i>
                         </a>
                     </span>
                     {{ end }}
                     <span class="float-end">
-                        <a class="btn btn-sm" href="{{ .RelPermalink }}">
+                        <a rel="noopener noreferrer" target="_blank" class="btn btn-sm" href="{{ .RelPermalink }}">
                             Know more
                         </a>
                     </span>
