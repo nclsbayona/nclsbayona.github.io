@@ -1,6 +1,6 @@
 ---
 title: Quotes by Maxime Lagace
-date: 2023-10-25T20:04:48Z
+date: 2023-10-26T22:40:57Z
 draft: false
 author: Maxime Lagace
 description: Quotes by Maxime Lagace
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Maxime Lagace. Enjoy!
-## Your best life will not be found in comfort. It will be found in fighting for what you believe in.
+## Don't seek, don't avoid, don't expect. Take what comes and be happy.
 

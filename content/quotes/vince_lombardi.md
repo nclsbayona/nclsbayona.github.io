@@ -1,6 +1,6 @@
 ---
 title: Quotes by Vince Lombardi
-date: 2023-10-25T20:04:48Z
+date: 2023-10-26T22:40:57Z
 draft: false
 author: Vince Lombardi
 description: Quotes by Vince Lombardi
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Vince Lombardi. Enjoy!
-## Winners never quit and quitters never win.
+## We would accomplish many more things if we did not think of them as impossible.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Jack Butcher
-date: 2023-10-25T20:04:48Z
+date: 2023-10-26T22:40:57Z
 draft: false
 author: Jack Butcher
 description: Quotes by Jack Butcher
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Jack Butcher. Enjoy!
-## Progress is limited by your ability to change your mind.
+## Everyone you admire was once a beginner.
 

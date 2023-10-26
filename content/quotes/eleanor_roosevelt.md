@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eleanor Roosevelt
-date: 2023-10-25T20:04:48Z
+date: 2023-10-26T22:40:57Z
 draft: false
 author: Eleanor Roosevelt
 description: Quotes by Eleanor Roosevelt
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eleanor Roosevelt. Enjoy!
-## You have to accept whatever comes, and the only important thing is that you meet it with the best you have to give.
+## Today is the oldest you've ever been, and the youngest you'll ever be again.
 

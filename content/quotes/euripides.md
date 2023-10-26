@@ -1,6 +1,6 @@
 ---
 title: Quotes by Euripides
-date: 2023-10-25T20:04:48Z
+date: 2023-10-26T22:40:57Z
 draft: false
 author: Euripides
 description: Quotes by Euripides
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Euripides. Enjoy!
-## Talk sense to a fool and he calls you foolish.
+## I would rather die on my feet than live on my knees.
 

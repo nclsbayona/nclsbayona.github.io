@@ -1,6 +1,6 @@
 ---
 title: Quotes by Celestine Chua
-date: 2023-10-25T20:04:48Z
+date: 2023-10-26T22:40:57Z
 draft: false
 author: Celestine Chua
 description: Quotes by Celestine Chua
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Celestine Chua. Enjoy!
-## Instead of thinking about what you are going to do when you retire, think about how you can do that now and make a living from it.
+## If what you're doing is not your passion, you have nothing to lose.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Wayne Dyer
-date: 2023-10-25T20:04:48Z
+date: 2023-10-26T22:40:57Z
 draft: false
 author: Wayne Dyer
 description: Quotes by Wayne Dyer
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Wayne Dyer. Enjoy!
-## The more you extend kindness to yourself, the more it will become your automatic response to others.
+## I am thankful to all those who said no. It's because of them, I did it myself.  
 
