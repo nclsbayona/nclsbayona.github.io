@@ -1,6 +1,6 @@
 ---
 title: Quotes by Aristotle
-date: 2023-10-26T23:17:47Z
+date: 2023-10-26T23:34:12Z
 draft: false
 author: Aristotle
 description: Quotes by Aristotle
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## For the things we have to learn before we can do them, we learn by doing them.
+## The energy of the mind is the essence of life.
 

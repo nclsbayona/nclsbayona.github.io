@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2023-10-26T23:17:47Z
+date: 2023-10-26T23:34:12Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Avoiding failure is to avoid progress.
+## Life is ten percent what you experience and ninety percent how you respond to it.
 

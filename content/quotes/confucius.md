@@ -1,6 +1,6 @@
 ---
 title: Quotes by Confucius
-date: 2023-10-26T23:17:47Z
+date: 2023-10-26T23:34:12Z
 draft: false
 author: Confucius
 description: Quotes by Confucius
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Confucius. Enjoy!
-## Death and life have their determined appointments; riches and honors depend upon heaven. 
+## Everything has its beauty, but not everyone sees it. 
 

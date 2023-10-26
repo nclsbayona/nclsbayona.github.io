@@ -1,6 +1,6 @@
 ---
 title: Quotes by Chinese Proverb
-date: 2023-10-26T23:17:47Z
+date: 2023-10-26T23:34:12Z
 draft: false
 author: Chinese Proverb
 description: Quotes by Chinese Proverb
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Chinese Proverb. Enjoy!
-## One beam, no matter how big, cannot support an entire house on its own.
+## A man who cannot tolerate small misfortunes can never accomplish great things.
 
