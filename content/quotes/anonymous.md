@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2023-10-26T22:40:57Z
+date: 2023-10-26T22:49:17Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Some of the greater things in life are unseen; that's why you close your eyes when you kiss, cry, or dream.
+## Make peace with your inner turmoil.
 

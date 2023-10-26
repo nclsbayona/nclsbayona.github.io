@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ralph Waldo Emerson
-date: 2023-10-26T22:40:57Z
+date: 2023-10-26T22:49:17Z
 draft: false
 author: Ralph Waldo Emerson
 description: Quotes by Ralph Waldo Emerson
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ralph Waldo Emerson. Enjoy!
-## Trust thyself: every heart vibrates to that iron string.
+## All life is an experiment. The more experiments you make, the better.
 

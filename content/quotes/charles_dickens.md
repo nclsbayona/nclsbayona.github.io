@@ -1,6 +1,6 @@
 ---
 title: Quotes by Charles Dickens
-date: 2023-10-26T22:40:57Z
+date: 2023-10-26T22:49:17Z
 draft: false
 author: Charles Dickens
 description: Quotes by Charles Dickens
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Charles Dickens. Enjoy!
-## There is a wisdom of the head, and there is a wisdom of the heart.
+## Reflect upon your present blessings of which every man has many - not on your past misfortunes, of which all men have some.
 

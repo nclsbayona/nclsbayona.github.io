@@ -1,6 +1,6 @@
 ---
 title: Quotes by Osho
-date: 2023-10-26T22:40:57Z
+date: 2023-10-26T22:49:17Z
 draft: false
 author: Osho
 description: Quotes by Osho
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Osho. Enjoy!
-## Be - don't try to become 
+## Don't seek, don't search, don't ask, don't knock, don't demand - relax.
 

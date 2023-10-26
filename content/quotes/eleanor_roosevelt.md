@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eleanor Roosevelt
-date: 2023-10-26T22:40:57Z
+date: 2023-10-26T22:49:17Z
 draft: false
 author: Eleanor Roosevelt
 description: Quotes by Eleanor Roosevelt
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eleanor Roosevelt. Enjoy!
-## Today is the oldest you've ever been, and the youngest you'll ever be again.
+## Happiness is not a goal...it's a by-product of a life well lived.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Will Rogers
-date: 2023-10-26T22:40:57Z
+date: 2023-10-26T22:49:17Z
 draft: false
 author: Will Rogers
 description: Quotes by Will Rogers
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Will Rogers. Enjoy!
-## The health of nations is more important than the wealth of nations.
+## Even though you are on the right track - you will get run over if you just sit there.
 

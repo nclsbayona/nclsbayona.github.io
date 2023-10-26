@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ronald Reagan
-date: 2023-10-26T22:40:57Z
+date: 2023-10-26T22:49:17Z
 draft: false
 author: Ronald Reagan
 description: Quotes by Ronald Reagan
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ronald Reagan. Enjoy!
-## There is no limit to the amount of good you can do if you don't care who gets the credit.
+## The future doesn't belong to the faint-hearted; it belongs to the brave.
 

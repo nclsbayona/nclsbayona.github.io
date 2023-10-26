@@ -1,6 +1,6 @@
 ---
 title: Quotes by Colin Powell
-date: 2023-10-26T22:40:57Z
+date: 2023-10-26T22:49:17Z
 draft: false
 author: Colin Powell
 description: Quotes by Colin Powell
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Colin Powell. Enjoy!
-## Surround yourself with people who take their work seriously, but not themselves, those who work hard and play hard.
+## Giving back involves a certain amount of giving up.
 

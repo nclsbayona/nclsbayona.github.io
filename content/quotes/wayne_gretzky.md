@@ -1,6 +1,6 @@
 ---
 title: Quotes by Wayne Gretzky
-date: 2023-10-26T22:40:57Z
+date: 2023-10-26T22:49:17Z
 draft: false
 author: Wayne Gretzky
 description: Quotes by Wayne Gretzky
