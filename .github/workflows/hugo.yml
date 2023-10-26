@@ -108,7 +108,7 @@ jobs:
         run: sleep 1m
         shell: bash
       - name: ZAP Scan
-        uses: zaproxy/action-baseline@v0.6.1
+        uses: zaproxy/action-baseline@v0.9.0
         with:
           docker_name: 'owasp/zap2docker-stable'
           target: ${{ needs.deploy.outputs.page_url }}
