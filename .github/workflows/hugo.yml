@@ -112,5 +112,5 @@ jobs:
         with:
           docker_name: 'owasp/zap2docker-stable'
           target: ${{ needs.deploy.outputs.page_url }}
-          rules_file_name: '.zap/rules.tsv'
+          # rules_file_name: '.zap/rules.tsv'
           cmd_options: '-a'
