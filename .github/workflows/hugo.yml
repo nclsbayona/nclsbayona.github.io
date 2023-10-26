@@ -114,3 +114,5 @@ jobs:
           target: ${{ needs.deploy.outputs.page_url }}
           # rules_file_name: '.zap/rules.tsv'
           cmd_options: '-a'
+          allow_issue_writing: false
+          fail_action: false
