@@ -24,14 +24,14 @@
                     <div class="card-footer py-3">
                         {{ range .links }}
                         <span class="m-1 mx-2">
-                            <a href="{{ .url }}" target="_blank">
+                            <a href="{{ .url }}" rel="noopener noreferrer" target="_blank">
                                 <i class="{{ .icon }}"></i>
                             </a>
                         </span>
                         {{ end }}
                         {{ if .featured }}
                         <span class="float-end">
-                            <a class="btn btn-sm" href="{{ .featured.link }}" target="_blank">
+                            <a class="btn btn-sm" href="{{ .featured.link }}" rel="noopener noreferrer" target="_blank">
                                 {{ .featured.name }}
                             </a>
                         </span>
@@ -62,13 +62,13 @@
                     <div class="card-footer py-3">
                         {{ range .Params.links }}
                         <span class="m-1 mx-2">
-                            <a href="{{ .url }}">
+                            <a href="{{ .url }}" rel="noopener noreferrer" target="_blank">
                                 <i class="{{ .icon }}"></i>
                             </a>
                         </span>
                         {{ end }}
                         <span class="float-end">
-                            <a class="btn btn-sm" href="{{ .RelPermalink }}">
+                            <a class="btn btn-sm" href="{{ .RelPermalink }}" rel="noopener noreferrer" target="_blank">
                                 Know more
                             </a>
                         </span>
