@@ -50,7 +50,7 @@
                             <div>
                                 <span class="h4">{{ .job }}</span>
                                 <small>-</small>
-                                <a href="{{ .companyUrl }}" target="_blank">{{ .company }}</a>
+                                <a rel="noopener noreferrer" target="_blank" href="{{ .companyUrl }}">{{ .company }}</a>
                                 <div class="pb-1">
                                     <small>{{ .date }}</small>
                                     {{ if .info.enable | default true }}
@@ -69,7 +69,7 @@
 
                                 {{ if .featuredLink.enable | default false }}
                                 <div class="py-2 featuredLink">
-                                    <a class="p-2 px-4 btn btn-outline-primary btn-sm" href={{ .featuredLink.url | default "#" }} target="_blank">
+                                    <a rel="noopener noreferrer" target="_blank" class="p-2 px-4 btn btn-outline-primary btn-sm" href={{ .featuredLink.url | default "#" }}>
                                         {{ .featuredLink.name | default "Featured Link" }} 
                                     </a>
                                 </div>
@@ -88,7 +88,7 @@
                             <div>
                                 <span class="h4">{{ .job }}</span>
                                 <small>-</small>
-                                <a href="{{ .companyUrl }}" target="_blank">{{ .company }}</a>
+                                <a rel="noopener noreferrer" target="_blank" href="{{ .companyUrl }}">{{ .company }}</a>
                                 
                                 <div class="pb-1">
                                     <small>{{ .date }}</small>
@@ -108,7 +108,7 @@
                                 
                                 {{ if .featuredLink.enable | default false }}
                                 <div class="py-2 featuredLink">
-                                    <a class="p-2 px-4 btn btn-outline-primary btn-sm" href={{ .featuredLink.url | default "#" }} target="_blank">
+                                    <a rel="noopener noreferrer" target="_blank" class="p-2 px-4 btn btn-outline-primary btn-sm" href={{ .featuredLink.url | default "#" }}>
                                         {{ .featuredLink.name | default "Featured Link" }} 
                                     </a>
                                 </div>
