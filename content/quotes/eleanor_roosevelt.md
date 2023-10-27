@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eleanor Roosevelt
-date: 2023-10-26T23:45:13Z
+date: 2023-10-27T10:14:30Z
 draft: false
 author: Eleanor Roosevelt
 description: Quotes by Eleanor Roosevelt
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eleanor Roosevelt. Enjoy!
-## It's your life-but only if you make it so.
+## The giving of love is an education in itself.
 

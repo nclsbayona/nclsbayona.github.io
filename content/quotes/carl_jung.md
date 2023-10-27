@@ -1,6 +1,6 @@
 ---
 title: Quotes by Carl Jung
-date: 2023-10-26T23:45:13Z
+date: 2023-10-27T10:14:30Z
 draft: false
 author: Carl Jung
 description: Quotes by Carl Jung
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Carl Jung. Enjoy!
-## No tree, it is said, can grow to heaven unless its roots reach down to hell.
+## The first half of life is devoted to forming a healthy ego, the second half is going inward and letting go of it.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Hans Christian Andersen
-date: 2023-10-26T23:45:13Z
+date: 2023-10-27T10:14:30Z
 draft: false
 author: Hans Christian Andersen
 description: Quotes by Hans Christian Andersen
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Hans Christian Andersen. Enjoy!
-## We cannot expect to be happy always... by experiencing evil as well as good we become wise.
+## Enjoy life. There's plenty of time to be dead.
 
