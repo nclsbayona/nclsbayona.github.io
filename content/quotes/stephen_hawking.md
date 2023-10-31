@@ -1,6 +1,6 @@
 ---
 title: Quotes by Stephen Hawking
-date: 2023-10-27T10:14:30Z
+date: 2023-10-31T00:08:39Z
 draft: false
 author: Stephen Hawking
 description: Quotes by Stephen Hawking
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Stephen Hawking. Enjoy!
-## Where there's life, there's hope.
+## Intelligence is the ability to adapt to change.
 

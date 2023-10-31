@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ming-Dao Deng
-date: 2023-10-27T10:14:30Z
+date: 2023-10-31T00:08:39Z
 draft: false
 author: Ming-Dao Deng
 description: Quotes by Ming-Dao Deng
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ming-Dao Deng. Enjoy!
-## Adversity is the tempering of one's mettle. Without it, we cannot know any true meaning in our accomplishments.
+## Life is but one dream flowing into another.
 

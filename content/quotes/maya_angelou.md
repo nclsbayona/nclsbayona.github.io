@@ -1,6 +1,6 @@
 ---
 title: Quotes by Maya Angelou
-date: 2023-10-27T10:14:30Z
+date: 2023-10-31T00:08:39Z
 draft: false
 author: Maya Angelou
 description: Quotes by Maya Angelou
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Maya Angelou. Enjoy!
-## There is no greater agony than bearing an untold story inside you.
+## There is nothing quite so tragic as a young cynic.
 
