@@ -1,6 +1,6 @@
 ---
 title: Quotes by Robert Greene
-date: 2023-10-31T00:08:39Z
+date: 2023-11-01T13:09:36Z
 draft: false
 author: Robert Greene
 description: Quotes by Robert Greene
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Robert Greene. Enjoy!
-## Mastery is not a function of genius or talent, it is a function of time and intense focus applied to a particular field of knowledge.
+## The greatest test of courage on earth is to bear defeat without losing heart.
 

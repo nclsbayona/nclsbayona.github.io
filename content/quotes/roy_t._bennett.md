@@ -1,6 +1,6 @@
 ---
 title: Quotes by Roy T. Bennett
-date: 2023-10-31T00:08:39Z
+date: 2023-11-01T13:09:36Z
 draft: false
 author: Roy T. Bennett
 description: Quotes by Roy T. Bennett
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## We are all different. Don't judge, understand instead.
+## Do what is right, not what is easy, nor what is popular.
 

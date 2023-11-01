@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lao Tzu
-date: 2023-10-31T00:08:39Z
+date: 2023-11-01T13:09:36Z
 draft: false
 author: Lao Tzu
 description: Quotes by Lao Tzu
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lao Tzu. Enjoy!
-## The best fighter is never angry.
+## Mastering others is strength, mastering yourself is true power.
 

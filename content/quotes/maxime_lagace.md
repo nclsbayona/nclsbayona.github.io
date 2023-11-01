@@ -1,6 +1,6 @@
 ---
 title: Quotes by Maxime Lagace
-date: 2023-10-31T00:08:39Z
+date: 2023-11-01T13:09:36Z
 draft: false
 author: Maxime Lagace
 description: Quotes by Maxime Lagace
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Maxime Lagace. Enjoy!
-## Fools read fast. Geniuses reread.
+## The wiser you get, the less you care to look like a fool.
 

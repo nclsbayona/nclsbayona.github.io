@@ -1,6 +1,6 @@
 ---
 title: Quotes by Criss Jami
-date: 2023-10-31T00:08:39Z
+date: 2023-11-01T13:09:36Z
 draft: false
 author: Criss Jami
 description: Quotes by Criss Jami
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Criss Jami. Enjoy!
-## Don't change your mind just because people are offended; change your mind if you're wrong.
+## A liar knows that he is a liar, but one who speaks mere portions of truth in order to deceive is a craftsman of destruction.
 

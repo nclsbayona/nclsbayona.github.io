@@ -1,6 +1,6 @@
 ---
 title: Quotes by Steve Harvey
-date: 2023-10-31T00:08:39Z
+date: 2023-11-01T13:09:36Z
 draft: false
 author: Steve Harvey
 description: Quotes by Steve Harvey
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Steve Harvey. Enjoy!
-## If you can see it in your mind, you can hold it in your mind.
+## Excuses are the lies you convince yourself are true to avoid proving you are worthy of the gift you were given.
 

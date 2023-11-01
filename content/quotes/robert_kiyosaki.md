@@ -1,6 +1,6 @@
 ---
 title: Quotes by Robert Kiyosaki
-date: 2023-10-31T00:08:39Z
+date: 2023-11-01T13:09:36Z
 draft: false
 author: Robert Kiyosaki
 description: Quotes by Robert Kiyosaki
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Robert Kiyosaki. Enjoy!
-## People who avoid failure also avoid success.
+## Thinking is the hardest work there is. That is why so few people engage in it.
 

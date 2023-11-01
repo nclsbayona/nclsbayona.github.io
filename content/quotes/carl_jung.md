@@ -1,6 +1,6 @@
 ---
 title: Quotes by Carl Jung
-date: 2023-10-31T00:08:39Z
+date: 2023-11-01T13:09:36Z
 draft: false
 author: Carl Jung
 description: Quotes by Carl Jung
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Carl Jung. Enjoy!
-## We meet ourselves time and again in a thousand disguises on the path of life.
+## The shoe that fits one person pinches another; there is no recipe for living that suits all cases.
 

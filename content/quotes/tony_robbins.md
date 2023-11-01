@@ -1,6 +1,6 @@
 ---
 title: Quotes by Tony Robbins
-date: 2023-10-31T00:08:39Z
+date: 2023-11-01T13:09:36Z
 draft: false
 author: Tony Robbins
 description: Quotes by Tony Robbins
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Tony Robbins. Enjoy!
-## I discovered a long time ago that if I helped enough people get what they wanted, I would always get what I wanted and I would never have to worry.
+## We will act consistently with our view of who we truly are, whether that view is accurate or not.
 

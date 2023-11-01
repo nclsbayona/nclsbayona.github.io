@@ -1,6 +1,6 @@
 ---
 title: Quotes by Norman Vincent Peale
-date: 2023-10-31T00:08:39Z
+date: 2023-11-01T13:09:36Z
 draft: false
 author: Norman Vincent Peale
 description: Quotes by Norman Vincent Peale
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Norman Vincent Peale. Enjoy!
-## Throw your heart over the bar and your body will follow.
+## Throw your heart over the fence and the rest will follow
 
