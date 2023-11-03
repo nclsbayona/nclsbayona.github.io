@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eleanor Roosevelt
-date: 2023-11-01T13:09:36Z
+date: 2023-11-03T10:15:33Z
 draft: false
 author: Eleanor Roosevelt
 description: Quotes by Eleanor Roosevelt
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eleanor Roosevelt. Enjoy!
-## The giving of love is an education in itself.
+## Do what you feel in your heart to be right - for you'll be criticized anyway.
 

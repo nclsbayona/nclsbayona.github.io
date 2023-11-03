@@ -1,6 +1,6 @@
 ---
 title: Quotes by Og Mandino
-date: 2023-11-01T13:09:36Z
+date: 2023-11-03T10:15:33Z
 draft: false
 author: Og Mandino
 description: Quotes by Og Mandino
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Og Mandino. Enjoy!
-## Forget mistakes. Forget failure. Forget everything except what you are going to do now and do it. Today is your lucky day!
+## True wealth is of the heart, not of the purse.
 
