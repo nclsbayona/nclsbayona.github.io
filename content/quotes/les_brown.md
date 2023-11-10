@@ -1,6 +1,6 @@
 ---
 title: Quotes by Les Brown
-date: 2023-11-03T10:15:33Z
+date: 2023-11-10T10:15:04Z
 draft: false
 author: Les Brown
 description: Quotes by Les Brown
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Les Brown. Enjoy!
-## Forgive those who have hurt you.
+## Accept responsibility for your life. Know that it is you who will get you where you want to go, no one else.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Robin Sharma
-date: 2023-11-03T10:15:33Z
+date: 2023-11-10T10:15:04Z
 draft: false
 author: Robin Sharma
 description: Quotes by Robin Sharma
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Robin Sharma. Enjoy!
-## Everything is created twice, first in the mind and then in reality.
+## Sometimes success isn't about making the right decision, it's more about making some decision.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Heraclitus
-date: 2023-11-03T10:15:33Z
+date: 2023-11-10T10:15:04Z
 draft: false
 author: Heraclitus
 description: Quotes by Heraclitus
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Heraclitus. Enjoy!
-## Everything flows, nothing stands still.
+## Much learning does not teach understanding.
 

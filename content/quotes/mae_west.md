@@ -1,6 +1,6 @@
 ---
 title: Quotes by Mae West
-date: 2023-11-03T10:15:33Z
+date: 2023-11-10T10:15:04Z
 draft: false
 author: Mae West
 description: Quotes by Mae West
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Mae West. Enjoy!
-## It is better to be looked over than overlooked.
+## He who hesitates is a damned fool.
 

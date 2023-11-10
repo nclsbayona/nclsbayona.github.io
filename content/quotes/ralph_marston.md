@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ralph Marston
-date: 2023-11-03T10:15:33Z
+date: 2023-11-10T10:15:04Z
 draft: false
 author: Ralph Marston
 description: Quotes by Ralph Marston
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ralph Marston. Enjoy!
-## Patience expands your options. If you insist on immediate gratification, your choices are severely limited.
+## Greatness comes from living with purpose and passion.
 

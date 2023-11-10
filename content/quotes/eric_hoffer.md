@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eric Hoffer
-date: 2023-11-03T10:15:33Z
+date: 2023-11-10T10:15:04Z
 draft: false
 author: Eric Hoffer
 description: Quotes by Eric Hoffer
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eric Hoffer. Enjoy!
-## It still holds true that man is most uniquely human when he turns obstacles into opportunities.
+## In a world of change, the learners shall inherit the earth, while the learned shall find themselves perfectly suited for a world that no longer exists.
 
