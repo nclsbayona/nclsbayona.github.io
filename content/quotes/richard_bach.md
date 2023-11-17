@@ -1,6 +1,6 @@
 ---
 title: Quotes by Richard Bach
-date: 2023-11-10T10:15:04Z
+date: 2023-11-17T10:15:28Z
 draft: false
 author: Richard Bach
 description: Quotes by Richard Bach

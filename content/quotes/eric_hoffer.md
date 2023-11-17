@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eric Hoffer
-date: 2023-11-10T10:15:04Z
+date: 2023-11-17T10:15:28Z
 draft: false
 author: Eric Hoffer
 description: Quotes by Eric Hoffer
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eric Hoffer. Enjoy!
-## In a world of change, the learners shall inherit the earth, while the learned shall find themselves perfectly suited for a world that no longer exists.
+## You can never get enough of what you don't need to make you happy.
 

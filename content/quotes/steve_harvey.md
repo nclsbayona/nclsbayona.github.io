@@ -1,6 +1,6 @@
 ---
 title: Quotes by Steve Harvey
-date: 2023-11-10T10:15:04Z
+date: 2023-11-17T10:15:28Z
 draft: false
 author: Steve Harvey
 description: Quotes by Steve Harvey
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Steve Harvey. Enjoy!
-## I pay attention to every minute of the day.
+## Sometimes out of your biggest misery, comes your greatest gain.
 

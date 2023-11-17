@@ -1,6 +1,6 @@
 ---
 title: Quotes by Barack Obama
-date: 2023-11-10T10:15:04Z
+date: 2023-11-17T10:15:28Z
 draft: false
 author: Barack Obama
 description: Quotes by Barack Obama
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Barack Obama. Enjoy!
-## it's important to make sure that we're talking with each other in a way that heals, not in a way that wounds.
+## A change is brought about because ordinary people do extraordinary things.
 
