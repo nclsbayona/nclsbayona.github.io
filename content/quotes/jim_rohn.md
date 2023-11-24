@@ -1,6 +1,6 @@
 ---
 title: Quotes by Jim Rohn
-date: 2023-11-17T10:15:28Z
+date: 2023-11-24T10:15:50Z
 draft: false
 author: Jim Rohn
 description: Quotes by Jim Rohn
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Jim Rohn. Enjoy!
-## The only way it gets better for you is when you get better. Better is not something you wish, it's something you become.
+## Attitude drives actions. Actions drive results. Results drive lifestyles.
 

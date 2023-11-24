@@ -1,6 +1,6 @@
 ---
 title: Quotes by James Allen
-date: 2023-11-17T10:15:28Z
+date: 2023-11-24T10:15:50Z
 draft: false
 author: James Allen
 description: Quotes by James Allen
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by James Allen. Enjoy!
-## The law of harvest is to reap more than you sow. Sow an act, and you reap a habit. Sow a habit and you reap a character. Sow a character and you reap a destiny.
+## A man is literally what he thinks.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Seneca
-date: 2023-11-17T10:15:28Z
+date: 2023-11-24T10:15:50Z
 draft: false
 author: Seneca
 description: Quotes by Seneca
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Seneca. Enjoy!
-## He suffers more than necessary, who suffers before it is necessary.  
+## Difficulties strengthen the mind, as labor does the body.  
 

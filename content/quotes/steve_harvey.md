@@ -1,6 +1,6 @@
 ---
 title: Quotes by Steve Harvey
-date: 2023-11-17T10:15:28Z
+date: 2023-11-24T10:15:50Z
 draft: false
 author: Steve Harvey
 description: Quotes by Steve Harvey
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Steve Harvey. Enjoy!
-## Sometimes out of your biggest misery, comes your greatest gain.
+## Don't let your mind stop you.
 

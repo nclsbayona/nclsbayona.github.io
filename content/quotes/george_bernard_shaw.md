@@ -1,6 +1,6 @@
 ---
 title: Quotes by George Bernard Shaw
-date: 2023-11-17T10:15:28Z
+date: 2023-11-24T10:15:50Z
 draft: false
 author: George Bernard Shaw
 description: Quotes by George Bernard Shaw
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by George Bernard Shaw. Enjoy!
-## The whole problem with the world is the fools and fanatics are always so sure of themselves, and wiser people are full of doubts.
+## People become attached to their burdens sometimes more than the burdens are attached to them.
 

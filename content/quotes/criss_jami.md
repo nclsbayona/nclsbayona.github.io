@@ -1,6 +1,6 @@
 ---
 title: Quotes by Criss Jami
-date: 2023-11-17T10:15:28Z
+date: 2023-11-24T10:15:50Z
 draft: false
 author: Criss Jami
 description: Quotes by Criss Jami
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Criss Jami. Enjoy!
-## Absurdity is the ecstasy of intellectualism.
+## Friends ask you questions; enemies question you.
 

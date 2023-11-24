@@ -1,6 +1,6 @@
 ---
 title: Quotes by T.S. Eliot
-date: 2023-11-17T10:15:28Z
+date: 2023-11-24T10:15:50Z
 draft: false
 author: T.S. Eliot
 description: Quotes by T.S. Eliot
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by T.S. Eliot. Enjoy!
-## Sometimes things become possible if we want them bad enough.
+## To become what you are not, behave as you do not.
 

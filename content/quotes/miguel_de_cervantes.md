@@ -1,6 +1,6 @@
 ---
 title: Quotes by Miguel De Cervantes
-date: 2023-11-17T10:15:28Z
+date: 2023-11-24T10:15:50Z
 draft: false
 author: Miguel De Cervantes
 description: Quotes by Miguel De Cervantes
