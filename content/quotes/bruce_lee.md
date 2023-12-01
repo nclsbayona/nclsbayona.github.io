@@ -1,6 +1,6 @@
 ---
 title: Quotes by Bruce Lee
-date: 2023-11-24T10:15:50Z
+date: 2023-12-01T10:15:53Z
 draft: false
 author: Bruce Lee
 description: Quotes by Bruce Lee
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Bruce Lee. Enjoy!
-## Knowing is not enough, we must apply. Willing is not enough, we must do.  
+## In the middle of chaos lies opportunity.  
 

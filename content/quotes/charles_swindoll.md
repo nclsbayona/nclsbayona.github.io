@@ -1,6 +1,6 @@
 ---
 title: Quotes by Charles Swindoll
-date: 2023-11-24T10:15:50Z
+date: 2023-12-01T10:15:53Z
 draft: false
 author: Charles Swindoll
 description: Quotes by Charles Swindoll
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Charles Swindoll. Enjoy!
-## The swift wind of compromise is a lot more devastating than the sudden jolt of misfortune. 
+## We are all faced with a series of great opportunities brilliantly disguised as impossible situations. 
 

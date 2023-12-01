@@ -1,6 +1,6 @@
 ---
 title: Quotes by Sathya Sai Baba
-date: 2023-11-24T10:15:50Z
+date: 2023-12-01T10:15:53Z
 draft: false
 author: Sathya Sai Baba
 description: Quotes by Sathya Sai Baba
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Sathya Sai Baba. Enjoy!
-## Being a good example is the best form of service.
+## Discipline is the mark of intelligent living.
 
