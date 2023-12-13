@@ -30,6 +30,6 @@ jobs:
         uses: boredland/action-purge-workflow-runs@1.0.0
         with:
     # least days the runs have to be old to get purged
-          days-old: 2
+          days-old: 8
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
