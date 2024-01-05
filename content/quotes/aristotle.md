@@ -1,6 +1,6 @@
 ---
 title: Quotes by Aristotle
-date: 2023-12-01T10:15:53Z
+date: 2024-01-05T20:49:05Z
 draft: false
 author: Aristotle
 description: Quotes by Aristotle
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## He who cannot be a good follower cannot be a good leader.
+## The educated differ from the uneducated as much as the living differ from the dead.
 

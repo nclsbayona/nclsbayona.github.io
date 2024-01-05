@@ -1,6 +1,6 @@
 ---
 title: Quotes by Spencer Johnson
-date: 2023-12-01T10:15:53Z
+date: 2024-01-05T20:49:05Z
 draft: false
 author: Spencer Johnson
 description: Quotes by Spencer Johnson
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Spencer Johnson. Enjoy!
-## It is safer to search in the maze than to remain in a cheeseless situation.
+## Being In The Present Means Tuning Out Distractions And Paying Attention To What Is Important, Now.
 

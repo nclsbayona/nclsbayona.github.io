@@ -1,6 +1,6 @@
 ---
 title: Quotes by Pablo Picasso
-date: 2023-12-01T10:15:53Z
+date: 2024-01-05T20:49:05Z
 draft: false
 author: Pablo Picasso
 description: Quotes by Pablo Picasso
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Pablo Picasso. Enjoy!
-## Action is the foundational key to all success.
+## Everything you can imagine is real.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Deepak Chopra
-date: 2023-12-01T10:15:53Z
+date: 2024-01-05T20:49:05Z
 draft: false
 author: Deepak Chopra
 description: Quotes by Deepak Chopra
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Deepak Chopra. Enjoy!
-## Nothing brings down walls as surely as acceptance.
+## There is no right or wrong, only a series of possibilities that shift with each thought, feeling, and action that you experience.
 

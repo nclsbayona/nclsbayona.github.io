@@ -1,6 +1,6 @@
 ---
 title: Quotes by Jim Rohn
-date: 2023-12-01T10:15:53Z
+date: 2024-01-05T20:49:05Z
 draft: false
 author: Jim Rohn
 description: Quotes by Jim Rohn
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Jim Rohn. Enjoy!
-## You cannot change your destination overnight but you can change your direction overnight.
+## Attitude drives actions. Actions drive results. Results drive lifestyles.
 

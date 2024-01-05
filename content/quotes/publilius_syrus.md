@@ -1,6 +1,6 @@
 ---
 title: Quotes by Publilius Syrus
-date: 2023-12-01T10:15:53Z
+date: 2024-01-05T20:49:05Z
 draft: false
 author: Publilius Syrus
 description: Quotes by Publilius Syrus
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Publilius Syrus. Enjoy!
-## Debt is the slavery of the free.
+## A wise man will be master of his mind, a fool will be its slave.
 

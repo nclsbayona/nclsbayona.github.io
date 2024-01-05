@@ -1,6 +1,6 @@
 ---
 title: Quotes by Bruce Lee
-date: 2023-12-01T10:15:53Z
+date: 2024-01-05T20:49:05Z
 draft: false
 author: Bruce Lee
 description: Quotes by Bruce Lee
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Bruce Lee. Enjoy!
-## In the middle of chaos lies opportunity.  
+## If you spend too much time thinking about a thing, you'll never get it done. 
 
