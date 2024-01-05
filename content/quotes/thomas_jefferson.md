@@ -1,6 +1,6 @@
 ---
 title: Quotes by Thomas Jefferson
-date: 2024-01-05T20:49:05Z
+date: 2024-01-05T21:43:52Z
 draft: false
 author: Thomas Jefferson
 description: Quotes by Thomas Jefferson
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Thomas Jefferson. Enjoy!
-## Nothing gives one person so much advantage over another as to remain always cool and unruffled under all circumstances.
+## Every day is lost in which we do not learn something useful. Man has no nobler or more valuable possession than time.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Bob Dylan
-date: 2024-01-05T20:49:05Z
+date: 2024-01-05T21:43:52Z
 draft: false
 author: Bob Dylan
 description: Quotes by Bob Dylan
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Bob Dylan. Enjoy!
-## Behind every beautiful thing, there's some kind of pain.
+## People seldom do what they believe in. They do what is convenient, then repent.
 

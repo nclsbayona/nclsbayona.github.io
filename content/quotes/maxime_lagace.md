@@ -1,6 +1,6 @@
 ---
 title: Quotes by Maxime Lagace
-date: 2024-01-05T20:49:05Z
+date: 2024-01-05T21:43:52Z
 draft: false
 author: Maxime Lagace
 description: Quotes by Maxime Lagace
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Maxime Lagace. Enjoy!
-## Inner peace is when you realize that, in the end, nothing matters.
+## Simple words, repeated daily, can change your life.
 
