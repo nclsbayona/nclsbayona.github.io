@@ -1,6 +1,6 @@
 ---
 title: Quotes by Naval Ravikant
-date: 2024-01-05T21:43:52Z
+date: 2024-01-12T12:15:39Z
 draft: false
 author: Naval Ravikant
 description: Quotes by Naval Ravikant
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Naval Ravikant. Enjoy!
-## Every second you have on this planet is very precious and it's your responsibility that you're happy.
+## Meditate. It won't be fun but it will surface what you need to deal with.
 

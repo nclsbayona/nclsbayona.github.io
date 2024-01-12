@@ -1,6 +1,6 @@
 ---
 title: Quotes by Maxime Lagace
-date: 2024-01-05T21:43:52Z
+date: 2024-01-12T12:15:39Z
 draft: false
 author: Maxime Lagace
 description: Quotes by Maxime Lagace
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Maxime Lagace. Enjoy!
-## Simple words, repeated daily, can change your life.
+## Fools read fast. Geniuses reread.
 
