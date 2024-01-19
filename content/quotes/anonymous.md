@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-01-12T12:15:39Z
+date: 2024-01-19T12:15:26Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## A real friend is one who walks in when the rest of the world walks out.
+## The only time you run out of chances is when you stop taking them.
 

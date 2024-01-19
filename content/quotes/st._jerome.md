@@ -1,6 +1,6 @@
 ---
 title: Quotes by St. Jerome
-date: 2024-01-12T12:15:39Z
+date: 2024-01-19T12:15:26Z
 draft: false
 author: St. Jerome
 description: Quotes by St. Jerome
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by St. Jerome. Enjoy!
-## Catch, then, O catch the transient hour; Improve each moment as it flies! 
+## Begin now to be what you will be hereafter.
 

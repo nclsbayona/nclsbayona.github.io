@@ -1,6 +1,6 @@
 ---
 title: Quotes by Paramahansa Yogananda
-date: 2024-01-12T12:15:39Z
+date: 2024-01-19T12:15:26Z
 draft: false
 author: Paramahansa Yogananda
 description: Quotes by Paramahansa Yogananda
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Paramahansa Yogananda. Enjoy!
-## Change yourself and you have done your part in changing the world.
+## Let my soul smile through my heart and my heart smile through my eyes, that I may scatter rich smiles in sad hearts. 
 

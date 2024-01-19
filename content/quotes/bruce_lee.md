@@ -1,6 +1,6 @@
 ---
 title: Quotes by Bruce Lee
-date: 2024-01-12T12:15:39Z
+date: 2024-01-19T12:15:26Z
 draft: false
 author: Bruce Lee
 description: Quotes by Bruce Lee
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Bruce Lee. Enjoy!
-## Showing off is the fool's idea of glory. 
+## The successful warrior is the average man, with laser-like focus.
 

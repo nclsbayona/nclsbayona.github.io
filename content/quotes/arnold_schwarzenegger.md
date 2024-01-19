@@ -1,6 +1,6 @@
 ---
 title: Quotes by Arnold Schwarzenegger
-date: 2024-01-12T12:15:39Z
+date: 2024-01-19T12:15:26Z
 draft: false
 author: Arnold Schwarzenegger
 description: Quotes by Arnold Schwarzenegger
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Arnold Schwarzenegger. Enjoy!
-## You can't climb the ladder of success with your hands in your pockets.
+## If you don't find the time, if you don't do the work, you don't get the results.
 
