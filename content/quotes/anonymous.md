@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-01-19T12:15:26Z
+date: 2024-01-26T12:13:54Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## The only time you run out of chances is when you stop taking them.
+## Learn to sit back and observe, not everything needs a reaction.
 

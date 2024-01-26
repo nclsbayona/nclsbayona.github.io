@@ -1,6 +1,6 @@
 ---
 title: Quotes by Criss Jami
-date: 2024-01-19T12:15:26Z
+date: 2024-01-26T12:13:54Z
 draft: false
 author: Criss Jami
 description: Quotes by Criss Jami
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Criss Jami. Enjoy!
-## When a man is penalized for honesty he learns to lie.
+## Creative people are often found either disagreeable or intimidating by mediocrities.
 

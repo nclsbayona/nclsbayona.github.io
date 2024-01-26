@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lily Tomlin
-date: 2024-01-19T12:15:26Z
+date: 2024-01-26T12:13:54Z
 draft: false
 author: Lily Tomlin
 description: Quotes by Lily Tomlin
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lily Tomlin. Enjoy!
-## The best mind-altering drug is the truth.
+## If you read a lot of books, you're considered well-read. But if you watch a lot of TV, you're not considered well-viewed.
 

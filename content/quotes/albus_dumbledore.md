@@ -1,6 +1,6 @@
 ---
 title: Quotes by Albus Dumbledore
-date: 2024-01-19T12:15:26Z
+date: 2024-01-26T12:13:54Z
 draft: false
 author: Albus Dumbledore
 description: Quotes by Albus Dumbledore
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Albus Dumbledore. Enjoy!
-## Dark times lie ahead of us and there will be a time when we must choose between what is easy and what is right.
+## Numbing the pain for a while will only make it worse when you finally feel it.
 
