@@ -1,6 +1,6 @@
 ---
 title: Quotes by Spencer Johnson
-date: 2024-01-26T12:13:54Z
+date: 2024-02-02T12:13:53Z
 draft: false
 author: Spencer Johnson
 description: Quotes by Spencer Johnson
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Spencer Johnson. Enjoy!
-## Change happens when the pain of holding on becomes greater than the fear of letting go.
+## It is safer to search in the maze than to remain in a cheeseless situation.
 

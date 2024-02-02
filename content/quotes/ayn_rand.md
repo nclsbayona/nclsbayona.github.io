@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ayn Rand
-date: 2024-01-26T12:13:54Z
+date: 2024-02-02T12:13:53Z
 draft: false
 author: Ayn Rand
 description: Quotes by Ayn Rand
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ayn Rand. Enjoy!
-## If you don't know, the thing to do is not to get scared, but to learn.
+## Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
 

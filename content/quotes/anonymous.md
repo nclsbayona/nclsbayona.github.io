@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-01-26T12:13:54Z
+date: 2024-02-02T12:13:53Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Learn to sit back and observe, not everything needs a reaction.
+## Life is ten percent what you experience and ninety percent how you respond to it.
 
