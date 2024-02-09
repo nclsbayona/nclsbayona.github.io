@@ -1,6 +1,6 @@
 ---
 title: Quotes by Voltaire
-date: 2024-02-02T12:13:53Z
+date: 2024-02-09T12:13:56Z
 draft: false
 author: Voltaire
 description: Quotes by Voltaire

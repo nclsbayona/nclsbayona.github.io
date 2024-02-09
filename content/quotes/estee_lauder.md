@@ -1,6 +1,6 @@
 ---
 title: Quotes by Estee Lauder
-date: 2024-02-02T12:13:53Z
+date: 2024-02-09T12:13:56Z
 draft: false
 author: Estee Lauder
 description: Quotes by Estee Lauder
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Estee Lauder. Enjoy!
-## Give credit where credit is due: simply said, if you want loyalty and best effort, you must be thoughtful.  
+## Be strong. Be confident. Be the star of your own life.
 

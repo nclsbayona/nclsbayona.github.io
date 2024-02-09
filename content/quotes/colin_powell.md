@@ -1,6 +1,6 @@
 ---
 title: Quotes by Colin Powell
-date: 2024-02-02T12:13:53Z
+date: 2024-02-09T12:13:56Z
 draft: false
 author: Colin Powell
 description: Quotes by Colin Powell
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Colin Powell. Enjoy!
-## Remain calm. Be kind.
+## Always show more kindness than seems necessary because the person receiving it needs it more than you will ever know.
 

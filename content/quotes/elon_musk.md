@@ -1,6 +1,6 @@
 ---
 title: Quotes by Elon Musk
-date: 2024-02-02T12:13:53Z
+date: 2024-02-09T12:13:56Z
 draft: false
 author: Elon Musk
 description: Quotes by Elon Musk
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Elon Musk. Enjoy!
-## Persistence is very important. You should not give up unless you are forced to give up.
+## Life needs to be more than just solving problems every day. You need to wake up and be excited about the future.
 

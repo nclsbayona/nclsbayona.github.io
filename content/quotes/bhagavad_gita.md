@@ -1,6 +1,6 @@
 ---
 title: Quotes by Bhagavad Gita
-date: 2024-02-02T12:13:53Z
+date: 2024-02-09T12:13:56Z
 draft: false
 author: Bhagavad Gita
 description: Quotes by Bhagavad Gita
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Bhagavad Gita. Enjoy!
-## Lust, anger and greed are the three gates to self-destructive hell.
+## You are what you believe in. You become that which you believe you can become.
 

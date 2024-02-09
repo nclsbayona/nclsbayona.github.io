@@ -1,6 +1,6 @@
 ---
 title: Quotes by Stephen King
-date: 2024-02-02T12:13:53Z
+date: 2024-02-09T12:13:56Z
 draft: false
 author: Stephen King
 description: Quotes by Stephen King
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Stephen King. Enjoy!
-## When asked, how do you write? I invariably answer, one word at a time.
+## The mind can calculate, but the spirit yearns, and the heart wants what the heart wants.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Steve Harvey
-date: 2024-02-02T12:13:53Z
+date: 2024-02-09T12:13:56Z
 draft: false
 author: Steve Harvey
 description: Quotes by Steve Harvey
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Steve Harvey. Enjoy!
-## Your dream has to be bigger than your fear.
+## You can't go forward and backwards at the same time.
 

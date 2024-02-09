@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ayn Rand
-date: 2024-02-02T12:13:53Z
+date: 2024-02-09T12:13:56Z
 draft: false
 author: Ayn Rand
 description: Quotes by Ayn Rand
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ayn Rand. Enjoy!
-## Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
+## The question isn't who is going to let me; it's who is going to stop me.
 

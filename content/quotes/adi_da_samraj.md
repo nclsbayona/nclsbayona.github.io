@@ -1,0 +1,14 @@
+---
+title: Quotes by Adi Da Samraj
+date: 2024-02-09T12:13:56Z
+draft: false
+author: Adi Da Samraj
+description: Quotes by Adi Da Samraj
+tags:
+  - Quotes
+  - Adi Da Samraj
+---
+ 
+# Here you have some quotes by Adi Da Samraj. Enjoy!
+## Relax. Nothing is under control.
+

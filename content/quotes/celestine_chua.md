@@ -1,6 +1,6 @@
 ---
 title: Quotes by Celestine Chua
-date: 2024-02-02T12:13:53Z
+date: 2024-02-09T12:13:56Z
 draft: false
 author: Celestine Chua
 description: Quotes by Celestine Chua
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Celestine Chua. Enjoy!
-## Problems remain as problems because people are busy defending them rather than finding solutions.
+## The only limits in your life are those that you set yourself.
 
