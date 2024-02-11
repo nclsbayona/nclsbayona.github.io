@@ -1,6 +1,6 @@
 ---
 title: Quotes by Kabir
-date: 2024-02-11T20:47:55Z
+date: 2024-02-11T23:16:36Z
 draft: false
 author: Kabir
 description: Quotes by Kabir
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Kabir. Enjoy!
-## The river that flows in you also flows in me.
+## Listen to the secret sound, the real sound, which is inside you.
 

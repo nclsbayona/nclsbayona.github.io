@@ -1,6 +1,6 @@
 ---
 title: Quotes by Aristotle
-date: 2024-02-11T20:47:55Z
+date: 2024-02-11T23:16:36Z
 draft: false
 author: Aristotle
 description: Quotes by Aristotle
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## The more you know, the more you know you don't know.
+## We are what we repeatedly do. Excellence, then, is not an act, but a habit.
 

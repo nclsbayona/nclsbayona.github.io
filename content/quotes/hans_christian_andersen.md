@@ -1,6 +1,6 @@
 ---
 title: Quotes by Hans Christian Andersen
-date: 2024-02-11T20:47:55Z
+date: 2024-02-11T23:16:36Z
 draft: false
 author: Hans Christian Andersen
 description: Quotes by Hans Christian Andersen
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Hans Christian Andersen. Enjoy!
-## The sun shines upon good and bad alike.
+## Just living is not enough... one must have sunshine, freedom, and a little flower. 
 

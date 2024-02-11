@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eric Hoffer
-date: 2024-02-11T20:47:55Z
+date: 2024-02-11T23:16:36Z
 draft: false
 author: Eric Hoffer
 description: Quotes by Eric Hoffer

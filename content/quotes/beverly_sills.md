@@ -1,6 +1,6 @@
 ---
 title: Quotes by Beverly Sills
-date: 2024-02-11T20:47:55Z
+date: 2024-02-11T23:16:36Z
 draft: false
 author: Beverly Sills
 description: Quotes by Beverly Sills
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Beverly Sills. Enjoy!
-## There are no shortcuts to any place worth going. 
+## In youth we run into difficulties. In old age difficulties run into us. 
 

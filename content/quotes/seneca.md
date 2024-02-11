@@ -1,6 +1,6 @@
 ---
 title: Quotes by Seneca
-date: 2024-02-11T20:47:55Z
+date: 2024-02-11T23:16:36Z
 draft: false
 author: Seneca
 description: Quotes by Seneca
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Seneca. Enjoy!
-## We suffer more often in imagination than in reality.  
+## Not how long, but how well you have lived is the main thing.
 

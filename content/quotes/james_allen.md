@@ -1,6 +1,6 @@
 ---
 title: Quotes by James Allen
-date: 2024-02-11T20:47:55Z
+date: 2024-02-11T23:16:36Z
 draft: false
 author: James Allen
 description: Quotes by James Allen
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by James Allen. Enjoy!
-## Work joyfully and peacefully, knowing that right thoughts and right efforts inevitably bring about right results.
+## The more tranquil a man becomes, the greater is his success, his influence, his power for good. Calmness of mind is one of the beautiful jewels of wisdom.
 
