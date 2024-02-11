@@ -17,7 +17,8 @@ toc:
 
 ### Definition (What is Leaky Vessels?)
 
-Leaky Vessels is the name given to a set of vulnerabilities discovered and reported by Snyk on 2023 but publically-listed on January 31, 2024. This set of vulnerabilities allow an attacker to escape a containerized environment and is made-uo of four vulnerabilities that target different parts of the docker architecture. ![](https://i.stack.imgur.com/lAtSR.png) 
+Leaky Vessels is the name given to a set of vulnerabilities discovered and reported by Snyk on 2023 but publically-listed on January 31, 2024. This set of vulnerabilities allow an attacker to escape a containerized environment and is made-uo of four vulnerabilities that target different parts of the docker architecture. \
+  ![](https://i.stack.imgur.com/lAtSR.png) 
 
 
 ### Importance (Why is knowing about Leaky Vessels important?)
@@ -53,6 +54,7 @@ Knowing about Leaky Vessels vulnerabilities is important because Containers are 
 
 First of all, constant analysis plays a pivotal role in fortifying cybersecurity by uncovering vulnerabilities, preventing exploitation, prioritizing assets, promoting security awareness, and addressing root causes. That's the reason for using software like [eBPF](https://ebpf.io)
 
-*   Use [other container runtime](https://docs.docker.com/engine/alternative-runtimes/) (Maybe try [crun](https://github.com/containers/crun) or [youki](https://github.com/containers/youki)). Also, you can try [Podman](https://podman.io) ![Podman VS Docker](https://github.com/nclsbayona/leaky-vessels/blob/master/podman-vs-docker.png?raw=true)
-*   Use official Docker builds
+*   Use [other container runtime](https://docs.docker.com/engine/alternative-runtimes/) (Maybe try [crun](https://github.com/containers/crun) or [youki](https://github.com/containers/youki)). Also, you can try [Podman](https://podman.io). \
+  ![Podman VS Docker](https://github.com/nclsbayona/leaky-vessels/blob/master/podman-vs-docker.png?raw=true)
+*   Use official Docker builds (Also remember to use the latest)
 *   Update constantly
