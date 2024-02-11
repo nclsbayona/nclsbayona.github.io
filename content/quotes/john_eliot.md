@@ -1,6 +1,6 @@
 ---
 title: Quotes by John Eliot
-date: 2024-02-11T19:07:38Z
+date: 2024-02-11T19:39:27Z
 draft: false
 author: John Eliot
 description: Quotes by John Eliot
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by John Eliot. Enjoy!
-## Realistic people do not accomplish extraordinary things.
+## You will not do incredible things without an incredible dream.
 

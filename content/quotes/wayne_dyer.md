@@ -1,6 +1,6 @@
 ---
 title: Quotes by Wayne Dyer
-date: 2024-02-11T19:07:38Z
+date: 2024-02-11T19:39:27Z
 draft: false
 author: Wayne Dyer
 description: Quotes by Wayne Dyer
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Wayne Dyer. Enjoy!
-## The more you extend kindness to yourself, the more it will become your automatic response to others.
+## You cannot always control what goes on outside. But you can always control what goes on inside. 
 

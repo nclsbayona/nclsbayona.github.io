@@ -1,6 +1,6 @@
 ---
 title: Quotes by Stephen Hawking
-date: 2024-02-11T19:07:38Z
+date: 2024-02-11T19:39:27Z
 draft: false
 author: Stephen Hawking
 description: Quotes by Stephen Hawking
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Stephen Hawking. Enjoy!
-## Never give up work. Work gives you meaning and purpose and life is empty without it.
+## If you are lucky enough to find love, remember it is there and don't throw it away.
 

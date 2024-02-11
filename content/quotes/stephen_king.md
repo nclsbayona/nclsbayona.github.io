@@ -1,6 +1,6 @@
 ---
 title: Quotes by Stephen King
-date: 2024-02-11T19:07:38Z
+date: 2024-02-11T19:39:27Z
 draft: false
 author: Stephen King
 description: Quotes by Stephen King
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Stephen King. Enjoy!
-## When the time is gone, you can never get it back.
+## When asked, how do you write? I invariably answer, one word at a time.
 

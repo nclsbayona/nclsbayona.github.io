@@ -1,6 +1,6 @@
 ---
 title: Quotes by Carlos Ruiz Zafon
-date: 2024-02-11T19:07:38Z
+date: 2024-02-11T19:39:27Z
 draft: false
 author: Carlos Ruiz Zafon
 description: Quotes by Carlos Ruiz Zafon
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Carlos Ruiz Zafon. Enjoy!
-## The most efficient way of rendering the poor harmless is to teach them to want to imitate the rich.
+## Human beings believe just as they breathe - in order to survive.
 

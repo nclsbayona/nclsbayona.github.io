@@ -1,6 +1,6 @@
 ---
 title: Quotes by Zen Proverb
-date: 2024-02-11T19:07:38Z
+date: 2024-02-11T19:39:27Z
 draft: false
 author: Zen Proverb
 description: Quotes by Zen Proverb
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Zen Proverb. Enjoy!
-## Unhappiness enters through a door that has been left open.
+## No one returns from a long journey the same person they were before.
 
