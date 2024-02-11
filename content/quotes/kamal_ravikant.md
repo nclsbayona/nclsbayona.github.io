@@ -1,6 +1,6 @@
 ---
 title: Quotes by Kamal Ravikant
-date: 2024-02-11T19:03:54Z
+date: 2024-02-11T19:07:38Z
 draft: false
 author: Kamal Ravikant
 description: Quotes by Kamal Ravikant
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Kamal Ravikant. Enjoy!
-## We don't stumble accidentally into an amazing life. It takes decision, a commitment to consistently work on ourselves.
+## Life is a series of choices and all we can do is make them.
 

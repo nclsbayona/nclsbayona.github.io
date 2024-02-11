@@ -1,6 +1,6 @@
 ---
 title: Quotes by Paramahansa Yogananda
-date: 2024-02-11T19:03:54Z
+date: 2024-02-11T19:07:38Z
 draft: false
 author: Paramahansa Yogananda
 description: Quotes by Paramahansa Yogananda

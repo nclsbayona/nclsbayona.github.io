@@ -1,6 +1,6 @@
 ---
 title: Quotes by Amelia Earhart
-date: 2024-02-11T19:03:54Z
+date: 2024-02-11T19:07:38Z
 draft: false
 author: Amelia Earhart
 description: Quotes by Amelia Earhart
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Amelia Earhart. Enjoy!
-## It is best to begin at the beginning.
+## Courage is the price that life exacts for granting peace.
 

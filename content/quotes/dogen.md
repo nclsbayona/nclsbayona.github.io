@@ -1,6 +1,6 @@
 ---
 title: Quotes by Dogen
-date: 2024-02-11T19:03:54Z
+date: 2024-02-11T19:07:38Z
 draft: false
 author: Dogen
 description: Quotes by Dogen
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Dogen. Enjoy!
-## Prefer to be defeated in the presence of the wise than to excel among fools.
+## If he cannot stop the mind that seeks after fame and profit, he will spend his life without finding peace.
 

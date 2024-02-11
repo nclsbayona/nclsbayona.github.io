@@ -1,6 +1,6 @@
 ---
 title: Quotes by Earl Nightingale
-date: 2024-02-11T19:03:54Z
+date: 2024-02-11T19:07:38Z
 draft: false
 author: Earl Nightingale
 description: Quotes by Earl Nightingale
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Earl Nightingale. Enjoy!
-## No man can get rich himself unless he enriches others.
+## All you need is the plan, the road map, and the courage to press on to your destination.
 
