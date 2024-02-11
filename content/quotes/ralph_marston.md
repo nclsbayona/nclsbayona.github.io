@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ralph Marston
-date: 2024-02-11T18:07:02Z
+date: 2024-02-11T18:22:42Z
 draft: false
 author: Ralph Marston
 description: Quotes by Ralph Marston
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ralph Marston. Enjoy!
-## What you do today can improve all your tomorrows.
+## Instead of being intimidated by the limitations, be inspired to find new ways around them.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Confucius
-date: 2024-02-11T18:07:02Z
+date: 2024-02-11T18:22:42Z
 draft: false
 author: Confucius
 description: Quotes by Confucius
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Confucius. Enjoy!
-## I hear and I forget. I see and I remember. I do and I understand. 
+## Our greatest glory is not in never falling, but in rising every time we fall. 
 

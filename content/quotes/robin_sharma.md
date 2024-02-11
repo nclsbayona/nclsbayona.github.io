@@ -1,6 +1,6 @@
 ---
 title: Quotes by Robin Sharma
-date: 2024-02-11T18:07:02Z
+date: 2024-02-11T18:22:42Z
 draft: false
 author: Robin Sharma
 description: Quotes by Robin Sharma
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Robin Sharma. Enjoy!
-## What gets measured gets improved.
+## Big people don't make people feel small.
 
