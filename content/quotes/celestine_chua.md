@@ -1,6 +1,6 @@
 ---
 title: Quotes by Celestine Chua
-date: 2024-02-11T19:39:27Z
+date: 2024-02-11T19:46:38Z
 draft: false
 author: Celestine Chua
 description: Quotes by Celestine Chua

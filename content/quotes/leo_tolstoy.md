@@ -1,6 +1,6 @@
 ---
 title: Quotes by Leo Tolstoy
-date: 2024-02-11T19:39:27Z
+date: 2024-02-11T19:46:38Z
 draft: false
 author: Leo Tolstoy
 description: Quotes by Leo Tolstoy
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Leo Tolstoy. Enjoy!
-## We can know only that we know nothing. And that is the highest degree of human wisdom.
+## The two most powerful warriors are patience and time.
 

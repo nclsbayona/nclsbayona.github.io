@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eleanor Roosevelt
-date: 2024-02-11T19:39:27Z
+date: 2024-02-11T19:46:38Z
 draft: false
 author: Eleanor Roosevelt
 description: Quotes by Eleanor Roosevelt
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eleanor Roosevelt. Enjoy!
-## You have to accept whatever comes, and the only important thing is that you meet it with the best you have to give.
+## Do one thing every day that scares you.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Chinese Proverb
-date: 2024-02-11T19:39:27Z
+date: 2024-02-11T19:46:38Z
 draft: false
 author: Chinese Proverb
 description: Quotes by Chinese Proverb
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Chinese Proverb. Enjoy!
-## A man who cannot tolerate small misfortunes can never accomplish great things.
+## Better the cottage where one is merry than the palace where one weeps.
 

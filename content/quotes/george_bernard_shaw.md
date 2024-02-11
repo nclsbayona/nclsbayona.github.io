@@ -1,6 +1,6 @@
 ---
 title: Quotes by George Bernard Shaw
-date: 2024-02-11T19:39:27Z
+date: 2024-02-11T19:46:38Z
 draft: false
 author: George Bernard Shaw
 description: Quotes by George Bernard Shaw
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by George Bernard Shaw. Enjoy!
-## People who say it cannot be done should not interrupt those who are doing it.
+## Yesterday is the past, tomorrow is the future, today is a gift - that's why it's called the present.
 
