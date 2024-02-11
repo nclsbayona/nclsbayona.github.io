@@ -1,6 +1,6 @@
 ---
 title: Quotes by Arnold Schwarzenegger
-date: 2024-02-09T12:13:56Z
+date: 2024-02-11T18:07:02Z
 draft: false
 author: Arnold Schwarzenegger
 description: Quotes by Arnold Schwarzenegger
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Arnold Schwarzenegger. Enjoy!
-## Positive thinking can be contagious. Being surrounded by winners helps you develop into a winner.
+## Help others and give something back.
 

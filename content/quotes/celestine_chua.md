@@ -1,6 +1,6 @@
 ---
 title: Quotes by Celestine Chua
-date: 2024-02-09T12:13:56Z
+date: 2024-02-11T18:07:02Z
 draft: false
 author: Celestine Chua
 description: Quotes by Celestine Chua
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Celestine Chua. Enjoy!
-## The only limits in your life are those that you set yourself.
+## The more you take responsibility for your past and present, the more you are able to create the future you seek.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Carl Jung
-date: 2024-02-09T12:13:56Z
+date: 2024-02-11T18:07:02Z
 draft: false
 author: Carl Jung
 description: Quotes by Carl Jung
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Carl Jung. Enjoy!
-## I am not what happened to me, I am what I choose to become.
+## Everything that irritates us about others.
 

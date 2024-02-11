@@ -1,6 +1,6 @@
 ---
 title: Quotes by Alfred Adler
-date: 2024-02-09T12:13:56Z
+date: 2024-02-11T18:07:02Z
 draft: false
 author: Alfred Adler
 description: Quotes by Alfred Adler
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Alfred Adler. Enjoy!
-## Life is just the same as learning to swim. Do not be afraid of making mistakes, for there is no other way of learning how to live!
+## Courage is the willingness to engage in a risk-taking behavior regardless of whether the consequences are unknown or possibly adverse.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Jiddu Krishnamurti
-date: 2024-02-09T12:13:56Z
+date: 2024-02-11T18:07:02Z
 draft: false
 author: Jiddu Krishnamurti
 description: Quotes by Jiddu Krishnamurti
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Jiddu Krishnamurti. Enjoy!
-## The idea of ourselves is our escape from the fact of what we really are.
+## You can only be afraid of what you think you know.
 
