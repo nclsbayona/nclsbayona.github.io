@@ -1,6 +1,6 @@
 ---
 title: Quotes by Virginia Woolf
-date: 2024-02-11T19:52:09Z
+date: 2024-02-11T20:47:55Z
 draft: false
 author: Virginia Woolf
 description: Quotes by Virginia Woolf
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Virginia Woolf. Enjoy!
-## I thought how unpleasant it is to be locked out; and I thought how it is worse, perhaps, to be locked in.
+## The eyes of others our prisons; their thoughts our cages.
 

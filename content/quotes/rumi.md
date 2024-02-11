@@ -1,6 +1,6 @@
 ---
 title: Quotes by Rumi
-date: 2024-02-11T19:52:09Z
+date: 2024-02-11T20:47:55Z
 draft: false
 author: Rumi
 description: Quotes by Rumi
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Rumi. Enjoy!
-## If I love myself I love you. If I love you I love myself.
+## Life is a balance of holding on and letting go.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Earl Nightingale
-date: 2024-02-11T19:52:09Z
+date: 2024-02-11T20:47:55Z
 draft: false
 author: Earl Nightingale
 description: Quotes by Earl Nightingale
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Earl Nightingale. Enjoy!
-## Wherever there is danger, there lurks opportunity; wherever there is opportunity, there lurks danger. The two are inseparable.
+## Don't concern yourself with the money. Be of service. Build. Work. Dream. Create.
 

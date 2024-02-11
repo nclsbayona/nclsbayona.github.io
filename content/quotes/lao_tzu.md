@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lao Tzu
-date: 2024-02-11T19:52:09Z
+date: 2024-02-11T20:47:55Z
 draft: false
 author: Lao Tzu
 description: Quotes by Lao Tzu
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lao Tzu. Enjoy!
-## Do the difficult things while they are easy and do the great things while they are small.
+## If you do not change direction, you may end up where you are heading.
 

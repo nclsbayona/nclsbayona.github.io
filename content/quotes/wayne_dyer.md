@@ -1,6 +1,6 @@
 ---
 title: Quotes by Wayne Dyer
-date: 2024-02-11T19:52:09Z
+date: 2024-02-11T20:47:55Z
 draft: false
 author: Wayne Dyer
 description: Quotes by Wayne Dyer
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Wayne Dyer. Enjoy!
-## Conflict cannot survive without your participation. 
+## You cannot always control what goes on outside. But you can always control what goes on inside. 
 
