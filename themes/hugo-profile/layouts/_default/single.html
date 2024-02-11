@@ -35,7 +35,7 @@
             <img class="img-fluid" src="{{ .Params.image }}" alt="{{ .Title }}">
           </div>
           {{ end }}
-          <a rel="noopener noreferrer" target="_blank"rticle class="page-content  p-2">
+          <a rel="noopener noreferrer" target="_blank" article class="page-content  p-2">
           {{ .Content | emojify }}
           </article>
         </div>
@@ -43,7 +43,7 @@
       <div class="col-sm-12 col-md-12 col-lg-3">
         <div class="sticky-sidebar">
           {{ if .Params.toc | default true}}
-          <a rel="noopener noreferrer" target="_blank"side class="toc">
+          <a rel="noopener noreferrer" target="_blank" side class="toc">
               <h5>
                 {{ .Site.Params.terms.toc | default "Table Of Contents" }}
               </h5>
@@ -54,7 +54,7 @@
           {{ end }}
 
           {{ if .Params.tags }}
-          <a rel="noopener noreferrer" target="_blank"side class="tags">
+          <a rel="noopener noreferrer" target="_blank" side class="tags">
             <h5>{{ .Site.Params.terms.tags | default "Tags" }}</h5>
             <ul class="tags-ul list-unstyled list-inline">
               {{range .Params.tags}}
@@ -65,7 +65,7 @@
           {{end}}
 
           {{ if .Params.socialShare | default true }}
-          <a rel="noopener noreferrer" target="_blank"side class="social">
+          <a rel="noopener noreferrer" target="_blank" side class="social">
             <h5>{{ .Site.Params.terms.social | default "Social" }}</h5>
             <div class="social-content">
               <ul class="list-inline">
