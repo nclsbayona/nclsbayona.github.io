@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ming-Dao Deng
-date: 2024-02-11T19:46:38Z
+date: 2024-02-11T19:52:09Z
 draft: false
 author: Ming-Dao Deng
 description: Quotes by Ming-Dao Deng
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ming-Dao Deng. Enjoy!
-## Life is a constant series of opportunities.
+## Help others for all the times that you have been ignored. Be kind to others, for all the times that you have been scorned.
 

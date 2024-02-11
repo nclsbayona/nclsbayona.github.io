@@ -1,6 +1,6 @@
 ---
 title: Quotes by Dogen
-date: 2024-02-11T19:46:38Z
+date: 2024-02-11T19:52:09Z
 draft: false
 author: Dogen
 description: Quotes by Dogen
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Dogen. Enjoy!
-## Life and death are of supreme importance. Time swiftly passes by and opportunity is lost.
+## If you want to see things just as they are, then you yourself must practice just as you are.
 
