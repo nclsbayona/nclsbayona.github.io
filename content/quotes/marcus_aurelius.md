@@ -1,6 +1,6 @@
 ---
 title: Quotes by Marcus Aurelius
-date: 2024-02-11T18:22:42Z
+date: 2024-02-11T19:03:54Z
 draft: false
 author: Marcus Aurelius
 description: Quotes by Marcus Aurelius
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Marcus Aurelius. Enjoy!
-## Because a thing seems difficult for you, do not think it impossible.
+## Very little is needed to make a happy life; it is all within yourself, in your way of thinking.
 

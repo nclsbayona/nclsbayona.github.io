@@ -1,6 +1,6 @@
 ---
 title: Quotes by Henry David Thoreau
-date: 2024-02-11T18:22:42Z
+date: 2024-02-11T19:03:54Z
 draft: false
 author: Henry David Thoreau
 description: Quotes by Henry David Thoreau
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Henry David Thoreau. Enjoy!
-## What you get by achieving your goals is not as important as what you become by achieving your goals.
+## Rather than love, than money, than fame, give me truth.
 

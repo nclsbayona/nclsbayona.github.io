@@ -1,6 +1,6 @@
 ---
 title: Quotes by Norman Vincent Peale
-date: 2024-02-11T18:22:42Z
+date: 2024-02-11T19:03:54Z
 draft: false
 author: Norman Vincent Peale
 description: Quotes by Norman Vincent Peale
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Norman Vincent Peale. Enjoy!
-## No man is happy who does not think himself so.
+## Cultivate the merry heart, develop the happiness habit, and life will become a continual feast.
 

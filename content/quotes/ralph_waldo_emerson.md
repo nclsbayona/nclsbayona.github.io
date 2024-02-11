@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ralph Waldo Emerson
-date: 2024-02-11T18:22:42Z
+date: 2024-02-11T19:03:54Z
 draft: false
 author: Ralph Waldo Emerson
 description: Quotes by Ralph Waldo Emerson
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ralph Waldo Emerson. Enjoy!
-## Live in the sunshine, swim the sea, drink the wild air.
+## For every minute you are angry you lose sixty seconds of happiness.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Naval Ravikant
-date: 2024-02-11T18:22:42Z
+date: 2024-02-11T19:03:54Z
 draft: false
 author: Naval Ravikant
 description: Quotes by Naval Ravikant
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Naval Ravikant. Enjoy!
-## The first rule of handling conflict is don't hang around people who are constantly engaging in conflict.
+## The world doesn't always give you want, but it often gives you what you need.
 

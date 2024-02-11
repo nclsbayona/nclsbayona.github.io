@@ -1,6 +1,6 @@
 ---
 title: Quotes by Kamal Ravikant
-date: 2024-02-11T18:22:42Z
+date: 2024-02-11T19:03:54Z
 draft: false
 author: Kamal Ravikant
 description: Quotes by Kamal Ravikant
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Kamal Ravikant. Enjoy!
-## The things I carry are my thoughts. That's it. They are the only weight. My thoughts determine whether I am free and light or burdened.
+## We don't stumble accidentally into an amazing life. It takes decision, a commitment to consistently work on ourselves.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Yanni
-date: 2024-02-11T18:22:42Z
+date: 2024-02-11T19:03:54Z
 draft: false
 author: Yanni
 description: Quotes by Yanni
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Yanni. Enjoy!
-## I want the fishing rod, not the fish.
+## Music is like creating an emotional painting. The sounds are the colors.
 
