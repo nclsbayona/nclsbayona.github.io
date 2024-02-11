@@ -16,32 +16,16 @@ toc:
 # Leaky Vessels vulnerabilities
 =============================
 
-## Contents
---------
-
-1.  Definition (What is Leaky Vessels?)
-2.  Importance (Why is knowing about Leaky Vessels important?)
-3.  Explanation of each vulnerability (Names taken from [leaky-vessels-dynamic-detector](https://github.com/snyk/leaky-vessels-dynamic-detector))
-    
-    1.  runc process.cwd & Leaked fds Container Breakout \[CVE-2024-21626\]
-    2.  Buildkit Mount Cache Race: Build-time Race Condition Container Breakout \[CVE-2024-23651\]
-    3.  Buildkit GRPC SecurityMode Privilege Check \[CVE-2024-23653\]
-    4.  Buildkit Build-time Container Teardown Arbitrary Delete \[CVE-2024-23652\]
-    
-4.  Mitigations (What can I do?)
-
-* * *
-
 ### Definition (What is Leaky Vessels?)
 
 Leaky Vessels is the name given to a set of vulnerabilities discovered and reported by Snyk on 2023 but publically-listed on January 31, 2024. This set of vulnerabilities allow an attacker to escape a containerized environment and is made-uo of four vulnerabilities that target different parts of the docker architecture. ![](https://i.stack.imgur.com/lAtSR.png) 
+
 
 ### Importance (Why is knowing about Leaky Vessels important?)
 
 Knowing about Leaky Vessels vulnerabilities is important because Containers are a technology used frequently on the Industry and getting to know threats you might face allow you to prepare better than someone that is just unaware of what can actually happen.
 
   
-
 ### Explanation of each vulnerability (Names taken from [leaky-vessels-dynamic-detector](https://github.com/snyk/leaky-vessels-dynamic-detector))
 
 1.  #### runc process.cwd & Leaked fds Container Breakout \[CVE-2024-21626\]
@@ -61,11 +45,10 @@ Knowing about Leaky Vessels vulnerabilities is important because Containers are 
     This attack allows an attacker to delete files from the host OS by deleting contents in a symbolic link directory mounted.
 
   
-
 ### Mitigations (What can I do?)
 
-  
+First of all, constant analysis plays a pivotal role in fortifying cybersecurity by uncovering vulnerabilities, preventing exploitation, prioritizing assets, promoting security awareness, and addressing root causes. That's the reason for using software like [eBPF](https://ebpf.io)
 
-*   Use [other container runtime](https://docs.docker.com/engine/alternative-runtimes/) (Maybe try [crun](https://github.com/containers/crun)). Also, you can try [Podman](https://podman.io) ![](https://github.com/nclsbayona/leaky-vessels/blob/master/podman-vs-docker.png?raw=true)
+*   Use [other container runtime](https://docs.docker.com/engine/alternative-runtimes/) (Maybe try [crun](https://github.com/containers/crun) or [youki](https://github.com/containers/youki)). Also, you can try [Podman](https://podman.io) ![Podman VS Docker](https://github.com/nclsbayona/leaky-vessels/blob/master/podman-vs-docker.png?raw=true)
 *   Use official Docker builds
 *   Update constantly
