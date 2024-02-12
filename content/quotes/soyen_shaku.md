@@ -1,6 +1,6 @@
 ---
 title: Quotes by Soyen Shaku
-date: 2024-02-12T00:11:49Z
+date: 2024-02-12T00:16:28Z
 draft: false
 author: Soyen Shaku
 description: Quotes by Soyen Shaku
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Soyen Shaku. Enjoy!
-## Do not regret the past. Look to the future.
+## Have the fearless attitude of a hero and the loving heart of a child.
 

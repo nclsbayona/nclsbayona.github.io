@@ -1,0 +1,14 @@
+---
+title: Quotes by Morihei Ueshiba
+date: 2024-02-12T00:16:28Z
+draft: false
+author: Morihei Ueshiba
+description: Quotes by Morihei Ueshiba
+tags:
+  - Quotes
+  - Morihei Ueshiba
+---
+ 
+# Here you have some quotes by Morihei Ueshiba. Enjoy!
+## When you lose your desire for things that do not matter, you will be free.
+

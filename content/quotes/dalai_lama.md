@@ -1,6 +1,6 @@
 ---
 title: Quotes by Dalai Lama
-date: 2024-02-12T00:11:49Z
+date: 2024-02-12T00:16:28Z
 draft: false
 author: Dalai Lama
 description: Quotes by Dalai Lama

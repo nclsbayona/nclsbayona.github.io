@@ -1,6 +1,6 @@
 ---
 title: Quotes by Pablo Picasso
-date: 2024-02-12T00:11:49Z
+date: 2024-02-12T00:16:28Z
 draft: false
 author: Pablo Picasso
 description: Quotes by Pablo Picasso
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Pablo Picasso. Enjoy!
-## I do not seek. I find.
+## Only put off until tomorrow what you are willing to die having left undone.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-02-12T00:11:49Z
+date: 2024-02-12T00:16:28Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Winners don't Quit. That's why they Win.
+## Why compare yourself with others? No one in the entire world can do a better job of being you than you.
 
