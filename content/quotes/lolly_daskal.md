@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lolly Daskal
-date: 2024-02-11T23:16:36Z
+date: 2024-02-12T00:11:49Z
 draft: false
 author: Lolly Daskal
 description: Quotes by Lolly Daskal
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lolly Daskal. Enjoy!
-## Where we fall are the stepping-stones for our journey.
+## We become what we believe.
 

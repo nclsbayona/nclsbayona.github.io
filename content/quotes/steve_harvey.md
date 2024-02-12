@@ -1,6 +1,6 @@
 ---
 title: Quotes by Steve Harvey
-date: 2024-02-11T23:16:36Z
+date: 2024-02-12T00:11:49Z
 draft: false
 author: Steve Harvey
 description: Quotes by Steve Harvey
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Steve Harvey. Enjoy!
-## You can't go forward and backwards at the same time.
+## If you want to be successful, you have to jump, there's no way around it.
 

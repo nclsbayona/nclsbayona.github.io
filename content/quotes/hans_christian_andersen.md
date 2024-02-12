@@ -1,6 +1,6 @@
 ---
 title: Quotes by Hans Christian Andersen
-date: 2024-02-11T23:16:36Z
+date: 2024-02-12T00:11:49Z
 draft: false
 author: Hans Christian Andersen
 description: Quotes by Hans Christian Andersen
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Hans Christian Andersen. Enjoy!
-## Just living is not enough... one must have sunshine, freedom, and a little flower. 
+## Everything you look at can become a fairy tale and you can get a story from everything you touch.
 

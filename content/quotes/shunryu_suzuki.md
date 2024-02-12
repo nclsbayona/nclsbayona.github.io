@@ -1,6 +1,6 @@
 ---
 title: Quotes by Shunryu Suzuki
-date: 2024-02-11T23:16:36Z
+date: 2024-02-12T00:11:49Z
 draft: false
 author: Shunryu Suzuki
 description: Quotes by Shunryu Suzuki
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Shunryu Suzuki. Enjoy!
-## Whether you have a problem in your life or not depends upon your own attitude, your own understanding.
+## In the beginner's mind there are many possibilities, but in the expert's mind there are few.
 

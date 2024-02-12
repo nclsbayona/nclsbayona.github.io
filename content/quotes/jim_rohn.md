@@ -1,6 +1,6 @@
 ---
 title: Quotes by Jim Rohn
-date: 2024-02-11T23:16:36Z
+date: 2024-02-12T00:11:49Z
 draft: false
 author: Jim Rohn
 description: Quotes by Jim Rohn
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Jim Rohn. Enjoy!
-## The few who do are the envy of the many who only watch.
+## You are the average of the five people you spend most time with.
 
