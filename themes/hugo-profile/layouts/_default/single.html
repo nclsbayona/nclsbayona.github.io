@@ -54,7 +54,7 @@
           {{ end }}
 
           {{ if .Params.tags }}
-          <a rel="noopener noreferrer" target="_blank" side class="tags">
+          <aside rel="noopener noreferrer" target="_blank" class="tags">
             <h5>{{ .Site.Params.terms.tags | default "Tags" }}</h5>
             <ul class="tags-ul list-unstyled list-inline">
               {{range .Params.tags}}
@@ -65,7 +65,7 @@
           {{end}}
 
           {{ if .Params.socialShare | default true }}
-          <a rel="noopener noreferrer" target="_blank" side class="social">
+          <aside rel="noopener noreferrer" target="_blank" class="social">
             <h5>{{ .Site.Params.terms.social | default "Social" }}</h5>
             <div class="social-content">
               <ul class="list-inline">
