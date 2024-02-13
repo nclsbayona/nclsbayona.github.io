@@ -160,7 +160,7 @@ params:
   # Experience
   experience:
     enable: true
-    title: "Custom Name"
+    title: "My Expirience!"
     items:
       - job: "Teacher Assistant"
         company: "Pontificia Universidad Javeriana"
