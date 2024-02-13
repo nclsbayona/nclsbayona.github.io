@@ -1,6 +1,6 @@
 ---
 title: Quotes by Charles Darwin
-date: 2024-02-12T00:16:28Z
+date: 2024-02-13T21:27:03Z
 draft: false
 author: Charles Darwin
 description: Quotes by Charles Darwin
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Charles Darwin. Enjoy!
-## I love fools' experiments. I am always making them.
+## The very essence of instinct is that it's followed independently of reason.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Gurbaksh Chahal
-date: 2024-02-12T00:16:28Z
+date: 2024-02-13T21:27:03Z
 draft: false
 author: Gurbaksh Chahal
 description: Quotes by Gurbaksh Chahal
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Gurbaksh Chahal. Enjoy!
-## Fear is your worst enemy. Risk is your best friend.
+## Find something you love and do it better than everyone else.
 

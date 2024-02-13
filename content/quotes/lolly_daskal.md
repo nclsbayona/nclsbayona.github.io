@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lolly Daskal
-date: 2024-02-12T00:16:28Z
+date: 2024-02-13T21:27:03Z
 draft: false
 author: Lolly Daskal
 description: Quotes by Lolly Daskal
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lolly Daskal. Enjoy!
-## When we allow negative messages to fester in our head, they take on a life of their own.
+## There is a big difference between being centered and being self-centered.
 

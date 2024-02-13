@@ -1,6 +1,6 @@
 ---
 title: Quotes by Norman Vincent Peale
-date: 2024-02-12T00:16:28Z
+date: 2024-02-13T21:27:03Z
 draft: false
 author: Norman Vincent Peale
 description: Quotes by Norman Vincent Peale
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Norman Vincent Peale. Enjoy!
-## You become a worrier by practicing worry. You become free of worry by practicing the opposite.
+## Do not be awe struck by other people and try to copy them. Nobody can be you as efficiently as you can.
 

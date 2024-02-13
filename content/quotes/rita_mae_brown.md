@@ -1,6 +1,6 @@
 ---
 title: Quotes by Rita Mae Brown
-date: 2024-02-12T00:16:28Z
+date: 2024-02-13T21:27:03Z
 draft: false
 author: Rita Mae Brown
 description: Quotes by Rita Mae Brown
