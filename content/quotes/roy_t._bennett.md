@@ -1,6 +1,6 @@
 ---
 title: Quotes by Roy T. Bennett
-date: 2024-02-16T00:37:02Z
+date: 2024-02-16T00:50:17Z
 draft: false
 author: Roy T. Bennett
 description: Quotes by Roy T. Bennett
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## If you care about someone enough, you'll always be there for them no matter what.
+## A random act of kindness, no matter how small, can make a tremendous impact on someone else's life.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Celestine Chua
-date: 2024-02-16T00:37:02Z
+date: 2024-02-16T00:50:17Z
 draft: false
 author: Celestine Chua
 description: Quotes by Celestine Chua
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Celestine Chua. Enjoy!
-## The more you take responsibility for your past and present, the more you are able to create the future you seek.
+## By changing nothing, nothing changes.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Steve Harvey
-date: 2024-02-16T00:37:02Z
+date: 2024-02-16T00:50:17Z
 draft: false
 author: Steve Harvey
 description: Quotes by Steve Harvey
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Steve Harvey. Enjoy!
-## Successful people appreciate where they have come from, but they don't let their past set the tone for their future.
+## Don't ever be afraid to put yourself in a lesser position so that you can learn something from someone who knows more.
 

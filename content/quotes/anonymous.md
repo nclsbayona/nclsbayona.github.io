@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-02-16T00:37:02Z
+date: 2024-02-16T00:50:17Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## It is our experiences that mold us into who we are...during times of adversity our true character will show.
+## Use your smile to change the world but don't let the world change your smile.
 
