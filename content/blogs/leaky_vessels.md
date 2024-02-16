@@ -8,7 +8,7 @@ tags:
   - Cyber Security
   - DevSecOps
   - DevOps
-image: https://www.bleepstatic.com/content/hl-images/2023/08/04/package-container.jpg
+image: https://github.com/nclsbayona/leaky-vessels/blob/master/MinMax.jpg?raw=true
 description: In this blog post we talk about Leaky Vessels Vulnerabilities recently discovered by Snyk.
 toc:
 ---
