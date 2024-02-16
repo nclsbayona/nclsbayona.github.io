@@ -1,6 +1,6 @@
 ---
 title: Quotes by Chinese Proverb
-date: 2024-02-13T21:27:03Z
+date: 2024-02-16T00:37:02Z
 draft: false
 author: Chinese Proverb
 description: Quotes by Chinese Proverb
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Chinese Proverb. Enjoy!
-## There are two kinds of perfect people: those who are dead, and those who have not been born yet.
+## A little impatience will spoil great plans.
 

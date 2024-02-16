@@ -1,6 +1,6 @@
 ---
 title: Quotes by Celestine Chua
-date: 2024-02-13T21:27:03Z
+date: 2024-02-16T00:37:02Z
 draft: false
 author: Celestine Chua
 description: Quotes by Celestine Chua
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Celestine Chua. Enjoy!
-## Many answers to what you seek don't lie 'out there'. If you look inwards, you'll find the answer has been in you all along.
+## The more you take responsibility for your past and present, the more you are able to create the future you seek.
 

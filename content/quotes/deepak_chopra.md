@@ -1,6 +1,6 @@
 ---
 title: Quotes by Deepak Chopra
-date: 2024-02-13T21:27:03Z
+date: 2024-02-16T00:37:02Z
 draft: false
 author: Deepak Chopra
 description: Quotes by Deepak Chopra
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Deepak Chopra. Enjoy!
-## Good luck is opportunity meeting preparedness.
+## Every great change is preceded by chaos.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Morihei Ueshiba
-date: 2024-02-13T21:27:03Z
+date: 2024-02-16T00:37:02Z
 draft: false
 author: Morihei Ueshiba
 description: Quotes by Morihei Ueshiba
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Morihei Ueshiba. Enjoy!
-## Do not look upon this world with fear and loathing. Bravely face whatever the gods offer.
+## Life is growth. If we stop growing, technically and spiritually, we are as good as dead.
 

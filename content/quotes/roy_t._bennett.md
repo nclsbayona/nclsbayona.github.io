@@ -1,6 +1,6 @@
 ---
 title: Quotes by Roy T. Bennett
-date: 2024-02-13T21:27:03Z
+date: 2024-02-16T00:37:02Z
 draft: false
 author: Roy T. Bennett
 description: Quotes by Roy T. Bennett
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## Life is about accepting the challenges along the way, choosing to keep moving forward, and savoring the journey.
+## If you care about someone enough, you'll always be there for them no matter what.
 

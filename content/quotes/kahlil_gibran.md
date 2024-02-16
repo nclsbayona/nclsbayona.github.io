@@ -1,6 +1,6 @@
 ---
 title: Quotes by Kahlil Gibran
-date: 2024-02-13T21:27:03Z
+date: 2024-02-16T00:37:02Z
 draft: false
 author: Kahlil Gibran
 description: Quotes by Kahlil Gibran
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Kahlil Gibran. Enjoy!
-## You talk when you cease to be at peace with your thoughts.
+## The smallest act of kindness is worth more than the greatest intention.  
 

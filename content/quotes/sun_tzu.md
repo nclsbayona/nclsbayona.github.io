@@ -1,6 +1,6 @@
 ---
 title: Quotes by Sun Tzu
-date: 2024-02-13T21:27:03Z
+date: 2024-02-16T00:37:02Z
 draft: false
 author: Sun Tzu
 description: Quotes by Sun Tzu
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Sun Tzu. Enjoy!
-## Appear weak when you are strong, and strong when you are weak.
+## Supreme excellence consists of breaking the enemy's resistance without fighting.
 
