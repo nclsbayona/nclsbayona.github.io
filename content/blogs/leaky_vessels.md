@@ -41,11 +41,11 @@ Knowing about Leaky Vessels vulnerabilities is important because Containers are 
     ```
    Using the explicit cache with the --mount flag keeps the contents of the target directory preserved between builds. When this layer needs to be rebuilt, then it'll use the apt cache in /var/cache/apt. Basically there's a delay between the checking of the existance of the directory and the syscall to mount it, so it's possible to modify the directory to be a symlink and game over.  
     
-4.  #### Buildkit GRPC SecurityMode Privilege Check \[CVE-2024-23653\]
+3.  #### Buildkit GRPC SecurityMode Privilege Check \[CVE-2024-23653\]
     
     This occurs because the GRPC API used by buildkit to schedule container creation from an image has a security flaw since it does not strictly check for authorization to create privileged containers.  
     
-5.  #### Buildkit Build-time Container Teardown Arbitrary Delete \[CVE-2024-23652\]
+4.  #### Buildkit Build-time Container Teardown Arbitrary Delete \[CVE-2024-23652\]
     
     This attack allows an attacker to delete files from the host OS by deleting contents in a symbolic link directory mounted.
 
