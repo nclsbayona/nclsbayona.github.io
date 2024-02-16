@@ -1,6 +1,6 @@
 ---
 title: Quotes by Deepak Chopra
-date: 2024-02-16T00:50:17Z
+date: 2024-02-16T12:13:56Z
 draft: false
 author: Deepak Chopra
 description: Quotes by Deepak Chopra
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Deepak Chopra. Enjoy!
-## Good luck is opportunity meeting preparedness.
+## Instead of thinking outside the box, get rid of the box.
 

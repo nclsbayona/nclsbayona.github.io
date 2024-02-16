@@ -1,6 +1,6 @@
 ---
 title: Quotes by Seneca
-date: 2024-02-16T00:50:17Z
+date: 2024-02-16T12:13:56Z
 draft: false
 author: Seneca
 description: Quotes by Seneca
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Seneca. Enjoy!
-## Difficulties strengthen the mind, as labor does the body.  
+## If a man knows not to which port he sails, no wind is favorable.  
 

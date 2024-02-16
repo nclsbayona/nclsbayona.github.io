@@ -1,6 +1,6 @@
 ---
 title: Quotes by Peter Drucker
-date: 2024-02-16T00:50:17Z
+date: 2024-02-16T12:13:56Z
 draft: false
 author: Peter Drucker
 description: Quotes by Peter Drucker
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Peter Drucker. Enjoy!
-## If you want something new, you have to stop doing something old.
+## Your first and foremost job as a leader is to take charge of your own energy and then help to orchestrate the energy of those around you.
 

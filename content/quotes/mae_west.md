@@ -1,6 +1,6 @@
 ---
 title: Quotes by Mae West
-date: 2024-02-16T00:50:17Z
+date: 2024-02-16T12:13:56Z
 draft: false
 author: Mae West
 description: Quotes by Mae West
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Mae West. Enjoy!
-## An ounce of performance is worth pounds of promises.
+## Those who are easily shocked should be shocked more often.
 

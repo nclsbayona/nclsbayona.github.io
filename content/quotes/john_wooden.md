@@ -1,6 +1,6 @@
 ---
 title: Quotes by John Wooden
-date: 2024-02-16T00:50:17Z
+date: 2024-02-16T12:13:56Z
 draft: false
 author: John Wooden
 description: Quotes by John Wooden
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by John Wooden. Enjoy!
-## Success comes from knowing that you did your best to become the best that you are capable of becoming.
+## If you're not making mistakes, then you're not doing anything.
 

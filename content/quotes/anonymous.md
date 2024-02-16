@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-02-16T00:50:17Z
+date: 2024-02-16T12:13:56Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Use your smile to change the world but don't let the world change your smile.
+## You can't get to a place that you don't believe exists.
 

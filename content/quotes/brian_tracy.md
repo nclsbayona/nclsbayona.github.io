@@ -1,6 +1,6 @@
 ---
 title: Quotes by Brian Tracy
-date: 2024-02-16T00:50:17Z
+date: 2024-02-16T12:13:56Z
 draft: false
 author: Brian Tracy
 description: Quotes by Brian Tracy
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Brian Tracy. Enjoy!
-## Most people achieved their greatest success one step beyond what looked like their greatest failure.
+## Whatever you believe with feeling becomes your reality. 
 
