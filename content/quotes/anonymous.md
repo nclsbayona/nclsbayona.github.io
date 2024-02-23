@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-02-16T12:13:56Z
+date: 2024-02-23T12:14:15Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## You can't get to a place that you don't believe exists.
+## Difficult roads often lead to beautiful destinations.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Confucius
-date: 2024-02-16T12:13:56Z
+date: 2024-02-23T12:14:15Z
 draft: false
 author: Confucius
 description: Quotes by Confucius
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Confucius. Enjoy!
-## Life is really simple, but men insist on making it complicated. 
+## Everything has beauty but not everyone sees it.
 

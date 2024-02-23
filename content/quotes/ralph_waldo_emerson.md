@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ralph Waldo Emerson
-date: 2024-02-16T12:13:56Z
+date: 2024-02-23T12:14:15Z
 draft: false
 author: Ralph Waldo Emerson
 description: Quotes by Ralph Waldo Emerson

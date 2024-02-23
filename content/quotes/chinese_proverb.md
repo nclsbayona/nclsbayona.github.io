@@ -1,6 +1,6 @@
 ---
 title: Quotes by Chinese Proverb
-date: 2024-02-16T12:13:56Z
+date: 2024-02-23T12:14:15Z
 draft: false
 author: Chinese Proverb
 description: Quotes by Chinese Proverb
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Chinese Proverb. Enjoy!
-## It is not the knowing that is difficult, but the doing. 
+## A crisis is an opportunity riding the dangerous wind.
 

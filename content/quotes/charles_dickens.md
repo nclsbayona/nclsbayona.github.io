@@ -1,6 +1,6 @@
 ---
 title: Quotes by Charles Dickens
-date: 2024-02-16T12:13:56Z
+date: 2024-02-23T12:14:15Z
 draft: false
 author: Charles Dickens
 description: Quotes by Charles Dickens
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Charles Dickens. Enjoy!
-## No one is useless in this world who lightens the burdens of another.
+## Every traveler has a home of his own, and he learns to appreciate it the more from his wandering.
 

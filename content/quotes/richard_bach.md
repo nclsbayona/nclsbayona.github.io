@@ -1,6 +1,6 @@
 ---
 title: Quotes by Richard Bach
-date: 2024-02-16T12:13:56Z
+date: 2024-02-23T12:14:15Z
 draft: false
 author: Richard Bach
 description: Quotes by Richard Bach
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Richard Bach. Enjoy!
-## If your happiness depends on what somebody else does, I guess you do have a problem.
+## Listen to what you know instead of what you fear.
 
