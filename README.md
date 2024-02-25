@@ -3,3 +3,6 @@
 [![Deploy Hugo site to Pages](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/hugo.yml/badge.svg)](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/hugo.yml)
 
 [![Remove old runs](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/delete_old.yml/badge.svg)](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/delete_old.yml)
+
+## Installing semantic-release
+https://lakshay994.medium.com/language-agnostic-semver-using-semantic-release-and-using-versioning-to-tag-docker-images-59d5349fd020
