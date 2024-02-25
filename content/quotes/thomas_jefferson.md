@@ -1,6 +1,6 @@
 ---
 title: Quotes by Thomas Jefferson
-date: 2024-02-23T12:14:15Z
+date: 2024-02-25T18:00:11Z
 draft: false
 author: Thomas Jefferson
 description: Quotes by Thomas Jefferson
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Thomas Jefferson. Enjoy!
-## He who permits himself to tell a lie once, finds it much easier to do it the second time.
+## Whenever you do a thing, act as if all the world were watching.
 

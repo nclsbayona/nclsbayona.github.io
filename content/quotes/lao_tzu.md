@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lao Tzu
-date: 2024-02-23T12:14:15Z
+date: 2024-02-25T18:00:11Z
 draft: false
 author: Lao Tzu
 description: Quotes by Lao Tzu
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lao Tzu. Enjoy!
-## Mastering others is strength, mastering yourself is true power.
+## Great acts are made up of small deeds.
 

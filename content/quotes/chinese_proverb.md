@@ -1,6 +1,6 @@
 ---
 title: Quotes by Chinese Proverb
-date: 2024-02-23T12:14:15Z
+date: 2024-02-25T18:00:11Z
 draft: false
 author: Chinese Proverb
 description: Quotes by Chinese Proverb
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Chinese Proverb. Enjoy!
-## A crisis is an opportunity riding the dangerous wind.
+## Listening well is as powerful as talking well, and is also as essential to true conversation.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-02-23T12:14:15Z
+date: 2024-02-25T18:00:11Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Difficult roads often lead to beautiful destinations.
+## A little progress each day adds up to big results.
 

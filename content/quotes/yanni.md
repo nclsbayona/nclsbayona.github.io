@@ -1,6 +1,6 @@
 ---
 title: Quotes by Yanni
-date: 2024-02-23T12:14:15Z
+date: 2024-02-25T18:00:11Z
 draft: false
 author: Yanni
 description: Quotes by Yanni
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Yanni. Enjoy!
-## It's possible in ways both large or small to make a difference in someone's life.
+## Everything great that has ever happened to humanity has begun as a single thought in someone's mind.
 

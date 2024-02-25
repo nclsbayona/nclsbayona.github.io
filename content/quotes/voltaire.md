@@ -1,6 +1,6 @@
 ---
 title: Quotes by Voltaire
-date: 2024-02-23T12:14:15Z
+date: 2024-02-25T18:00:11Z
 draft: false
 author: Voltaire
 description: Quotes by Voltaire
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Voltaire. Enjoy!
-## Judge a man by his questions rather than his answers.
+## The more often a stupidity is repeated, the more it gets the appearance of wisdom.
 
