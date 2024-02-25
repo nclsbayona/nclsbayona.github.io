@@ -1,6 +1,6 @@
 ---
 title: Quotes by Josh Waitzkin
-date: 2024-02-25T18:00:11Z
+date: 2024-02-25T18:03:36Z
 draft: false
 author: Josh Waitzkin
 description: Quotes by Josh Waitzkin

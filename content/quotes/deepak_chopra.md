@@ -1,6 +1,6 @@
 ---
 title: Quotes by Deepak Chopra
-date: 2024-02-25T18:00:11Z
+date: 2024-02-25T18:03:36Z
 draft: false
 author: Deepak Chopra
 description: Quotes by Deepak Chopra
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Deepak Chopra. Enjoy!
-## What keeps life fascinating is the constant creativity of the soul.
+## You must find the place inside yourself where nothing is impossible.
 

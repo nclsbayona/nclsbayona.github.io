@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lao Tzu
-date: 2024-02-25T18:00:11Z
+date: 2024-02-25T18:03:36Z
 draft: false
 author: Lao Tzu
 description: Quotes by Lao Tzu
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lao Tzu. Enjoy!
-## Great acts are made up of small deeds.
+## If you correct your mind, the rest of your life will fall into place.
 

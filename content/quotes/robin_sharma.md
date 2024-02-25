@@ -1,6 +1,6 @@
 ---
 title: Quotes by Robin Sharma
-date: 2024-02-25T18:00:11Z
+date: 2024-02-25T18:03:36Z
 draft: false
 author: Robin Sharma
 description: Quotes by Robin Sharma
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Robin Sharma. Enjoy!
-## Don't live the same year 75 times and call it a life.
+## Would you rather live your life according to the approval of others or aligned with your truth and your dreams?
 
