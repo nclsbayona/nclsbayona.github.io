@@ -1,6 +1,6 @@
 ---
 title: Quotes by Brian Tracy
-date: 2024-02-25T18:03:36Z
+date: 2024-03-01T12:15:16Z
 draft: false
 author: Brian Tracy
 description: Quotes by Brian Tracy
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Brian Tracy. Enjoy!
-## The more reasons you have for achieving your goal, the more determined you will become.
+## Optimism is the one quality more associated with success and happiness than any other.
 

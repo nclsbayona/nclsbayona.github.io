@@ -1,6 +1,6 @@
 ---
 title: Quotes by Jim Rohn
-date: 2024-02-25T18:03:36Z
+date: 2024-03-01T12:15:16Z
 draft: false
 author: Jim Rohn
 description: Quotes by Jim Rohn
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Jim Rohn. Enjoy!
-## Life is not just the passing of time. Life is the collection of experiences and their intensity.
+## Success is nothing more than a few simple disciplines practiced every day.
 

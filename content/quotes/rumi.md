@@ -1,6 +1,6 @@
 ---
 title: Quotes by Rumi
-date: 2024-02-25T18:03:36Z
+date: 2024-03-01T12:15:16Z
 draft: false
 author: Rumi
 description: Quotes by Rumi

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Dan Millman
-date: 2024-02-25T18:03:36Z
+date: 2024-03-01T12:15:16Z
 draft: false
 author: Dan Millman
 description: Quotes by Dan Millman
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Dan Millman. Enjoy!
-## The secret of happiness, you see, is not found in seeking more, but in developing the capacity to enjoy less.
+## You don't have to control your thoughts; you just have to stop letting them control you.
 
