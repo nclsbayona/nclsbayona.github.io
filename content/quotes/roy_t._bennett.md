@@ -1,6 +1,6 @@
 ---
 title: Quotes by Roy T. Bennett
-date: 2024-03-01T12:15:16Z
+date: 2024-03-08T12:14:40Z
 draft: false
 author: Roy T. Bennett
 description: Quotes by Roy T. Bennett
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## Do not fear failure but rather fear not trying.
+## Never lose hope. Storms make people stronger and never last forever.
 

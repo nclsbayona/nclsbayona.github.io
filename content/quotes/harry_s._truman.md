@@ -1,6 +1,6 @@
 ---
 title: Quotes by Harry S. Truman
-date: 2024-03-01T12:15:16Z
+date: 2024-03-08T12:14:40Z
 draft: false
 author: Harry S. Truman
 description: Quotes by Harry S. Truman
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Harry S. Truman. Enjoy!
-## A pessimist is one who makes difficulties of his opportunities and an optimist is one who makes opportunities of his difficulties.
+## Not all readers are leaders, but all leaders are readers.
 

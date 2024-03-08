@@ -1,6 +1,6 @@
 ---
 title: Quotes by Jim Rohn
-date: 2024-03-01T12:15:16Z
+date: 2024-03-08T12:14:40Z
 draft: false
 author: Jim Rohn
 description: Quotes by Jim Rohn
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Jim Rohn. Enjoy!
-## Success is nothing more than a few simple disciplines practiced every day.
+## Success is not to be pursued, it is to be attracted by the person you become.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Dan Millman
-date: 2024-03-01T12:15:16Z
+date: 2024-03-08T12:14:40Z
 draft: false
 author: Dan Millman
 description: Quotes by Dan Millman
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Dan Millman. Enjoy!
-## You don't have to control your thoughts; you just have to stop letting them control you.
+## Embody what you teach, and teach only what you have embodied.
 

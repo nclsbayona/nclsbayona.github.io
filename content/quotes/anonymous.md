@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-03-01T12:15:16Z
+date: 2024-03-08T12:14:40Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Confuse them with your silence and amaze them with your actions.
+## Life is ten percent what you experience and ninety percent how you respond to it.
 

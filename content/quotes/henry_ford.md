@@ -1,6 +1,6 @@
 ---
 title: Quotes by Henry Ford
-date: 2024-03-01T12:15:16Z
+date: 2024-03-08T12:14:40Z
 draft: false
 author: Henry Ford
 description: Quotes by Henry Ford
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Henry Ford. Enjoy!
-## Coming together is a beginning, staying together is progress, and working together is success. 
+## If you think you can do a thing or think you can't do a thing, you're right.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lolly Daskal
-date: 2024-03-01T12:15:16Z
+date: 2024-03-08T12:14:40Z
 draft: false
 author: Lolly Daskal
 description: Quotes by Lolly Daskal
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lolly Daskal. Enjoy!
-## The difference between impossible and possible is a willing heart.
+## Where we fall are the stepping-stones for our journey.
 
