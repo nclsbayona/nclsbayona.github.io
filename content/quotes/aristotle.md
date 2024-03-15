@@ -1,6 +1,6 @@
 ---
 title: Quotes by Aristotle
-date: 2024-03-08T12:14:40Z
+date: 2024-03-15T12:13:58Z
 draft: false
 author: Aristotle
 description: Quotes by Aristotle
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## Quality is not an act, it is a habit.
+## Those who know, do. Those that understand, teach.
 
