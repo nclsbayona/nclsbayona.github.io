@@ -1,6 +1,6 @@
 ---
 title: Quotes by F. Scott Fitzgerald
-date: 2024-03-15T12:13:58Z
+date: 2024-03-22T12:14:43Z
 draft: false
 author: F. Scott Fitzgerald
 description: Quotes by F. Scott Fitzgerald
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by F. Scott Fitzgerald. Enjoy!
-## Life is much more successfully looked at from a single window.
+## So we beat on, boats against the current, borne back ceaselessly into the past.
 

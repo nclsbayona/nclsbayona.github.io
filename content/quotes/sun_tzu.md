@@ -1,6 +1,6 @@
 ---
 title: Quotes by Sun Tzu
-date: 2024-03-15T12:13:58Z
+date: 2024-03-22T12:14:43Z
 draft: false
 author: Sun Tzu
 description: Quotes by Sun Tzu
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Sun Tzu. Enjoy!
-## Wheels of justice grind slow but grind fine.
+## The wise warrior avoids the battle.
 

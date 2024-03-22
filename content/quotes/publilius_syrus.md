@@ -1,6 +1,6 @@
 ---
 title: Quotes by Publilius Syrus
-date: 2024-03-15T12:13:58Z
+date: 2024-03-22T12:14:43Z
 draft: false
 author: Publilius Syrus
 description: Quotes by Publilius Syrus
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Publilius Syrus. Enjoy!
-## He who violates another's honor loses his own.
+## No man is happy unless he believes he is.
 
