@@ -1,6 +1,6 @@
 ---
 title: Quotes by Rumi
-date: 2024-03-22T12:14:43Z
+date: 2024-03-29T12:15:46Z
 draft: false
 author: Rumi
 description: Quotes by Rumi
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Rumi. Enjoy!
-## What is planted in each person's soul will sprout.  
+## Why do you stay in prison when the door is so wide open?
 

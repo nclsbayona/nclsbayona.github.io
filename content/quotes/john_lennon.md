@@ -1,6 +1,6 @@
 ---
 title: Quotes by John Lennon
-date: 2024-03-22T12:14:43Z
+date: 2024-03-29T12:15:46Z
 draft: false
 author: John Lennon
 description: Quotes by John Lennon
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by John Lennon. Enjoy!
-## Time you enjoy wasting, was not wasted.
+## If you want peace, you won't get it with violence.
 

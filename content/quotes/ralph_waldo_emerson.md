@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ralph Waldo Emerson
-date: 2024-03-22T12:14:43Z
+date: 2024-03-29T12:15:46Z
 draft: false
 author: Ralph Waldo Emerson
 description: Quotes by Ralph Waldo Emerson
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ralph Waldo Emerson. Enjoy!
-## Nothing external to you has any power over you.
+## What lies behind us and what lies before us are tiny matters compared to what lies within us.
 

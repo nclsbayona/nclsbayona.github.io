@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-03-22T12:14:43Z
+date: 2024-03-29T12:15:46Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## We make a living by what we get, but we make a life by what we give.
+## You can't get to a place that you don't believe exists.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Alexandre Dumas
-date: 2024-03-22T12:14:43Z
+date: 2024-03-29T12:15:46Z
 draft: false
 author: Alexandre Dumas
 description: Quotes by Alexandre Dumas
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Alexandre Dumas. Enjoy!
-## Often we pass beside happiness without seeing it, without looking at it, or even if we have seen and looked at it, without recognizing it.
+## For all evils there are two remedies - time and silence.
 

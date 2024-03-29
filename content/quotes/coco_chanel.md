@@ -1,6 +1,6 @@
 ---
 title: Quotes by Coco Chanel
-date: 2024-03-22T12:14:43Z
+date: 2024-03-29T12:15:46Z
 draft: false
 author: Coco Chanel
 description: Quotes by Coco Chanel
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Coco Chanel. Enjoy!
-## In order to be irreplaceable one must always be different.
+## Fashion fades, only style remains the same.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Paramahansa Yogananda
-date: 2024-03-22T12:14:43Z
+date: 2024-03-29T12:15:46Z
 draft: false
 author: Paramahansa Yogananda
 description: Quotes by Paramahansa Yogananda
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Paramahansa Yogananda. Enjoy!
-## When you are able to employ your will always for constructive purposes, you become the controller of your destiny.
+## Remain calm, serene, always in command of yourself. You will then find out how easy it is to get along. 
 
