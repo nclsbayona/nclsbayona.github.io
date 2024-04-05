@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-03-29T12:15:46Z
+date: 2024-04-05T12:14:12Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## You can't get to a place that you don't believe exists.
+## How you think is as important as as what you think.
 

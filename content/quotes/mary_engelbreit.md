@@ -1,6 +1,6 @@
 ---
 title: Quotes by Mary Engelbreit
-date: 2024-03-29T12:15:46Z
+date: 2024-04-05T12:14:12Z
 draft: false
 author: Mary Engelbreit
 description: Quotes by Mary Engelbreit
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Mary Engelbreit. Enjoy!
-## Happiness must be grown in one's own garden.
+## Heal the past, live the present, dream the future.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Bob Dylan
-date: 2024-03-29T12:15:46Z
+date: 2024-04-05T12:14:12Z
 draft: false
 author: Bob Dylan
 description: Quotes by Bob Dylan
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Bob Dylan. Enjoy!
-## When you've got nothing, you've got nothing to lose.
+## If you want to keep your memories, you first have to live them.
 

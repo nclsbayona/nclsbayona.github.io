@@ -1,6 +1,6 @@
 ---
 title: Quotes by Charles Dickens
-date: 2024-03-29T12:15:46Z
+date: 2024-04-05T12:14:12Z
 draft: false
 author: Charles Dickens
 description: Quotes by Charles Dickens
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Charles Dickens. Enjoy!
-## There are dark shadows on the earth, but its lights are stronger in the contrast.
+## We forge the chains we wear in life.
 

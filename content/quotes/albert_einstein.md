@@ -1,6 +1,6 @@
 ---
 title: Quotes by Albert Einstein
-date: 2024-03-29T12:15:46Z
+date: 2024-04-05T12:14:12Z
 draft: false
 author: Albert Einstein
 description: Quotes by Albert Einstein
