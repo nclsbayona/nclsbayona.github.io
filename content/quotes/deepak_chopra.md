@@ -1,6 +1,6 @@
 ---
 title: Quotes by Deepak Chopra
-date: 2024-04-05T12:14:12Z
+date: 2024-04-12T12:14:39Z
 draft: false
 author: Deepak Chopra
 description: Quotes by Deepak Chopra
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Deepak Chopra. Enjoy!
-## There are no accidents... there is only some purpose that we haven't yet understood.
+## In the midst of movement and chaos, keep stillness inside of you.
 

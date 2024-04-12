@@ -1,6 +1,6 @@
 ---
 title: Quotes by Steve Harvey
-date: 2024-04-05T12:14:12Z
+date: 2024-04-12T12:14:39Z
 draft: false
 author: Steve Harvey
 description: Quotes by Steve Harvey
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Steve Harvey. Enjoy!
-## The number one cause of failure is the fear of failure.
+## Do not ignore the passion that burns in you. Spend time to discover your gift.
 

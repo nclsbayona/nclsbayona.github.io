@@ -1,6 +1,6 @@
 ---
 title: Quotes by Og Mandino
-date: 2024-04-05T12:14:12Z
+date: 2024-04-12T12:14:39Z
 draft: false
 author: Og Mandino
 description: Quotes by Og Mandino
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Og Mandino. Enjoy!
-## If I persist long enough I will win.
+## Work as though you would live forever, and live as though you would die today. Go another mile.
 
