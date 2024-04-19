@@ -1,6 +1,6 @@
 ---
 title: Quotes by Brian Tracy
-date: 2024-04-12T12:14:39Z
+date: 2024-04-19T12:14:53Z
 draft: false
 author: Brian Tracy
 description: Quotes by Brian Tracy

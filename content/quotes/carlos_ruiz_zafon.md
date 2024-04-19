@@ -1,6 +1,6 @@
 ---
 title: Quotes by Carlos Ruiz Zafon
-date: 2024-04-12T12:14:39Z
+date: 2024-04-19T12:14:53Z
 draft: false
 author: Carlos Ruiz Zafon
 description: Quotes by Carlos Ruiz Zafon
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Carlos Ruiz Zafon. Enjoy!
-## People tend to complicate their own lives, as if living weren't already complicated enough.
+## We are willing to believe anything other than the truth.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Roy T. Bennett
-date: 2024-04-12T12:14:39Z
+date: 2024-04-19T12:14:53Z
 draft: false
 author: Roy T. Bennett
 description: Quotes by Roy T. Bennett
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## Respect other people's feelings. It might mean nothing to you, but it could mean everything to them.
+## Do good, live in the most positive and joyful way possible every day.
 

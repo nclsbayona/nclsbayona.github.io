@@ -1,6 +1,6 @@
 ---
 title: Quotes by Norman Vincent Peale
-date: 2024-04-12T12:14:39Z
+date: 2024-04-19T12:14:53Z
 draft: false
 author: Norman Vincent Peale
 description: Quotes by Norman Vincent Peale
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Norman Vincent Peale. Enjoy!
-## If you want things to be different, perhaps the answer is to become different yourself.
+## Throw your heart over the bar and your body will follow.
 

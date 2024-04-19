@@ -1,6 +1,6 @@
 ---
 title: Quotes by Samuel Butler
-date: 2024-04-12T12:14:39Z
+date: 2024-04-19T12:14:53Z
 draft: false
 author: Samuel Butler
 description: Quotes by Samuel Butler
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Samuel Butler. Enjoy!
-## Words are clothes that thoughts wear
+## Life is the art of drawing sufficient conclusions from insufficient premises.
 
