@@ -1,6 +1,6 @@
 ---
 title: Quotes by Celestine Chua
-date: 2024-04-21T02:42:55Z
+date: 2024-04-21T02:46:40Z
 draft: false
 author: Celestine Chua
 description: Quotes by Celestine Chua
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Celestine Chua. Enjoy!
-## Never waste a minute of your precious life thinking about people you don't like.
+## You become stronger with every problem you face and every obstacle you overcome.
 

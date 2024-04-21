@@ -1,6 +1,6 @@
 ---
 title: Quotes by Charles Dickens
-date: 2024-04-21T02:42:55Z
+date: 2024-04-21T02:46:40Z
 draft: false
 author: Charles Dickens
 description: Quotes by Charles Dickens
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Charles Dickens. Enjoy!
-## There are dark shadows on the earth, but its lights are stronger in the contrast.
+## The first rule of business; treat others like they want to treat you.
 

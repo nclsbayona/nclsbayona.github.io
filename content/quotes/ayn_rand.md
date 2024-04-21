@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ayn Rand
-date: 2024-04-21T02:42:55Z
+date: 2024-04-21T02:46:40Z
 draft: false
 author: Ayn Rand
 description: Quotes by Ayn Rand
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ayn Rand. Enjoy!
-## Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
+## You can avoid reality, but you cannot avoid the consequences of avoiding reality.
 

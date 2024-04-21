@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eleanor Roosevelt
-date: 2024-04-21T02:42:55Z
+date: 2024-04-21T02:46:40Z
 draft: false
 author: Eleanor Roosevelt
 description: Quotes by Eleanor Roosevelt
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eleanor Roosevelt. Enjoy!
-## If someone betrays you once, it's their fault; if they betray you twice, it's your fault.
+## You gain strength, courage and confidence by every experience in which you really stop to look fear in the face.
 

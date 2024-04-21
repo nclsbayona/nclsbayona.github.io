@@ -1,6 +1,6 @@
 ---
 title: Quotes by Steve Harvey
-date: 2024-04-21T02:42:55Z
+date: 2024-04-21T02:46:40Z
 draft: false
 author: Steve Harvey
 description: Quotes by Steve Harvey
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Steve Harvey. Enjoy!
-## Your setback is just a setup for a comeback.
+## Growth is in a series of mistakes. That's the only way you learn.
 

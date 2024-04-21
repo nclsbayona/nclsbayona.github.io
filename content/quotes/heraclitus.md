@@ -1,6 +1,6 @@
 ---
 title: Quotes by Heraclitus
-date: 2024-04-21T02:42:55Z
+date: 2024-04-21T02:46:40Z
 draft: false
 author: Heraclitus
 description: Quotes by Heraclitus
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Heraclitus. Enjoy!
-## Life has the name of life, but in reality it is death.
+## We are most nearly ourselves when we achieve the seriousness of the child at play.
 

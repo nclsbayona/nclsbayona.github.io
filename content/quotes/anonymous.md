@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-04-21T02:42:55Z
+date: 2024-04-21T02:46:40Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Getting over a painful experience is much like crossing monkey bars. You have to let go at some point in order to move forward.
+## Don't be afraid to stand for what you believe in, even if that means standing alone.
 
