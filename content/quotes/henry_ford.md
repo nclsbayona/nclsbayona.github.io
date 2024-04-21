@@ -1,6 +1,6 @@
 ---
 title: Quotes by Henry Ford
-date: 2024-04-21T02:13:04Z
+date: 2024-04-21T02:15:34Z
 draft: false
 author: Henry Ford
 description: Quotes by Henry Ford
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Henry Ford. Enjoy!
-## Chop your own wood and it will warm you twice. 
+## If you think you can do a thing or think you can't do a thing, you're right.
 

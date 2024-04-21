@@ -1,6 +1,6 @@
 ---
 title: Quotes by Bhagavad Gita
-date: 2024-04-21T02:13:04Z
+date: 2024-04-21T02:15:34Z
 draft: false
 author: Bhagavad Gita
 description: Quotes by Bhagavad Gita
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Bhagavad Gita. Enjoy!
-## The spirit is beyond destruction. No one can bring an end to spirit which is everlasting.
+## We're kept from our goal not by obstacles, but by a clear path to a lesser goal.
 
