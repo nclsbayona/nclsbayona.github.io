@@ -1,6 +1,6 @@
 ---
 title: Quotes by Herodotus
-date: 2024-04-21T02:18:43Z
+date: 2024-04-21T02:24:40Z
 draft: false
 author: Herodotus
 description: Quotes by Herodotus
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Herodotus. Enjoy!
-## Humans and prosperity never endure side by side for long.
+## Force has no place where there is need of skill. 
 

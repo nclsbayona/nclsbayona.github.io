@@ -1,6 +1,6 @@
 ---
 title: Quotes by Steve Harvey
-date: 2024-04-21T02:18:43Z
+date: 2024-04-21T02:24:40Z
 draft: false
 author: Steve Harvey
 description: Quotes by Steve Harvey
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Steve Harvey. Enjoy!
-## Your setback is just a setup for a comeback.
+## Excuses are the lies you convince yourself are true to avoid proving you are worthy of the gift you were given.
 

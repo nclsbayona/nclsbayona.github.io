@@ -1,6 +1,6 @@
 ---
 title: Quotes by Epictetus
-date: 2024-04-21T02:18:43Z
+date: 2024-04-21T02:24:40Z
 draft: false
 author: Epictetus
 description: Quotes by Epictetus
