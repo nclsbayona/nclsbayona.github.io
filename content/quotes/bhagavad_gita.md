@@ -1,6 +1,6 @@
 ---
 title: Quotes by Bhagavad Gita
-date: 2024-04-21T23:36:27Z
+date: 2024-04-21T23:40:26Z
 draft: false
 author: Bhagavad Gita
 description: Quotes by Bhagavad Gita
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Bhagavad Gita. Enjoy!
-## We're kept from our goal not by obstacles, but by a clear path to a lesser goal.
+## Desire for the fruits of work must never be your motive in working.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Sathya Sai Baba
-date: 2024-04-21T23:36:27Z
+date: 2024-04-21T23:40:26Z
 draft: false
 author: Sathya Sai Baba
 description: Quotes by Sathya Sai Baba
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Sathya Sai Baba. Enjoy!
-## The secret of happiness is not in doing what you like but in liking what you have to do.
+## You are not one person, but three: The one you think you are; The one others think you are; The one you really are.
 

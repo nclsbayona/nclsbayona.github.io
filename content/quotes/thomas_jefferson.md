@@ -1,6 +1,6 @@
 ---
 title: Quotes by Thomas Jefferson
-date: 2024-04-21T23:36:27Z
+date: 2024-04-21T23:40:26Z
 draft: false
 author: Thomas Jefferson
 description: Quotes by Thomas Jefferson
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Thomas Jefferson. Enjoy!
-## Honesty is the first chapter in the book of wisdom.
+## Determine never to be idle. No person will have occasion to complain of the want of time who never loses any.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Roy T. Bennett
-date: 2024-04-21T23:36:27Z
+date: 2024-04-21T23:40:26Z
 draft: false
 author: Roy T. Bennett
 description: Quotes by Roy T. Bennett
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## Make improvements, not excuses. Seek respect, not attention.
+## Do good, live in the most positive and joyful way possible every day.
 

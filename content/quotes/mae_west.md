@@ -1,6 +1,6 @@
 ---
 title: Quotes by Mae West
-date: 2024-04-21T23:36:27Z
+date: 2024-04-21T23:40:26Z
 draft: false
 author: Mae West
 description: Quotes by Mae West

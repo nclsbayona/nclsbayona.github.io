@@ -1,6 +1,6 @@
 ---
 title: Quotes by Jonathan Swift
-date: 2024-04-21T23:36:27Z
+date: 2024-04-21T23:40:26Z
 draft: false
 author: Jonathan Swift
 description: Quotes by Jonathan Swift
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Jonathan Swift. Enjoy!
-## Laws are like cobwebs, which may catch small flies, but let wasps and hornets break through.
+## Every man desires to live long, but no man wishes to be old.
 
