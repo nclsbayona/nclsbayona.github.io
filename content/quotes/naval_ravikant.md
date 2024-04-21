@@ -1,6 +1,6 @@
 ---
 title: Quotes by Naval Ravikant
-date: 2024-04-21T02:46:40Z
+date: 2024-04-21T02:51:11Z
 draft: false
 author: Naval Ravikant
 description: Quotes by Naval Ravikant
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Naval Ravikant. Enjoy!
-## This is such a short and precious life that it's really important that you don't spend it being unhappy.
+## The power to make and break habits and learning how to do that is really important.
 

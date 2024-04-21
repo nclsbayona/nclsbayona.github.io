@@ -1,6 +1,6 @@
 ---
 title: Quotes by Robert Greene
-date: 2024-04-21T02:46:40Z
+date: 2024-04-21T02:51:11Z
 draft: false
 author: Robert Greene
 description: Quotes by Robert Greene
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Robert Greene. Enjoy!
-## Never take your position for granted and never let any favors you receive go to your head.
+## Routine life is unbearable, and most people only think about how to escape into the world of fantasy and dreams.
 

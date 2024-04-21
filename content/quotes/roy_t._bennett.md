@@ -1,6 +1,6 @@
 ---
 title: Quotes by Roy T. Bennett
-date: 2024-04-21T02:46:40Z
+date: 2024-04-21T02:51:11Z
 draft: false
 author: Roy T. Bennett
 description: Quotes by Roy T. Bennett
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## If you care about someone enough, you'll always be there for them no matter what.
+## Pursue what catches your heart, not what catches your eyes.
 

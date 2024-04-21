@@ -1,6 +1,6 @@
 ---
 title: Quotes by Steve Harvey
-date: 2024-04-21T02:46:40Z
+date: 2024-04-21T02:51:11Z
 draft: false
 author: Steve Harvey
 description: Quotes by Steve Harvey
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Steve Harvey. Enjoy!
-## Growth is in a series of mistakes. That's the only way you learn.
+## Stop wasting time looking at someone else's reality while doing nothing about yours.
 

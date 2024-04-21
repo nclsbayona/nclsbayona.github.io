@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ralph Waldo Emerson
-date: 2024-04-21T02:46:40Z
+date: 2024-04-21T02:51:11Z
 draft: false
 author: Ralph Waldo Emerson
 description: Quotes by Ralph Waldo Emerson
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ralph Waldo Emerson. Enjoy!
-## The world makes way for the man who knows where he is going.
+## All life is an experiment. The more experiments you make, the better.
 

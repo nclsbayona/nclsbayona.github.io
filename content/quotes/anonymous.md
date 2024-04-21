@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-04-21T02:46:40Z
+date: 2024-04-21T02:51:11Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Don't be afraid to stand for what you believe in, even if that means standing alone.
+## People think about what they don't want and attract more of the same.
 

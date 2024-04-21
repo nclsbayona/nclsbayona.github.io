@@ -1,6 +1,6 @@
 ---
 title: Quotes by Bhagavad Gita
-date: 2024-04-21T02:46:40Z
+date: 2024-04-21T02:51:11Z
 draft: false
 author: Bhagavad Gita
 description: Quotes by Bhagavad Gita
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Bhagavad Gita. Enjoy!
-## The soul is neither born, and nor does it die.
+## Arise, slay thy enemies, enjoy a prosperous kingdom.
 

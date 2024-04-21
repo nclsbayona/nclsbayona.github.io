@@ -1,6 +1,6 @@
 ---
 title: Quotes by Jonathan Swift
-date: 2024-04-21T02:46:40Z
+date: 2024-04-21T02:51:11Z
 draft: false
 author: Jonathan Swift
 description: Quotes by Jonathan Swift
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Jonathan Swift. Enjoy!
-## A wise person should have money in their head, but not in their heart.
+## Words are the clothing of our thoughts.
 
