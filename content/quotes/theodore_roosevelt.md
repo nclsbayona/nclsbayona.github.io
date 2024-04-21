@@ -1,6 +1,6 @@
 ---
 title: Quotes by Theodore Roosevelt
-date: 2024-04-21T02:15:34Z
+date: 2024-04-21T02:18:43Z
 draft: false
 author: Theodore Roosevelt
 description: Quotes by Theodore Roosevelt
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Theodore Roosevelt. Enjoy!
-## People don't care how much you know until they know how much you care.
+## When you're at the end of your rope, tie a knot and hold on.
 

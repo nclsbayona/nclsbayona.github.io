@@ -1,6 +1,6 @@
 ---
 title: Quotes by Epictetus
-date: 2024-04-21T02:15:34Z
+date: 2024-04-21T02:18:43Z
 draft: false
 author: Epictetus
 description: Quotes by Epictetus
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Epictetus. Enjoy!
-## Wealth consists not in having great possessions, but in having few wants.
+## First say to yourself what you would be; and then do what you have to do.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Paulo Coelho
-date: 2024-04-21T02:15:34Z
+date: 2024-04-21T02:18:43Z
 draft: false
 author: Paulo Coelho
 description: Quotes by Paulo Coelho
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Paulo Coelho. Enjoy!
-## When you repeat a mistake, it is not a mistake anymore: it is a decision.
+## Don't allow your mind to tell your heart what to do. The mind gives up easily.
 

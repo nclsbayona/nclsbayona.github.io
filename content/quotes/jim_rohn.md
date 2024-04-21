@@ -1,6 +1,6 @@
 ---
 title: Quotes by Jim Rohn
-date: 2024-04-21T02:15:34Z
+date: 2024-04-21T02:18:43Z
 draft: false
 author: Jim Rohn
 description: Quotes by Jim Rohn
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Jim Rohn. Enjoy!
-## Take care of your body. It's the only place you have to live.
+## You are the average of the five people you spend the most time with.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Publilius Syrus
-date: 2024-04-21T02:15:34Z
+date: 2024-04-21T02:18:43Z
 draft: false
 author: Publilius Syrus
 description: Quotes by Publilius Syrus
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Publilius Syrus. Enjoy!
-## To do two things at once is to do neither.
+## The sweetest pleasure arises from difficulties overcome.
 

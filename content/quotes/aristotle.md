@@ -1,6 +1,6 @@
 ---
 title: Quotes by Aristotle
-date: 2024-04-21T02:15:34Z
+date: 2024-04-21T02:18:43Z
 draft: false
 author: Aristotle
 description: Quotes by Aristotle
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## Happiness depends upon ourselves.
+## It is not enough to win a war; it is more important to organize the peace.
 

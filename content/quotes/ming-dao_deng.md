@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ming-Dao Deng
-date: 2024-04-21T02:15:34Z
+date: 2024-04-21T02:18:43Z
 draft: false
 author: Ming-Dao Deng
 description: Quotes by Ming-Dao Deng
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ming-Dao Deng. Enjoy!
-## Every day passes whether you participate or not.
+## Adversity is the tempering of one's mettle. Without it, we cannot know any true meaning in our accomplishments.
 

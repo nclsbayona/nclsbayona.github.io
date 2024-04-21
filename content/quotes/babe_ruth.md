@@ -1,6 +1,6 @@
 ---
 title: Quotes by Babe Ruth
-date: 2024-04-21T02:15:34Z
+date: 2024-04-21T02:18:43Z
 draft: false
 author: Babe Ruth
 description: Quotes by Babe Ruth
