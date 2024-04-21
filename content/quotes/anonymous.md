@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-04-21T02:51:11Z
+date: 2024-04-21T03:00:45Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## People think about what they don't want and attract more of the same.
+## Make your life a mission - not an intermission.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Dan Millman
-date: 2024-04-21T02:51:11Z
+date: 2024-04-21T03:00:45Z
 draft: false
 author: Dan Millman
 description: Quotes by Dan Millman
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Dan Millman. Enjoy!
-## It doesn't matter what you do, only how well you do it.
+## Life comes at us in waves. We can't predict or control those waves, but we can learn to surf.
 

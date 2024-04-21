@@ -1,6 +1,6 @@
 ---
 title: Quotes by Roy T. Bennett
-date: 2024-04-21T02:51:11Z
+date: 2024-04-21T03:00:45Z
 draft: false
 author: Roy T. Bennett
 description: Quotes by Roy T. Bennett
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## Pursue what catches your heart, not what catches your eyes.
+## The more you feed your mind with positive thoughts, the more you can attract great things into your life.
 

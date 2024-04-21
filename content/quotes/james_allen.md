@@ -1,6 +1,6 @@
 ---
 title: Quotes by James Allen
-date: 2024-04-21T02:51:11Z
+date: 2024-04-21T03:00:45Z
 draft: false
 author: James Allen
 description: Quotes by James Allen

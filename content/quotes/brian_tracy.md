@@ -1,6 +1,6 @@
 ---
 title: Quotes by Brian Tracy
-date: 2024-04-21T02:51:11Z
+date: 2024-04-21T03:00:45Z
 draft: false
 author: Brian Tracy
 description: Quotes by Brian Tracy
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Brian Tracy. Enjoy!
-## Spend eighty percent of your time focusing on the opportunities of tomorrow rather than the problems of yesterday.
+## It doesn't matter where you are coming from. All that matters is where you are going. 
 

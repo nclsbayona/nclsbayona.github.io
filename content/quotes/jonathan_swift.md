@@ -1,6 +1,6 @@
 ---
 title: Quotes by Jonathan Swift
-date: 2024-04-21T02:51:11Z
+date: 2024-04-21T03:00:45Z
 draft: false
 author: Jonathan Swift
 description: Quotes by Jonathan Swift
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Jonathan Swift. Enjoy!
-## Words are the clothing of our thoughts.
+## Every man desires to live long, but no man wishes to be old.
 

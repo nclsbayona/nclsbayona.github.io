@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ming-Dao Deng
-date: 2024-04-21T02:51:11Z
+date: 2024-04-21T03:00:45Z
 draft: false
 author: Ming-Dao Deng
 description: Quotes by Ming-Dao Deng
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ming-Dao Deng. Enjoy!
-## The mind that turns ever outward Will have no end to craving. Only the mind turned inward Will find a still-point of peace.
+## Life is but one dream flowing into another.
 

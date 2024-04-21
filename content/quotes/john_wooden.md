@@ -1,6 +1,6 @@
 ---
 title: Quotes by John Wooden
-date: 2024-04-21T02:51:11Z
+date: 2024-04-21T03:00:45Z
 draft: false
 author: John Wooden
 description: Quotes by John Wooden
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by John Wooden. Enjoy!
-## Ability is a poor man's wealth.
+## Don't let what you cannot do interfere with what you can do.
 
