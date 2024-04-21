@@ -1,6 +1,6 @@
 ---
 title: Quotes by Steve Harvey
-date: 2024-04-21T02:05:07Z
+date: 2024-04-21T02:09:41Z
 draft: false
 author: Steve Harvey
 description: Quotes by Steve Harvey
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Steve Harvey. Enjoy!
-## The road to success is always under construction.
+## Don't ever be afraid to put yourself in a lesser position so that you can learn something from someone who knows more.
 
