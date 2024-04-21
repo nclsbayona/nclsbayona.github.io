@@ -1,6 +1,6 @@
 ---
 title: Quotes by Brian Tracy
-date: 2024-04-21T03:00:45Z
+date: 2024-04-21T03:05:40Z
 draft: false
 author: Brian Tracy
 description: Quotes by Brian Tracy
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Brian Tracy. Enjoy!
-## It doesn't matter where you are coming from. All that matters is where you are going. 
+## The key to success is to focus our conscious mind on things we desire not things we fear. 
 

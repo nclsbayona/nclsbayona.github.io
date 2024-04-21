@@ -1,6 +1,6 @@
 ---
 title: Quotes by John Lennon
-date: 2024-04-21T03:00:45Z
+date: 2024-04-21T03:05:40Z
 draft: false
 author: John Lennon
 description: Quotes by John Lennon
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by John Lennon. Enjoy!
-## Turn off your mind, relax, and float downstream.
+## If you want peace, you won't get it with violence.
 

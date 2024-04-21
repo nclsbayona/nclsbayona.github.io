@@ -1,6 +1,6 @@
 ---
 title: Quotes by Deepak Chopra
-date: 2024-04-21T03:00:45Z
+date: 2024-04-21T03:05:40Z
 draft: false
 author: Deepak Chopra
 description: Quotes by Deepak Chopra
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Deepak Chopra. Enjoy!
-## Each of us is a unique strand in the intricate web of life and here to make a contribution.
+## The most creative act you will ever undertake is the act of creating yourself.
 

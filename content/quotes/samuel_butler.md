@@ -1,6 +1,6 @@
 ---
 title: Quotes by Samuel Butler
-date: 2024-04-21T03:00:45Z
+date: 2024-04-21T03:05:40Z
 draft: false
 author: Samuel Butler
 description: Quotes by Samuel Butler
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Samuel Butler. Enjoy!
-## All animals except man know that the principal business of life is to enjoy it.
+## Life is the art of drawing sufficient conclusions from insufficient premises.
 

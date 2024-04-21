@@ -1,6 +1,6 @@
 ---
 title: Quotes by William James
-date: 2024-04-21T03:00:45Z
+date: 2024-04-21T03:05:40Z
 draft: false
 author: William James
 description: Quotes by William James
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by William James. Enjoy!
-## Action may not always bring happiness, but there is no happiness without action.
+## Believe that life is worth living and your belief will help create the fact.
 
