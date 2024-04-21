@@ -132,5 +132,5 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Run semantic-release
-        run: npx semantic-release
+        run: npx semantic-release --debug
       
