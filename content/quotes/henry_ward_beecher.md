@@ -1,6 +1,6 @@
 ---
 title: Quotes by Henry Ward Beecher
-date: 2024-04-21T01:45:10Z
+date: 2024-04-21T02:05:07Z
 draft: false
 author: Henry Ward Beecher
 description: Quotes by Henry Ward Beecher

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Thomas Jefferson
-date: 2024-04-21T01:45:10Z
+date: 2024-04-21T02:05:07Z
 draft: false
 author: Thomas Jefferson
 description: Quotes by Thomas Jefferson
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Thomas Jefferson. Enjoy!
-## He who knows best knows how little he knows.
+## If you want something you've never had you must be willing to do something you've never done.
 

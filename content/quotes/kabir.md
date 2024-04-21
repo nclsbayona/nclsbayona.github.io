@@ -1,6 +1,6 @@
 ---
 title: Quotes by Kabir
-date: 2024-04-21T01:45:10Z
+date: 2024-04-21T02:05:07Z
 draft: false
 author: Kabir
 description: Quotes by Kabir
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Kabir. Enjoy!
-## When at last you are come to the ocean of happiness, do not go back thirsty.
+## Wherever you are is the entry point.
 

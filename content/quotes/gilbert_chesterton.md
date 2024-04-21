@@ -1,6 +1,6 @@
 ---
 title: Quotes by Gilbert Chesterton
-date: 2024-04-21T01:45:10Z
+date: 2024-04-21T02:05:07Z
 draft: false
 author: Gilbert Chesterton
 description: Quotes by Gilbert Chesterton
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Gilbert Chesterton. Enjoy!
-## If a thing is worth doing, it is worth doing badly.
+## Courage is almost a contradiction in terms. It means a strong desire to live taking the form of a readiness to die.
 
