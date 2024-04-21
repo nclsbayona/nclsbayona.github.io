@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eleanor Roosevelt
-date: 2024-04-21T01:32:02Z
+date: 2024-04-21T01:45:10Z
 draft: false
 author: Eleanor Roosevelt
 description: Quotes by Eleanor Roosevelt
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eleanor Roosevelt. Enjoy!
-## No one can hurt you without your consent.
+## Life was meant to be lived, and curiosity must be kept alive. One must never, for whatever reason, turn his back on life.
 

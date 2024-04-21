@@ -1,6 +1,6 @@
 ---
 title: Quotes by Mary Engelbreit
-date: 2024-04-21T01:32:02Z
+date: 2024-04-21T01:45:10Z
 draft: false
 author: Mary Engelbreit
 description: Quotes by Mary Engelbreit
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Mary Engelbreit. Enjoy!
-## Happiness must be grown in one's own garden.
+## Life's too mysterious to take too serious.
 

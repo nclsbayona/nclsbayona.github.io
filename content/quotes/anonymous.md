@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-04-21T01:32:02Z
+date: 2024-04-21T01:45:10Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Why compare yourself with others? No one in the entire world can do a better job of being you than you.
+## Fear is what stops you. Courage is what keeps you going.
 

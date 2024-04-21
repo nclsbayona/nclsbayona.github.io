@@ -1,6 +1,6 @@
 ---
 title: Quotes by Maya Angelou
-date: 2024-04-21T01:32:02Z
+date: 2024-04-21T01:45:10Z
 draft: false
 author: Maya Angelou
 description: Quotes by Maya Angelou

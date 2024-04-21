@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eric Hoffer
-date: 2024-04-21T01:32:02Z
+date: 2024-04-21T01:45:10Z
 draft: false
 author: Eric Hoffer
 description: Quotes by Eric Hoffer
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eric Hoffer. Enjoy!
-## An empty head is not really empty; it is stuffed with rubbish. Hence the difficulty of forcing anything into an empty head.
+## In a world of change, the learners shall inherit the earth, while the learned shall find themselves perfectly suited for a world that no longer exists.
 

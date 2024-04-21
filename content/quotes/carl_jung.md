@@ -1,6 +1,6 @@
 ---
 title: Quotes by Carl Jung
-date: 2024-04-21T01:32:02Z
+date: 2024-04-21T01:45:10Z
 draft: false
 author: Carl Jung
 description: Quotes by Carl Jung
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Carl Jung. Enjoy!
-## We cannot change anything unless we accept it.
+## Knowing your own darkness is the best method for dealing with the darknesses of other people.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Vaclav Havel
-date: 2024-04-21T01:32:02Z
+date: 2024-04-21T01:45:10Z
 draft: false
 author: Vaclav Havel
 description: Quotes by Vaclav Havel
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Vaclav Havel. Enjoy!
-## Lying can never save us from another lie.
+## The salvation of the world lies in the human heart.
 
