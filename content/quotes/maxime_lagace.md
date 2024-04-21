@@ -1,6 +1,6 @@
 ---
 title: Quotes by Maxime Lagace
-date: 2024-04-21T02:09:41Z
+date: 2024-04-21T02:13:04Z
 draft: false
 author: Maxime Lagace
 description: Quotes by Maxime Lagace
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Maxime Lagace. Enjoy!
-## Inner peace is when you realize that, in the end, nothing matters.
+## Fools resist. The wise embrace.
 

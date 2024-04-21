@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-04-21T02:09:41Z
+date: 2024-04-21T02:13:04Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Everyday you can take a tiny step in the right direction.
+## The prettiest eyes have cried the most.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Gilbert Chesterton
-date: 2024-04-21T02:09:41Z
+date: 2024-04-21T02:13:04Z
 draft: false
 author: Gilbert Chesterton
 description: Quotes by Gilbert Chesterton
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Gilbert Chesterton. Enjoy!
-## The way to love anything is to realize that it may be lost.
+## The traveler sees what he sees. The tourist sees what he has come to see.
 

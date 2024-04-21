@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ayn Rand
-date: 2024-04-21T02:09:41Z
+date: 2024-04-21T02:13:04Z
 draft: false
 author: Ayn Rand
 description: Quotes by Ayn Rand
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ayn Rand. Enjoy!
-## Everyone has the right to make his own decisions, but none has the right to force his decision on others.
+## The question isn't who is going to let me; it's who is going to stop me.
 

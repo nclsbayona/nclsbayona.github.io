@@ -1,6 +1,6 @@
 ---
 title: Quotes by Wayne Dyer
-date: 2024-04-21T02:09:41Z
+date: 2024-04-21T02:13:04Z
 draft: false
 author: Wayne Dyer
 description: Quotes by Wayne Dyer
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Wayne Dyer. Enjoy!
-## You don't need to be better than anyone else, you just need to be better than you used to be.
+## The highest form of ignorance is when you reject something you don't know anything about. 
 

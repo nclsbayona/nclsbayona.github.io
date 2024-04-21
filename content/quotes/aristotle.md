@@ -1,6 +1,6 @@
 ---
 title: Quotes by Aristotle
-date: 2024-04-21T02:09:41Z
+date: 2024-04-21T02:13:04Z
 draft: false
 author: Aristotle
 description: Quotes by Aristotle
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## It is during our darkest moments that we must focus to see the light.
+## Pleasure in the job puts perfection in the work.
 
