@@ -121,6 +121,7 @@ jobs:
     needs: build
     steps:
       - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 'lts'
       - name: Install dependencies
