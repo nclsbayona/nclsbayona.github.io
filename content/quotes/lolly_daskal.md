@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lolly Daskal
-date: 2024-04-21T23:40:26Z
+date: 2024-04-21T23:52:00Z
 draft: false
 author: Lolly Daskal
 description: Quotes by Lolly Daskal
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lolly Daskal. Enjoy!
-## Don't blame others. it won't make you a better person.
+## Believe you can and you will be halfway there.
 

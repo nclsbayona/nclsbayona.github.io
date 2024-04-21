@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lao Tzu
-date: 2024-04-21T23:40:26Z
+date: 2024-04-21T23:52:00Z
 draft: false
 author: Lao Tzu
 description: Quotes by Lao Tzu
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lao Tzu. Enjoy!
-## Being deeply loved by someone gives you strength, while loving someone deeply gives you courage. 
+## At the center of your being you have the answer; you know who you are and you know what you want.
 
