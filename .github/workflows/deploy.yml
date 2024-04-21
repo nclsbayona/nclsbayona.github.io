@@ -131,7 +131,7 @@ jobs:
         with:
           node-version: 20
       - name: Install dependencies
-        run: npm install
+        run: npm install && git pull
       - name: Run semantic-release
         run: npx semantic-release --debug
       
