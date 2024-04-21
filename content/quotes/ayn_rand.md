@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ayn Rand
-date: 2024-04-21T02:29:47Z
+date: 2024-04-21T02:42:55Z
 draft: false
 author: Ayn Rand
 description: Quotes by Ayn Rand
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ayn Rand. Enjoy!
-## A creative man is motivated by the desire to achieve, not by the desire to beat others.
+## Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
 

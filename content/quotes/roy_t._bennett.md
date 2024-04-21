@@ -1,6 +1,6 @@
 ---
 title: Quotes by Roy T. Bennett
-date: 2024-04-21T02:29:47Z
+date: 2024-04-21T02:42:55Z
 draft: false
 author: Roy T. Bennett
 description: Quotes by Roy T. Bennett
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## A random act of kindness, no matter how small, can make a tremendous impact on someone else's life.
+## Do not fear failure but rather fear not trying.
 

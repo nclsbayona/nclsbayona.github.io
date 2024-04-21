@@ -1,6 +1,6 @@
 ---
 title: Quotes by Richard Bach
-date: 2024-04-21T02:29:47Z
+date: 2024-04-21T02:42:55Z
 draft: false
 author: Richard Bach
 description: Quotes by Richard Bach
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Richard Bach. Enjoy!
-## Remember where you came from, where you're going, and why you created this mess you got yourself into in the first place.
+## You're never given a dream without also being given the power to make it true.
 

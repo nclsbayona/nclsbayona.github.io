@@ -1,6 +1,6 @@
 ---
 title: Quotes by Charles Darwin
-date: 2024-04-21T02:29:47Z
+date: 2024-04-21T02:42:55Z
 draft: false
 author: Charles Darwin
 description: Quotes by Charles Darwin
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Charles Darwin. Enjoy!
-## The very essence of instinct is that it's followed independently of reason.
+## What a book a devil's chaplain might write on the clumsy, wasteful, blundering, low, and horribly cruel work of nature!
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Herodotus
-date: 2024-04-21T02:29:47Z
+date: 2024-04-21T02:42:55Z
 draft: false
 author: Herodotus
 description: Quotes by Herodotus
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Herodotus. Enjoy!
-## Great deeds are usually wrought at great risks.
+## Men trust their ears less than their eyes.
 

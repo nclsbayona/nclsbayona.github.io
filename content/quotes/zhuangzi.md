@@ -1,6 +1,6 @@
 ---
 title: Quotes by Zhuangzi
-date: 2024-04-21T02:29:47Z
+date: 2024-04-21T02:42:55Z
 draft: false
 author: Zhuangzi
 description: Quotes by Zhuangzi
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Zhuangzi. Enjoy!
-## We are born from a quiet sleep, and we die to a calm awakening
+## Only he who has no use for the empire is fit to be entrusted with it.
 

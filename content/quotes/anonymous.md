@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-04-21T02:29:47Z
+date: 2024-04-21T02:42:55Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## The real measure of your wealth is how much you'd be worth if you lost all your money.
+## Getting over a painful experience is much like crossing monkey bars. You have to let go at some point in order to move forward.
 
