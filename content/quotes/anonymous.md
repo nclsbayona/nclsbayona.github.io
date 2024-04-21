@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-04-21T03:05:40Z
+date: 2024-04-21T23:36:27Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Never argue with ignorance. It only leads to frustration.
+## To wish you were someone else is to waste the person you are.
 

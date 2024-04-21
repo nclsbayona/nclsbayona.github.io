@@ -1,6 +1,6 @@
 ---
 title: Quotes by Sathya Sai Baba
-date: 2024-04-21T03:05:40Z
+date: 2024-04-21T23:36:27Z
 draft: false
 author: Sathya Sai Baba
 description: Quotes by Sathya Sai Baba
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Sathya Sai Baba. Enjoy!
-## Every experience is a lesson. Every loss is a gain.
+## The secret of happiness is not in doing what you like but in liking what you have to do.
 

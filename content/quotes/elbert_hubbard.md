@@ -1,6 +1,6 @@
 ---
 title: Quotes by Elbert Hubbard
-date: 2024-04-21T03:05:40Z
+date: 2024-04-21T23:36:27Z
 draft: false
 author: Elbert Hubbard
 description: Quotes by Elbert Hubbard
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Elbert Hubbard. Enjoy!
-## Genius is the ability to act rightly without precedent - the power to do the right thing the first time.
+## Do not take life too seriously. You will never get out of it alive.
 

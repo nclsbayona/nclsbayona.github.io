@@ -1,6 +1,6 @@
 ---
 title: Quotes by George Eliot
-date: 2024-04-21T03:05:40Z
+date: 2024-04-21T23:36:27Z
 draft: false
 author: George Eliot
 description: Quotes by George Eliot
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by George Eliot. Enjoy!
-## What loneliness is more lonely than distrust?
+## Only in the agony of parting do we look into the depths of love.
 

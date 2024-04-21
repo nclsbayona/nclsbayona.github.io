@@ -1,6 +1,6 @@
 ---
 title: Quotes by James Allen
-date: 2024-04-21T03:05:40Z
+date: 2024-04-21T23:36:27Z
 draft: false
 author: James Allen
 description: Quotes by James Allen
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by James Allen. Enjoy!
-## The outer conditions of a person's life will always be found to reflect their inner beliefs.
+## A man sooner or later discovers that he is the master-gardener of his soul, the director of his life.
 

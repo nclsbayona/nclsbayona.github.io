@@ -1,6 +1,6 @@
 ---
 title: Quotes by James Cameron
-date: 2024-04-21T03:05:40Z
+date: 2024-04-21T23:36:27Z
 draft: false
 author: James Cameron
 description: Quotes by James Cameron
