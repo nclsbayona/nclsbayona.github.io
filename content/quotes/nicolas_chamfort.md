@@ -1,6 +1,6 @@
 ---
 title: Quotes by Nicolas Chamfort
-date: 2024-04-19T12:14:53Z
+date: 2024-04-21T01:32:02Z
 draft: false
 author: Nicolas Chamfort
 description: Quotes by Nicolas Chamfort

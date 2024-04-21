@@ -1,6 +1,6 @@
 ---
 title: Quotes by Maya Angelou
-date: 2024-04-19T12:14:53Z
+date: 2024-04-21T01:32:02Z
 draft: false
 author: Maya Angelou
 description: Quotes by Maya Angelou
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Maya Angelou. Enjoy!
-## There is nothing quite so tragic as a young cynic.
+## Success is liking yourself, liking what you do, and liking how you do it.
 

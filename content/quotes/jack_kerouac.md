@@ -1,6 +1,6 @@
 ---
 title: Quotes by Jack Kerouac
-date: 2024-04-19T12:14:53Z
+date: 2024-04-21T01:32:02Z
 draft: false
 author: Jack Kerouac
 description: Quotes by Jack Kerouac

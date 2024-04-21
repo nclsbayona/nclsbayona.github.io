@@ -1,6 +1,6 @@
 ---
 title: Quotes by George Bernard Shaw
-date: 2024-04-19T12:14:53Z
+date: 2024-04-21T01:32:02Z
 draft: false
 author: George Bernard Shaw
 description: Quotes by George Bernard Shaw
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by George Bernard Shaw. Enjoy!
-## People who say it cannot be done should not interrupt those who are doing it.
+## A life spent making mistakes is not only more honorable but more useful than a life spent doing nothing.
 

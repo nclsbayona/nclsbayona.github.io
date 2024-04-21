@@ -1,6 +1,6 @@
 ---
 title: Quotes by Vincent Van Gogh
-date: 2024-04-19T12:14:53Z
+date: 2024-04-21T01:32:02Z
 draft: false
 author: Vincent Van Gogh
 description: Quotes by Vincent Van Gogh
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Vincent Van Gogh. Enjoy!
-## I try more and more to be myself, caring relatively little whether people approve or disapprove.
+## In spite of everything, I shall rise again.
 

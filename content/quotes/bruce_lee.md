@@ -1,6 +1,6 @@
 ---
 title: Quotes by Bruce Lee
-date: 2024-04-19T12:14:53Z
+date: 2024-04-21T01:32:02Z
 draft: false
 author: Bruce Lee
 description: Quotes by Bruce Lee
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Bruce Lee. Enjoy!
-## If you put water into a cup, it becomes the cup.
+## If you love life, don't waste time, for time is what life is made up of. 
 
