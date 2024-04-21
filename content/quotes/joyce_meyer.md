@@ -1,6 +1,6 @@
 ---
 title: Quotes by Joyce Meyer
-date: 2024-04-21T02:24:40Z
+date: 2024-04-21T02:29:47Z
 draft: false
 author: Joyce Meyer
 description: Quotes by Joyce Meyer
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Joyce Meyer. Enjoy!
-## Stop being tormented by everyone else's reaction to you.
+## Character is doing what you don't want to do but know you should do.
 

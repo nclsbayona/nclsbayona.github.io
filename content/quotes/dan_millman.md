@@ -1,6 +1,6 @@
 ---
 title: Quotes by Dan Millman
-date: 2024-04-21T02:24:40Z
+date: 2024-04-21T02:29:47Z
 draft: false
 author: Dan Millman
 description: Quotes by Dan Millman
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Dan Millman. Enjoy!
-## Life is a journey, not a destination.
+## Stress happens when the mind resists what is.
 

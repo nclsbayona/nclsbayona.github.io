@@ -1,6 +1,6 @@
 ---
 title: Quotes by Mary Engelbreit
-date: 2024-04-21T02:24:40Z
+date: 2024-04-21T02:29:47Z
 draft: false
 author: Mary Engelbreit
 description: Quotes by Mary Engelbreit
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Mary Engelbreit. Enjoy!
-## If you pray for rain, be prepared to deal with some mud.
+## Don't ever save anything for a special occasion. Being alive is the special occasion.
 
