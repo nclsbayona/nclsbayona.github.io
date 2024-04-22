@@ -1,6 +1,6 @@
 ---
 title: Quotes by Roy T. Bennett
-date: 2024-04-22T00:28:12Z
+date: 2024-04-22T00:33:21Z
 draft: false
 author: Roy T. Bennett
 description: Quotes by Roy T. Bennett
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## Life becomes easier and more beautiful when we can see the good in other people.
+## Do good, live in the most positive and joyful way possible every day.
 

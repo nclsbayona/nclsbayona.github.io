@@ -1,6 +1,6 @@
 ---
 title: Quotes by Thich Nhat Hanh
-date: 2024-04-22T00:28:12Z
+date: 2024-04-22T00:33:21Z
 draft: false
 author: Thich Nhat Hanh
 description: Quotes by Thich Nhat Hanh
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Thich Nhat Hanh. Enjoy!
-## Everything is in your own heart.
+## My actions are my only true belongings. I cannot escape the consequences of my actions. My actions are the ground upon which I stand.
 

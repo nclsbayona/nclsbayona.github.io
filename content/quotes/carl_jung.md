@@ -1,6 +1,6 @@
 ---
 title: Quotes by Carl Jung
-date: 2024-04-22T00:28:12Z
+date: 2024-04-22T00:33:21Z
 draft: false
 author: Carl Jung
 description: Quotes by Carl Jung
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Carl Jung. Enjoy!
-## Everything that irritates us about others.
+## No tree, it is said, can grow to heaven unless its roots reach down to hell.
 

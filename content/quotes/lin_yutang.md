@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lin Yutang
-date: 2024-04-22T00:28:12Z
+date: 2024-04-22T00:33:21Z
 draft: false
 author: Lin Yutang
 description: Quotes by Lin Yutang

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Oprah Winfrey
-date: 2024-04-22T00:28:12Z
+date: 2024-04-22T00:33:21Z
 draft: false
 author: Oprah Winfrey
 description: Quotes by Oprah Winfrey
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Oprah Winfrey. Enjoy!
-## Luck is a matter of preparation meeting opportunity.
+## Surround yourself with only people who are going to lift you higher. 
 
