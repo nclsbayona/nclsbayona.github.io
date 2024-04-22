@@ -1,5 +1,22 @@
 # My Sample Changelog
 
+# [1.1.0](https://github.com/nclsbayona/nclsbayona.github.io/compare/v1.0.0...v1.1.0) (2024-04-22)
+
+
+### Bug Fixes
+
+* Updating Typo ([cde190b](https://github.com/nclsbayona/nclsbayona.github.io/commit/cde190b51d856f24cd5ff24cdfc2f9612236520a))
+
+
+### Features
+
+* Add generated quotes ([f33b5a3](https://github.com/nclsbayona/nclsbayona.github.io/commit/f33b5a35b38b9406d31d596c70cb37df029928b5))
+* Add generated quotes ([6b669b0](https://github.com/nclsbayona/nclsbayona.github.io/commit/6b669b0ad005cf82dd1e3ef9cc777b3ca29469c7))
+* Add generated quotes ([c6ea6cc](https://github.com/nclsbayona/nclsbayona.github.io/commit/c6ea6cce35628a6ff1d14bf5b2664d4fdedf4589))
+* Add generated quotes ([3f6a4f6](https://github.com/nclsbayona/nclsbayona.github.io/commit/3f6a4f6c6e379daa203ac3554d3eb229faadfd70))
+* Add generated quotes ([5a5a65e](https://github.com/nclsbayona/nclsbayona.github.io/commit/5a5a65e3c7faa4bd779ff8c554558bb0110cd0ae))
+* Add generated quotes ([83dc2ac](https://github.com/nclsbayona/nclsbayona.github.io/commit/83dc2acc93a1a3fa99d9aa686a7eb32e1840401f))
+
 # 1.0.0 (2024-02-25)
 
 
