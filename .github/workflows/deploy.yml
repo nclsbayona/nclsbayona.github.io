@@ -100,7 +100,7 @@ jobs:
         uses: actions/deploy-pages@v3
 
   # Security Testing job
-  test:
+  security:
     runs-on: ubuntu-latest
     needs: deploy
     steps:
@@ -120,7 +120,7 @@ jobs:
   # Release with Semantic Release
   release:
     runs-on: ubuntu-latest
-    needs: test # Artifacts ready
+    needs: build # Artifacts ready
     steps:
       - run: sleep 1m
       - name: Checkout
