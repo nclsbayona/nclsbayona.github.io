@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lao Tzu
-date: 2024-04-22T00:19:47Z
+date: 2024-04-22T00:28:12Z
 draft: false
 author: Lao Tzu
 description: Quotes by Lao Tzu
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lao Tzu. Enjoy!
-## When I let go of what I am, I become what I might be.
+## Kindness in words creates confidence. Kindness in thinking creates profoundness. Kindness in giving creates love. 
 

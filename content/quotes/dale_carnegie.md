@@ -1,0 +1,14 @@
+---
+title: Quotes by Dale Carnegie
+date: 2024-04-22T00:28:12Z
+draft: false
+author: Dale Carnegie
+description: Quotes by Dale Carnegie
+tags:
+  - Quotes
+  - Dale Carnegie
+---
+ 
+# Here you have some quotes by Dale Carnegie. Enjoy!
+## No matter what happens, always be yourself.
+

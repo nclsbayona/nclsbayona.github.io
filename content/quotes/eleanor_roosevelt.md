@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eleanor Roosevelt
-date: 2024-04-22T00:19:47Z
+date: 2024-04-22T00:28:12Z
 draft: false
 author: Eleanor Roosevelt
 description: Quotes by Eleanor Roosevelt
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eleanor Roosevelt. Enjoy!
-## Happiness is not a goal...it's a by-product of a life well lived.
+## Be confident, not certain.
 

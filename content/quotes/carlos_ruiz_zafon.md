@@ -1,6 +1,6 @@
 ---
 title: Quotes by Carlos Ruiz Zafon
-date: 2024-04-22T00:19:47Z
+date: 2024-04-22T00:28:12Z
 draft: false
 author: Carlos Ruiz Zafon
 description: Quotes by Carlos Ruiz Zafon
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Carlos Ruiz Zafon. Enjoy!
-## There are no second chances in life, except to feel remorse.
+## Human beings believe just as they breathe - in order to survive.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Vincent Van Gogh
-date: 2024-04-22T00:19:47Z
+date: 2024-04-22T00:28:12Z
 draft: false
 author: Vincent Van Gogh
 description: Quotes by Vincent Van Gogh
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Vincent Van Gogh. Enjoy!
-## I dream my painting and I paint my dream.
+## Great things are not done by impulse, but by a series of small things brought together.
 

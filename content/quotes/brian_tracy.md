@@ -1,6 +1,6 @@
 ---
 title: Quotes by Brian Tracy
-date: 2024-04-22T00:19:47Z
+date: 2024-04-22T00:28:12Z
 draft: false
 author: Brian Tracy
 description: Quotes by Brian Tracy
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Brian Tracy. Enjoy!
-## Whatever you believe with feeling becomes your reality. 
+## Become the kind of leader that people would follow voluntarily, even if you had no title or position.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Jim Rohn
-date: 2024-04-22T00:19:47Z
+date: 2024-04-22T00:28:12Z
 draft: false
 author: Jim Rohn
 description: Quotes by Jim Rohn
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Jim Rohn. Enjoy!
-## Either you run the day or the day runs you.
+## Success is not to be pursued, it is to be attracted by the person you become.
 
