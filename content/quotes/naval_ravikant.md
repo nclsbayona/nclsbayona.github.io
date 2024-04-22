@@ -1,6 +1,6 @@
 ---
 title: Quotes by Naval Ravikant
-date: 2024-04-22T01:32:37Z
+date: 2024-04-22T14:00:49Z
 draft: false
 author: Naval Ravikant
 description: Quotes by Naval Ravikant
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Naval Ravikant. Enjoy!
-## You make your own luck if you stay at it long enough.
+## The measure of wisdom is how calm you are when facing any given situation.
 

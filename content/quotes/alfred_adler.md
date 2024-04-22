@@ -1,0 +1,14 @@
+---
+title: Quotes by Alfred Adler
+date: 2024-04-22T14:00:49Z
+draft: false
+author: Alfred Adler
+description: Quotes by Alfred Adler
+tags:
+  - Quotes
+  - Alfred Adler
+---
+ 
+# Here you have some quotes by Alfred Adler. Enjoy!
+## Life is just the same as learning to swim. Do not be afraid of making mistakes, for there is no other way of learning how to live!
+

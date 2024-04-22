@@ -1,6 +1,6 @@
 ---
 title: Quotes by Joyce Meyer
-date: 2024-04-22T01:32:37Z
+date: 2024-04-22T14:00:49Z
 draft: false
 author: Joyce Meyer
 description: Quotes by Joyce Meyer

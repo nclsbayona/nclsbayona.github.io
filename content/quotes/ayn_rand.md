@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ayn Rand
-date: 2024-04-22T01:32:37Z
+date: 2024-04-22T14:00:49Z
 draft: false
 author: Ayn Rand
 description: Quotes by Ayn Rand
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ayn Rand. Enjoy!
-## Integrity is the ability to stand by an idea.
+## The question isn't who is going to let me; it's who is going to stop me.
 

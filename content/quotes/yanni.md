@@ -1,6 +1,6 @@
 ---
 title: Quotes by Yanni
-date: 2024-04-22T01:32:37Z
+date: 2024-04-22T14:00:49Z
 draft: false
 author: Yanni
 description: Quotes by Yanni
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Yanni. Enjoy!
-## Having an open mind is one of the most important qualities we can possess. Once our minds close, we stop evolving.
+## No matter what happens in life, never lose sight of who you are.
 

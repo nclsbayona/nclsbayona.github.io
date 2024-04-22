@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lily Tomlin
-date: 2024-04-22T01:32:37Z
+date: 2024-04-22T14:00:49Z
 draft: false
 author: Lily Tomlin
 description: Quotes by Lily Tomlin
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lily Tomlin. Enjoy!
-## The best mind-altering drug is the truth.
+## Reality is the leading cause of stress among those in touch with it.
 
