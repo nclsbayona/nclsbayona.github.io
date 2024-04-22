@@ -1,4 +1,4 @@
-{
+le{
   "branches": ["master"],
   "repositoryUrl": "https://github.com/nclsbayona/nclsbayona.github.io.git",
   "plugins": [
@@ -16,7 +16,7 @@
       '@semantic-release/git',
       {
         message:
-          'chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
+          'chore(release): Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
       },
     ],
   ]
