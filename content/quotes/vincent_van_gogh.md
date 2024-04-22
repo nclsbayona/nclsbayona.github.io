@@ -1,6 +1,6 @@
 ---
 title: Quotes by Vincent Van Gogh
-date: 2024-04-21T23:52:00Z
+date: 2024-04-22T00:19:47Z
 draft: false
 author: Vincent Van Gogh
 description: Quotes by Vincent Van Gogh
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Vincent Van Gogh. Enjoy!
-## There is nothing more truly artistic than to love people.
+## I dream my painting and I paint my dream.
 

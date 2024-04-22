@@ -1,6 +1,6 @@
 ---
 title: Quotes by James Allen
-date: 2024-04-21T23:52:00Z
+date: 2024-04-22T00:19:47Z
 draft: false
 author: James Allen
 description: Quotes by James Allen
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by James Allen. Enjoy!
-## All that a man achieves and all that he fails to achieve is the direct result of his own thoughts.
+## You will never do anything in this world without courage. It is the greatest quality of the mind next to honor.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Aristotle
-date: 2024-04-21T23:52:00Z
+date: 2024-04-22T00:19:47Z
 draft: false
 author: Aristotle
 description: Quotes by Aristotle
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## Those who know, do. Those that understand, teach.
+## The educated differ from the uneducated as much as the living differ from the dead.
 

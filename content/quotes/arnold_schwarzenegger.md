@@ -1,6 +1,6 @@
 ---
 title: Quotes by Arnold Schwarzenegger
-date: 2024-04-21T23:52:00Z
+date: 2024-04-22T00:19:47Z
 draft: false
 author: Arnold Schwarzenegger
 description: Quotes by Arnold Schwarzenegger
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Arnold Schwarzenegger. Enjoy!
-## Have a vision, trust yourself, break some rules, ignore the naysayers, don't be afraid to fail.
+## If you want to turn a vision into reality, you have to give 100% and never stop believing in your dream.
 

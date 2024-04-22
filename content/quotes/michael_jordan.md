@@ -1,6 +1,6 @@
 ---
 title: Quotes by Michael Jordan
-date: 2024-04-21T23:52:00Z
+date: 2024-04-22T00:19:47Z
 draft: false
 author: Michael Jordan
 description: Quotes by Michael Jordan
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Michael Jordan. Enjoy!
-## Failure is acceptable. Not trying is a whole different ball park.
+## Don't let them drag you down by rumors. Just go with what you believe in.
 

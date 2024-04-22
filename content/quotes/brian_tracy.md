@@ -1,6 +1,6 @@
 ---
 title: Quotes by Brian Tracy
-date: 2024-04-21T23:52:00Z
+date: 2024-04-22T00:19:47Z
 draft: false
 author: Brian Tracy
 description: Quotes by Brian Tracy
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Brian Tracy. Enjoy!
-## The more reasons you have for achieving your goal, the more determined you will become.
+## Whatever you believe with feeling becomes your reality. 
 

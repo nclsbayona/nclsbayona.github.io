@@ -1,6 +1,6 @@
 ---
 title: Quotes by Oprah Winfrey
-date: 2024-04-21T23:52:00Z
+date: 2024-04-22T00:19:47Z
 draft: false
 author: Oprah Winfrey
 description: Quotes by Oprah Winfrey
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Oprah Winfrey. Enjoy!
-## You can have it all. You just can't have it all at once. 
+## The big secret in life is that there is no big secret. Whatever your goal, you can get there if you're willing to work.
 

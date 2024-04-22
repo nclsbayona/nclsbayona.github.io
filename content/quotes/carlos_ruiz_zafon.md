@@ -1,6 +1,6 @@
 ---
 title: Quotes by Carlos Ruiz Zafon
-date: 2024-04-21T23:52:00Z
+date: 2024-04-22T00:19:47Z
 draft: false
 author: Carlos Ruiz Zafon
 description: Quotes by Carlos Ruiz Zafon
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Carlos Ruiz Zafon. Enjoy!
-## Nothing important is learned; it is simply remembered.
+## There are no second chances in life, except to feel remorse.
 

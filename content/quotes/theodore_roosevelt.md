@@ -1,6 +1,6 @@
 ---
 title: Quotes by Theodore Roosevelt
-date: 2024-04-21T23:52:00Z
+date: 2024-04-22T00:19:47Z
 draft: false
 author: Theodore Roosevelt
 description: Quotes by Theodore Roosevelt
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Theodore Roosevelt. Enjoy!
-## Let us rather run the risk of wearing out than rusting out.
+## When you're at the end of your rope, tie a knot and hold on.
 
