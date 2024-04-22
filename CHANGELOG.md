@@ -1,5 +1,13 @@
 # My Sample Changelog
 
+# [1.2.0](https://github.com/nclsbayona/nclsbayona.github.io/compare/v1.1.0...v1.2.0) (2024-04-22)
+
+
+### Features
+
+* Add generated quotes ([fb8d764](https://github.com/nclsbayona/nclsbayona.github.io/commit/fb8d764049bd3bfcfe329e3c79dbde147cf49864))
+* Add generated quotes ([5879e29](https://github.com/nclsbayona/nclsbayona.github.io/commit/5879e293e327f71d513ee0be000810c392f1cf06))
+
 # [1.1.0](https://github.com/nclsbayona/nclsbayona.github.io/compare/v1.0.0...v1.1.0) (2024-04-22)
 
 
