@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eleanor Roosevelt
-date: 2024-04-22T00:33:21Z
+date: 2024-04-22T01:32:37Z
 draft: false
 author: Eleanor Roosevelt
 description: Quotes by Eleanor Roosevelt

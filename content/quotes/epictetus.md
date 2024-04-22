@@ -1,6 +1,6 @@
 ---
 title: Quotes by Epictetus
-date: 2024-04-22T00:33:21Z
+date: 2024-04-22T01:32:37Z
 draft: false
 author: Epictetus
 description: Quotes by Epictetus
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Epictetus. Enjoy!
-## No man is free who is not master of himself.
+## First say to yourself what you would be; and then do what you have to do.
 

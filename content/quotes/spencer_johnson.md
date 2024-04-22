@@ -1,0 +1,14 @@
+---
+title: Quotes by Spencer Johnson
+date: 2024-04-22T01:32:37Z
+draft: false
+author: Spencer Johnson
+description: Quotes by Spencer Johnson
+tags:
+  - Quotes
+  - Spencer Johnson
+---
+ 
+# Here you have some quotes by Spencer Johnson. Enjoy!
+## You Create Your Own Present By What You Give Your Attention To Today.
+
