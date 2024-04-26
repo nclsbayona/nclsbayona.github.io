@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-04-22T14:00:49Z
+date: 2024-04-26T12:10:32Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Use your smile to change the world but don't let the world change your smile.
+## Not everything that weighs you down is yours to carry.
 

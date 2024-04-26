@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lily Tomlin
-date: 2024-04-22T14:00:49Z
+date: 2024-04-26T12:10:32Z
 draft: false
 author: Lily Tomlin
 description: Quotes by Lily Tomlin
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lily Tomlin. Enjoy!
-## Reality is the leading cause of stress among those in touch with it.
+## Don't be afraid of missing opportunities. Behind every failure is an opportunity somebody wishes they had missed.
 

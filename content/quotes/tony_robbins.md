@@ -1,6 +1,6 @@
 ---
 title: Quotes by Tony Robbins
-date: 2024-04-22T14:00:49Z
+date: 2024-04-26T12:10:32Z
 draft: false
 author: Tony Robbins
 description: Quotes by Tony Robbins
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Tony Robbins. Enjoy!
-## We can change our lives. We can do, have, and be exactly what we wish.
+## The quality of your life is the quality of your relationships.
 
