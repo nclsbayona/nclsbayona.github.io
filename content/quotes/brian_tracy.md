@@ -1,6 +1,6 @@
 ---
 title: Quotes by Brian Tracy
-date: 2024-04-27T20:40:50Z
+date: 2024-04-27T22:00:22Z
 draft: false
 author: Brian Tracy
 description: Quotes by Brian Tracy
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Brian Tracy. Enjoy!
-## Be a master of change rather than a victim of change.
+## Happiness comes when you believe in what you are doing, know what you are doing, and love what you are doing.
 

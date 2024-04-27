@@ -1,6 +1,6 @@
 ---
 title: Quotes by Paulo Coelho
-date: 2024-04-27T20:40:50Z
+date: 2024-04-27T22:00:22Z
 draft: false
 author: Paulo Coelho
 description: Quotes by Paulo Coelho
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Paulo Coelho. Enjoy!
-## You drown not by falling into a river, but by staying submerged in it.
+## If you think adventure is dangerous, try routine; it is lethal.
 

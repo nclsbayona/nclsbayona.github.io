@@ -1,6 +1,6 @@
 ---
 title: Quotes by Norman Vincent Peale
-date: 2024-04-27T20:40:50Z
+date: 2024-04-27T22:00:22Z
 draft: false
 author: Norman Vincent Peale
 description: Quotes by Norman Vincent Peale
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Norman Vincent Peale. Enjoy!
-## Throw your heart over the fence and the rest will follow
+## When you get up in the morning, you have two choices - either to be happy or to be unhappy. Just choose to be happy.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Chinese Proverb
-date: 2024-04-27T20:40:50Z
+date: 2024-04-27T22:00:22Z
 draft: false
 author: Chinese Proverb
 description: Quotes by Chinese Proverb
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Chinese Proverb. Enjoy!
-## A little impatience will spoil great plans.
+## Listening well is as powerful as talking well, and is also as essential to true conversation.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Carl Jung
-date: 2024-04-27T20:40:50Z
+date: 2024-04-27T22:00:22Z
 draft: false
 author: Carl Jung
 description: Quotes by Carl Jung
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Carl Jung. Enjoy!
-## In all chaos there is a cosmos, in all disorder a secret order.
+## We meet ourselves time and again in a thousand disguises on the path of life.
 

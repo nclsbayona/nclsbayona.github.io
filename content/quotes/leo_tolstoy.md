@@ -1,6 +1,6 @@
 ---
 title: Quotes by Leo Tolstoy
-date: 2024-04-27T20:40:50Z
+date: 2024-04-27T22:00:22Z
 draft: false
 author: Leo Tolstoy
 description: Quotes by Leo Tolstoy
