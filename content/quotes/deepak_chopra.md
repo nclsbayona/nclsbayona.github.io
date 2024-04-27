@@ -1,6 +1,6 @@
 ---
 title: Quotes by Deepak Chopra
-date: 2024-04-26T12:10:32Z
+date: 2024-04-27T20:38:57Z
 draft: false
 author: Deepak Chopra
 description: Quotes by Deepak Chopra
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Deepak Chopra. Enjoy!
-## If you focus on success, you'll have stress. But if you pursue excellence, success will be guaranteed.
+## You must find the place inside yourself where nothing is impossible.
 

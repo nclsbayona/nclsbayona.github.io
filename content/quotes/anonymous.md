@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-04-26T12:10:32Z
+date: 2024-04-27T20:38:57Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Not everything that weighs you down is yours to carry.
+## Every day do something that will inch you closer to a better tomorrow.
 

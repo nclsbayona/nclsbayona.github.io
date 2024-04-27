@@ -1,6 +1,6 @@
 ---
 title: Quotes by Zig Ziglar
-date: 2024-04-26T12:10:32Z
+date: 2024-04-27T20:38:57Z
 draft: false
 author: Zig Ziglar
 description: Quotes by Zig Ziglar
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Zig Ziglar. Enjoy!
-## One small positive thought can change your whole day.
+## A lot of people have gone further than they thought they could because someone else thought they could.
 

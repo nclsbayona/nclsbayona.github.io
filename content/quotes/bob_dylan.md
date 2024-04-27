@@ -1,6 +1,6 @@
 ---
 title: Quotes by Bob Dylan
-date: 2024-04-26T12:10:32Z
+date: 2024-04-27T20:38:57Z
 draft: false
 author: Bob Dylan
 description: Quotes by Bob Dylan
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Bob Dylan. Enjoy!
-## To live outside the law, you must be honest. 
+## People seldom do what they believe in. They do what is convenient, then repent.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Aristotle
-date: 2024-04-26T12:10:32Z
+date: 2024-04-27T20:38:57Z
 draft: false
 author: Aristotle
 description: Quotes by Aristotle
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## Happiness is the meaning and the purpose of life, the whole aim and end of human existence.
+## The least deviation from truth will be multiplied later.
 
