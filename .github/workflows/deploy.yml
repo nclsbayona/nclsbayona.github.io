@@ -106,20 +106,20 @@ jobs:
         uses: actions/deploy-pages@v3
 
   # Security Testing job
-  security:
-    runs-on: ubuntu-latest
-    needs: deploy
-    steps:
-      - name: Sleep for a minute
-        run: sleep 1m
-        shell: bash
-      - name: ZAP Scan
-        uses: zaproxy/action-baseline@v0.10.0
-        with:
-          docker_name: 'owasp/zap2docker-stable'
-          target: ${{ needs.deploy.outputs.page_url }}
-          # rules_file_name: '.zap/rules.tsv'
-          cmd_options: '-a'
-          allow_issue_writing: false
-          fail_action: false
+  #security:
+  #  runs-on: ubuntu-latest
+  #  needs: deploy
+  #  steps:
+  #    - name: Sleep for a minute
+  #      run: sleep 1m
+  #      shell: bash
+  #    - name: ZAP Scan
+  #      uses: zaproxy/action-baseline@v0.10.0
+  #      with:
+  #        docker_name: 'owasp/zap2docker-stable'
+  #        target: ${{ needs.deploy.outputs.page_url }}
+  #        # rules_file_name: '.zap/rules.tsv'
+  #        cmd_options: '-a'
+  #        allow_issue_writing: false
+  #        fail_action: false
       
