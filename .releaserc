@@ -2,7 +2,19 @@
   "branches": ["master"],
   "repositoryUrl": "https://github.com/nclsbayona/nclsbayona.github.io.git",
   "plugins": [
-    "@semantic-release/commit-analyzer",
+    [
+        '@semantic-release/commit-analyzer', {
+            preset: 'angular',
+            releaseRules: [
+                { breaking: true, release: 'major' },
+                { type: 'feat', release: 'minor' },
+                { type: 'fix', release: 'patch' },
+                { scope: 'deps', release: 'patch' },
+                { type: 'docs', scope: "README", release: 'patch' },
+                { type: 'chore', release: 'patch' },
+            ],
+        },
+    ],
     "@semantic-release/release-notes-generator",
     "@semantic-release/github",
     [
