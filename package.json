@@ -1,6 +1,6 @@
 {
   "name": "nclsbayona-webpage",
-  "version": "0.0.0-development",
+  "version": "0.0.0",
   "description": "[Visit My WebPage Here :D](https://nclsbayona.github.io)",
   "main": "index.js",
   "scripts": {
@@ -10,12 +10,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/commit-analyzer": "^11.1.0",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^10.0.3",
-    "@semantic-release/release-notes-generator": "^12.1.0",
-    "commitizen": "^4.3.0",
-    "semantic-release": "^23.0.2"
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/commit-analyzer": "11.1.0",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "10.0.3",
+    "@semantic-release/release-notes-generator": "12.1.0",
+    "commitizen": "4.3.0",
+    "semantic-release": "23.0.2"
   }
 }
