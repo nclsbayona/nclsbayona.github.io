@@ -1,6 +1,6 @@
 ---
 title: Quotes by George Bernard Shaw
-date: 2024-04-27T20:38:57Z
+date: 2024-04-27T20:40:50Z
 draft: false
 author: George Bernard Shaw
 description: Quotes by George Bernard Shaw
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by George Bernard Shaw. Enjoy!
-## We don't stop playing because we grow old; we grow old because we stop playing.
+## Yesterday is the past, tomorrow is the future, today is a gift - that's why it's called the present.
 

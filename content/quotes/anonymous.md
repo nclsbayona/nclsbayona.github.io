@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-04-27T20:38:57Z
+date: 2024-04-27T20:40:50Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Every day do something that will inch you closer to a better tomorrow.
+## Knowledge is learning something everyday. Wisdom is letting go of something everyday.
 

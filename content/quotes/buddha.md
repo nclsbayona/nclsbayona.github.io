@@ -1,6 +1,6 @@
 ---
 title: Quotes by Buddha
-date: 2024-04-27T20:38:57Z
+date: 2024-04-27T20:40:50Z
 draft: false
 author: Buddha
 description: Quotes by Buddha
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Buddha. Enjoy!
-## Work out your own salvation. Do not depend on others.
+## Before enlightenment; chop wood, carry water. After enlightenment; chop wood, carry water.
 

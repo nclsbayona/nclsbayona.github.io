@@ -1,6 +1,6 @@
 ---
 title: Quotes by Sun Tzu
-date: 2024-04-27T20:38:57Z
+date: 2024-04-27T20:40:50Z
 draft: false
 author: Sun Tzu
 description: Quotes by Sun Tzu
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Sun Tzu. Enjoy!
-## The opportunity of defeating the enemy is provided by the enemy himself.
+## It is easy to love your friend, but sometimes the hardest lesson to learn is to love your enemy.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Les Brown
-date: 2024-04-27T20:38:57Z
+date: 2024-04-27T20:40:50Z
 draft: false
 author: Les Brown
 description: Quotes by Les Brown
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Les Brown. Enjoy!
-## Life has no limitations except the ones you make.
+## Fear does not have any special power unless you empower it by submitting to it.
 
