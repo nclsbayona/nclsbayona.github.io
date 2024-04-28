@@ -1,6 +1,6 @@
 ---
 title: Quotes by Paramahansa Yogananda
-date: 2024-04-27T22:00:22Z
+date: 2024-04-28T15:28:59Z
 draft: false
 author: Paramahansa Yogananda
 description: Quotes by Paramahansa Yogananda
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Paramahansa Yogananda. Enjoy!
-## When the mind is calm, how quickly, how smoothly, how beautifully you will perceive everything.
+## The season of failure is the best time for sowing the seeds of success. 
 

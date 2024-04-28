@@ -1,6 +1,6 @@
 ---
 title: Quotes by Elon Musk
-date: 2024-04-27T22:00:22Z
+date: 2024-04-28T15:28:59Z
 draft: false
 author: Elon Musk
 description: Quotes by Elon Musk
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Elon Musk. Enjoy!
-## It's OK to have your eggs in one basket as long as you control what happens to that basket.
+## I don't ever give up. I'd have to be dead or completely incapacitated.
 

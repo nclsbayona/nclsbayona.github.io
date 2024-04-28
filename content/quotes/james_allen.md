@@ -1,6 +1,6 @@
 ---
 title: Quotes by James Allen
-date: 2024-04-27T22:00:22Z
+date: 2024-04-28T15:28:59Z
 draft: false
 author: James Allen
 description: Quotes by James Allen
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by James Allen. Enjoy!
-## Work joyfully and peacefully, knowing that right thoughts and right efforts inevitably bring about right results.
+## Circumstances do not make the man, they reveal him.
 

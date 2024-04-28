@@ -1,6 +1,6 @@
 ---
 title: Quotes by Sun Tzu
-date: 2024-04-27T22:00:22Z
+date: 2024-04-28T15:28:59Z
 draft: false
 author: Sun Tzu
 description: Quotes by Sun Tzu
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Sun Tzu. Enjoy!
-## Appear weak when you are strong, and strong when you are weak.
+## The wise warrior avoids the battle.
 
