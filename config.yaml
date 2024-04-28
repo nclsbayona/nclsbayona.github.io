@@ -171,7 +171,11 @@ params:
           enable: false
     #       name: "View the project"
     #       url: "https://example.com"
-    
+      - job: "DevOps Intern"
+        company: "Endava"
+        companyUrl: "https://endava.com"
+        date: "January 2024 - July 2024"
+        content: "As a DevOps intern, my job consisted in understanding some best practices in the DevOps area and helping in some projects I was involved on."
 
     #   - job: "Software Developer"
     #     company: "Amazon"
