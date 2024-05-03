@@ -1,6 +1,6 @@
 ---
 title: Quotes by John Wooden
-date: 2024-04-28T15:28:59Z
+date: 2024-05-03T12:10:31Z
 draft: false
 author: John Wooden
 description: Quotes by John Wooden
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by John Wooden. Enjoy!
-## Be true to yourself, help others, make each day your masterpiece
+## Whatever you do in life, surround yourself with smart people who'll argue with you.
 

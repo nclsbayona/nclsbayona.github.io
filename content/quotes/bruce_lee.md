@@ -1,6 +1,6 @@
 ---
 title: Quotes by Bruce Lee
-date: 2024-04-28T15:28:59Z
+date: 2024-05-03T12:10:31Z
 draft: false
 author: Bruce Lee
 description: Quotes by Bruce Lee
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Bruce Lee. Enjoy!
-## In order to control myself I must first accept myself by going with and not against my nature.
+## Knowing is not enough, we must apply. Willing is not enough, we must do.  
 

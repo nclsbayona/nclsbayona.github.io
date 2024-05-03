@@ -1,6 +1,6 @@
 ---
 title: Quotes by Morihei Ueshiba
-date: 2024-04-28T15:28:59Z
+date: 2024-05-03T12:10:31Z
 draft: false
 author: Morihei Ueshiba
 description: Quotes by Morihei Ueshiba
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Morihei Ueshiba. Enjoy!
-## Failure is the key to success; each mistake teaches us something.
+## Loyalty and devotion lead to bravery. Bravery leads to the spirit of self-sacrifice. The spirit of self-sacrifice creates trust in the power of love.
 

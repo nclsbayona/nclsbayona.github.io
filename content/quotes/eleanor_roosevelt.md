@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eleanor Roosevelt
-date: 2024-04-28T15:28:59Z
+date: 2024-05-03T12:10:31Z
 draft: false
 author: Eleanor Roosevelt
 description: Quotes by Eleanor Roosevelt
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eleanor Roosevelt. Enjoy!
-## It is not fair to ask of others what you are not willing to do yourself.
+## Never be bored, and you will never be boring.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Henry Ward Beecher
-date: 2024-04-28T15:28:59Z
+date: 2024-05-03T12:10:31Z
 draft: false
 author: Henry Ward Beecher
 description: Quotes by Henry Ward Beecher
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Henry Ward Beecher. Enjoy!
-## Greatness lies not in being strong, but in the right use of strength.
+## One's best success comes after their greatest disappointments.
 
