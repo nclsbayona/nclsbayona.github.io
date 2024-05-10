@@ -1,6 +1,6 @@
 ---
 title: Quotes by Barack Obama
-date: 2024-05-03T12:10:31Z
+date: 2024-05-10T12:10:03Z
 draft: false
 author: Barack Obama
 description: Quotes by Barack Obama
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Barack Obama. Enjoy!
-## You can't let your failures define you. You have to let your failures teach you.
+## Change will not come if we wait for some other person, or if we wait for some other time.
 

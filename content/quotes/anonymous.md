@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-05-03T12:10:31Z
+date: 2024-05-10T12:10:03Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Turn the pain into power.
+## Never argue with ignorance. It only leads to frustration.
 

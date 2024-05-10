@@ -1,6 +1,6 @@
 ---
 title: Quotes by Chinese Proverb
-date: 2024-05-03T12:10:31Z
+date: 2024-05-10T12:10:03Z
 draft: false
 author: Chinese Proverb
 description: Quotes by Chinese Proverb
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Chinese Proverb. Enjoy!
-## There are two kinds of perfect people: those who are dead, and those who have not been born yet.
+## Distant water does not put out a nearby fire.
 

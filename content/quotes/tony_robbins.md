@@ -1,6 +1,6 @@
 ---
 title: Quotes by Tony Robbins
-date: 2024-05-03T12:10:31Z
+date: 2024-05-10T12:10:03Z
 draft: false
 author: Tony Robbins
 description: Quotes by Tony Robbins
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Tony Robbins. Enjoy!
-## The only people without problems are those in cemeteries.
+## One reason so few of us achieve what we truly want is that we never direct our focus; we never concentrate our power.
 
