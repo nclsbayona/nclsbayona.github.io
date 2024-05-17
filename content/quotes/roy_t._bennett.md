@@ -1,6 +1,6 @@
 ---
 title: Quotes by Roy T. Bennett
-date: 2024-05-10T12:10:03Z
+date: 2024-05-17T12:10:08Z
 draft: false
 author: Roy T. Bennett
 description: Quotes by Roy T. Bennett
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## It's only after you've stepped outside your comfort zone that you begin to change, grow, and transform.
+## Time doesn't heal emotional pain, you need to learn how to let go.
 

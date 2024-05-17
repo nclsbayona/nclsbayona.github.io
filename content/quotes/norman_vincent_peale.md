@@ -1,6 +1,6 @@
 ---
 title: Quotes by Norman Vincent Peale
-date: 2024-05-10T12:10:03Z
+date: 2024-05-17T12:10:08Z
 draft: false
 author: Norman Vincent Peale
 description: Quotes by Norman Vincent Peale
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Norman Vincent Peale. Enjoy!
-## Our happiness depends on the habit of mind we cultivate.
+## Shoot for the moon. Even if you miss, you'll land among the stars.
 

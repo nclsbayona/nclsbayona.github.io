@@ -1,6 +1,6 @@
 ---
 title: Quotes by Kahlil Gibran
-date: 2024-05-10T12:10:03Z
+date: 2024-05-17T12:10:08Z
 draft: false
 author: Kahlil Gibran
 description: Quotes by Kahlil Gibran
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Kahlil Gibran. Enjoy!
-## To understand the heart and mind of a person, look not at what he has already achieved, but at what he aspires to.
+## Rest in reason; move in passion.
 

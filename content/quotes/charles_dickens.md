@@ -1,6 +1,6 @@
 ---
 title: Quotes by Charles Dickens
-date: 2024-05-10T12:10:03Z
+date: 2024-05-17T12:10:08Z
 draft: false
 author: Charles Dickens
 description: Quotes by Charles Dickens
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Charles Dickens. Enjoy!
-## One always begins to forgive a place as soon as it's left behind.
+## The pain of parting is nothing to the joy of meeting again.
 

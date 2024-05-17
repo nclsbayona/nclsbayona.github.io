@@ -1,6 +1,6 @@
 ---
 title: Quotes by Zig Ziglar
-date: 2024-05-10T12:10:03Z
+date: 2024-05-17T12:10:08Z
 draft: false
 author: Zig Ziglar
 description: Quotes by Zig Ziglar
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Zig Ziglar. Enjoy!
-## Outstanding people have one thing in common: an absolute sense of mission.  
+## If you aim at nothing, you will hit it every time.  
 

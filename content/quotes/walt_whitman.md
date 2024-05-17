@@ -1,6 +1,6 @@
 ---
 title: Quotes by Walt Whitman
-date: 2024-05-10T12:10:03Z
+date: 2024-05-17T12:10:08Z
 draft: false
 author: Walt Whitman
 description: Quotes by Walt Whitman
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Walt Whitman. Enjoy!
-## Keep your face always toward the sunshine -  shadows will fall behind you.
+## The future is no more uncertain than the present.
 

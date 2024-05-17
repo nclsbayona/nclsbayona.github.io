@@ -1,6 +1,6 @@
 ---
 title: Quotes by James Allen
-date: 2024-05-10T12:10:03Z
+date: 2024-05-17T12:10:08Z
 draft: false
 author: James Allen
 description: Quotes by James Allen
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by James Allen. Enjoy!
-## A man is literally what he thinks.
+## Men do not attract which they want but that which they are.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Socrates
-date: 2024-05-10T12:10:03Z
+date: 2024-05-17T12:10:08Z
 draft: false
 author: Socrates
 description: Quotes by Socrates
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Socrates. Enjoy!
-## True wisdom comes to each of us when we realize how little we understand about life, ourselves, and the world around us.
+## Be of good cheer about death, and know this of a truth, that no evil can happen to a good man, either in life or after death.
 

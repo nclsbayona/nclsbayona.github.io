@@ -1,6 +1,6 @@
 ---
 title: Quotes by Naval Ravikant
-date: 2024-05-10T12:10:03Z
+date: 2024-05-17T12:10:08Z
 draft: false
 author: Naval Ravikant
 description: Quotes by Naval Ravikant
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Naval Ravikant. Enjoy!
-## The people who succeed are irrationally passionate about something.
+## If it entertains you now but will bore you someday, it's a distraction. Keep looking.
 
