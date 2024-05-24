@@ -1,6 +1,6 @@
 ---
 title: Quotes by Charles Dickens
-date: 2024-05-17T12:10:08Z
+date: 2024-05-24T12:11:36Z
 draft: false
 author: Charles Dickens
 description: Quotes by Charles Dickens
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Charles Dickens. Enjoy!
-## The pain of parting is nothing to the joy of meeting again.
+## A thing constructed can only be loved after it is constructed; but a thing created is loved before it exists.
 

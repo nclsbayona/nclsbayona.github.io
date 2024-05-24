@@ -1,6 +1,6 @@
 ---
 title: Quotes by Kahlil Gibran
-date: 2024-05-17T12:10:08Z
+date: 2024-05-24T12:11:36Z
 draft: false
 author: Kahlil Gibran
 description: Quotes by Kahlil Gibran
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Kahlil Gibran. Enjoy!
-## Rest in reason; move in passion.
+## Out of suffering have emerged the strongest souls; the most massive characters are seared with scars.
 

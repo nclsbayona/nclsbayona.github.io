@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eleanor Roosevelt
-date: 2024-05-17T12:10:08Z
+date: 2024-05-24T12:11:36Z
 draft: false
 author: Eleanor Roosevelt
 description: Quotes by Eleanor Roosevelt
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eleanor Roosevelt. Enjoy!
-## With the new day comes new strength and new thoughts.
+## Learn from the mistakes of others. You can't live long enough to make them all yourself.
 

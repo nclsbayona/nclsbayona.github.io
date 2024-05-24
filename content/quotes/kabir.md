@@ -1,6 +1,6 @@
 ---
 title: Quotes by Kabir
-date: 2024-05-17T12:10:08Z
+date: 2024-05-24T12:11:36Z
 draft: false
 author: Kabir
 description: Quotes by Kabir
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Kabir. Enjoy!
-## The river that flows in you also flows in me.
+## If you don't break your ropes while you're alive, do you think ghosts will do it after?
 

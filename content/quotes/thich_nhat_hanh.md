@@ -1,6 +1,6 @@
 ---
 title: Quotes by Thich Nhat Hanh
-date: 2024-05-17T12:10:08Z
+date: 2024-05-24T12:11:36Z
 draft: false
 author: Thich Nhat Hanh
 description: Quotes by Thich Nhat Hanh
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Thich Nhat Hanh. Enjoy!
-## There is no way to happiness - happiness is the way.
+## If we are not able to smile, then the world will not have peace.
 

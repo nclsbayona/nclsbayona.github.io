@@ -1,6 +1,6 @@
 ---
 title: Quotes by Maya Angelou
-date: 2024-05-17T12:10:08Z
+date: 2024-05-24T12:11:36Z
 draft: false
 author: Maya Angelou
 description: Quotes by Maya Angelou
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Maya Angelou. Enjoy!
-## If you have only one smile in you give it to the people you love.
+## Nothing will work unless you do.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Laurence J. Peter
-date: 2024-05-17T12:10:08Z
+date: 2024-05-24T12:11:36Z
 draft: false
 author: Laurence J. Peter
 description: Quotes by Laurence J. Peter
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Laurence J. Peter. Enjoy!
-## An intelligence test sometimes shows a man how smart he would have been not to have taken it.
+## Originality is the fine art of remembering what you hear but forgetting where you heard it. 
 

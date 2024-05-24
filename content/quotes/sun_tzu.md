@@ -1,6 +1,6 @@
 ---
 title: Quotes by Sun Tzu
-date: 2024-05-17T12:10:08Z
+date: 2024-05-24T12:11:36Z
 draft: false
 author: Sun Tzu
 description: Quotes by Sun Tzu
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Sun Tzu. Enjoy!
-## Know yourself and you will win all battles.
+## It is easy to love your friend, but sometimes the hardest lesson to learn is to love your enemy.
 

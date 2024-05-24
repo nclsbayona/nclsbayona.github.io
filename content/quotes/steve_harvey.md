@@ -1,6 +1,6 @@
 ---
 title: Quotes by Steve Harvey
-date: 2024-05-17T12:10:08Z
+date: 2024-05-24T12:11:36Z
 draft: false
 author: Steve Harvey
 description: Quotes by Steve Harvey
