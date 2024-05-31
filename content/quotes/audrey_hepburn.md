@@ -1,6 +1,6 @@
 ---
 title: Quotes by Audrey Hepburn
-date: 2024-05-24T12:11:36Z
+date: 2024-05-31T12:11:11Z
 draft: false
 author: Audrey Hepburn
 description: Quotes by Audrey Hepburn
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Audrey Hepburn. Enjoy!
-## Success is like reaching an important birthday and finding you're exactly the same.
+## Why change? Everyone has his own style. When you have found it, you should stick to it.
 

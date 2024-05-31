@@ -1,6 +1,6 @@
 ---
 title: Quotes by T.S. Eliot
-date: 2024-05-24T12:11:36Z
+date: 2024-05-31T12:11:11Z
 draft: false
 author: T.S. Eliot
 description: Quotes by T.S. Eliot

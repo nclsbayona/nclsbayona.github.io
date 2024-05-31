@@ -1,6 +1,6 @@
 ---
 title: Quotes by Barack Obama
-date: 2024-05-24T12:11:36Z
+date: 2024-05-31T12:11:11Z
 draft: false
 author: Barack Obama
 description: Quotes by Barack Obama

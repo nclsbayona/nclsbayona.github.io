@@ -1,6 +1,6 @@
 ---
 title: Quotes by Dan Millman
-date: 2024-05-24T12:11:36Z
+date: 2024-05-31T12:11:11Z
 draft: false
 author: Dan Millman
 description: Quotes by Dan Millman
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Dan Millman. Enjoy!
-## While some of us act without thinking, too many of us think without acting.
+## The seasons do not push one another; neither do clouds race the wind across the sky. All things happen in their own good time.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Mother Teresa
-date: 2024-05-24T12:11:36Z
+date: 2024-05-31T12:11:11Z
 draft: false
 author: Mother Teresa
 description: Quotes by Mother Teresa
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Mother Teresa. Enjoy!
-## Yesterday is gone. Tomorrow has not yet come. We have only today.
+## Intense love does not measure, it just gives.
 

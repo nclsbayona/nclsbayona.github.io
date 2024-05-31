@@ -1,6 +1,6 @@
 ---
 title: Quotes by Albert Einstein
-date: 2024-05-24T12:11:36Z
+date: 2024-05-31T12:11:11Z
 draft: false
 author: Albert Einstein
 description: Quotes by Albert Einstein
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Albert Einstein. Enjoy!
-## Insanity: doing the same thing over and over again and expecting different results.
+## Life is like riding a bicycle. To keep your balance you must keep moving.
 
