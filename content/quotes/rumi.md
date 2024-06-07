@@ -1,6 +1,6 @@
 ---
 title: Quotes by Rumi
-date: 2024-05-31T12:11:11Z
+date: 2024-06-07T12:12:54Z
 draft: false
 author: Rumi
 description: Quotes by Rumi
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Rumi. Enjoy!
-## If light is in your heart, you will find your way home.  
+## What you seek is seeking you.
 

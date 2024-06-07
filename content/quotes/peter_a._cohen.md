@@ -1,6 +1,6 @@
 ---
 title: Quotes by Peter A. Cohen
-date: 2024-05-31T12:11:11Z
+date: 2024-06-07T12:12:54Z
 draft: false
 author: Peter A. Cohen
 description: Quotes by Peter A. Cohen
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Peter A. Cohen. Enjoy!
-## There is no one giant step that does it. It's a lot of little steps.
+## The way we feel is the direct result of what we think.
 

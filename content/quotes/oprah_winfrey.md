@@ -1,6 +1,6 @@
 ---
 title: Quotes by Oprah Winfrey
-date: 2024-05-31T12:11:11Z
+date: 2024-06-07T12:12:54Z
 draft: false
 author: Oprah Winfrey
 description: Quotes by Oprah Winfrey
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Oprah Winfrey. Enjoy!
-## The greatest discovery of all time is that a person can change their future by merely changing their attitude.
+## Passion is energy. Feel the power that comes from focusing on what excites you. 
 

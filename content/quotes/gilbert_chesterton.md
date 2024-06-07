@@ -1,6 +1,6 @@
 ---
 title: Quotes by Gilbert Chesterton
-date: 2024-05-31T12:11:11Z
+date: 2024-06-07T12:12:54Z
 draft: false
 author: Gilbert Chesterton
 description: Quotes by Gilbert Chesterton
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Gilbert Chesterton. Enjoy!
-## A dead thing can go with the stream, but only a living thing can go against it.
+## If there were no God, there would be no atheists.
 
