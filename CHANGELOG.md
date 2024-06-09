@@ -1,5 +1,12 @@
 # My Sample Changelog
 
+## [2.0.5](https://github.com/nclsbayona/nclsbayona.github.io/compare/v2.0.4...v2.0.5) (2024-06-09)
+
+
+### Bug Fixes
+
+* Replace generated quotes Fri Jun  7 12:12:54 UTC 2024 ([2b4484a](https://github.com/nclsbayona/nclsbayona.github.io/commit/2b4484ac6e8336534a4fed08c0a014336bcfa2ef))
+
 ## [2.0.4](https://github.com/nclsbayona/nclsbayona.github.io/compare/v2.0.3...v2.0.4) (2024-06-02)
 
 
