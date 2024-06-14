@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eleanor Roosevelt
-date: 2024-06-07T12:12:54Z
+date: 2024-06-14T12:11:40Z
 draft: false
 author: Eleanor Roosevelt
 description: Quotes by Eleanor Roosevelt
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eleanor Roosevelt. Enjoy!
-## Do one thing every day that scares you.
+## The future belongs to those who believe in the beauty of their dreams.
 

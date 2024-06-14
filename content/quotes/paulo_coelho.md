@@ -1,6 +1,6 @@
 ---
 title: Quotes by Paulo Coelho
-date: 2024-06-07T12:12:54Z
+date: 2024-06-14T12:11:40Z
 draft: false
 author: Paulo Coelho
 description: Quotes by Paulo Coelho
