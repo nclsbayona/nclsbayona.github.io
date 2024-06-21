@@ -1,6 +1,6 @@
 ---
 title: Quotes by Roy T. Bennett
-date: 2024-06-14T12:11:40Z
+date: 2024-06-21T12:10:54Z
 draft: false
 author: Roy T. Bennett
 description: Quotes by Roy T. Bennett
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## Life is about accepting the challenges along the way, choosing to keep moving forward, and savoring the journey.
+## Your hardest times often lead to the greatest moments of your life. Keep going. Tough situations build strong people in the end.
 

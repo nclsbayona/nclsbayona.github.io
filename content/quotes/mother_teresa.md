@@ -1,6 +1,6 @@
 ---
 title: Quotes by Mother Teresa
-date: 2024-06-14T12:11:40Z
+date: 2024-06-21T12:10:54Z
 draft: false
 author: Mother Teresa
 description: Quotes by Mother Teresa
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Mother Teresa. Enjoy!
-## I alone cannot change the world, but I can cast a stone across the waters to create many ripples.
+## We ourselves feel that what we are doing is just a drop in the ocean. But the ocean would be less because of that missing drop.
 

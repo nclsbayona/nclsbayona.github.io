@@ -1,6 +1,6 @@
 ---
 title: Quotes by Dalai Lama
-date: 2024-06-14T12:11:40Z
+date: 2024-06-21T12:10:54Z
 draft: false
 author: Dalai Lama
 description: Quotes by Dalai Lama
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Dalai Lama. Enjoy!
-## Don't let the behavior of others destroy your inner peace.
+## The more you are motivated by Love, The more Fearless & Free your action will be.
 

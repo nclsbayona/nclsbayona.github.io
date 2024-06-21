@@ -1,6 +1,6 @@
 ---
 title: Quotes by Mark Manson
-date: 2024-06-14T12:11:40Z
+date: 2024-06-21T12:10:54Z
 draft: false
 author: Mark Manson
 description: Quotes by Mark Manson
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Mark Manson. Enjoy!
-## If you want to change how you see your problems, you have to change what you value and/or how you measure failure/success.
+## Challenge yourself to find the good and beautiful thing inside of everyone.
 
