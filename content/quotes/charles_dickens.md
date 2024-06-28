@@ -1,6 +1,6 @@
 ---
 title: Quotes by Charles Dickens
-date: 2024-06-21T12:10:54Z
+date: 2024-06-28T12:11:14Z
 draft: false
 author: Charles Dickens
 description: Quotes by Charles Dickens
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Charles Dickens. Enjoy!
-## There are dark shadows on the earth, but its lights are stronger in the contrast.
+## A very little key will open a very heavy door.
 

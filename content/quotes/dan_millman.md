@@ -1,6 +1,6 @@
 ---
 title: Quotes by Dan Millman
-date: 2024-06-21T12:10:54Z
+date: 2024-06-28T12:11:14Z
 draft: false
 author: Dan Millman
 description: Quotes by Dan Millman
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Dan Millman. Enjoy!
-## You don't have to control your thoughts; you just have to stop letting them control you.
+## Life is a journey, not a destination.
 

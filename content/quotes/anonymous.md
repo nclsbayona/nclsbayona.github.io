@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-06-21T12:10:54Z
+date: 2024-06-28T12:11:14Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Fear is what stops you. Courage is what keeps you going.
+## A little progress each day adds up to big results.
 

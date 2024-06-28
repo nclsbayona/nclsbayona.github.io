@@ -1,6 +1,6 @@
 ---
 title: Quotes by Bodhidharma
-date: 2024-06-21T12:10:54Z
+date: 2024-06-28T12:11:14Z
 draft: false
 author: Bodhidharma
 description: Quotes by Bodhidharma
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Bodhidharma. Enjoy!
-## Poverty and hardship are created by false thinking.
+## Freeing oneself from words is liberation. 
 
