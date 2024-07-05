@@ -1,6 +1,6 @@
 ---
 title: Quotes by Sigmund Freud
-date: 2024-06-28T12:11:14Z
+date: 2024-07-05T12:11:12Z
 draft: false
 author: Sigmund Freud
 description: Quotes by Sigmund Freud
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Sigmund Freud. Enjoy!
-## Dreams are the royal road to the unconscious. 
+## Being entirely honest with oneself is a good exercise.
 

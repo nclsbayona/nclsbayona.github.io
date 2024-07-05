@@ -1,6 +1,6 @@
 ---
 title: Quotes by Gustave Flaubert
-date: 2024-06-28T12:11:14Z
+date: 2024-07-05T12:11:12Z
 draft: false
 author: Gustave Flaubert
 description: Quotes by Gustave Flaubert
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Gustave Flaubert. Enjoy!
-## You can calculate the worth of a man by the number of his enemies.
+## Life must be a constant education; one must learn everything, from speaking to dying.
 

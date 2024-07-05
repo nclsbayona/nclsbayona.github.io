@@ -1,6 +1,6 @@
 ---
 title: Quotes by Roy T. Bennett
-date: 2024-06-28T12:11:14Z
+date: 2024-07-05T12:11:12Z
 draft: false
 author: Roy T. Bennett
 description: Quotes by Roy T. Bennett
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## Be grateful for what you have now, and nothing should be taken for granted.
+## If you care about someone enough, you'll always be there for them no matter what.
 

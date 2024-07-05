@@ -1,6 +1,6 @@
 ---
 title: Quotes by Harry S. Truman
-date: 2024-06-28T12:11:14Z
+date: 2024-07-05T12:11:12Z
 draft: false
 author: Harry S. Truman
 description: Quotes by Harry S. Truman

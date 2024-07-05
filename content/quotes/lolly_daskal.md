@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lolly Daskal
-date: 2024-06-28T12:11:14Z
+date: 2024-07-05T12:11:12Z
 draft: false
 author: Lolly Daskal
 description: Quotes by Lolly Daskal
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lolly Daskal. Enjoy!
-## Focus on how far you have come in life rather than looking at the accomplishments of others.
+## Becoming a great leader doesn't mean being perfect. it means living with your imperfections.
 

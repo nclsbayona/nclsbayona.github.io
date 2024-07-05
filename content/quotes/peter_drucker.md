@@ -1,6 +1,6 @@
 ---
 title: Quotes by Peter Drucker
-date: 2024-06-28T12:11:14Z
+date: 2024-07-05T12:11:12Z
 draft: false
 author: Peter Drucker
 description: Quotes by Peter Drucker
