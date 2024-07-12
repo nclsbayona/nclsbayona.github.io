@@ -1,6 +1,6 @@
 ---
 title: Quotes by Chinese Proverb
-date: 2024-07-05T12:11:12Z
+date: 2024-07-12T12:12:42Z
 draft: false
 author: Chinese Proverb
 description: Quotes by Chinese Proverb
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Chinese Proverb. Enjoy!
-## Be not afraid of growing slowly, be afraid only of standing still. 
+## Small men think they are small; great men never know they are great. 
 

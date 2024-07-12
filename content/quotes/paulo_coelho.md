@@ -1,6 +1,6 @@
 ---
 title: Quotes by Paulo Coelho
-date: 2024-07-05T12:11:12Z
+date: 2024-07-12T12:12:42Z
 draft: false
 author: Paulo Coelho
 description: Quotes by Paulo Coelho
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Paulo Coelho. Enjoy!
-## When you repeat a mistake, it is not a mistake anymore: it is a decision.
+## If you think adventure is dangerous, try routine; it is lethal.
 

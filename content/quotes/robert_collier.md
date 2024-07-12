@@ -1,6 +1,6 @@
 ---
 title: Quotes by Robert Collier
-date: 2024-07-05T12:11:12Z
+date: 2024-07-12T12:12:42Z
 draft: false
 author: Robert Collier
 description: Quotes by Robert Collier
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Robert Collier. Enjoy!
-## All power is from within and therefore under our control.
+## Your chances of success in any undertaking can always be measured by your belief in yourself.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Kabir
-date: 2024-07-05T12:11:12Z
+date: 2024-07-12T12:12:42Z
 draft: false
 author: Kabir
 description: Quotes by Kabir
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Kabir. Enjoy!
-## The river that flows in you also flows in me.
+## Wherever you are is the entry point.
 

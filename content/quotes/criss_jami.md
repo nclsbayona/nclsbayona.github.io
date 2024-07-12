@@ -1,6 +1,6 @@
 ---
 title: Quotes by Criss Jami
-date: 2024-07-05T12:11:12Z
+date: 2024-07-12T12:12:42Z
 draft: false
 author: Criss Jami
 description: Quotes by Criss Jami
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Criss Jami. Enjoy!
-## The biggest and only critic lives in your perception of people's perception of you rather than people's perception of you.
+## To share your weakness is to make yourself vulnerable; to make yourself vulnerable is to show your strength.
 
