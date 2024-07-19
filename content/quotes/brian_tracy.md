@@ -1,6 +1,6 @@
 ---
 title: Quotes by Brian Tracy
-date: 2024-07-12T12:12:42Z
+date: 2024-07-19T12:11:11Z
 draft: false
 author: Brian Tracy
 description: Quotes by Brian Tracy
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Brian Tracy. Enjoy!
-## The act of taking the first step is what separates the winners from the losers.
+## It doesn't matter where you are coming from. All that matters is where you are going. 
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Benjamin Franklin
-date: 2024-07-12T12:12:42Z
+date: 2024-07-19T12:11:11Z
 draft: false
 author: Benjamin Franklin
 description: Quotes by Benjamin Franklin
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Benjamin Franklin. Enjoy!
-## Love your enemies, for they tell you your faults.
+## Lost Time is never found again.
 

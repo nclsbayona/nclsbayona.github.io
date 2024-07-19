@@ -1,6 +1,6 @@
 ---
 title: Quotes by Jonathan Swift
-date: 2024-07-12T12:12:42Z
+date: 2024-07-19T12:11:11Z
 draft: false
 author: Jonathan Swift
 description: Quotes by Jonathan Swift
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Jonathan Swift. Enjoy!
-## There is no absolute success in the world, only constant progress.
+## Health is the greatest of all possessions.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Aristotle
-date: 2024-07-12T12:12:42Z
+date: 2024-07-19T12:11:11Z
 draft: false
 author: Aristotle
 description: Quotes by Aristotle
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## It is not enough to win a war; it is more important to organize the peace.
+## The whole is greater than the sum of its parts.
 

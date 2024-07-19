@@ -1,6 +1,6 @@
 ---
 title: Quotes by Chinese Proverb
-date: 2024-07-12T12:12:42Z
+date: 2024-07-19T12:11:11Z
 draft: false
 author: Chinese Proverb
 description: Quotes by Chinese Proverb
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Chinese Proverb. Enjoy!
-## Small men think they are small; great men never know they are great. 
+## The person who is his own master cannot tolerate another boss. 
 
