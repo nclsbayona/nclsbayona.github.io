@@ -1,0 +1,14 @@
+---
+title: Quotes by Coco Chanel
+date: 2024-07-26T12:11:47Z
+draft: false
+author: Coco Chanel
+description: Quotes by Coco Chanel
+tags:
+  - Quotes
+  - Coco Chanel
+---
+ 
+# Here you have some quotes by Coco Chanel. Enjoy!
+## Guilt is perhaps the most painful companion of death.
+

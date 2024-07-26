@@ -1,6 +1,6 @@
 ---
 title: Quotes by Roy T. Bennett
-date: 2024-07-19T12:11:11Z
+date: 2024-07-26T12:11:47Z
 draft: false
 author: Roy T. Bennett
 description: Quotes by Roy T. Bennett
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## Instead of worrying about what you cannot control, shift your energy to what you can create.
+## Believe in yourself. You are braver than you think, more talented than you know, and capable of more than you imagine.
 

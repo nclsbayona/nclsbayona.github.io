@@ -1,6 +1,6 @@
 ---
 title: Quotes by Chinese Proverb
-date: 2024-07-19T12:11:11Z
+date: 2024-07-26T12:11:47Z
 draft: false
 author: Chinese Proverb
 description: Quotes by Chinese Proverb
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Chinese Proverb. Enjoy!
-## The person who is his own master cannot tolerate another boss. 
+## Experience is a comb which nature gives us when we are bald. 
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by William James
-date: 2024-07-19T12:11:11Z
+date: 2024-07-26T12:11:47Z
 draft: false
 author: William James
 description: Quotes by William James

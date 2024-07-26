@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lao Tzu
-date: 2024-07-19T12:11:11Z
+date: 2024-07-26T12:11:47Z
 draft: false
 author: Lao Tzu
 description: Quotes by Lao Tzu
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lao Tzu. Enjoy!
-## Do the difficult things while they are easy and do the great things while they are small.
+## Great acts are made up of small deeds.
 
