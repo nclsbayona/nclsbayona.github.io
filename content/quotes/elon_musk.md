@@ -1,6 +1,6 @@
 ---
 title: Quotes by Elon Musk
-date: 2024-07-26T12:11:47Z
+date: 2024-08-02T12:11:27Z
 draft: false
 author: Elon Musk
 description: Quotes by Elon Musk
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Elon Musk. Enjoy!
-## I don't ever give up. I'd have to be dead or completely incapacitated.
+## Life needs to be more than just solving problems every day. You need to wake up and be excited about the future.
 

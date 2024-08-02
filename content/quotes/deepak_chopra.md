@@ -1,6 +1,6 @@
 ---
 title: Quotes by Deepak Chopra
-date: 2024-07-26T12:11:47Z
+date: 2024-08-02T12:11:27Z
 draft: false
 author: Deepak Chopra
 description: Quotes by Deepak Chopra
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Deepak Chopra. Enjoy!
-## Silence is the great teacher and to learn its lessons you must pay attention to it.
+## You are not the drop in the ocean, but the ocean in the drop.
 

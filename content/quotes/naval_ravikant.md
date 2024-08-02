@@ -1,6 +1,6 @@
 ---
 title: Quotes by Naval Ravikant
-date: 2024-07-26T12:11:47Z
+date: 2024-08-02T12:11:27Z
 draft: false
 author: Naval Ravikant
 description: Quotes by Naval Ravikant
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Naval Ravikant. Enjoy!
-## A rational person can find peace by cultivating indifference to things outside of their control.
+## Nothing you do is going to matter that much in the long run. Don't take yourself so seriously.
 

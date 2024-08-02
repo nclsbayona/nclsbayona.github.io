@@ -1,6 +1,6 @@
 ---
 title: Quotes by Carl Jung
-date: 2024-07-26T12:11:47Z
+date: 2024-08-02T12:11:27Z
 draft: false
 author: Carl Jung
 description: Quotes by Carl Jung
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Carl Jung. Enjoy!
-## No tree, it is said, can grow to heaven unless its roots reach down to hell.
+## Your visions will become clear only when you can look into your own heart. Who looks outside, dreams; who looks inside, awakes.
 

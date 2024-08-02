@@ -1,6 +1,6 @@
 ---
 title: Quotes by Tony Robbins
-date: 2024-07-26T12:11:47Z
+date: 2024-08-02T12:11:27Z
 draft: false
 author: Tony Robbins
 description: Quotes by Tony Robbins
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Tony Robbins. Enjoy!
-## Nothing has any power over me other than that which I give it through my conscious thoughts.
+## Lack of emotion causes lack of progress and lack of motivation.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Zig Ziglar
-date: 2024-07-26T12:11:47Z
+date: 2024-08-02T12:11:27Z
 draft: false
 author: Zig Ziglar
 description: Quotes by Zig Ziglar

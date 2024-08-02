@@ -1,6 +1,6 @@
 ---
 title: Quotes by Voltaire
-date: 2024-07-26T12:11:47Z
+date: 2024-08-02T12:11:27Z
 draft: false
 author: Voltaire
 description: Quotes by Voltaire
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Voltaire. Enjoy!
-## Doubt is an uncomfortable condition, but certainty is a ridiculous one.
+## Those who can make you believe absurdities can make you commit atrocities. 
 

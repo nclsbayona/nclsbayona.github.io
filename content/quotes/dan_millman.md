@@ -1,6 +1,6 @@
 ---
 title: Quotes by Dan Millman
-date: 2024-07-26T12:11:47Z
+date: 2024-08-02T12:11:27Z
 draft: false
 author: Dan Millman
 description: Quotes by Dan Millman
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Dan Millman. Enjoy!
-## Be gentle with yourself. Think less and feel more. Be as happy as you can. You only have this moment.
+## The birth of the mind is the death of the senses.
 
