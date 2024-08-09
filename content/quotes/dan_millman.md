@@ -1,6 +1,6 @@
 ---
 title: Quotes by Dan Millman
-date: 2024-08-02T12:11:27Z
+date: 2024-08-09T12:11:52Z
 draft: false
 author: Dan Millman
 description: Quotes by Dan Millman
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Dan Millman. Enjoy!
-## The birth of the mind is the death of the senses.
+## We cannot always do great things in life, but we can do small things with great love.
 

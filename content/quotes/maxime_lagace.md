@@ -1,6 +1,6 @@
 ---
 title: Quotes by Maxime Lagace
-date: 2024-08-02T12:11:27Z
+date: 2024-08-09T12:11:52Z
 draft: false
 author: Maxime Lagace
 description: Quotes by Maxime Lagace
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Maxime Lagace. Enjoy!
-## Your best life will not be found in comfort. It will be found in fighting for what you believe in.
+## Inner peace is when you realize that, in the end, nothing matters.
 

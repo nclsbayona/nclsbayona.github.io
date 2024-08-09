@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eric Hoffer
-date: 2024-08-02T12:11:27Z
+date: 2024-08-09T12:11:52Z
 draft: false
 author: Eric Hoffer
 description: Quotes by Eric Hoffer
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eric Hoffer. Enjoy!
-## An empty head is not really empty; it is stuffed with rubbish. Hence the difficulty of forcing anything into an empty head.
+## You can never get enough of what you don't need to make you happy.
 

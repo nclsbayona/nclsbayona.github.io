@@ -1,6 +1,6 @@
 ---
 title: Quotes by Napoleon Hill
-date: 2024-08-02T12:11:27Z
+date: 2024-08-09T12:11:52Z
 draft: false
 author: Napoleon Hill
 description: Quotes by Napoleon Hill
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Napoleon Hill. Enjoy!
-## A goal is a dream with a deadline.
+## Success comes to those who become success conscious.
 

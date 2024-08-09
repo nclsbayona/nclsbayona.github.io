@@ -1,6 +1,6 @@
 ---
 title: Quotes by Carl Jung
-date: 2024-08-02T12:11:27Z
+date: 2024-08-09T12:11:52Z
 draft: false
 author: Carl Jung
 description: Quotes by Carl Jung
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Carl Jung. Enjoy!
-## Your visions will become clear only when you can look into your own heart. Who looks outside, dreams; who looks inside, awakes.
+## The first half of life is devoted to forming a healthy ego, the second half is going inward and letting go of it.
 

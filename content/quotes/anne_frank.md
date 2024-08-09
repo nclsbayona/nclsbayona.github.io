@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anne Frank
-date: 2024-08-02T12:11:27Z
+date: 2024-08-09T12:11:52Z
 draft: false
 author: Anne Frank
 description: Quotes by Anne Frank
