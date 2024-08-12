@@ -152,7 +152,7 @@ params:
         - "Go and BubbleTea"
         - "Dart and Flutter"
         - "Java and Spring framework"
-        - "Cibersecurity related stuff"
+        - "Cybersecurity related stuff"
         - "Terraform"
         - "Docker and Kubernetes"
         - "AWS, OCI, GCP and Fly.io"
@@ -166,7 +166,9 @@ params:
         company: "Pontificia Universidad Javeriana"
         companyUrl: "https://javeriana.edu.co"
         date: "July 2020 - December 2020"
-        content: "As a teacher assistant, my job was to help students correctly understand programming concepts and be able to implement basic software applications."
+        info: "I worked as a teacher assistant because I found it was a good way to motivate people with my experience"
+        content: |-
+          As a teacher assistant, my job was to help students correctly understand programming concepts and be able to implement basic software applications.
         featuredLink:
           enable: false
     #       name: "View the project"
@@ -175,8 +177,16 @@ params:
         company: "Endava"
         companyUrl: "https://endava.com"
         date: "January 2024 - July 2024"
-        content: "As a DevOps intern, my job consisted in understanding some best practices in the DevOps area and helping in some projects I was involved on."
-
+        info: "I decided to be a DevOps intern because I really like DevOps"
+        content: |-
+          As a DevOps intern, my job consisted in understanding some best practices in the DevOps area and helping in some projects I was involved on.
+      - job: "DevOps Engineer (Technician)"
+        company: "Endava"
+        companyUrl: "https://endava.com"
+        date: "July 2024 - Present"
+        info: "I'm currently working as a DevOps Engineer in Endava"
+        content: |-
+          As a DevOps Engineer, my job consisted in bringing some DevOps best practices to different projects and teams.
     #   - job: "Software Developer"
     #     company: "Amazon"
     #     companyUrl: "https://example.com"
