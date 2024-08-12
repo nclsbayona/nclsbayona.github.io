@@ -1,6 +1,6 @@
 ---
 title: Quotes by Oscar Wilde
-date: 2024-08-09T12:11:52Z
+date: 2024-08-12T14:32:24Z
 draft: false
 author: Oscar Wilde
 description: Quotes by Oscar Wilde
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Oscar Wilde. Enjoy!
-## The truth is rarely pure and never simple. 
+## Whenever people agree with me I always feel I must be wrong.
 

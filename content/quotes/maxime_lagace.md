@@ -1,6 +1,6 @@
 ---
 title: Quotes by Maxime Lagace
-date: 2024-08-09T12:11:52Z
+date: 2024-08-12T14:32:24Z
 draft: false
 author: Maxime Lagace
 description: Quotes by Maxime Lagace
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Maxime Lagace. Enjoy!
-## Inner peace is when you realize that, in the end, nothing matters.
+## The wiser you get, the less you care to look like a fool.
 

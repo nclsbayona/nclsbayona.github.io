@@ -1,6 +1,6 @@
 ---
 title: Quotes by Napoleon Hill
-date: 2024-08-09T12:11:52Z
+date: 2024-08-12T14:32:24Z
 draft: false
 author: Napoleon Hill
 description: Quotes by Napoleon Hill
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Napoleon Hill. Enjoy!
-## Success comes to those who become success conscious.
+## A Quitter never wins - and - a Winner never quits.
 

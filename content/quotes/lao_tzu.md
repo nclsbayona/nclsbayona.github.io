@@ -1,0 +1,14 @@
+---
+title: Quotes by Lao Tzu
+date: 2024-08-12T14:32:24Z
+draft: false
+author: Lao Tzu
+description: Quotes by Lao Tzu
+tags:
+  - Quotes
+  - Lao Tzu
+---
+ 
+# Here you have some quotes by Lao Tzu. Enjoy!
+## Give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime.
+

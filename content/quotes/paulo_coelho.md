@@ -1,6 +1,6 @@
 ---
 title: Quotes by Paulo Coelho
-date: 2024-08-09T12:11:52Z
+date: 2024-08-12T14:32:24Z
 draft: false
 author: Paulo Coelho
 description: Quotes by Paulo Coelho
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Paulo Coelho. Enjoy!
-## When you repeat a mistake, it is not a mistake anymore: it is a decision.
+## If you're brave enough to say goodbye, life will reward you with a new hello.
 
