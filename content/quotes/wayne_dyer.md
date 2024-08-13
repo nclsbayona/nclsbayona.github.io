@@ -1,6 +1,6 @@
 ---
 title: Quotes by Wayne Dyer
-date: 2024-08-13T06:06:01Z
+date: 2024-08-13T07:03:54Z
 draft: false
 author: Wayne Dyer
 description: Quotes by Wayne Dyer
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Wayne Dyer. Enjoy!
-## The highest form of ignorance is when you reject something you don't know anything about. 
+## Go for it now. The future is promised to no one. 
 

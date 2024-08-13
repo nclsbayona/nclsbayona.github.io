@@ -1,6 +1,6 @@
 ---
 title: Quotes by Paulo Coelho
-date: 2024-08-13T06:06:01Z
+date: 2024-08-13T07:03:54Z
 draft: false
 author: Paulo Coelho
 description: Quotes by Paulo Coelho
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Paulo Coelho. Enjoy!
-## You are what you believe yourself to be.
+## If you're brave enough to say goodbye, life will reward you with a new hello.
 

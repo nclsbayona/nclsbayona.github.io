@@ -1,6 +1,6 @@
 ---
 title: Quotes by Aristotle
-date: 2024-08-13T06:06:01Z
+date: 2024-08-13T07:03:54Z
 draft: false
 author: Aristotle
 description: Quotes by Aristotle
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## We are what we repeatedly do. Excellence, then, is not an act, but a habit.
+## Quality is not an act, it is a habit.
 

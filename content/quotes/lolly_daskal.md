@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lolly Daskal
-date: 2024-08-13T06:06:01Z
+date: 2024-08-13T07:03:54Z
 draft: false
 author: Lolly Daskal
 description: Quotes by Lolly Daskal
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lolly Daskal. Enjoy!
-## Success is within the reach of just about everyone.
+## When your intuition is strong, follow it.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Tony Robbins
-date: 2024-08-13T06:06:01Z
+date: 2024-08-13T07:03:54Z
 draft: false
 author: Tony Robbins
 description: Quotes by Tony Robbins
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Tony Robbins. Enjoy!
-## I discovered a long time ago that if I helped enough people get what they wanted, I would always get what I wanted and I would never have to worry.
+## Your past does not equal your future.
 

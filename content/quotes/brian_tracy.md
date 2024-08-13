@@ -1,6 +1,6 @@
 ---
 title: Quotes by Brian Tracy
-date: 2024-08-13T06:06:01Z
+date: 2024-08-13T07:03:54Z
 draft: false
 author: Brian Tracy
 description: Quotes by Brian Tracy
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Brian Tracy. Enjoy!
-## Move out of your comfort zone. You can only grow if you are willing to feel awkward and uncomfortable when you try something new.
+## Failure is a prerequisite for great success. If you want success faster, double your rate of failure.
 

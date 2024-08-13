@@ -1,6 +1,6 @@
 ---
 title: Quotes by J.R.R. Tolkien
-date: 2024-08-13T06:06:01Z
+date: 2024-08-13T07:03:54Z
 draft: false
 author: J.R.R. Tolkien
 description: Quotes by J.R.R. Tolkien
