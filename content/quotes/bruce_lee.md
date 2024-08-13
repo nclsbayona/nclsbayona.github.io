@@ -1,6 +1,6 @@
 ---
 title: Quotes by Bruce Lee
-date: 2024-08-12T14:32:24Z
+date: 2024-08-13T06:00:41Z
 draft: false
 author: Bruce Lee
 description: Quotes by Bruce Lee

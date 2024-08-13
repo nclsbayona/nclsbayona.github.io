@@ -1,6 +1,6 @@
 ---
 title: Quotes by Heraclitus
-date: 2024-08-12T14:32:24Z
+date: 2024-08-13T06:00:41Z
 draft: false
 author: Heraclitus
 description: Quotes by Heraclitus
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Heraclitus. Enjoy!
-## The Only Thing That Is Constant Is Change
+## Everything flows, nothing stands still.
 

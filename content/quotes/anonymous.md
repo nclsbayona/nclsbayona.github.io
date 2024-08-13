@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-08-12T14:32:24Z
+date: 2024-08-13T06:00:41Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## The only time you run out of chances is when you stop taking them.
+## Turn the pain into power.
 

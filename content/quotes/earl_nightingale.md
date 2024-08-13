@@ -1,6 +1,6 @@
 ---
 title: Quotes by Earl Nightingale
-date: 2024-08-12T14:32:24Z
+date: 2024-08-13T06:00:41Z
 draft: false
 author: Earl Nightingale
 description: Quotes by Earl Nightingale
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Earl Nightingale. Enjoy!
-## Learn to enjoy every minute of your life. Be happy now. Don't wait for something outside of yourself to make you happy in the future.
+## We are all self-made, but only the successful will admit it.
 

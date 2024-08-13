@@ -1,6 +1,6 @@
 ---
 title: Quotes by Wayne Dyer
-date: 2024-08-12T14:32:24Z
+date: 2024-08-13T06:00:41Z
 draft: false
 author: Wayne Dyer
 description: Quotes by Wayne Dyer
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Wayne Dyer. Enjoy!
-## You'll see it when you believe it. 
+## The highest form of ignorance is when you reject something you don't know anything about. 
 

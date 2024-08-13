@@ -1,6 +1,6 @@
 ---
 title: Quotes by Criss Jami
-date: 2024-08-12T14:32:24Z
+date: 2024-08-13T06:00:41Z
 draft: false
 author: Criss Jami
 description: Quotes by Criss Jami
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Criss Jami. Enjoy!
-## The biggest and only critic lives in your perception of people's perception of you rather than people's perception of you.
+## If you build the guts to do something, anything, then you better save enough to face the consequences.
 

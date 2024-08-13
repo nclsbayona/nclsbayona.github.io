@@ -1,6 +1,6 @@
 ---
 title: Quotes by Maxime Lagace
-date: 2024-08-12T14:32:24Z
+date: 2024-08-13T06:00:41Z
 draft: false
 author: Maxime Lagace
 description: Quotes by Maxime Lagace
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Maxime Lagace. Enjoy!
-## The wiser you get, the less you care to look like a fool.
+## The highest level of wisdom is when you not only accept but love adversity.
 

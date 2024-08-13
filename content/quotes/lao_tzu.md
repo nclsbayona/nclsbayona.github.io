@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lao Tzu
-date: 2024-08-12T14:32:24Z
+date: 2024-08-13T06:00:41Z
 draft: false
 author: Lao Tzu
 description: Quotes by Lao Tzu
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lao Tzu. Enjoy!
-## Give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime.
+## Being deeply loved by someone gives you strength, while loving someone deeply gives you courage. 
 

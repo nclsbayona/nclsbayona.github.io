@@ -1,6 +1,6 @@
 ---
 title: Quotes by Albert Einstein
-date: 2024-08-12T14:32:24Z
+date: 2024-08-13T06:00:41Z
 draft: false
 author: Albert Einstein
 description: Quotes by Albert Einstein
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Albert Einstein. Enjoy!
-## Imagination is more important than knowledge.
+## No problem can be solved from the same level of consciousness that created it.
 
