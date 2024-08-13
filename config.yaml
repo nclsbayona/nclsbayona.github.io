@@ -169,10 +169,6 @@ params:
         info: "I worked as a teacher assistant because I found it was a good way to motivate people with my experience"
         content: |-
           As a teacher assistant, my job was to help students correctly understand programming concepts and be able to implement basic software applications.
-        featuredLink:
-          enable: false
-    #       name: "View the project"
-    #       url: "https://example.com"
       - job: "DevOps Intern"
         company: "Endava"
         companyUrl: "https://endava.com"
