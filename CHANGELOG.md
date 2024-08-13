@@ -1,5 +1,28 @@
 # My Sample Changelog
 
+# [2.1.0](https://github.com/nclsbayona/nclsbayona.github.io/compare/v2.0.6...v2.1.0) (2024-08-13)
+
+
+### Bug Fixes
+
+* Replace generated quotes Fri Aug  2 12:11:27 UTC 2024 ([78cdeb9](https://github.com/nclsbayona/nclsbayona.github.io/commit/78cdeb92287693a29e62cc20867931aef6fdc5e1))
+* Replace generated quotes Fri Aug  9 12:11:52 UTC 2024 ([3b7cf38](https://github.com/nclsbayona/nclsbayona.github.io/commit/3b7cf384dc5a77063b2ab8da08dbb366d6ad84a2))
+* Replace generated quotes Fri Jul  5 12:11:12 UTC 2024 ([06a6588](https://github.com/nclsbayona/nclsbayona.github.io/commit/06a6588e1e63cbd4c033efb33c1fcf8b7c59a573))
+* Replace generated quotes Fri Jul 12 12:12:43 UTC 2024 ([ec202bc](https://github.com/nclsbayona/nclsbayona.github.io/commit/ec202bca546ec50b70c8bb4d477ae7b3ca098eb8))
+* Replace generated quotes Fri Jul 19 12:11:12 UTC 2024 ([7b14d6a](https://github.com/nclsbayona/nclsbayona.github.io/commit/7b14d6a4c2281fba74237fb7750021c91ada6427))
+* Replace generated quotes Fri Jul 26 12:11:47 UTC 2024 ([1319549](https://github.com/nclsbayona/nclsbayona.github.io/commit/1319549c2a0bc86074867dac6e115f6bb8cafcb6))
+* Replace generated quotes Mon Aug 12 14:32:24 UTC 2024 ([0071dc2](https://github.com/nclsbayona/nclsbayona.github.io/commit/0071dc25e678fbd572f19fc6e02dace53cf98eac))
+* Replace generated quotes Tue Aug 13 06:00:41 UTC 2024 ([9d2ce99](https://github.com/nclsbayona/nclsbayona.github.io/commit/9d2ce99053ba27a7f411274175ddc2abc52ea1ba))
+* Replace generated quotes Tue Aug 13 06:06:01 UTC 2024 ([2a4b2cd](https://github.com/nclsbayona/nclsbayona.github.io/commit/2a4b2cd547bebbea9cd114904afebc2a52a90668))
+* Replace generated quotes Tue Aug 13 07:03:55 UTC 2024 ([058bee6](https://github.com/nclsbayona/nclsbayona.github.io/commit/058bee61eead9de039c6906ece425bc62b8dca99))
+* Update config.yaml ([a6ed43e](https://github.com/nclsbayona/nclsbayona.github.io/commit/a6ed43ef1b4402ffe48753a649d0661f42c1a775))
+* Update config.yaml ([0790afb](https://github.com/nclsbayona/nclsbayona.github.io/commit/0790afb3744ffeffb421f3f195fa90ee67a12633))
+
+
+### Features
+
+* Update config.yaml ([24e0df1](https://github.com/nclsbayona/nclsbayona.github.io/commit/24e0df1eff3cb073e529ac86dbf6668db6bcb15b))
+
 ## [2.0.6](https://github.com/nclsbayona/nclsbayona.github.io/compare/v2.0.5...v2.0.6) (2024-07-01)
 
 
