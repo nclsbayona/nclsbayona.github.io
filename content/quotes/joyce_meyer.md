@@ -1,6 +1,6 @@
 ---
 title: Quotes by Joyce Meyer
-date: 2024-08-13T07:03:54Z
+date: 2024-08-13T19:21:49Z
 draft: false
 author: Joyce Meyer
 description: Quotes by Joyce Meyer
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Joyce Meyer. Enjoy!
-## Stop being tormented by everyone else's reaction to you.
+## We need a backbone, not a wishbone.
 

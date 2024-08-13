@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-08-13T07:03:54Z
+date: 2024-08-13T19:21:49Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## People think about what they don't want and attract more of the same.
+## Greatest success comes just one step beyond the point at which defeat overtakes you.
 

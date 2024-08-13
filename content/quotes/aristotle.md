@@ -1,6 +1,6 @@
 ---
 title: Quotes by Aristotle
-date: 2024-08-13T07:03:54Z
+date: 2024-08-13T19:21:49Z
 draft: false
 author: Aristotle
 description: Quotes by Aristotle
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## Quality is not an act, it is a habit.
+## What is a friend? A single soul dwelling in two bodies.
 
