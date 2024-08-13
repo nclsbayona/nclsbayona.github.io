@@ -1,6 +1,6 @@
 ---
 title: Quotes by Criss Jami
-date: 2024-08-13T06:00:41Z
+date: 2024-08-13T06:06:01Z
 draft: false
 author: Criss Jami
 description: Quotes by Criss Jami
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Criss Jami. Enjoy!
-## If you build the guts to do something, anything, then you better save enough to face the consequences.
+## To seek greatness is the only righteous vengeance.
 

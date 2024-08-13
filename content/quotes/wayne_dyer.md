@@ -1,6 +1,6 @@
 ---
 title: Quotes by Wayne Dyer
-date: 2024-08-13T06:00:41Z
+date: 2024-08-13T06:06:01Z
 draft: false
 author: Wayne Dyer
 description: Quotes by Wayne Dyer

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Paulo Coelho
-date: 2024-08-13T06:00:41Z
+date: 2024-08-13T06:06:01Z
 draft: false
 author: Paulo Coelho
 description: Quotes by Paulo Coelho
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Paulo Coelho. Enjoy!
-## Love never keeps a man from pursuing his destiny.
+## You are what you believe yourself to be.
 
