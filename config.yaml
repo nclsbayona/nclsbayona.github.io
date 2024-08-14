@@ -363,6 +363,19 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/nclsbayona/Tecnoverde
+      - title: "My Cool Resume Generator"
+        content: I developed a Templating application that uses Go's native template support and a clean architecture based on Hexagonal Architecture I propose called Eneagonal architecture so the user can extend the application to make it work how he needs it to. Also, for CI/CD I included a bunch of workflows to test my application and also build container images of it.
+        image: /images/projects/eneagonal-architecture.png
+        featured:
+          name: Watch It On GitHub!
+          link: https://github.com/nclsbayona/resume-generator
+        badges:
+          - "Go"
+          - "Github Actions"
+          - "Docker"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/nclsbayona/resume-generator
     
   #Contact
   contact:
