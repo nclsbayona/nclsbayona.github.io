@@ -1,6 +1,6 @@
 ---
 title: Quotes by Jonathan Swift
-date: 2024-08-14T05:50:10Z
+date: 2024-08-14T05:56:00Z
 draft: false
 author: Jonathan Swift
 description: Quotes by Jonathan Swift

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Mark Manson
-date: 2024-08-14T05:50:10Z
+date: 2024-08-14T05:56:00Z
 draft: false
 author: Mark Manson
 description: Quotes by Mark Manson
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Mark Manson. Enjoy!
-## The less you talk about your shame, the more of it you have.
+## The more something threatens your identity, the more you will avoid it.
 

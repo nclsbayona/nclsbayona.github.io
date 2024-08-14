@@ -1,6 +1,6 @@
 ---
 title: Quotes by Mahatma Gandhi
-date: 2024-08-14T05:50:10Z
+date: 2024-08-14T05:56:00Z
 draft: false
 author: Mahatma Gandhi
 description: Quotes by Mahatma Gandhi
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Mahatma Gandhi. Enjoy!
-## You don't know who is important to you until you actually lose them.
+## The future depends on what you do today. 
 

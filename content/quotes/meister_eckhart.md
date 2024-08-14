@@ -1,6 +1,6 @@
 ---
 title: Quotes by Meister Eckhart
-date: 2024-08-14T05:50:10Z
+date: 2024-08-14T05:56:00Z
 draft: false
 author: Meister Eckhart
 description: Quotes by Meister Eckhart
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Meister Eckhart. Enjoy!
-## The price of inaction is far greater than the cost of making a mistake.
+## Be willing to be a beginner every single morning.
 

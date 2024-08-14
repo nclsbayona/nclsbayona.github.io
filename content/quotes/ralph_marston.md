@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ralph Marston
-date: 2024-08-14T05:50:10Z
+date: 2024-08-14T05:56:00Z
 draft: false
 author: Ralph Marston
 description: Quotes by Ralph Marston
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ralph Marston. Enjoy!
-## Expect the best of yourself, and then do what is necessary to make it a reality.
+## Don't let the silly little dramas of each day get you down. For you are here to do great things.
 

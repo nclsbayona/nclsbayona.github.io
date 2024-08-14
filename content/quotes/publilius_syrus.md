@@ -1,6 +1,6 @@
 ---
 title: Quotes by Publilius Syrus
-date: 2024-08-14T05:50:10Z
+date: 2024-08-14T05:56:00Z
 draft: false
 author: Publilius Syrus
 description: Quotes by Publilius Syrus
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Publilius Syrus. Enjoy!
-## It is better to learn late than never.
+## The fear of death is more to be feared, than death itself.
 

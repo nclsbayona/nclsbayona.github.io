@@ -1,6 +1,6 @@
 ---
 title: Quotes by Og Mandino
-date: 2024-08-14T05:50:10Z
+date: 2024-08-14T05:56:00Z
 draft: false
 author: Og Mandino
 description: Quotes by Og Mandino
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Og Mandino. Enjoy!
-## Take the attitude of a student. Never be too big to ask questions. Never know too much to learn something new.
+## Welcome every morning with a smile. Look on the new day as another gift from your Creator, another golden opportunity.
 

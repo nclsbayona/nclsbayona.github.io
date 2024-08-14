@@ -1,6 +1,6 @@
 ---
 title: Quotes by Henry Ford
-date: 2024-08-14T05:50:10Z
+date: 2024-08-14T05:56:00Z
 draft: false
 author: Henry Ford
 description: Quotes by Henry Ford
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Henry Ford. Enjoy!
-## The only real security that a man can have in this world is a reserve of knowledge, experience and ability. 
+## Quality means doing it right when no one is looking.
 

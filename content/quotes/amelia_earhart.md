@@ -1,6 +1,6 @@
 ---
 title: Quotes by Amelia Earhart
-date: 2024-08-14T05:50:10Z
+date: 2024-08-14T05:56:00Z
 draft: false
 author: Amelia Earhart
 description: Quotes by Amelia Earhart
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Amelia Earhart. Enjoy!
-## There's more to life than being a passenger.
+## Courage is the price that life exacts for granting peace.
 
