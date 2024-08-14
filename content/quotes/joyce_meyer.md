@@ -1,6 +1,6 @@
 ---
 title: Quotes by Joyce Meyer
-date: 2024-08-13T19:21:49Z
+date: 2024-08-14T05:19:53Z
 draft: false
 author: Joyce Meyer
 description: Quotes by Joyce Meyer
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Joyce Meyer. Enjoy!
-## We need a backbone, not a wishbone.
+## You can not live your life just based on what everyone else thinks.
 

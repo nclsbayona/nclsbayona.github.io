@@ -1,6 +1,6 @@
 ---
 title: Quotes by Michael Jordan
-date: 2024-08-13T19:21:49Z
+date: 2024-08-14T05:19:53Z
 draft: false
 author: Michael Jordan
 description: Quotes by Michael Jordan

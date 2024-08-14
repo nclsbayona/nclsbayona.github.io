@@ -1,6 +1,6 @@
 ---
 title: Quotes by Arnold Schwarzenegger
-date: 2024-08-13T19:21:49Z
+date: 2024-08-14T05:19:53Z
 draft: false
 author: Arnold Schwarzenegger
 description: Quotes by Arnold Schwarzenegger
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Arnold Schwarzenegger. Enjoy!
-## Help others and give something back.
+## If you don't find the time, if you don't do the work, you don't get the results.
 

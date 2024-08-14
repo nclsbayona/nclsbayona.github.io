@@ -1,6 +1,6 @@
 ---
 title: Quotes by George Bernard Shaw
-date: 2024-08-13T19:21:49Z
+date: 2024-08-14T05:19:53Z
 draft: false
 author: George Bernard Shaw
 description: Quotes by George Bernard Shaw
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by George Bernard Shaw. Enjoy!
-## Success does not consist in never making mistakes but in never making the same one a second time.
+## Life isn't about finding yourself. Life is about creating yourself.
 

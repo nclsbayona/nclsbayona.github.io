@@ -1,6 +1,6 @@
 ---
 title: Quotes by Vince Lombardi
-date: 2024-08-13T19:21:49Z
+date: 2024-08-14T05:19:53Z
 draft: false
 author: Vince Lombardi
 description: Quotes by Vince Lombardi
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Vince Lombardi. Enjoy!
-## Perfection is not attainable, but if we chase perfection we can catch excellence.
+## Winners never quit and quitters never win.
 

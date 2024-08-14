@@ -1,6 +1,6 @@
 ---
 title: Quotes by Aristotle
-date: 2024-08-13T19:21:49Z
+date: 2024-08-14T05:19:53Z
 draft: false
 author: Aristotle
 description: Quotes by Aristotle
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## What is a friend? A single soul dwelling in two bodies.
+## Happiness is a quality of the soul...not a function of one's material circumstances.
 

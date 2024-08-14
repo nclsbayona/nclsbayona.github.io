@@ -1,6 +1,6 @@
 ---
 title: Quotes by Napoleon Hill
-date: 2024-08-13T19:21:49Z
+date: 2024-08-14T05:19:53Z
 draft: false
 author: Napoleon Hill
 description: Quotes by Napoleon Hill
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Napoleon Hill. Enjoy!
-## No one ever is defeated until defeat has been accepted as a reality.
+## If you do not conquer self, you will be conquered by self.
 
