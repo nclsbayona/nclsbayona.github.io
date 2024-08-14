@@ -63,7 +63,7 @@ params:
   # Whether the fade animations on the home page will be enabled
   animate: true
   theme:
-    disableThemeToggle: true
+    disableThemeToggle: false
     defaultTheme: "dark" # light
     font:
       fontSize: 1rem # default: 1rem
