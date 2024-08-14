@@ -1,6 +1,6 @@
 ---
 title: Quotes by Deepak Chopra
-date: 2024-08-14T05:19:53Z
+date: 2024-08-14T05:50:10Z
 draft: false
 author: Deepak Chopra
 description: Quotes by Deepak Chopra
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Deepak Chopra. Enjoy!
-## Even when you think you have your life all mapped out, things happen that shape your destiny in ways you might never have imagined.
+## The most creative act you will ever undertake is the act of creating yourself.
 

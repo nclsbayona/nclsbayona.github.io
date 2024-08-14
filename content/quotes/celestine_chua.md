@@ -1,6 +1,6 @@
 ---
 title: Quotes by Celestine Chua
-date: 2024-08-14T05:19:53Z
+date: 2024-08-14T05:50:10Z
 draft: false
 author: Celestine Chua
 description: Quotes by Celestine Chua
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Celestine Chua. Enjoy!
-## Fear, uncertainty, and discomfort are your compasses toward growth.
+## If what you're doing is not your passion, you have nothing to lose.
 

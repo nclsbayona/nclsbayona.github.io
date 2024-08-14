@@ -1,6 +1,6 @@
 ---
 title: Quotes by Robert Kiyosaki
-date: 2024-08-14T05:19:53Z
+date: 2024-08-14T05:50:10Z
 draft: false
 author: Robert Kiyosaki
 description: Quotes by Robert Kiyosaki
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Robert Kiyosaki. Enjoy!
-## An intelligent person hires people who are more intelligent than he is.
+## Don't let the fear of losing be greater than the excitement of winning.
 
