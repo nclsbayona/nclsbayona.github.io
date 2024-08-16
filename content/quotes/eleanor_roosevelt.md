@@ -1,6 +1,6 @@
 ---
 title: Quotes by Eleanor Roosevelt
-date: 2024-08-14T05:56:00Z
+date: 2024-08-16T12:12:32Z
 draft: false
 author: Eleanor Roosevelt
 description: Quotes by Eleanor Roosevelt
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Eleanor Roosevelt. Enjoy!
-## The giving of love is an education in itself.
+## Learn from the mistakes of others. You can't live long enough to make them all yourself.
 
