@@ -1,6 +1,6 @@
 ---
 title: Quotes by Aristotle
-date: 2024-08-16T12:12:32Z
+date: 2024-08-17T15:52:32Z
 draft: false
 author: Aristotle
 description: Quotes by Aristotle
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## The more you know, the more you know you don't know.
+## It is the mark of an educated mind to be able to entertain a thought without accepting it.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Josh Waitzkin
-date: 2024-08-16T12:12:32Z
+date: 2024-08-17T15:52:32Z
 draft: false
 author: Josh Waitzkin
 description: Quotes by Josh Waitzkin
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Josh Waitzkin. Enjoy!
-## When uncomfortable, my instinct is not to avoid the discomfort but to become at peace with it.
+## Growth comes at the point of resistance.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Maya Angelou
-date: 2024-08-16T12:12:32Z
+date: 2024-08-17T15:52:32Z
 draft: false
 author: Maya Angelou
 description: Quotes by Maya Angelou
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Maya Angelou. Enjoy!
-## You will face many defeats in life, but never let yourself be defeated.
+## If you don't like something change it. If you can't change it, change your attitude about it. Don't complain.
 

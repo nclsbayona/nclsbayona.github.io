@@ -1,6 +1,6 @@
 ---
 title: Quotes by Colin Powell
-date: 2024-08-16T12:12:32Z
+date: 2024-08-17T15:52:32Z
 draft: false
 author: Colin Powell
 description: Quotes by Colin Powell
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Colin Powell. Enjoy!
-## A dream doesn't become reality through magic it takes sweat, determination and hard work.
+## Great leaders are almost always great simplifiers, who can cut through argument, debate and doubt, to offer a solution everybody can understand.
 

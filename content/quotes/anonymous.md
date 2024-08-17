@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-08-16T12:12:32Z
+date: 2024-08-17T15:52:32Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Everyday is a second chance.
+## Preoccupied with a single leaf you won't see the tree.
 
