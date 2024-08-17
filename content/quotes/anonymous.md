@@ -1,6 +1,6 @@
 ---
 title: Quotes by Anonymous
-date: 2024-08-17T15:52:32Z
+date: 2024-08-17T15:59:15Z
 draft: false
 author: Anonymous
 description: Quotes by Anonymous
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Anonymous. Enjoy!
-## Preoccupied with a single leaf you won't see the tree.
+## A little progress each day adds up to big results.
 

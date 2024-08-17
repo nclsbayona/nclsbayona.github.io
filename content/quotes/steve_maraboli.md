@@ -1,6 +1,6 @@
 ---
 title: Quotes by Steve Maraboli
-date: 2024-08-17T15:52:32Z
+date: 2024-08-17T15:59:15Z
 draft: false
 author: Steve Maraboli
 description: Quotes by Steve Maraboli
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Steve Maraboli. Enjoy!
-## The right thing to do and the hard thing to do are usually the same.
+## The universe doesn't give you what you ask for with your thoughts - it gives you what you demand with your actions.
 

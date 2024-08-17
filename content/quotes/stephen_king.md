@@ -1,6 +1,6 @@
 ---
 title: Quotes by Stephen King
-date: 2024-08-17T15:52:32Z
+date: 2024-08-17T15:59:15Z
 draft: false
 author: Stephen King
 description: Quotes by Stephen King
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Stephen King. Enjoy!
-## Either get busy living or get busy dying.
+## You can, you should, and if you're brave enough to start, you will.
 
