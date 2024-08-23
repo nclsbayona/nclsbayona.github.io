@@ -1,6 +1,6 @@
 ---
 title: Quotes by Peter Drucker
-date: 2024-08-17T15:59:15Z
+date: 2024-08-23T12:11:46Z
 draft: false
 author: Peter Drucker
 description: Quotes by Peter Drucker
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Peter Drucker. Enjoy!
-## Strategy is a commodity, execution is an art.
+## Knowledge has to be improved, challenged, and increased constantly, or it vanishes.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Tony Robbins
-date: 2024-08-17T15:59:15Z
+date: 2024-08-23T12:11:46Z
 draft: false
 author: Tony Robbins
 description: Quotes by Tony Robbins
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Tony Robbins. Enjoy!
-## Why live an ordinary life, when you can live an extraordinary one.
+## Things do not have meaning. We assign meaning to everything.
 

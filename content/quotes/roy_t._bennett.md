@@ -1,6 +1,6 @@
 ---
 title: Quotes by Roy T. Bennett
-date: 2024-08-17T15:59:15Z
+date: 2024-08-23T12:11:46Z
 draft: false
 author: Roy T. Bennett
 description: Quotes by Roy T. Bennett
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## Never lose hope. Storms make people stronger and never last forever.
+## It's your life; you don't need someone's permission to live the life you want. Be brave to live from your heart.
 

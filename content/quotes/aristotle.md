@@ -1,6 +1,6 @@
 ---
 title: Quotes by Aristotle
-date: 2024-08-17T15:59:15Z
+date: 2024-08-23T12:11:46Z
 draft: false
 author: Aristotle
 description: Quotes by Aristotle
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## Those who know, do. Those that understand, teach.
+## Happiness is the meaning and the purpose of life, the whole aim and end of human existence.
 
