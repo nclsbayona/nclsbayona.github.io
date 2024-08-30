@@ -1,6 +1,6 @@
 ---
 title: Quotes by Pema Chodron
-date: 2024-08-23T12:11:46Z
+date: 2024-08-30T12:12:14Z
 draft: false
 author: Pema Chodron
 description: Quotes by Pema Chodron

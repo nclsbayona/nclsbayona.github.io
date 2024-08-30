@@ -1,6 +1,6 @@
 ---
 title: Quotes by Sonia Ricotti
-date: 2024-08-23T12:11:46Z
+date: 2024-08-30T12:12:14Z
 draft: false
 author: Sonia Ricotti
 description: Quotes by Sonia Ricotti

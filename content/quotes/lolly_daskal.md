@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lolly Daskal
-date: 2024-08-23T12:11:46Z
+date: 2024-08-30T12:12:14Z
 draft: false
 author: Lolly Daskal
 description: Quotes by Lolly Daskal
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lolly Daskal. Enjoy!
-## Don't blame others. it won't make you a better person.
+## Becoming a great leader doesn't mean being perfect. it means living with your imperfections.
 

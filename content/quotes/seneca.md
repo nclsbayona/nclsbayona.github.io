@@ -1,6 +1,6 @@
 ---
 title: Quotes by Seneca
-date: 2024-08-23T12:11:46Z
+date: 2024-08-30T12:12:14Z
 draft: false
 author: Seneca
 description: Quotes by Seneca
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Seneca. Enjoy!
-## Difficulties strengthen the mind, as labor does the body.  
+## It is not because things are difficult that we do not dare; it is because we do not dare that things are difficult.  
 
