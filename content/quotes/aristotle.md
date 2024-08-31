@@ -1,6 +1,6 @@
 ---
 title: Quotes by Aristotle
-date: 2024-08-30T12:12:14Z
+date: 2024-08-31T16:23:25Z
 draft: false
 author: Aristotle
 description: Quotes by Aristotle
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Aristotle. Enjoy!
-## For the things we have to learn before we can do them, we learn by doing them.
+## Those who know, do. Those that understand, teach.
 

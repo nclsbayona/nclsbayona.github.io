@@ -1,6 +1,6 @@
 ---
 title: Quotes by Sathya Sai Baba
-date: 2024-08-30T12:12:14Z
+date: 2024-08-31T16:23:25Z
 draft: false
 author: Sathya Sai Baba
 description: Quotes by Sathya Sai Baba
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Sathya Sai Baba. Enjoy!
-## Anger, ego, jealousy are the biggest diseases,Keep yourself aloof from these three diseases.
+## Without the confidence, nothing can be accomplished.
 

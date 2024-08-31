@@ -1,6 +1,6 @@
 ---
 title: Quotes by Vincent Van Gogh
-date: 2024-08-30T12:12:14Z
+date: 2024-08-31T16:23:25Z
 draft: false
 author: Vincent Van Gogh
 description: Quotes by Vincent Van Gogh
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Vincent Van Gogh. Enjoy!
-## Those who dream by day are cognizant of many things which escape those who dream only by night.
+## I put my heart and soul into my work, and I have lost my mind in the process.
 

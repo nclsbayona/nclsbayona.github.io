@@ -1,6 +1,6 @@
 ---
 title: Quotes by Seneca
-date: 2024-08-30T12:12:14Z
+date: 2024-08-31T16:23:25Z
 draft: false
 author: Seneca
 description: Quotes by Seneca
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Seneca. Enjoy!
-## It is not because things are difficult that we do not dare; it is because we do not dare that things are difficult.  
+## He suffers more than necessary, who suffers before it is necessary.  
 
