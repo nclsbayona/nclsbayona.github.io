@@ -1,5 +1,31 @@
 # My Sample Changelog
 
+# [2.2.0](https://github.com/nclsbayona/nclsbayona.github.io/compare/v2.1.0...v2.2.0) (2024-09-01)
+
+
+### Bug Fixes
+
+* Replace generated quotes Fri Aug 16 12:12:32 UTC 2024 ([82e8a3f](https://github.com/nclsbayona/nclsbayona.github.io/commit/82e8a3f97e1e752b4742dbb62addf22cf9a731be))
+* Replace generated quotes Fri Aug 23 12:11:46 UTC 2024 ([c32c3bc](https://github.com/nclsbayona/nclsbayona.github.io/commit/c32c3bcf7cdf821ed849763689b561492b27d83f))
+* Replace generated quotes Fri Aug 30 12:12:15 UTC 2024 ([59d2741](https://github.com/nclsbayona/nclsbayona.github.io/commit/59d2741ad15556484b72b0343c706f4bb2f8ad5f))
+* Replace generated quotes Sat Aug 17 15:52:32 UTC 2024 ([acb8294](https://github.com/nclsbayona/nclsbayona.github.io/commit/acb8294e2f13c02b5fd5e9ad073604fea5da9a73))
+* Replace generated quotes Sat Aug 17 15:59:16 UTC 2024 ([5c9ad38](https://github.com/nclsbayona/nclsbayona.github.io/commit/5c9ad38a7f46ef3ca059a5aeaea8e89a37b79b9c))
+* Replace generated quotes Sat Aug 31 16:23:25 UTC 2024 ([5ac532a](https://github.com/nclsbayona/nclsbayona.github.io/commit/5ac532ad6bf7057a6052ce481f8bc24131ffea63))
+* Replace generated quotes Tue Aug 13 19:21:49 UTC 2024 ([e7b8f8a](https://github.com/nclsbayona/nclsbayona.github.io/commit/e7b8f8a329590b5441b78ef3af7e5b37632b63cb))
+* Replace generated quotes Wed Aug 14 05:19:53 UTC 2024 ([ee4f00f](https://github.com/nclsbayona/nclsbayona.github.io/commit/ee4f00f8e8caac72c44aa0d42d5c8071fd0b0911))
+* Replace generated quotes Wed Aug 14 05:50:11 UTC 2024 ([992a869](https://github.com/nclsbayona/nclsbayona.github.io/commit/992a86927191f6c8af179c4822df2e9fd5d70c7a))
+* Replace generated quotes Wed Aug 14 05:56:00 UTC 2024 ([3ddf44e](https://github.com/nclsbayona/nclsbayona.github.io/commit/3ddf44e6c6d134c18d8ff549a7bf182f2075c64f))
+* Update clustering.md ([43e4235](https://github.com/nclsbayona/nclsbayona.github.io/commit/43e42352c8cbd54c4af6323bb853aa87487cc14a))
+* Update config.yaml ([0df3f47](https://github.com/nclsbayona/nclsbayona.github.io/commit/0df3f47eb0c59dba933e8584f15e47c36edc6b21))
+* Update grade ([f05f80c](https://github.com/nclsbayona/nclsbayona.github.io/commit/f05f80c7a1551e60fda71bb6ae11fbbcad8dc428))
+* Update projects ([242c188](https://github.com/nclsbayona/nclsbayona.github.io/commit/242c188dd64d028fee991569d60c393b74036f58))
+
+
+### Features
+
+* Update clustering.md ([23e27d9](https://github.com/nclsbayona/nclsbayona.github.io/commit/23e27d91414b975aa0a12b25766b5c8c7df88b69))
+* Update config.yaml ([7cc3492](https://github.com/nclsbayona/nclsbayona.github.io/commit/7cc34924367111a395a7f65d609d60b66ebaa6cf))
+
 # [2.1.0](https://github.com/nclsbayona/nclsbayona.github.io/compare/v2.0.6...v2.1.0) (2024-08-13)
 
 
