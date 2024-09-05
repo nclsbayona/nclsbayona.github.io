@@ -1,6 +1,6 @@
 ---
 title: Quotes by Chinese Proverb
-date: 2024-08-31T16:23:25Z
+date: 2024-09-05T23:26:55Z
 draft: false
 author: Chinese Proverb
 description: Quotes by Chinese Proverb
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Chinese Proverb. Enjoy!
-## Listening well is as powerful as talking well, and is also as essential to true conversation.
+## No matter how tall the mountain is, it cannot block the sun.
 

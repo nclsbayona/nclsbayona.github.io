@@ -1,6 +1,6 @@
 ---
 title: Quotes by Winston Churchill
-date: 2024-08-31T16:23:25Z
+date: 2024-09-05T23:26:55Z
 draft: false
 author: Winston Churchill
 description: Quotes by Winston Churchill
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Winston Churchill. Enjoy!
-## To improve is to change, so to be perfect is to change often.
+## Success is stumbling from failure to failure with no loss of enthusiasm.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Bhagavad Gita
-date: 2024-08-31T16:23:25Z
+date: 2024-09-05T23:26:55Z
 draft: false
 author: Bhagavad Gita
 description: Quotes by Bhagavad Gita
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Bhagavad Gita. Enjoy!
-## Through selfless service, you will always be fruitful and find the fulfillment of your desires.
+## Arise, slay thy enemies, enjoy a prosperous kingdom.
 

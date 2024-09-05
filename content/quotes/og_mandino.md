@@ -1,6 +1,6 @@
 ---
 title: Quotes by Og Mandino
-date: 2024-08-31T16:23:25Z
+date: 2024-09-05T23:26:55Z
 draft: false
 author: Og Mandino
 description: Quotes by Og Mandino
