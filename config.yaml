@@ -106,7 +106,7 @@ params:
     enable: true
     intro: "Hi, I'm"
     title: "nclsbayona."
-    subtitle: "A systems engineering student"
+    subtitle: "A systems engineer"
     content: "I'm a tech enthusiast that really likes developing software, learning new technologies and helping to bring technology to people's lives. "
     image: https://avatars.githubusercontent.com/u/59931437?v=4 #/images/hero.png
     bottomImage:
@@ -144,7 +144,7 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |- 
-      Results-driven systems engineering student with a passion for advanced software development and digital security. Leveraging a deep understanding of software architecture, cybersecurity principles, and the Software Development Life Cycle (SDLC), I bring a unique blend of technical expertise and innovative thinking to every project.   
+      Results-driven systems engineer with a passion for advanced software development and digital security. Leveraging a deep understanding of software architecture, cybersecurity principles, and the Software Development Life Cycle (SDLC), I bring a unique blend of technical expertise and innovative thinking to every project.   
         
       My key strengths include:  
         
