@@ -1,6 +1,6 @@
 ---
 title: Quotes by Celestine Chua
-date: 2024-09-05T23:26:55Z
+date: 2024-09-06T12:12:15Z
 draft: false
 author: Celestine Chua
 description: Quotes by Celestine Chua
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Celestine Chua. Enjoy!
-## To raise your consciousness, surround yourself with people of higher consciousness.
+## The only limits in your life are those that you set yourself.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Sun Tzu
-date: 2024-09-05T23:26:55Z
+date: 2024-09-06T12:12:15Z
 draft: false
 author: Sun Tzu
 description: Quotes by Sun Tzu
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Sun Tzu. Enjoy!
-## In the midst of chaos, there is also opportunity.
+## A leader leads by example, not by force.
 

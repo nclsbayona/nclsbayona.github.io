@@ -1,6 +1,6 @@
 ---
 title: Quotes by D. H. Lawrence
-date: 2024-09-05T23:26:55Z
+date: 2024-09-06T12:12:15Z
 draft: false
 author: D. H. Lawrence
 description: Quotes by D. H. Lawrence
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by D. H. Lawrence. Enjoy!
-## Life is ours to be spent, not to be saved. 
+## Be still when you have nothing to say; when genuine passion moves you, say what you've got to say, and say it hot.
 

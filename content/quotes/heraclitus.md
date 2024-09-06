@@ -1,6 +1,6 @@
 ---
 title: Quotes by Heraclitus
-date: 2024-09-05T23:26:55Z
+date: 2024-09-06T12:12:15Z
 draft: false
 author: Heraclitus
 description: Quotes by Heraclitus
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Heraclitus. Enjoy!
-## Wisdom is the oneness of mind that guides and permeates all things.
+## Man's character is his fate.
 

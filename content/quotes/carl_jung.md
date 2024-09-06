@@ -1,6 +1,6 @@
 ---
 title: Quotes by Carl Jung
-date: 2024-09-05T23:26:55Z
+date: 2024-09-06T12:12:15Z
 draft: false
 author: Carl Jung
 description: Quotes by Carl Jung

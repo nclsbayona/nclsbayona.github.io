@@ -1,6 +1,6 @@
 ---
 title: Quotes by Brian Tracy
-date: 2024-09-05T23:26:55Z
+date: 2024-09-06T12:12:15Z
 draft: false
 author: Brian Tracy
 description: Quotes by Brian Tracy
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Brian Tracy. Enjoy!
-## The more reasons you have for achieving your goal, the more determined you will become.
+## Nourish the mind like you would your body. The mind cannot survive on junk food.
 

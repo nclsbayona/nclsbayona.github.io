@@ -1,6 +1,6 @@
 ---
 title: Quotes by Simon Sinek
-date: 2024-09-05T23:26:55Z
+date: 2024-09-06T12:12:15Z
 draft: false
 author: Simon Sinek
 description: Quotes by Simon Sinek
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Simon Sinek. Enjoy!
-## Working hard for something we don't care about is called stress: Working hard for something we love is called passion.
+## Most of us live our lives by accident - we live as it happens. Fulfilment comes when we live our lives on purpose.
 
