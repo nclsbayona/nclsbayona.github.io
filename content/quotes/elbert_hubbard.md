@@ -1,6 +1,6 @@
 ---
 title: Quotes by Elbert Hubbard
-date: 2024-09-06T12:12:15Z
+date: 2024-09-13T12:12:34Z
 draft: false
 author: Elbert Hubbard
 description: Quotes by Elbert Hubbard
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Elbert Hubbard. Enjoy!
-## Reversing your treatment of the man you have wronged is better than asking his forgiveness.
+## Genius is the ability to act rightly without precedent - the power to do the right thing the first time.
 

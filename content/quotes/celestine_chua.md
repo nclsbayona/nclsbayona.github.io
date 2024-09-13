@@ -1,6 +1,6 @@
 ---
 title: Quotes by Celestine Chua
-date: 2024-09-06T12:12:15Z
+date: 2024-09-13T12:12:34Z
 draft: false
 author: Celestine Chua
 description: Quotes by Celestine Chua
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Celestine Chua. Enjoy!
-## The only limits in your life are those that you set yourself.
+## You become stronger with every problem you face and every obstacle you overcome.
 

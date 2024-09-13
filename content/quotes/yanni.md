@@ -1,6 +1,6 @@
 ---
 title: Quotes by Yanni
-date: 2024-09-06T12:12:15Z
+date: 2024-09-13T12:12:34Z
 draft: false
 author: Yanni
 description: Quotes by Yanni
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Yanni. Enjoy!
-## The less you want, the richer you are. The more you need in order to be happy, the more miserable you'll be.
+## No matter what happens in life, never lose sight of who you are.
 

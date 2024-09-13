@@ -1,6 +1,6 @@
 ---
 title: Quotes by Gurbaksh Chahal
-date: 2024-09-06T12:12:15Z
+date: 2024-09-13T12:12:34Z
 draft: false
 author: Gurbaksh Chahal
 description: Quotes by Gurbaksh Chahal
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Gurbaksh Chahal. Enjoy!
-## Everything starts with a dream. A particle of our imagination that teases us of what the future could be like, as long as we fight for it.
+## Inspire yourself to be great. Being good isn't good enough.
 

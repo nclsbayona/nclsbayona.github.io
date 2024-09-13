@@ -1,6 +1,6 @@
 ---
 title: Quotes by Robert Collier
-date: 2024-09-06T12:12:15Z
+date: 2024-09-13T12:12:34Z
 draft: false
 author: Robert Collier
 description: Quotes by Robert Collier
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Robert Collier. Enjoy!
-## Any thought that is passed on to the subconscious often enough and convincingly enough is finally accepted.
+## Your chances of success in any undertaking can always be measured by your belief in yourself.
 

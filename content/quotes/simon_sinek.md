@@ -1,6 +1,6 @@
 ---
 title: Quotes by Simon Sinek
-date: 2024-09-06T12:12:15Z
+date: 2024-09-13T12:12:34Z
 draft: false
 author: Simon Sinek
 description: Quotes by Simon Sinek
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Simon Sinek. Enjoy!
-## Most of us live our lives by accident - we live as it happens. Fulfilment comes when we live our lives on purpose.
+## The cost of leadership is self-interest.
 
