@@ -1,6 +1,6 @@
 ---
 title: Quotes by Arnold Schwarzenegger
-date: 2024-09-13T12:12:34Z
+date: 2024-09-20T12:13:28Z
 draft: false
 author: Arnold Schwarzenegger
 description: Quotes by Arnold Schwarzenegger
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Arnold Schwarzenegger. Enjoy!
-## You can't climb the ladder of success with your hands in your pockets.
+## Dreams are for dreamers. Goals are for achievers.
 

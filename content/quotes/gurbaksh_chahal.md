@@ -1,6 +1,6 @@
 ---
 title: Quotes by Gurbaksh Chahal
-date: 2024-09-13T12:12:34Z
+date: 2024-09-20T12:13:28Z
 draft: false
 author: Gurbaksh Chahal
 description: Quotes by Gurbaksh Chahal

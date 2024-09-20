@@ -1,6 +1,6 @@
 ---
 title: Quotes by Bhagavad Gita
-date: 2024-09-13T12:12:34Z
+date: 2024-09-20T12:13:28Z
 draft: false
 author: Bhagavad Gita
 description: Quotes by Bhagavad Gita
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Bhagavad Gita. Enjoy!
-## Death is as sure for that which is born, as birth is for that which is dead. Therefore grieve not for what is inevitable.
+## We're kept from our goal not by obstacles, but by a clear path to a lesser goal.
 

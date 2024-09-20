@@ -1,6 +1,6 @@
 ---
 title: Quotes by Benjamin Franklin
-date: 2024-09-13T12:12:34Z
+date: 2024-09-20T12:13:28Z
 draft: false
 author: Benjamin Franklin
 description: Quotes by Benjamin Franklin
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Benjamin Franklin. Enjoy!
-## A Penny Saved is a Penny Earned
+## Either write something worth reading or do something worth writing.
 

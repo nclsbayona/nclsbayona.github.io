@@ -1,6 +1,6 @@
 ---
 title: Quotes by Seneca
-date: 2024-09-13T12:12:34Z
+date: 2024-09-20T12:13:28Z
 draft: false
 author: Seneca
 description: Quotes by Seneca
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Seneca. Enjoy!
-## Time heals what reason cannot.  
+## Difficulties strengthen the mind, as labor does the body.  
 

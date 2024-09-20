@@ -1,6 +1,6 @@
 ---
 title: Quotes by Robert Greene
-date: 2024-09-13T12:12:34Z
+date: 2024-09-20T12:13:28Z
 draft: false
 author: Robert Greene
 description: Quotes by Robert Greene
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Robert Greene. Enjoy!
-## Be as fluid as water, do not give your enemies anything solid to attack.
+## We must create our own world or we will die from inaction.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Norman Vincent Peale
-date: 2024-09-13T12:12:34Z
+date: 2024-09-20T12:13:28Z
 draft: false
 author: Norman Vincent Peale
 description: Quotes by Norman Vincent Peale
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Norman Vincent Peale. Enjoy!
-## What the mind can conceive and believe, and the heart desire, you can achieve.
+## A vital part of the happiness formula is self-discipline. Whoever conquers himself knows deep happiness that fills the heart with joy.
 
