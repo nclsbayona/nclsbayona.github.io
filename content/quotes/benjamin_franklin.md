@@ -1,6 +1,6 @@
 ---
 title: Quotes by Benjamin Franklin
-date: 2024-09-20T12:13:28Z
+date: 2024-09-27T12:13:34Z
 draft: false
 author: Benjamin Franklin
 description: Quotes by Benjamin Franklin
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Benjamin Franklin. Enjoy!
-## Either write something worth reading or do something worth writing.
+## By failing to prepare, you are preparing to fail.
 

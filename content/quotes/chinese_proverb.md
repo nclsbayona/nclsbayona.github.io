@@ -1,6 +1,6 @@
 ---
 title: Quotes by Chinese Proverb
-date: 2024-09-20T12:13:28Z
+date: 2024-09-27T12:13:34Z
 draft: false
 author: Chinese Proverb
 description: Quotes by Chinese Proverb
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Chinese Proverb. Enjoy!
-## Better a diamond with a flaw than a pebble without one.
+## Even a hare will bite when it is cornered. 
 

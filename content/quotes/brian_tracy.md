@@ -1,6 +1,6 @@
 ---
 title: Quotes by Brian Tracy
-date: 2024-09-20T12:13:28Z
+date: 2024-09-27T12:13:34Z
 draft: false
 author: Brian Tracy
 description: Quotes by Brian Tracy
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Brian Tracy. Enjoy!
-## Nourish the mind like you would your body. The mind cannot survive on junk food.
+## Successful people tend to become more successful because they are always thinking about their successes.
 

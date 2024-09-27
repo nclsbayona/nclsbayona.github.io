@@ -1,6 +1,6 @@
 ---
 title: Quotes by Ralph Marston
-date: 2024-09-20T12:13:28Z
+date: 2024-09-27T12:13:34Z
 draft: false
 author: Ralph Marston
 description: Quotes by Ralph Marston
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Ralph Marston. Enjoy!
-## Expect the best of yourself, and then do what is necessary to make it a reality.
+## What you do today can improve all your tomorrows.
 

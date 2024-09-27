@@ -1,6 +1,6 @@
 ---
 title: Quotes by J.R.R. Tolkien
-date: 2024-09-20T12:13:28Z
+date: 2024-09-27T12:13:34Z
 draft: false
 author: J.R.R. Tolkien
 description: Quotes by J.R.R. Tolkien
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by J.R.R. Tolkien. Enjoy!
-## Darkness must pass. A new day will come. And when the sun shines, it will shine out the clearer.
+## All we have to decide is what to do with the time that is given to us.
 
