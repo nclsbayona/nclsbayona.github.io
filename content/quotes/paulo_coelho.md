@@ -1,6 +1,6 @@
 ---
 title: Quotes by Paulo Coelho
-date: 2024-09-27T12:13:34Z
+date: 2024-10-04T12:13:09Z
 draft: false
 author: Paulo Coelho
 description: Quotes by Paulo Coelho
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Paulo Coelho. Enjoy!
-## If you're brave enough to say goodbye, life will reward you with a new hello.
+## If you think adventure is dangerous, try routine; it is lethal.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Elbert Hubbard
-date: 2024-09-27T12:13:34Z
+date: 2024-10-04T12:13:09Z
 draft: false
 author: Elbert Hubbard
 description: Quotes by Elbert Hubbard
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Elbert Hubbard. Enjoy!
-## One machine can do the work of fifty ordinary men. No machine can do the work of one extraordinary man.
+## To avoid criticism, do nothing, say nothing, and be nothing.
 

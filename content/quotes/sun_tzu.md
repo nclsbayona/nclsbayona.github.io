@@ -1,6 +1,6 @@
 ---
 title: Quotes by Sun Tzu
-date: 2024-09-27T12:13:34Z
+date: 2024-10-04T12:13:09Z
 draft: false
 author: Sun Tzu
 description: Quotes by Sun Tzu
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Sun Tzu. Enjoy!
-## Know yourself and you will win all battles.
+## If you are far from the enemy, make him believe you are near.
 

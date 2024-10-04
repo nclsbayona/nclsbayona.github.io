@@ -1,6 +1,6 @@
 ---
 title: Quotes by Colin Powell
-date: 2024-09-27T12:13:34Z
+date: 2024-10-04T12:13:09Z
 draft: false
 author: Colin Powell
 description: Quotes by Colin Powell
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Colin Powell. Enjoy!
-## None of us can change our yesterdays but all of us can change our tomorrows.
+## A dream doesn't become reality through magic it takes sweat, determination and hard work.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Bruce Lee
-date: 2024-09-27T12:13:34Z
+date: 2024-10-04T12:13:09Z
 draft: false
 author: Bruce Lee
 description: Quotes by Bruce Lee
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Bruce Lee. Enjoy!
-## We can see through others only when we can see through ourselves.
+## Empty your mind, be formless, shapeless, like water.
 
