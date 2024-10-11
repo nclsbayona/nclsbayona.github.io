@@ -1,6 +1,6 @@
 ---
 title: Quotes by Roy T. Bennett
-date: 2024-10-04T12:13:09Z
+date: 2024-10-11T12:13:21Z
 draft: false
 author: Roy T. Bennett
 description: Quotes by Roy T. Bennett
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Roy T. Bennett. Enjoy!
-## Be Brave and Take Risks: You need to have faith in yourself. Be brave and take risks. You don't have to have it all figured out to move forward.
+## It's your life; you don't need someone's permission to live the life you want. Be brave to live from your heart.
 

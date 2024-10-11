@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lolly Daskal
-date: 2024-10-04T12:13:09Z
+date: 2024-10-11T12:13:21Z
 draft: false
 author: Lolly Daskal
 description: Quotes by Lolly Daskal
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lolly Daskal. Enjoy!
-## When we allow negative messages to fester in our head, they take on a life of their own.
+## Believe you can and you will be halfway there.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Robert Kiyosaki
-date: 2024-10-04T12:13:09Z
+date: 2024-10-11T12:13:21Z
 draft: false
 author: Robert Kiyosaki
 description: Quotes by Robert Kiyosaki
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Robert Kiyosaki. Enjoy!
-## People who avoid failure also avoid success.
+## We learn to walk by falling down. If we never fell down, we would never walk.
 

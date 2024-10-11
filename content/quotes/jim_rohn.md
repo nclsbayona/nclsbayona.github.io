@@ -1,6 +1,6 @@
 ---
 title: Quotes by Jim Rohn
-date: 2024-10-04T12:13:09Z
+date: 2024-10-11T12:13:21Z
 draft: false
 author: Jim Rohn
 description: Quotes by Jim Rohn
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Jim Rohn. Enjoy!
-## Take care of your body. It's the only place you have to live.
+## For things to change, you have to change.
 

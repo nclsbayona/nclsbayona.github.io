@@ -1,6 +1,6 @@
 ---
 title: Quotes by Naval Ravikant
-date: 2024-10-04T12:13:09Z
+date: 2024-10-11T12:13:21Z
 draft: false
 author: Naval Ravikant
 description: Quotes by Naval Ravikant
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Naval Ravikant. Enjoy!
-## A rational person can find peace by cultivating indifference to things outside of their control.
+## Every second you have on this planet is very precious and it's your responsibility that you're happy.
 

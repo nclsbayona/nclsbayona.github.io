@@ -1,6 +1,6 @@
 ---
 title: Quotes by William James
-date: 2024-10-04T12:13:09Z
+date: 2024-10-11T12:13:21Z
 draft: false
 author: William James
 description: Quotes by William James
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by William James. Enjoy!
-## Age is a very high price to pay for maturity.
+## Action may not always bring happiness, but there is no happiness without action.
 

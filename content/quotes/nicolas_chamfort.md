@@ -1,6 +1,6 @@
 ---
 title: Quotes by Nicolas Chamfort
-date: 2024-10-04T12:13:09Z
+date: 2024-10-11T12:13:21Z
 draft: false
 author: Nicolas Chamfort
 description: Quotes by Nicolas Chamfort
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Nicolas Chamfort. Enjoy!
-## It is children only who enjoy the present; their elders either live on the memory of the past or the hope of the future.
+## There are more people who wish to be loved than there are who are willing to love. 
 
