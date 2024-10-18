@@ -1,6 +1,6 @@
 ---
 title: Quotes by Mae West
-date: 2024-10-11T12:13:21Z
+date: 2024-10-18T12:13:39Z
 draft: false
 author: Mae West
 description: Quotes by Mae West
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Mae West. Enjoy!
-## The score never interested me, only the game.
+## He who hesitates is a damned fool.
 

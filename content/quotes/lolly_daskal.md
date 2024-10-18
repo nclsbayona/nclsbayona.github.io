@@ -1,6 +1,6 @@
 ---
 title: Quotes by Lolly Daskal
-date: 2024-10-11T12:13:21Z
+date: 2024-10-18T12:13:39Z
 draft: false
 author: Lolly Daskal
 description: Quotes by Lolly Daskal
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Lolly Daskal. Enjoy!
-## Believe you can and you will be halfway there.
+## Many people spend more time looking at their failures than focusing on their successes.
 

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Bob Dylan
-date: 2024-10-11T12:13:21Z
+date: 2024-10-18T12:13:39Z
 draft: false
 author: Bob Dylan
 description: Quotes by Bob Dylan

@@ -1,6 +1,6 @@
 ---
 title: Quotes by Earl Nightingale
-date: 2024-10-11T12:13:21Z
+date: 2024-10-18T12:13:39Z
 draft: false
 author: Earl Nightingale
 description: Quotes by Earl Nightingale
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Earl Nightingale. Enjoy!
-## Success is the progressive realization of a worthy goal or ideal.
+## We tend to live up to our expectations.
 

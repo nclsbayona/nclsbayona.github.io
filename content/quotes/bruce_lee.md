@@ -1,6 +1,6 @@
 ---
 title: Quotes by Bruce Lee
-date: 2024-10-11T12:13:21Z
+date: 2024-10-18T12:13:39Z
 draft: false
 author: Bruce Lee
 description: Quotes by Bruce Lee
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Bruce Lee. Enjoy!
-## Empty your mind, be formless, shapeless, like water.
+## If you love life, don't waste time, for time is what life is made up of. 
 

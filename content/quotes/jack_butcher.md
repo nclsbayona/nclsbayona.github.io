@@ -1,6 +1,6 @@
 ---
 title: Quotes by Jack Butcher
-date: 2024-10-11T12:13:21Z
+date: 2024-10-18T12:13:39Z
 draft: false
 author: Jack Butcher
 description: Quotes by Jack Butcher
@@ -10,5 +10,5 @@ tags:
 ---
  
 # Here you have some quotes by Jack Butcher. Enjoy!
-## What's obvious to you isn't obvious to most people. Operate from this perspective and you'll help more people.
+## Everyone you admire was once a beginner.
 
