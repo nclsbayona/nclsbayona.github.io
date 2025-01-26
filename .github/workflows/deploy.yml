@@ -1,10 +1,14 @@
 name: Deploy to Github Pages
 
 on:
+    workflow_dispatch:
     push:
         branches: [master]
-    pull_request:
-        branches: [master]
+        paths:
+        - 'content/**'
+        - 'assets/**'
+        - 'config/**'
+        - '.github/workflows/deploy.yml'
 
 jobs:
     build:
