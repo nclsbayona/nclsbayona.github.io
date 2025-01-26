@@ -1,24 +1,31 @@
-# Configure main menu and social menu
-#[[main]]
-#identifier = "home"
-#name = "Home"
-#url = "/"
-#[main.params]
-#icon = "home"
-#newtab = true
-
 [[social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+url = "https://github.com/nclsbayona"
 
 [social.params]
 icon = "brand-github"
 
 [[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/nclsbayona"
 
 [social.params]
-icon = "brand-twitter"
+icon = "brand-linkedin"
+
+[[social]]
+identifier = "feeds"
+name = "RSS Feeds"
+url = "https://nclsbayona.github.io/index.xml"
+
+[social.params]
+icon = "rss"
+
+[[social]]
+identifier = "github"
+name = "Github"
+url = "https://www.github.com/nclsbayona"
+
+[social.params]
+icon = "brand-github"
