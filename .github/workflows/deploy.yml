@@ -5,9 +5,9 @@ on:
     push:
         branches: [master]
         paths:
-        - 'content/**'
-        - 'assets/**'
-        - 'config/**'
+        - 'content/**/*'
+        - 'assets/**/*'
+        - 'config/**/*'
         - '.github/workflows/deploy.yml'
 
 jobs:
