@@ -42,7 +42,7 @@ Some of the many cool things about Kubernetes are:
 
 Well, understanding Kubernetes, now that's a funny title to begin with because Kubernetes has so many things and so many variables that saying you understand it (Completely) is such a simplistic view just like saying you "completely understand" the ocean, sure, you can learn about currents, tides, and marine life, but the ocean is so vast, constantly changing, and full of surprises. Kubernetes is similar. It's a complex ecosystem with a lot of moving parts, and it's constantly evolving.
 
-You're absolutely right!  Saying you "completely understand" Kubernetes is like saying you "completely understand" the ocean.  Sure, you can learn about currents, tides, and marine life, but the ocean is vast, constantly changing, and full of surprises. Kubernetes is similar.  It's a complex ecosystem with a lot of moving parts, and it's constantly evolving.
+Saying you "completely understand" Kubernetes is like saying you "completely understand" the ocean.  Sure, you can learn about currents, tides, and marine life, but the ocean is vast, constantly changing, and full of surprises. Kubernetes is similar.  It's a complex ecosystem with a lot of moving parts, and it's constantly evolving.
 
 What you can do is gain a solid understanding of the core concepts and how they fit together.  You can become proficient in using the tools and techniques necessary to deploy and manage applications on Kubernetes.  And you can develop the skills to troubleshoot and debug issues as they arise (and they will arise!).
 
@@ -58,11 +58,12 @@ Imagine a vast ocean, representing the complex world of software deployment. You
 
 In the old days, each ship (application) had its own captain (developer) and crew.  They were responsible for everything: loading the cargo (dependencies), navigating the seas (deployment), and ensuring the ship reached its destination (application availability).  This was fine for a few ships, but as the fleet grew (your application scaled), things became chaotic.  Captains argued over docking space (server resources), storms (failures) could sink entire ships, and coordinating repairs was a nightmare.
 
-Enter Kubernetes (The Grand Fleet Admiral):
+##### Enter Kubernetes (The Grand Fleet Admiral)
 
-Kubernetes is like the Grand Fleet Admiral, overseeing all the ships and captains.  It doesn't build the ships themselves (that's Docker's job), but it manages them, ensuring everything runs smoothly.
+Kubernetes is like the Grand Fleet Admiral, overseeing all the ships and captains.  It doesn't build the ships themselves, but it manages them, ensuring everything runs smoothly.
 
 * Ships (Pods): Each ship is a "pod," carrying one or more containers (cargo). Think of a pod as a standardized shipping container that can hold different types of goods (application components).
+
 * Captains (Controllers): Kubernetes has different "captains" (controllers) for various tasks:
 
   * Deployment Captain: This captain ensures the right number of ships (pods) are deployed and that they have the necessary supplies (resources). They also manage upgrades and rollbacks, like changing the ship's sails or repairing damage.
