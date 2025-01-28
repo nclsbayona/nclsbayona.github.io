@@ -87,9 +87,9 @@ admin = ""
 adminLabel = ""
 
 [comments.utterances]
-repo = ""
+repo = "nclsbayona/nclsbayona.github.io"
 issueTerm = "pathname"
-label = ""
+label = "utterences"
 
 [comments.remark42]
 host = ""
