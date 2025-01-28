@@ -4,17 +4,19 @@ on:
     branches:
       - 'master'
 
-permissions:
-  pull-requests: write
-  contents: write
-
 jobs:
   review-dependabot-pr:
     runs-on: ubuntu-latest
+    
     if: ${{ github.event.pull_request.user.login == 'dependabot[bot]' }}
+    
     env:
-        PR_URL: ${{github.event.pull_request.html_url}}
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      PR_URL: ${{github.event.pull_request.html_url}}
+    
+    permissions:
+      pull-requests: write
+      contents: write
+        
     steps:
       - name: Dependabot metadata
         id: dependabot-metadata

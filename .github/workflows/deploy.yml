@@ -4,6 +4,11 @@ on:
     workflow_dispatch:
     push:
         branches: [master]
+        paths:
+        - 'content/**'
+        - 'assets/**'
+        - 'config/**'
+        - '.github/workflows/deploy.yml'
 
 jobs:
     build:
