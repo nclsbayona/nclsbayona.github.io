@@ -76,7 +76,7 @@ Kubernetes is like the Grand Fleet Admiral, overseeing all the ships and captain
 
 * The Fleet (Cluster): All the ships, captains, and ports together form the Grand Fleet (cluster), managed by the Grand Fleet Admiral (Kubernetes).
 
-##### What the Grand Fleet Admiral (Kubernetes) Does
+###### What the Grand Fleet Admiral (Kubernetes) Does
 
 1. **Orchestrates**: Kubernetes coordinates all the ships (pods), ensuring they work together harmoniously.
 2. **Scales**: If more cargo needs to be shipped (increased traffic), Kubernetes can order more ships (pods) to be built and deployed.
