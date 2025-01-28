@@ -21,3 +21,11 @@ url = "https://nclsbayona.github.io/index.xml"
 
 [social.params]
 icon = "rss"
+
+[[social]]
+identifier = "github"
+name = "Github"
+url = "https://www.github.com/nclsbayona"
+
+[social.params]
+icon = "brand-github"
