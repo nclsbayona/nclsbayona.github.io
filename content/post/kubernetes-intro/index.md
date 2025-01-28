@@ -34,7 +34,7 @@ Some of the many cool things about Kubernetes are:
 * Kubernetes is backed by a really great community of both Individuals and Enterprises.
 * Kubernetes is constantly evolving to include new features and make some adjustments to features it already introduced.
 * Kubernetes (Or at least the [documentation](https://docs.kubernetes.io)) is easy to understand once you've spent enough time trying to understand it.
-* And many more (I [really](https://www.ibm.com/think/insights/kubernetes-benefits) [mean](https://ostridelabs.com/kubernetes-advantages-and-disadvantages/) [it](https://kodekloud.com/blog/benefits-of-kubernetes/), also know there are disadvantagees [too](https://medium.com/swlh/advantages-and-disadvantages-of-kubernetes-the-business-perspective-5bb81e4eb4cb)).
+* And many more (I [re](https://www.techquintal.com/advantages-and-disadvantages-of-kubernetes/)[al](https://www.theknowledgeacademy.com/blog/benefits-of-kubernetes/)[ly](https://www.ibm.com/think/insights/kubernetes-benefits) [me](https://medium.com/@gunashree.v/top-advantages-and-disadvantages-of-kubernetes-552d259029a2)[an](https://ostridelabs.com/kubernetes-advantages-and-disadvantages/) [it](https://kodekloud.com/blog/benefits-of-kubernetes/), also know there are disadvantages [too](https://medium.com/swlh/advantages-and-disadvantages-of-kubernetes-the-business-perspective-5bb81e4eb4cb)).
 
 ### Understanding Kubernetes
 
