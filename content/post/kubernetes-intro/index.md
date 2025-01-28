@@ -85,4 +85,6 @@ Kubernetes is like the Grand Fleet Admiral, overseeing all the ships and captain
 
 ***In short***: Kubernetes takes the chaos out of managing a large fleet of ships (applications).  It provides a framework for deploying, scaling, and managing your applications, so you can focus on developing great software instead of worrying about the logistics of shipping it.  Now, who's ready for some grog?
 
+##### Conclusion
+
 So, in simpler terms, Kubernetes is a system for automating deployment, scaling, and management of containerized applications.  "Containerized" means your application and all its dependencies are packaged together in a neat little container (think Docker). This makes your application portable and consistent across different environments.
