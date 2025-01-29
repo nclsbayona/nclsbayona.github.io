@@ -2,7 +2,7 @@
 title: Kubernetes Introduction
 description: This is a blog post about Kubernetes in an introductory level
 slug: kubernetes-intro
-date: 2025-01-27 18:00:00+0000
+date: 2025-01-28 18:00:00+0000
 links:
 - title: Kubernetes
   description: Kubernetes is an open-source container orchestration system.
@@ -93,11 +93,11 @@ So, in simpler terms, Kubernetes is a system for automating deployment, scaling,
 
 Imagine the Grand Fleet isn't just one entity, but several smaller fleets operating under the same Admiral. These smaller fleets are like "namespaces" in Kubernetes. They allow you to logically separate different groups of ships (applications) within the same cluster. For example, you might have a "fishing fleet" (for your data processing applications) and a "trading fleet" (for your web applications), each managed separately but still under the overall command of Kubernetes.
 
-##### **ConfigMaps and Secrets (Treasure Maps and Secret Cargo)
+##### **ConfigMaps and Secrets (Treasure Maps and Secret Cargo)**
 
 Every ship needs a treasure map (ConfigMap) to know where to go and what resources to use. ConfigMaps store configuration data for your applications, like environment variables or settings. Some ships also carry secret cargo (Secrets) like valuable jewels or sensitive information. Secrets store sensitive data, like passwords or API keys, securely. Kubernetes manages these maps and cargo, ensuring they are available only to the authorized ships (pods).
 
-###### **Volumes (Cargo Holds)**
+##### **Volumes (Cargo Holds)**
 
 Each ship has a cargo hold (Volume) where it stores its goods. Volumes are persistent storage for your applications. They can be attached to pods, allowing them to store and access data that survives even if the ship sinks (the pod is restarted). Think of it like a special, reinforced cargo hold that can be transferred to a new ship if the old one is lost.
 
@@ -139,4 +139,6 @@ This analogy helps to visualize how different Kubernetes components work togethe
 
 ### More information and tips
 
-* If you want to get started easily, try one of the [tutorials](https://kubernetes.io/docs/tutorials/) available on Kubernetes' documentation. If you don't want to install Kubernetes, you can use a ["Play With Kubernetes"](https://labs.play-with-k8s.com/) a free web interactive playground provided by [Docker](https://docker.io).
+* If you want to get started easily, try one of the [tutorials](https://kubernetes.io/docs/tutorials/) available on Kubernetes' documentation. If you don't want to install Kubernetes, you can use ["Play With Kubernetes"](https://labs.play-with-k8s.com/) a free web interactive playground provided by [Docker](https://docker.io).
+* Probably you might want to check GitOps and how to include those principles in Kubernetes.
+* Stay tuned for new content ...
