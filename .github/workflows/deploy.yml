@@ -3,53 +3,68 @@ name: Deploy to Github Pages
 on:
     workflow_dispatch:
     push:
-        branches: [master]
-        paths:
-        - 'content/**/*'
-        - 'assets/**/*'
-        - 'config/**/*'
-        - '.github/workflows/deploy.yml'
+      branches: [master]
+      paths:
+      - 'content/**'
+      - 'assets/**'
+      - 'config/**'
+      - '.github/workflows/deploy.yml'
 
 jobs:
     build:
-        runs-on: ubuntu-latest
 
-        permissions:
-            # Give the default GITHUB_TOKEN write permission to commit and push the
-            # added or changed files to the repository.
-            contents: write
+      runs-on: ubuntu-latest
 
-        steps:
-            - uses: actions/checkout@v4
-              with:
-                  fetch-depth: 0
+      permissions:
+        contents: read
+        pages: write
+        id-token: write
 
-            - name: Cache Hugo resources
-              uses: actions/cache@v4
-              env:
-                  cache-name: cache-hugo-resources
-              with:
-                  path: resources
-                  key: ${{ env.cache-name }}
+      steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-            - uses: actions/setup-go@v5
-              with:
-                  go-version: "^1.17.0"
-            - run: go version
+      - name: Cache Hugo resources
+        uses: actions/cache@v4
+        env:
+          cache-name: cache-hugo-resources
+        with:
+          path: resources
+          key: ${{ env.cache-name }}
 
-            - name: Setup Hugo
-              uses: peaceiris/actions-hugo@v2
-              with:
-                  hugo-version: "latest"
-                  extended: true
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "^1.17.0"
 
-            - name: Build
-              run: hugo --minify --gc
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+            hugo-version: "latest"
+            extended: true
 
-            - name: Deploy 🚀
-              uses: JamesIves/github-pages-deploy-action@v4
-              with:
-                  branch: gh-pages
-                  folder: public
-                  clean: true
-                  single-commit: true
+      - name: Build
+        run: hugo --minify --gc
+
+      - name: Update pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './public/'
+
+    deploy:
+      needs: build
+
+      permissions:
+        pages: write
+        id-token: write
+
+      environment:
+        name: github-pages
+        url: ${{ steps.deployment.outputs.page_url }}
+
+      runs-on: ubuntu-latest
+
+      steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
