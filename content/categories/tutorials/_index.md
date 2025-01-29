@@ -4,6 +4,6 @@ description: This is a category for tutorials on different topics
 image: 
 # Badge style
 style:
-    background: "#06506E"
-    color: "#fff"
+    background: "#eca595"
+    color: "#000"
 ---
