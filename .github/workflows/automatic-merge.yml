@@ -27,17 +27,23 @@ jobs:
           github-token: ${{secrets.GITHUB_TOKEN}}
           compat-lookup: true
 
-      - name: Approve patch and minor updates
+      - name: Merge patch and minor updates
         if: ${{steps.dependabot-metadata.outputs.update-type == 'version-update:semver-patch' || steps.dependabot-metadata.outputs.update-type == 'version-update:semver-minor'}}
-        run: gh pr review $PR_URL --approve -b "I'm **approving** this pull request because **it includes a patch or minor update**"
+        run: |
+          gh pr review $PR_URL --approve -b "I'm **approving** this pull request because **it includes a patch or minor update**"
+          gh pr merge --auto --merge "$PR_URL"
 
-      - name: Approve major updates of development dependencies
+      - name: Merge major updates of development dependencies
         if: ${{steps.dependabot-metadata.outputs.update-type == 'version-update:semver-major' && steps.dependabot-metadata.outputs.dependency-type == 'direct:development'}}
-        run: gh pr review $PR_URL --approve -b "I'm **approving** this pull request because **it includes a major update of a dependency used only in development**"
+        run: |
+          gh pr review $PR_URL --approve -b "I'm **approving** this pull request because **it includes a major update of a dependency used only in development**"
+          gh pr merge --auto --merge "$PR_URL"
 
-      - name: Approve major updates of production dependencies with compatibility score greater than 70
+      - name: Merge major updates of production dependencies with compatibility score greater than 70
         if: ${{steps.dependabot-metadata.outputs.compatibility-score > 70}}
-        run: gh pr review $PR_URL --approve -b "I'm **approving** this pull request because **it includes a major update of a dependency used in production but comatibility is greater than *70%***"
+        run: |
+          gh pr review $PR_URL --approve -b "I'm **approving** this pull request because **it includes a major update of a dependency used in production but comatibility is greater than *70%***"
+          gh pr merge --auto --merge "$PR_URL"
 
       - name: Comment on major updates of non-development dependencies if the compatibility score is less than 70
         if: ${{steps.dependabot-metadata.outputs.update-type == 'version-update:semver-major' && steps.dependabot-metadata.outputs.dependency-type == 'direct:production' && steps.dependabot-metadata.outputs.compatibility-score < 70}}
