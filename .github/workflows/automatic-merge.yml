@@ -36,7 +36,7 @@ jobs:
         run: gh pr review $PR_URL --approve -b "I'm **approving** this pull request because **it includes a major update of a dependency used only in development**"
 
       - name: Approve major updates of production dependencies with compatibility score greater than 70
-        if: ${{steps.dependabot-metadata.outputs.compatibility-score < 70}}
+        if: ${{steps.dependabot-metadata.outputs.compatibility-score > 70}}
         run: gh pr review $PR_URL --approve -b "I'm **approving** this pull request because **it includes a major update of a dependency used in production but comatibility is greater than *70%***"
 
       - name: Comment on major updates of non-development dependencies if the compatibility score is less than 70
