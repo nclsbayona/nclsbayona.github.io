@@ -2,7 +2,7 @@
 title: Containerization Introduction
 description: In this blog post we talk about Containerization and its importance in today's world
 slug: containers-intro
-date: 2025-01-29 12:00:00+0000
+date: 2024-08-18 12:00:00+0000
 categories:
 - containers
 tags:
