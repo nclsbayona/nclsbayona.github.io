@@ -39,23 +39,23 @@ Lets try to explain Kubernetes architecture using a fairly-easy to understand me
 
 Lets start talking about the Control Plane components first:
 
-- ***kube-apiserver***: The **kube-apiserver** is the entrypoint to interacting with the Kubernetes API, its the front-end for the Kubernetes control plane. Think of it as the recepcionist at town hall, every request targeting the town hall should go through the reception. This component is designed to scale horizontally (Deploy new instances) so its usual to have a load-balancer to access the **kube-apiserver** by distributing traffic between multiple different instances. 
+- ***kube-apiserver***: The `kube-apiserver` is the entrypoint to interacting with the Kubernetes API, its the front-end for the Kubernetes control plane. Think of it as the recepcionist at town hall, every request targeting the town hall should go through the reception. This component is designed to scale horizontally (Deploy new instances) so its usual to have a load-balancer to access the **kube-apiserver** by distributing traffic between multiple different instances. 
 
-- ***etcd***: To store data [**etcd**](https://etcd.io/) is used, this is a key-value distributed database that allows to store cluster's desired state so that nodes can get to the desired state. You can think of this as the city's webpage where they publish operations they must do.
+- ***etcd***: To store data [`etcd`](https://etcd.io/) is used, this is a key-value distributed database that allows to store cluster's desired state so that nodes can get to the desired state. You can think of this as the city's webpage where they publish operations they must do.
 
 - ***kube-scheduler***: This component is in charge of deciding where do containers (Applications or components) need to run, taking into account different topics like resource requirements and other constraints. Think of it as a job agency where given some constraints (Availability, skills, knowledge, etc.) it helps people (containers) find their way into a job.
 
-- ***kube-controller-manager***:
+- ***kube-controller-manager***: This component is in charge of running controllers, before explaining what a controller is, lets first think of the `kube-controller-manager` as a mall. Just like a shop in a mall specializes in selling a certain type of product or providing a particular service, a controller in Kubernetes manages a specific aspect of the cluster's state. Each controller focuses on its own area, working independently but contributing to the overall health and operation of the cluster, much like how individual shops contribute to the overall function of the mall. You can find the different controllers Kubernetes provides [here](https://github.com/kubernetes/kubernetes/tree/master/pkg/controller).
 
-- ***cloud-controller-manager***:
+- *cloud-controller-manager*: This is a component not necessary for Kubernetes to actually work in a very basic sense, but it's absolutely essential for integrating Kubernetes with cloud providers. Think of it like a specialized manager in charge primarily of operations with external actors. In case there's no external requirements, Kubernetes can still operate. Just as a reference, you can read the docs on [how](https://kubernetes.io/docs/tasks/administer-cluster/developing-cloud-controller-manager/) to create a [`cloud-controller-manager`](https://kubernetes.io/docs/concepts/architecture/cloud-controller/) implementation.
 
 #### Node components
 
-- ***Kubelet***:
+- ***kubelet***: This component is in charge of allowing `kube-apiserver` to manage nodes on the cluster (Worker nodes specifically). The man job of Kubelet is acting as an interface so that `kube-apiserver` can communicate with the `container runtime` in a standardized way. The Kubelet is not officially well-documented but recently I went through a really cool tool called [**kubeletctl**](https://github.com/cyberark/kubeletctl) that provides a [list](https://github.com/cyberark/kubeletctl/blob/master/API_TABLE.md) of the available methods the API provides.
 
-- ***Container-runtime***:
+- ***Container-runtime***: This component is not specific to Kubernetes but it's necessary to be able to run containerized workflows and so it acts as a dependency for Kubernetes. As long as a container runtime implements [CRI](https://medium.com/@dmosyan/container-runtime-interface-explained-1c3c5af07eaf), Kubernetes can talk to it.
 
-- *Kube-proxy*:
+- *kube-proxy*: This is a component not necessary for Kubernetes to actually work but the main idea it implements is in fact. This component is in charge of actually routing the requests to the containers they need to go to based on filtering. If the network plugin that cluster is going to use does provide that low-level filtering then the `kube-proxy` is not necessary.
 
 ### Conclusion
 
