@@ -33,7 +33,7 @@ First of all we have to understand that Kubernetes as a container orchestration 
 
 So, having these two groups separated allows for a better understanding of the required links and components that make up [Kubernetes](https://docs.kubernetes.io).![architecture](https://kubernetes.io/images/docs/kubernetes-cluster-architecture.svg)
 
-Lets try to explain Kubernetes architecture using a fairly-easy to understand metaphor (Who doesn't like metaphors to explain technical concepts?). Imagine Kubernetes as a city. It has houses (Nodes), a town hall (Control plane), and residents provide services/products (This are out of scope for this post, maybe try checking out the [Kubernetes intro](/p/kubernetes-intro) post before).
+Lets try to explain Kubernetes architecture using a fairly-easy to understand metaphor (Who doesn't like metaphors to explain technical concepts?). Imagine Kubernetes as a city. It has neighborhoods (The cluster), a town hall (Control plane), and residents provide services/products (This are out of scope for this post, maybe try checking out the [Kubernetes intro](/p/kubernetes-intro) post before).
 
 #### Control plane
 
@@ -56,6 +56,22 @@ Lets start talking about the Control Plane components first:
 - ***Container-runtime***: This component is not specific to Kubernetes but it's necessary to be able to run containerized workflows and so it acts as a dependency for Kubernetes. As long as a container runtime implements [CRI](https://medium.com/@dmosyan/container-runtime-interface-explained-1c3c5af07eaf), Kubernetes can talk to it.
 
 - *kube-proxy*: This is a component not necessary for Kubernetes to actually work but the main idea it implements is in fact. This component is in charge of actually routing the requests to the containers they need to go to based on filtering. If the network plugin that cluster is going to use does provide that low-level filtering then the `kube-proxy` is not necessary.
+
+#### Communication
+
+It's important to notice that Kubernetes allows for fault tolerance and so high availability is supported and recommended when setting up the cluster, also [`etcd`](https://etcd.io/) can be installed separated from the control-plane (Only requires network connectivity with control-plane).
+
+To understand communication flow, first let's take a look at communication within the control plane. The API server acts as the central hub, and so all other control plane components, such as the `kube-scheduler` and the `kube-controller-manager`, communicate with the API server to both receive updates about the cluster state and to publish their own actions. For example, the scheduler watches the API server for new pods that need to be scheduled, and the controller manager watches for changes in the desired state of resources (like deployments or services) and takes action to reconcile the actual state with the desired state.
+
+The `cloud-controller-manager` communicates with the API server to learn about changes in the cluster state and then interacts with the cloud provider's APIs to implement those changes.  This allows Kubernetes to seamlessly integrate with the underlying cloud infrastructure, dynamically provisioning and managing resources as needed.  Essentially, it bridges the gap between the Kubernetes API and the cloud provider's control plane.
+
+Next, consider the communication between the control plane and the worker nodes.  The kubelet, which runs on each worker node, first communicates with the API server to register the node and report its status. The API server, in turn, communicates with the kubelet to instruct it to start, stop, or update containers. This communication typically uses HTTPS and is secured.
+
+Optionally, the `kube-proxy` which also runs on each worker node, manages network rules for services. It communicates with the API server to learn about new services and updates the local network rules accordingly.
+
+![Flow](image.png)
+
+Finally, let's examine communication between pods. Pods can communicate with each other within the cluster using their IP addresses. Services provide an abstraction layer on top of pods, allowing pods to be discovered and accessed more easily.  When a pod wants to access a service, it typically uses the service's virtual IP address (VIP) and port. `kube-proxy`, using the network rules it has learned from the API server, then routes the traffic to the appropriate backend pods.
 
 ### Conclusion
 
