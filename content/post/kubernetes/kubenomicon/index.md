@@ -39,7 +39,6 @@ First of all we have to mention that in order to "predict" the way an attack wil
 
 Now, Kubenomicon gives us a great ["Threat Matrix"](https://kubenomicon.com/Kubenomicon.html#the-kubenomicon-threat-matrix) with different tactics and techniques attackers can use to hack our cluster, but I think that given these information (Based on the exposed assets and their significance) its important to plan specific steps to mitigate these potential threats and harden our Kubernetes environment. This should include a multi-layered approach addressing various attack vectors. We need to consider not only the technical aspects, but also the operational and procedural elements involved in maintaining a secure cluster.
 
-
 ### Useful links
 
 https://dev.to/kubefeeds/top-kubernetes-rss-feeds-that-you-must-follow-11c

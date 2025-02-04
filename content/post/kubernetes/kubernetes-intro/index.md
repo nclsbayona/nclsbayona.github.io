@@ -3,6 +3,7 @@ title: Kubernetes Introduction
 description: This is a blog post about Kubernetes in an introductory level
 slug: kubernetes-intro
 date: 2025-01-28 18:00:00+0000
+image: https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png
 links:
 - title: Kubernetes
   description: Kubernetes is an open-source container orchestration system.

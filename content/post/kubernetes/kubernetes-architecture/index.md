@@ -3,6 +3,7 @@ title: Kubernetes Architecture
 description: This is a blog post about Kubernetes architecture
 slug: kubernetes-architecture
 date: 2025-02-03 15:00:00+0000
+image: https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png
 links:
 - title: Kubernetes
   description: Kubernetes is an open-source container orchestration system.
@@ -39,7 +40,7 @@ Lets try to explain Kubernetes architecture using a fairly-easy to understand me
 
 Lets start talking about the Control Plane components first:
 
-- ***kube-apiserver***: The `kube-apiserver` is the entrypoint to interacting with the Kubernetes API, its the front-end for the Kubernetes control plane. Think of it as the recepcionist at town hall, every request targeting the town hall should go through the reception. This component is designed to scale horizontally (Deploy new instances) so its usual to have a load-balancer to access the **kube-apiserver** by distributing traffic between multiple different instances. 
+- ***kube-apiserver***: The `kube-apiserver` is the entrypoint to interacting with the Kubernetes API, its the front-end for the Kubernetes control plane. Think of it as the recepcionist at town hall, every request targeting the town hall should go through the reception. This component is designed to scale horizontally (Deploy new instances) so its usual to have a load-balancer to access the **kube-apiserver** by distributing traffic between multiple different instances.
 
 - ***etcd***: To store data [`etcd`](https://etcd.io/) is used, this is a key-value distributed database that allows to store cluster's desired state so that nodes can get to the desired state. You can think of this as the city's webpage where they publish operations they must do.
 

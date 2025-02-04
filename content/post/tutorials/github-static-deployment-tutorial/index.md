@@ -3,6 +3,7 @@ title: Deployment of static webpage with Github
 description: This is a blog post regarding deployment of a static site using Github
 slug: github-static-deployment-tutorial
 date: 2025-01-29 08:00:00+0000
+image: image.png
 links:
 - title: Github
   description: Github is a Git server managed by Microsoft.
