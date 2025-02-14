@@ -36,9 +36,9 @@ Let's unpack these, shall we?
 Think of authentication as checking IDs at the city gate.  It's about verifying who someone claims to be.  "**Hey, are you really who you say you are?**"  In Kubernetes, this often means using things like client certificates, bearer tokens, or even cloud provider IAM roles.
 Once we know who someone is, then comes authorization. This is like deciding what they're allowed to do once they're inside the city. "Okay, you're a resident, but are you authorized to manage the water supply?  Probably not!"
 Kubernetes uses Role-Based Access Control (RBAC) for this.  Imagine giving different roles to people in our city:
-1.1. The "Mayor" role:  Can do absolutely everything – manage infrastructure, applications, citizens (pods!).
-1.2. The "Building Inspector" role: Can check on the health of buildings (pods and nodes), but can't build new ones.
-1.3. The "Resident" role: Can live in their building (application can run), but can't change the city's infrastructure.
+- The "Mayor" role:  Can do absolutely everything – manage infrastructure, applications, citizens (pods!).
+- The "Building Inspector" role: Can check on the health of buildings (pods and nodes), but can't build new ones.
+- The "Resident" role: Can live in their building (application can run), but can't change the city's infrastructure.
 **Recommendation**: Embrace RBAC!  Don't give everyone the "Mayor" role (cluster-admin).  Follow the principle of least privilege.  Grant users and applications only the permissions they absolutely need to do their job. This significantly reduces the blast radius if something goes wrong – like if a "Resident" role gets compromised, they can't suddenly start messing with the entire city infrastructure.
 2. Secrets are Gold – Handle Them Carefully! (Secrets Management)
 Every city has secrets, right? Maybe it's the city vault, or confidential blueprints. In Kubernetes, Secrets are objects used to store sensitive information like passwords, API keys, and certificates.  These are the keys to the kingdom, so we need to treat them like gold!
