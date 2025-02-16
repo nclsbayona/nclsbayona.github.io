@@ -20,6 +20,10 @@ jobs:
         pages: write
         id-token: write
 
+      concurrency:
+        group: deploy-${{ github.ref }}
+        cancel-in-progress: false
+
       steps:
       - uses: actions/checkout@v4
         with:
