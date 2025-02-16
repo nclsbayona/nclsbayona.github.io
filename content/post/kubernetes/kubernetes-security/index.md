@@ -3,6 +3,7 @@ title: Kubernetes Security
 description: This is a blog post about Kubernetes security
 slug: kubernetes-security 
 date: 2025-02-13 15:00:00+0000
+lastmod: 2025-02-14 08:00:00+0000
 image: https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png
 links:
 - title: Kubernetes

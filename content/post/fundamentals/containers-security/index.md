@@ -3,6 +3,7 @@ title: Container security
 description: In this blog post we talk about Containerization and its importance in today's world
 slug: containers-security
 date: 2025-02-15 12:00:00+0000
+lastmod: 2025-02-15 20:00:00+0000
 image: image.png
 links:
 - title: Confidential Computing Consortium

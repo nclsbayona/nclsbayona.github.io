@@ -3,6 +3,7 @@ title: Kubernetes Architecture
 description: This is a blog post about Kubernetes architecture
 slug: kubernetes-architecture
 date: 2025-02-03 15:00:00+0000
+lastmod: 2025-02-04 01:00:00+0000
 image: https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png
 links:
 - title: Kubernetes

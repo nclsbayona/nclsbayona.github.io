@@ -3,6 +3,7 @@ title: Kubenomicon
 description: In this blog post we talk about the Kubenomicon, a version of the Necronomicon but for Kubernetes
 slug: kubenomicon
 date: 2025-01-31 13:14:26+0000
+lastmod: 2025-01-31 20:00:00+0000
 image: https://kubenomicon.com/images/kubenomicon_cropped.png
 links:
 - title: Kubenomicon
