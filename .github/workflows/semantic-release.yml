@@ -1,6 +1,7 @@
 name: Semantic Release
 
 on:
+  workflow_dispatch:
   schedule:
     # Release automatically 1 of month at 03:00 UTC
     - cron: "0 3 1 */2 *"
