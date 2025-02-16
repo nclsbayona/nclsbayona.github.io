@@ -1,0 +1,31 @@
+# The Changelog for nclsbayona.github.io
+
+# 1.0.0 (2025-02-16)
+
+
+### Bug Fixes
+
+* :lock: Fix some security issues ([9e40786](https://github.com/nclsbayona/nclsbayona.github.io/commit/9e40786fb57f33c636a814bb3ddf840b54122480))
+* :sparkles: Update blog entry ([ff687e2](https://github.com/nclsbayona/nclsbayona.github.io/commit/ff687e25283301fd64fc53a3b9b9dae09bb75df3))
+* Update blog entry ([717afca](https://github.com/nclsbayona/nclsbayona.github.io/commit/717afcad489f6fe323f9a6c1da8c65e70f6ff2d4))
+* Update blog entry ([5947e3c](https://github.com/nclsbayona/nclsbayona.github.io/commit/5947e3cc11cb5a559e8101ac2e1b58cb5fc9afa2))
+* Update blog entry ([8de817a](https://github.com/nclsbayona/nclsbayona.github.io/commit/8de817a8831b595f53f88beeef3782d9b71e42a0))
+* Update blog entry ([c6fc7cd](https://github.com/nclsbayona/nclsbayona.github.io/commit/c6fc7cd3ab3cd2f18b2b5a23c7bf1ba99b0571b7))
+* Update blog entry ([d44d0b1](https://github.com/nclsbayona/nclsbayona.github.io/commit/d44d0b1fe788ebd5e2dad470d01144dbb090b1c5))
+* Update entry ([4ed6e6f](https://github.com/nclsbayona/nclsbayona.github.io/commit/4ed6e6fc2202e59e8336d46671b1bd86f4fc0ba3))
+
+
+### Features
+
+* :sparkles: Add new blog entry ([d7039a1](https://github.com/nclsbayona/nclsbayona.github.io/commit/d7039a14f764aad10ce82f00aa67b7d2e8be8db2))
+* :sparkles: Add new blog entry ([c7acf8f](https://github.com/nclsbayona/nclsbayona.github.io/commit/c7acf8fdb1b5e7d576d9a93e9115356ae7679956))
+* :sparkles: Add new blog entry ([9a4c27e](https://github.com/nclsbayona/nclsbayona.github.io/commit/9a4c27e662e9108f2cc89af366bf7e88c21a840e))
+* :sparkles: Add new blog entry ([960557e](https://github.com/nclsbayona/nclsbayona.github.io/commit/960557e2209e5ec7ff1d2a5a842f940e7a30dded))
+* :sparkles: Add new blog entry ([8ab3dfa](https://github.com/nclsbayona/nclsbayona.github.io/commit/8ab3dfa8401fd38cab10152692853f70d202b8b9))
+* :sparkles: Add new blog entry ([5bcb1b6](https://github.com/nclsbayona/nclsbayona.github.io/commit/5bcb1b61de2f7063fb98661666a7b6db540b4b0c))
+* :sparkles: Add new blog entry ([02d2d2d](https://github.com/nclsbayona/nclsbayona.github.io/commit/02d2d2d895895d084f62a1d32d508349cd8c71bb))
+* :sparkles: Add new blog entry ([e0abe55](https://github.com/nclsbayona/nclsbayona.github.io/commit/e0abe55c39bf2d2ce32dd63465efce4e322bc2c2))
+* :sparkles: Add new blog entry ([f357dfc](https://github.com/nclsbayona/nclsbayona.github.io/commit/f357dfc4aae1b256e2aa12f14aa22915b240a29e))
+* :sparkles: First blog entry ([08638ec](https://github.com/nclsbayona/nclsbayona.github.io/commit/08638ec26298b2a10110ff07e4ae75e7e5ecd872))
+* :sparkles: New blog entry ([c3bc3f0](https://github.com/nclsbayona/nclsbayona.github.io/commit/c3bc3f0119f14f62124bef14117c7cac976387be))
+* Add blog entry ([d9ea790](https://github.com/nclsbayona/nclsbayona.github.io/commit/d9ea790becca91ade6a1aedc662652d7b486ed4f))
