@@ -9,6 +9,7 @@ on:
       - 'assets/**'
       - 'config/**'
       - '.github/workflows/deploy.yml'
+      - 'layouts/**'
 
 jobs:
     build:
