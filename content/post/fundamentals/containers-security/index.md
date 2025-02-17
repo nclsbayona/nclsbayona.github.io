@@ -219,6 +219,19 @@ Below is a table summarizing the key differences between containers and microVMs
 
 Data science techniques help by analyzing metrics such as startup times, resource usage, and security incident logs from both approaches, guiding organizations to choose the optimal balance between speed and protection.
 
+| **Feature** | Kata Containers | Docker | GVisor | Podman |
+|---|---|---|---|---|
+| **Type** | Lightweight VMs | Native Containers | Application Kernel | Native Containers |
+| **Isolation** | Strong (VM) | Weaker (Namespaces/Cgroups) | Strong (User-space Kernel) | Weaker (Namespaces/Cgroups) |
+| **Security** | High | Lower | High | Lower |
+| **Performance** | Moderate | High | Moderate | High |
+| **Overhead** | Higher | Lower | Medium | Lower |
+| **Complexity** | High | Low | Medium | Low |
+| **Daemon** | Optional (can be integrated) | Required | N/A (Part of the Application) | Optional (Daemonless) |
+| **Use Cases** | Security-sensitive workloads, Multi-tenant environments | General-purpose containerization, Microservices, Development | Security-critical applications, Untrusted code | General-purpose containerization, Development, Daemonless deployments |
+
+*Table 5: Summary of the key differences and trade-offs between different containerization technologies.*
+
 ---
 
 ## Advanced Data Analysis and Visualization Techniques
