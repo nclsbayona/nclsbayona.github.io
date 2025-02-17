@@ -4,7 +4,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Galaxy_cluster_
 description: In this blog post, we explore the concepts of clustering and orchestration and their critical roles in optimizing resource management in modern applications
 date: 2024-08-13 20:00:00+0000
 lastmod: 2025-01-13 20:00:00+0000
-image: image.png
+image: cover.png
 categories:
 - containers
 tags:

@@ -3,7 +3,7 @@ title: Kubernetes Architecture
 description: This is a blog post about Kubernetes architecture
 slug: kubernetes-architecture
 date: 2025-02-03 15:00:00+0000
-lastmod: 2025-02-04 01:00:00+0000
+lastmod: 2025-02-16 01:00:00+0000
 image: https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png
 links:
 - title: Kubernetes
@@ -71,7 +71,7 @@ Next, consider the communication between the control plane and the worker nodes.
 
 Optionally, the `kube-proxy` which also runs on each worker node, manages network rules for services. It communicates with the API server to learn about new services and updates the local network rules accordingly.
 
-![Flow](image.png)
+![Flow](image-1.png)
 
 Finally, let's examine communication between pods. Pods can communicate with each other within the cluster using their IP addresses. Services provide an abstraction layer on top of pods, allowing pods to be discovered and accessed more easily.  When a pod wants to access a service, it typically uses the service's virtual IP address (VIP) and port. `kube-proxy`, using the network rules it has learned from the API server, then routes the traffic to the appropriate backend pods.
 

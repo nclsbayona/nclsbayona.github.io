@@ -4,7 +4,7 @@ description: In this blog post we talk about Containerization and its importance
 slug: containers-intro
 date: 2024-07-18 12:00:00+0000
 lastmod: 2025-01-12 20:00:00+0000
-image: image.png
+image: cover.png
 categories:
 - containers
 tags:

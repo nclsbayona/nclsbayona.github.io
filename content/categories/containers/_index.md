@@ -1,7 +1,7 @@
 ---
 title: Containers
 description: This is a category for all-things Containers and Containerization.
-image: 
+image: cover.png
 # Badge style
 style:
     background: "#FFFFFF"
