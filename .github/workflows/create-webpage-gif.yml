@@ -16,6 +16,7 @@ jobs:
       uses: PabloLec/website-to-gif@2.1.5
       with:
         url: "https://nclsbayona.github.io"
+        scroll_step: 10
     - name: Commit file to GH repo
       run: |
         git config --global user.name "PabloLec/website-to-gif"
