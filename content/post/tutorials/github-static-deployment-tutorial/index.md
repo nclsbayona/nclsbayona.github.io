@@ -3,7 +3,7 @@ title: Deployment of static webpage with Github
 description: This is a blog post regarding deployment of a static site using Github
 slug: github-static-deployment-tutorial
 date: 2025-01-29 08:00:00+0000
-lastmod: 2025-01-29 09:00:00+0000
+lastmod: 2025-02-17 23:00:00+0000
 image: cover.png
 links:
 - title: Github
@@ -26,9 +26,9 @@ Buckle up, buttercup, as here we can see an explanation on GitHub deployments! Y
 
 ### Actually deploying
 
-So, you've crafted the next killer website with spinning unicorns, auto-playing midi files, and enough Comic Sans to make your eyes bleed (or just a simple website or you're begining with it but say to yourself "How am I actually going to deploy this?"). GitHub's got you covered, my friend! Several ways, in fact. It's like choosing a superpower – do you want laser vision, super strength, or the ability to understand JavaScript? (Okay, maybe not that last one). Also, the URL is a bit... well, let's just say "yourusername.github.io". Not exactly "[invalid URL removed]" or "myprettyawesomewebsite.com", but hey, it's free! (I know you can use your own custom domain but I haven't explored that yet so let's just skip it for now).
+So, you've crafted the next killer website with spinning unicorns, auto-playing midi files, and enough Comic Sans to make your eyes bleed (or just a simple website or you're begining with it but say to yourself "How am I actually going to deploy this?"). GitHub's got you covered, my friend! Several ways, in fact. It's like choosing a superpower: Do you want laser vision, super strength, or the ability to understand JavaScript? (Okay, maybe not that last one). Also, the URL is a bit... well, let's just say "yourusername.github.io". Not exactly "[invalid URL removed]" or "myprettyawesomewebsite.com", but hey, it's free! (I know you can use your own custom domain _in my defense, I don't think [https://nclsbayona.github.io](https://nclsbayona.github.io) is bad, but I wanted to test the custom domain option so I could talk about that too_ but let's just skip it for now).
 
-#### Option 1: GitHub Pages classic deployment - The "Set It and Forget It" Option
+#### Option 1: GitHub Pages classic deployment - The "Set It and Forget It" 
 
 Think of this GitHub Pages deployment way as the "Easy Bake-Oven" of deployments Github offers. It's simple, it's convenient, and it's perfect for static sites (think HTML, CSS, and optionally some JavaScript). This option is great if you want just a way of deploying your files and forgetting about the rest (You can update the files you show and probably that will be something you'll do often). This assumes you have a Jekyll-powered site (If you don't know what [Jekyll](https://jekyllrb.com/) is, you can read the [docs](https://jekyllrb.com/docs) if you want (Or let's just say it's a tool to generate static sites (Just one of many, each one with its pros and cons))) and really there's just no way of changing that behaviour so yeah you could use [Markdown](https://www.markdownguide.org/) and have [Jekyll](https://jekyllrb.com/) do that static site generation for you but really there's not a lot of customization options here, you're locked-in to what GitHub provides.
 
