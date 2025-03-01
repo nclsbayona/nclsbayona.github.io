@@ -1,5 +1,23 @@
 # The Changelog for nclsbayona.github.io
 
+# [1.1.0](https://github.com/nclsbayona/nclsbayona.github.io/compare/v1.0.0...v1.1.0) (2025-03-01)
+
+
+### Bug Fixes
+
+* :art: Change filenames ([25a972b](https://github.com/nclsbayona/nclsbayona.github.io/commit/25a972b10af38badd8711f89387006ab95ad4836))
+* :memo: Update website gif ([1166b9c](https://github.com/nclsbayona/nclsbayona.github.io/commit/1166b9c4c91058607a6341167a06be387adf60b4))
+* :memo: Update website gif ([8626597](https://github.com/nclsbayona/nclsbayona.github.io/commit/8626597289cfe5bc9f9ff70635e8fb2ae53cbb3f))
+* :pencil2: Add table to blog entry ([99bf124](https://github.com/nclsbayona/nclsbayona.github.io/commit/99bf12492d0690acd4304756c6473a8aa3b4c0d0))
+* Update blog entry ([fc19bcb](https://github.com/nclsbayona/nclsbayona.github.io/commit/fc19bcbdbf48d2c07c92dfae1a7e0aa84fb2e78f))
+* Update entry ([b8b1af5](https://github.com/nclsbayona/nclsbayona.github.io/commit/b8b1af50c477204c9ff052b9b287dd92b4b1e560))
+
+
+### Features
+
+* Add demo to README ([b5db4f7](https://github.com/nclsbayona/nclsbayona.github.io/commit/b5db4f71e23281ed88d73de7bc3ea5ac264092ca))
+* Add TTS Reader ([1ad9ac8](https://github.com/nclsbayona/nclsbayona.github.io/commit/1ad9ac80dd4d0b5010c2572cb077082578b55de9))
+
 # 1.0.0 (2025-02-16)
 
 
