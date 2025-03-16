@@ -3,7 +3,7 @@ name: Check Site Performance with Page Speed Insights
 on: 
   workflow_dispatch:
   schedule:
-  - cron:  '20 1 * * *'
+  - cron:  '0 5 * * 0'
 jobs:
   build:
     runs-on: ubuntu-latest

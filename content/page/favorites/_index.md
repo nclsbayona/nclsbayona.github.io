@@ -1,4 +1,5 @@
 ---
+
 title: "My liked content"
 description: This is a page to reference nclsbayona's favorite blogs and webpages with content nclsbayona usually reads/consults.
 date: 2024-01-01
@@ -7,7 +8,7 @@ slug: "favorites"
 
 menu:
     main:
-        weight: 3
+        weight: 4
         params: 
             icon: details
 
@@ -36,4 +37,5 @@ links:
   description: Ahmet Alp Balkan is a software engineer that usually posts relevant content on the technology field.
   website: https://ahmet.im
   image: https://logodix.com/logo/897023.png
+
 ---
