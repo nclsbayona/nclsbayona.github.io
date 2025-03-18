@@ -1,0 +1,21 @@
+{{ $image := "https://www.creativefabrica.com/wp-content/uploads/2023/05/06/Babe-Ruth-Graphic-69011883-1.png" }}
+{{ $author := "Babe Ruth" }}
+{{ $text := "You just can't beat the person who never gives up." }}
+
+<section class="widget">
+    <div class="widget-icon">
+        {{ partial "helper/icon" "quote" }}
+    </div>
+    <h2 class="widget-title section-title">Today's quote</h2>
+
+    <section class="section-card" style="flex: 50%;">
+        <section class="section-image">
+            <img src="{{ $image }}" alt="{{ .title }}" />
+        </section>
+        <section class="section-details">
+            <p style="color: antiquewhite;">{{ $text }}</p>
+            <i style="color: aliceblue; align-self: flex-end;">{{ $author }}</i>
+        </section>
+    </section>
+    
+</section>

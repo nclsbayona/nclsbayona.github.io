@@ -38,6 +38,9 @@ type = "search"
 limit = 5
 
 [[widgets.homepage]]
+type = "quote"
+
+[[widgets.homepage]]
 type = "categories"
 
 [widgets.homepage.params]
