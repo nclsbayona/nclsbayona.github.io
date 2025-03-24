@@ -1,6 +1,6 @@
 ---
 
-title: "My liked content"
+title: "My favorite content"
 description: This is a page to reference nclsbayona's favorite blogs and webpages with content nclsbayona usually reads/consults.
 date: 2024-01-01
 layout: "favorites"
@@ -33,9 +33,18 @@ links:
   description: Kodekloud is a DevOps training company, however they also have a blog about common tasks in the DevOps world.
   website: https://kodekloud.com/blog/
   image: https://unita.co/wp-content/uploads/2023/01/kodekloud-logo.jpg
+- title: Graham Helton's blog
+  description: Graham Helton is a security specialist. Founder of Low Orbit Security, Graham often posts useful security-related content.
+  website: https://grahamhelton.com
 - title: Ahmet Alp Balkan's blog
   description: Ahmet Alp Balkan is a software engineer that usually posts relevant content on the technology field.
   website: https://ahmet.im
-  image: https://logodix.com/logo/897023.png
+- title: K8S security geek
+  description: K8s security geek is a blog by Itai Ganot that talks about various Kubernetes security-focused stuff.
+  website: https://k8s-security.geek-kb.com/docs/fundamentals/intro/
+  image: https://k8s-security.geek-kb.com/img/logo.svg
+- title: Iximiuz webpage
+  description: Iximiuz is a webpage that offers laboratories to acquire hands-on knowledge. Focused but not limited to Kubernetes and Contsiners.
+  website: https://iximiuz.com
 
 ---

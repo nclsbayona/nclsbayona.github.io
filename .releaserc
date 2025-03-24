@@ -10,7 +10,7 @@
                 { type: 'feat', release: 'minor' },
                 { type: 'fix', release: 'patch' },
                 { scope: 'deps', release: 'patch' },
-                { type: 'docs', scope: "README", release: 'patch' },
+                { type: 'docs', release: 'patch' },
                 { type: 'chore', release: 'patch' },
                 { type: 'refactor', release: 'patch' },
                 { type: 'style', release: 'patch' },
