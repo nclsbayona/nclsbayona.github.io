@@ -46,5 +46,7 @@ links:
 - title: Iximiuz webpage
   description: Iximiuz is a webpage that offers laboratories to acquire hands-on knowledge. Focused but not limited to Kubernetes and Contsiners.
   website: https://iximiuz.com
-
+- title: Ofir's blog
+  description: Ofir is a CTO at Wiz. His blogs shares some cool content on Kubernetes, Containers, Security ...
+  website: https://www.ofirc.com/
 ---
