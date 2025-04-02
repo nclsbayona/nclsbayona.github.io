@@ -24,7 +24,7 @@ tags:
 - devsecops
 weight: 1 # You can add weight to some posts to override the default sorting (date descending)
 ---
-## Virtualization and Its Role in Security
+## Container security
 
 Virtualization has been a game changer in IT for many years. By turning physical hardware into isolated virtual environments, technologies like virtual machines (VMs) and, more recently, containers allow us to run many workloads safely on the same machine. This separation means that if something goes wrong in one area, it’s much less likely to affect the rest of the system. As one study put it, “virtualization isolates the operating system and applications from the underlying hardware, reducing the risk that a breach in one instance will impact others” [Firesmith, 2017, IEEE]. Researchers such as Casalicchio and Iannucci (2018) have shown that when systems are kept up to date and strict access controls are applied, virtualization provides a robust foundation for security.
 

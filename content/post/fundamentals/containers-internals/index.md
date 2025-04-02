@@ -22,7 +22,7 @@ links:
   image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/360px-Google_2015_logo.svg.png
 ---
 
-## Revolutionizing Software Deployment: A Deep Dive into Container Technology (Technical level)
+## Containerization Internals
 
 You might be wondering, **Containers are already integral to my workflow, so why delve deeper into their intricacies?** That's entirely understandable, not everyone desires an exhaustive technical understanding and that's ok. However, this post aims precisely at readers who seek clarity on how this *~magic~* actually works.
 
