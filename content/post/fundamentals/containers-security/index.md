@@ -4,7 +4,7 @@ description: In this blog post we talk about Containerization and its importance
 slug: containers-security
 date: 2025-02-15 12:00:00+0000
 lastmod: 2025-02-15 20:00:00+0000
-image: cover.png
+image: cover.webp
 links:
 - title: Confidential Computing Consortium
   description: The Confidential Computing Consortium is a community focused on projects securing data in use and accelerating the adoption of confidential computing through open collaboration.
@@ -103,7 +103,7 @@ Below is a table summarizing these access control methods:
 
 *Table 2: Access control methods in container engines.*
 
-![Enhancing access controls](image-1.png)
+![Enhancing access controls](image-1.webp)
 
 ---
 

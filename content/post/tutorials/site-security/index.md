@@ -4,7 +4,7 @@ description: This is a blog post regarding deployment of a secure webpages.
 slug: deployment-secure-webpages
 date: 2025-03-31 08:00:00+0000
 lastmod: 2025-04-03 23:00:00+0000
-image: cover.png
+image: cover.webp
 links:
 - title: Github
   description: Github is a Git server managed by Microsoft.

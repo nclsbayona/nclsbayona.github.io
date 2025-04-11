@@ -26,7 +26,7 @@ links:
   website: https://owasp.org/www-project-threat-and-safeguard-matrix/
 categories:
 - cybersecurity
-- containers
+- kubernetes
 tags:
 - devsecops
 weight: 1 # You can add weight to some posts to override the default sorting (date descending)

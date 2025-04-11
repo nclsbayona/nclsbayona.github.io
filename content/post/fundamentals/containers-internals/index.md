@@ -4,7 +4,7 @@ description: In this blog post we talk about how Containerization is possible in
 slug: containers-internals
 date: 2025-03-10 12:00:00+0000
 lastmod: 2025-03-21 20:00:00+0000
-image: cover.png
+image: cover.webp
 categories:
 - containers
 tags:
