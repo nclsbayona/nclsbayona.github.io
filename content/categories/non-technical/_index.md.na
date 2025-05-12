@@ -1,0 +1,9 @@
+---
+title: Non-Technical
+description: This is a category for non-technical content.
+image: cover.png
+# Badge style
+style:
+    background: "#808080"
+    color: "#000000"
+---
