@@ -1,5 +1,26 @@
 # The Changelog for nclsbayona.github.io
 
+# [1.2.0](https://github.com/nclsbayona/nclsbayona.github.io/compare/v1.1.0...v1.2.0) (2025-09-01)
+
+
+### Bug Fixes
+
+* :memo: Update website gif ([e6af4b0](https://github.com/nclsbayona/nclsbayona.github.io/commit/e6af4b04f5bb214c77825922e40c072ee2a2f2bb))
+* :memo: Update website gif ([4e5e2c2](https://github.com/nclsbayona/nclsbayona.github.io/commit/4e5e2c275b52b5144f6f3c0591ab5d05addf7a06))
+* :memo: Update website gif ([f8cdfe5](https://github.com/nclsbayona/nclsbayona.github.io/commit/f8cdfe5c3ebd3cdd82ff6d2fe2406af872da7ff8))
+* :memo: Update website gif ([d1b0a62](https://github.com/nclsbayona/nclsbayona.github.io/commit/d1b0a62f2848d8eb5dac70197e079d19e84b822d))
+* :wrench: Updates to User experience ([73355d1](https://github.com/nclsbayona/nclsbayona.github.io/commit/73355d105b8cfb9d0f9590a8dd7d67438deb6c89))
+* Add quote widget ([5afd350](https://github.com/nclsbayona/nclsbayona.github.io/commit/5afd350ccf34f458d61625edecb05bbcc69d723e))
+* Update blog ([9638d8c](https://github.com/nclsbayona/nclsbayona.github.io/commit/9638d8c9a101776f43b41e1d7a76e187f2b177ec))
+* Update blog ([cb8382f](https://github.com/nclsbayona/nclsbayona.github.io/commit/cb8382f756aa4738f7b75c161e2690555f18cb72))
+* Update blog images ([d512a6b](https://github.com/nclsbayona/nclsbayona.github.io/commit/d512a6b49203dc5d8b84146405ced6f9aabbc1f5))
+* Update favorite content ([0e2eff5](https://github.com/nclsbayona/nclsbayona.github.io/commit/0e2eff5b7e8aea86b79b67204b99527766a4379b))
+
+
+### Features
+
+* Add blog entry ([0fca52e](https://github.com/nclsbayona/nclsbayona.github.io/commit/0fca52ebbe009a1e0427f3a4fb2e80214ad2c7fb))
+
 # [1.2.0](https://github.com/nclsbayona/nclsbayona.github.io/compare/v1.1.0...v1.2.0) (2025-07-01)
 
 
