@@ -1,6 +1,6 @@
 ---
 title: The value of becoming a Kubestronaut (and a Golden Kubestronaut) and why certifying is more than a title.
-description: This is a blog post regarding some lessons learned while becoming a Kubestronaut (EDIT: Also adding golden-related content).
+description: This is a blog post regarding some lessons learned while following structured learning paths.
 slug: certs-real-value
 date: 2025-03-01 08:00:00+0000
 lastmod: 2025-09-14 23:00:00+0000
