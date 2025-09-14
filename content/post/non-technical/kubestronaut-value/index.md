@@ -1,9 +1,9 @@
 ---
-title: The value of becoming a Kubestronaut and why certifying is more than a title
-description: This is a blog post regarding some lessons learned while becoming a Kubestronaut.
-slug: kubestronaut-value
+title: The value of becoming a Kubestronaut (and a Golden Kubestronaut) and why certifying is more than a title
+description: This is a blog post regarding some lessons learned while becoming a Kubestronaut (EDIT: Also adding golden-related content).
+slug: the-value
 date: 2025-03-01 08:00:00+0000
-lastmod: 2025-05-12 23:00:00+0000
+lastmod: 2025-09-14 23:00:00+0000
 image: cover.webp
 categories:
 - non-technical
@@ -15,7 +15,7 @@ weight: 1
 > ***NOTE*** \
 > This post is  only my opinion and so should be taken into account carefully.
 
-## The value of becoming a Kubestronaut and why certifying is more than a title
+## The value of following a complex learning path and why certifying is more than a title
 
 ### Why certifying is more than a title
 
@@ -43,7 +43,7 @@ And I understand that's quite weird to read but sometimes it's not about actuall
 
 Now we've hopefully gotten to a point where the value of learning isn't defined just as a way of learning something new but more to understand yourself and a mechanism to just know you better.
 
-So, as a quick summary here, lets just say that learning is one of the most powerful acts of self-respect. It transforms you from someone reacting to life into someone shaping it. It’s not about chasing perfection or external approval, it’s about developing awareness. And once you have that, you realize: you’ve always had the pen in your hand. You just need to start writing your story.
+So, as a quick summary here, lets just say that learning is one of the most powerful acts of self-respect. It transforms you from someone reacting to life into someone shaping it. It’s not about chasing perfection or external approval, it’s about developing awareness. And once you have that, you realize: You're only limited by time, not by capacity.
 
 #### Finding the motivation
 
@@ -75,7 +75,7 @@ Money often represents possibility, freedom, self-respect. Wanting a better life
 
 ![I would say sometimes the answer is no](images/image-3.jpg)
 
-Well, I decided to include this section to try and avoid any communication issues. Motivation on its own is just a set of reasons you have to do something but really it takes more than motivation to do something, I'm not trying to say something like *if you're afraid just do it scared* because being scared is natural and in the past I tried to do things scared but I just couldn't, it was just like something didn't feel right, so I'm not gonna talk about something I can't relate.
+Well, I decided to include this section to try and avoid any communication issues. Motivation on its own is just a set of reasons you have to do something but really it takes more than motivation to do something, I'm not trying to say something like *if you're afraid just do it scared* because being scared is natural and in the past I tried doing things scared but it didn't work out well, it was just like something didn't feel right, so I'm not gonna talk about something I can't relate.
 
 What works to me tho is discipline, knowing I have to do something and just persist in the journey towards achieving that goal even when things don't seem to be working is what keeps me moving forward.
 
@@ -85,7 +85,7 @@ What works to me tho is discipline, knowing I have to do something and just pers
 
 Not everyone is a "read-the-docs-and-instantly-get-it" person. People are different being different is just different not wrong. Some people learn by building, others by teaching and some need to fail before they can even figure out the right question to ask.
 
-In a way, this is similar to **Howard Gardner’s theory of multiple intelligences**, a theory that states there are multiple types of intelligences and so .
+In a way, this is similar to **Howard Gardner’s theory of multiple intelligences**, a theory that states there are multiple types of intelligences:
 
 - Logical
 - Interpersonal
@@ -96,7 +96,7 @@ In a way, this is similar to **Howard Gardner’s theory of multiple intelligenc
 
 We often overvalue the analytical kind of person and forget that empathy, intuition, and creativity are just as essential to understanding the world and ourselves.
 
-### Kubernetes and my journey towards becoming a Kubestronaut
+### Kubernetes and my journey following a practical learning path
 
 The first time I saw Kubernetes, I found it overwhelming and even boring but sometimes life just gives me challenges and I've learned to face them no matter what.
 
@@ -104,7 +104,7 @@ Eventually, after breaking clusters more times than I could probably count, thin
 
 In that sense, ***Kubernetes*** gave me more than technical knowledge. It gave me clarity, confidence and a deeper respect for both distributed systems and for myself. And really, looking retrospectively, that's the reason I really started my journey towards becoming a *Kubestronaut*.
 
-#### Challenges in the journey
+#### Challenges in my journey
 
 Before proceeding I just want to remember
 > Life is a journey, not a destination
@@ -147,9 +147,15 @@ I decided on taking this exam as the last one in my journey towards becoming a K
 
 I took my preparations like I did with [CKA](#cka) and refreshed everything from [KCSA](#kcsa) but also read a fantastic book I received and watched fantastic videos on the topics the exam covered. The exam is challenging but not something you can't deal with and passing it (At least for me) felt so rewarding that I would go through all again.
 
+> **EDIT**: Yep, I decided to continue ...
+##### LFCS
+Ok, this one was a special one. I've been looking to do a Linux-related exam long before I learnt about Kubernetes (Actually Linux introduced me to containers and that eventually got me into Kubernetes so that's another reason this one was special). So suited with my Kubestronaut jacket I just took the exam.
+
+Well, what I did for this one? I think that practicing was the most important thing I did. But funny or not, I repeated what I say I did for [CKA](#cka) and I really enjoyed it.
+
 ### Tips for Taking (Kubernetes) Exams — Lessons from the experience
 
-Taking technical exams is like deploying in production: you can’t panic, and you need to trust your setup. Technical certification exams (Ok, maybe not all but exams like CKA, CKAD and CKS) usually have some type of hands-on scenarios. That means mindset, preparation, and tactics all matter.
+Taking technical exams is like deploying in production: you can’t panic, and you need to trust your setup. Technical certification exams (Ok, maybe not all but exams like LFCS, CKA, CKAD and CKS) usually have some type of hands-on scenarios. That means mindset, preparation, and tactics all matter.
 
 Let’s break down some tips for test-taking, mapped to how things work in Kubernetes.
 
