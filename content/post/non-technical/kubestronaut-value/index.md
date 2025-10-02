@@ -109,7 +109,7 @@ In that sense, ***Kubernetes*** gave me more than technical knowledge. It gave m
 Before proceeding I just want to remember
 > Life is a journey, not a destination
 
-##### KCNA
+##### KCNA (Kubernetes and Cloud Native Associate)
 
 Yeah, some would say this isn't even a challenge so why bother reading what I consider a challenge? If you think like that, you're free to skip to the [next exam](#ckad).
 
@@ -117,9 +117,9 @@ For those of you who stayed tho, I have to say that I found this exam to be chal
 
 So, you want to know what I did to prepare myself for completing this? Well, I studied the course on **Kodekloud**, read through a lot of documentation and watched a lot of Youtube videos.
 
-##### CKAD
+##### CKAD (Certified Kubernetes Application Developer)
 
-Looking retrospectively, *just my opinion as a man who already passed this exam*, this exam was not as challenging as someone would expect. The fact that this exam was practical really scared me to the point that I really couldn't sleep the night before the exam because I couldn't stop thinking on the worst case scenario, and its funny because one of the things I scared the most actually happened at the moment of taking the exam: my ***UI froze***. Yeah I lost like ten minutes there that I believe would have helped me get a higher score but on the other hand I kind of lost that sense of anxiety in taking exams with that format. Understand YAML and learn to work with the CLI, also knowing VIM shortcuts will help you a lot.
+Looking retrospectively, *just my opinion *eas* a man who already passed this exam*, this exam was not as challenging as someone would expect. The fact that this exam was practical really scared me to the point that I really couldn't sleep the night before the exam because I couldn't stop thinking on the worst case scenario, and its funny because one of the things I scared the most actually happened at the moment of taking the exam: my ***UI froze***. Yeah I lost like ten minutes there that I believe would have helped me get a higher score but on the other hand I kind of lost that sense of anxiety in taking exams with that format. Understand YAML and learn to work with the CLI, also knowing VIM shortcuts will help you a lot.
 
 Ok, but how exactly did I prepare? I did made the **Kodekloud** course, as well as some other courses there that I believe were important to cover all domains exam was targetted at, but also I read a lot of documentation, watched a lot of videos and what I would say was the most important thing was practicing in **Killercoda** and **Killer.sh**.
 
@@ -127,19 +127,19 @@ Nobody mentioned here is paying me so this is my honest opinion: **Kodekloud** i
 
 Adding more here, **Killercoda** and **Killer.sh** are worth every second of the time you spend on them. Exercises on **Killercoda** are free with an account and **Killer.sh** does cost but with the exam purchases you get two scenarios (Really just one exam but in two different environments) that mimic a lot the real exam feel. Also, I really enjoy feedback and what better than at the end having the possibility to access detailed step-by-step instructions on *one way to tackle each question (The real value here is on explanations I believe)*.
 
-##### CKA
+##### CKA (Certified Kubernetes Administrator)
 
 Was this challenging? Sure it was. Having the lessons learned from the last exam I took, I uninstalled from my PC many programs in an attempt to avoid any weird resource consumption or maybe background processes coming up during my exam, I also manually stopped many things before the exam so I was confident everything was gonna be just fine (And it was).
 
 Again, I did almost the same I did for the [CKAD](#ckad) but this time **Kodekloud** had not a lot of content on some of the newer topics on the exam so reading through the docs was something I made more for my preparation here.
 
-##### KCSA
+##### KCSA (Kubernetes and Cloud Security Associate)
 
 Again, this might not be as challenging as other exams on this list but it was challenging just like [KCNA](#kcna).
 
 Well, what I did here was kind of weird. I made **Kodekloud**'s course and read many documentation but I also watched some CNCF talks not exactly on **Kubernetes** but more on a cloud-security oriented fashion. My thinking was *This exam is theorical, so probably they aren't gonna ask me how to do X or Y in K8S but more like why would I do X or Y in K8S*, also I wanted to prepare for the scenario where they asked me in a more cloud-agnostic way to explain a security-related topic. At the end, was my preparation useful? Well, In some way it was, but that sure was useful for [CKS](#cks) and learning is useful always.
 
-##### CKS
+##### CKS (Certified Kubernetes Security Specialist)
 
 Ok, first of all, yes, I admit I was scared of this exam, I had heard really bad things about the exam. Was it so hard and challenging? No, it sure was challenging but it's not impossible.
 
@@ -148,10 +148,20 @@ I decided on taking this exam as the last one in my journey towards becoming a K
 I took my preparations like I did with [CKA](#cka) and refreshed everything from [KCSA](#kcsa) but also read a fantastic book I received and watched fantastic videos on the topics the exam covered. The exam is challenging but not something you can't deal with and passing it (At least for me) felt so rewarding that I would go through all again.
 
 > **EDIT**: Yep, I decided to continue ...
-##### LFCS
+##### LFCS (Linux Foundation Certified Sysadmin)
 Ok, this one was a special one. I've been looking to do a Linux-related exam long before I learnt about Kubernetes (Actually Linux introduced me to containers and that eventually got me into Kubernetes so that's another reason this one was special). So suited with my Kubestronaut jacket I just took the exam.
 
-Well, what I did for this one? I think that practicing was the most important thing I did. But funny or not, I repeated what I say I did for [CKA](#cka) and I really enjoyed it.
+Well, what I did for this one? I think that practicing was the most important thing I did. But funny or not, I repeated what I did for [CKA](#cka) and I really enjoyed it.
+
+##### KCA (Kyverno Certified Associate)
+##### ICA (Istio Certified Associate)
+##### CCA (Cilium Certified Associate)
+##### PCA (Prometheus Certified Associate) 
+##### OTCA (OpenTelemetry Certified Associate)
+##### CGOA (Certified GitOps Associate)
+##### CAPA (Certified Argo Project Associate)
+##### CBA (Certified Backstage Associate)
+##### CNPA (Certified Cloud Native Platform Engineering Associate)
 
 ### Tips for Taking (Kubernetes) Exams — Lessons from the experience
 
