@@ -154,6 +154,10 @@ Ok, this one was a special one. I've been looking to do a Linux-related exam lon
 Well, what I did for this one? I think that practicing was the most important thing I did. But funny or not, I repeated what I did for [CKA](#cka) and I really enjoyed it.
 
 ##### KCA (Kyverno Certified Associate)
+KCA, I imagined this different but I'm glad I made it. This was difficult in some way and really eventough I watched tons of YouTube videos and practiced a lot, what helped me the most was reading the docs. If you're looking for advice, trust me read the docs, I practiced a lot and kind of knew when I was answering things the wrong way because I kind of imagined the situation where I'd do what the question was asking but there were lots of tricky questions about multiple different topics that you only get by reading the docs.
+
+It was funny, I don't always like multiple-question exams because I just feel that in a way they don't give you that much value but I really enjoyed this one.
+
 ##### ICA (Istio Certified Associate)
 ##### CCA (Cilium Certified Associate)
 ##### PCA (Prometheus Certified Associate) 
