@@ -1,5 +1,6 @@
 {
   "branches": ["master"],
+  "tagFormat": "v${version}",
   "repositoryUrl": "https://github.com/nclsbayona/nclsbayona.github.io.git",
   "plugins": [
     [
