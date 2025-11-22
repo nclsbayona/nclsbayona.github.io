@@ -1,0 +1,24 @@
+{{ define "body-class" }}template-favorites{{ end }}
+{{ define "main" }}
+    {{- with .Params -}}
+    <div class="section-card">
+        <div class="section-details">
+            <h5 class="section-count">
+                {{ len .links }} favorites
+           </h5>
+            <h2 class="section-title">
+                <a href="{{ .RelPermalink }}">
+                    {{- .Title -}}
+                </a>
+            </h2>
+            <h3 class="section-description">
+                {{ .description }}
+            </h3>
+        </div>
+    </div>
+    {{- end -}}
+
+    {{ partial "custom/favorite-content" (dict "context" . "links" .Params.links) }}
+
+    {{ partialCached "footer/footer" . }}
+{{ end }}

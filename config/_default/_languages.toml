@@ -1,0 +1,12 @@
+# Rename this file to languages.toml to enable multilingual support
+[en]
+languageName = "English"
+languagedirection = "ltr"
+title = "nclsbayona's blog"
+weight = 1
+
+[es]
+languageName = "Español"
+languagedirection = "ltr"
+title = "Blog de nclsbayona"
+weight = 2

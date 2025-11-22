@@ -1,0 +1,28 @@
+{{ define "body-class" }}template-about{{ end }}
+{{ define "main" }}
+<div class="section-card">
+    <div class="section-details">
+        <div class="article-title-wrapper">
+            <h2 class="article-title">
+                Hi, I'm <a href="/">nclsbayona</a>
+            </h2>
+            <h3 class="section-description">
+                I'm a <bold>Systems Engineer</bold>.
+            </h3>
+        </div>
+    </div>
+    <section class="section-description">
+        <p>
+            I'm passionate for technology, software development and people. I'm always looking for new
+            challenges and opportunities to learn new things.
+        </p>
+    </section>
+</div>
+
+<br />
+
+{{ partial "custom/quotes" (dict "context" . "quotes" .Params.quotes) }}
+
+{{ partialCached "footer/footer" . }}
+
+{{ end }}

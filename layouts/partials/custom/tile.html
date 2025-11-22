@@ -1,0 +1,12 @@
+<a href="{{ .website }}" target="_blank" rel="noopener noreferrer" class="tile_link">
+    
+    <div class="article-image">
+        <img src="{{ .image | default "https://logodix.com/logo/897023.png" }}" alt="{{ .title }}" />
+    </div>
+    <br />
+    <div class="article-details">
+        <h3 class="article-title">{{ .title }}</h3>
+        <p>{{ .description }}</p>
+    </div>
+    <br />
+</a>

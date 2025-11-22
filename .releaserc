@@ -1,0 +1,41 @@
+{
+  "branches": ["master"],
+  "repositoryUrl": "https://github.com/nclsbayona/nclsbayona.github.io.git",
+  "plugins": [
+    [
+        '@semantic-release/commit-analyzer', {
+            preset: 'angular',
+            releaseRules: [
+                { breaking: true, release: 'major' },
+                { type: 'feat', release: 'minor' },
+                { type: 'fix', release: 'patch' },
+                { scope: 'deps', release: 'patch' },
+                { type: 'docs', release: 'patch' },
+                { type: 'chore', release: 'patch' },
+                { type: 'refactor', release: 'patch' },
+                { type: 'style', release: 'patch' },
+                { type: 'perf', release: 'patch' },
+                { type: 'test', release: 'patch' },
+                { type: 'ci', release: 'patch' },
+                { type: 'build', release: 'patch' }
+            ],
+        },
+    ],
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/github",
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md",
+        "changelogTitle": "# The Changelog for nclsbayona.github.io",
+      }
+    ],
+    [
+      '@semantic-release/git',
+      {
+        message:
+          'chore: :bookmark: Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
+      },
+    ],
+  ]
+}

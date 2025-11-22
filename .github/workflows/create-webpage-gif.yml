@@ -1,0 +1,23 @@
+name: Create Webpage GIF
+on:
+  page_build:
+  deployment: 
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - uses: actions/checkout@v5
+    - name: Website to file
+      uses: PabloLec/website-to-gif@2.1.5
+      with:
+        url: "https://nclsbayona.github.io"
+        scroll_step: 2
+    - name: Commit file to GH repo
+      run: |
+        git config --global user.name "PabloLec/website-to-gif"
+        git config --global user.email "action@github.com"
+        git add .
+        git commit -m 'fix: :memo: Update website gif' && git push || echo "No changes"

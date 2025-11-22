@@ -1,0 +1,40 @@
+name: Analyze webpage
+
+on: 
+  workflow_dispatch:
+  schedule:
+  - cron:  '0 5 * * 0'
+jobs:
+  build:
+    name: Page Speed Insights
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run Page Speed Insights (Mobile)
+      uses: mattorb/psi-action@v1
+      id: psi_mobile
+      with:
+        threshold: 50
+        url: "https://nclsbayona.github.io"
+        strategy: mobile
+    - name: Run Page Speed Insights (Desktop)
+      uses: mattorb/psi-action@v1
+      id: psi_desktop
+      with:
+        threshold: 50
+        url: "https://nclsbayona.github.io"
+        strategy: desktop
+  test:
+    name: Lighthouse
+    runs-on: ubuntu-latest
+    steps:
+    - run: mkdir /tmp/artifacts
+    - name: Run Lighthouse
+      uses: foo-software/lighthouse-check-action@master
+      with:
+        outputDirectory: /tmp/artifacts
+        urls: 'https://nclsbayona.github.io,https://nclsbayona.github.io/page'
+    - name: Upload artifacts
+      uses: actions/upload-artifact@master
+      with:
+        name: Lighthouse reports
+        path: /tmp/artifacts
