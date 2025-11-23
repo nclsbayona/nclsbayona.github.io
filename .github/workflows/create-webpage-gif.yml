@@ -20,4 +20,4 @@ jobs:
         git config --global user.name "PabloLec/website-to-gif"
         git config --global user.email "action@github.com"
         git add .
-        git commit -m 'fix: :memo: Update website gif' && git push || echo "No changes"
+        git commit -m 'docs: :memo: Update website gif' && git push || echo "No changes"
