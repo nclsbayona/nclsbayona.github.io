@@ -23,11 +23,32 @@ jobs:
   #       threshold: 50
   #       url: "https://nclsbayona.github.io"
   #       strategy: desktop
+  sitespeed:
+    name: Page Load Analysis
+    runs-on: ubuntu-latest
+    steps:
+      - run: mkdir -p /tmp/artifacts
+      - name: Run Sitespeed.io
+        uses: addnab/docker-run-action@v3
+        with:
+          image: sitespeedio/sitespeed.io:24.2.0
+          options: -v /tmp/artifacts:/sitespeed.io/sitespeed-result
+          run: >
+            sitespeed.io
+            --crawl
+            --maxPages 20
+            --outputFolder /sitespeed.io/sitespeed-result
+            https://nclsbayona.github.io
+      - name: Upload Sitespeed.io results
+        uses: actions/upload-artifact@v4
+        with:
+          name: sitespeed-results
+          path: /tmp/artifacts
   lighthouse:
     name: Lighthouse
     runs-on: ubuntu-latest
     steps:
-    - run: mkdir /tmp/artifacts
+    - run: mkdir -p /tmp/artifacts
     - name: Run Lighthouse
       uses: foo-software/lighthouse-check-action@master
       with:
