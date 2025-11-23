@@ -1,3 +1,34 @@
-/*
-    You can add your own custom styles here.
-*/
+.container-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  background: #aab0ca;
+  padding: 2rem;
+  border-radius: 3rem;
+  .section-details {
+    text-align: center;
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+  } 
+}
+
+.about-quotes-block {
+  background: #40434c;
+  border-radius: 3rem;
+  padding: 2rem;
+  .quotes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    .quote-card {
+      border-radius: 1rem;
+      padding: 1rem 1.5rem;
+      flex: 1 1 2rem;
+    }
+  }
+}
