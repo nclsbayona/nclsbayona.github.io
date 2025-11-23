@@ -3,7 +3,7 @@ name: Remove old runs
 # Controls when the workflow will run
 on:
   schedule:
-    - cron: "0 10 1 */2 *"
+    - cron: "0 9 1 * *"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

@@ -5,25 +5,25 @@ on:
   schedule:
   - cron:  '0 5 * * 0'
 jobs:
-  build:
-    name: Page Speed Insights
-    runs-on: ubuntu-latest
-    steps:
-    - name: Run Page Speed Insights (Mobile)
-      uses: mattorb/psi-action@v1
-      id: psi_mobile
-      with:
-        threshold: 50
-        url: "https://nclsbayona.github.io"
-        strategy: mobile
-    - name: Run Page Speed Insights (Desktop)
-      uses: mattorb/psi-action@v1
-      id: psi_desktop
-      with:
-        threshold: 50
-        url: "https://nclsbayona.github.io"
-        strategy: desktop
-  test:
+  # psi:
+  #   name: Page Speed Insights
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - name: Run Page Speed Insights (Mobile)
+  #     uses: mattorb/psi-action@v1
+  #     id: psi_mobile
+  #     with:
+  #       threshold: 50
+  #       url: "https://nclsbayona.github.io"
+  #       strategy: mobile
+  #   - name: Run Page Speed Insights (Desktop)
+  #     uses: mattorb/psi-action@v1
+  #     id: psi_desktop
+  #     with:
+  #       threshold: 50
+  #       url: "https://nclsbayona.github.io"
+  #       strategy: desktop
+  lighthouse:
     name: Lighthouse
     runs-on: ubuntu-latest
     steps:
