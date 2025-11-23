@@ -1,29 +1,12 @@
 {{ $quotes := .quotes }}
-{{ $total := len $quotes }}
-{{ $step := 2 }}
-
-<div class="section-card">
-    <div class="section-details">
-        <h2 class="section-title">
-            <a href="{{ .context.RelPermalink }}">
-                Quotes I like
-            </a>
-        </h2>
-        <h3 class="section-description">
-            This content is a collection of quotes that I like. I hope you enjoy them.
-        </h3>
+{{ if $quotes }}
+<div class="section-card about-quotes-block">
+  <div class="quotes-list">
+    {{ range $quotes }}
+    <div class="quote-card">
+        {{ partial "custom/quote" . }}
     </div>
+    {{ end }}
+  </div>
 </div>
-
-{{ range $i, $quote := $quotes }}
-    {{ if eq (mod $i $step) 0 }}
-        <aside class="flex">
-    {{ end }}
-    
-    {{ partial "custom/quote" $quote }}
-    
-    {{ if or (eq (mod (add $i 1) $step) 0) (eq (add $i 1) $total) }}
-        </aside>
-        <br />
-    {{ end }}
 {{ end }}
