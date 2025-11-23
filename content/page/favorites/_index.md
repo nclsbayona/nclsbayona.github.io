@@ -28,7 +28,7 @@ links:
 - title: CNCF's blog
   description: The CNCF usually posts information on their blogs regarding relevant updates and use cases.
   website: https://www.cncf.io/blog/
-  image: https://joncloudgeek.com/blog/what-cloud-native-is-and-isnt/cncf-logo.png
+  image: https://www.cncf.io/wp-content/uploads/2023/04/cncf-main-site-logo.svg
 - title: Kodekloud's blog
   description: Kodekloud is a DevOps training company, however they also have a blog about common tasks in the DevOps world.
   website: https://kodekloud.com/blog/
