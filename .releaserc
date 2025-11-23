@@ -1,5 +1,5 @@
 {
-  "branches": ["master"],
+  "branches": ["main"],
   "repositoryUrl": "https://github.com/nclsbayona/nclsbayona.github.io.git",
   "plugins": [
     [
@@ -9,15 +9,9 @@
                 { breaking: true, release: 'major' },
                 { type: 'feat', release: 'minor' },
                 { type: 'fix', release: 'patch' },
-                { scope: 'deps', release: 'patch' },
-                { type: 'docs', release: 'patch' },
-                { type: 'chore', release: 'patch' },
                 { type: 'refactor', release: 'patch' },
                 { type: 'style', release: 'patch' },
                 { type: 'perf', release: 'patch' },
-                { type: 'test', release: 'patch' },
-                { type: 'ci', release: 'patch' },
-                { type: 'build', release: 'patch' }
             ],
         },
     ],
