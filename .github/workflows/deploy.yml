@@ -13,8 +13,8 @@ on:
       - '.github/workflows/deploy.yml'
 
 jobs:
-    build:
 
+    build:
       runs-on: ubuntu-latest
 
       permissions:
@@ -59,6 +59,7 @@ jobs:
 
     deploy:
       needs: build
+      runs-on: ubuntu-latest
 
       permissions:
         pages: write
@@ -68,9 +69,12 @@ jobs:
         name: github-pages
         url: ${{ steps.deployment.outputs.page_url }}
 
-      runs-on: ubuntu-latest
-
       steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+    analyze-page:
+      needs: deploy
+      uses: nclsbayona/nclsbayona.github.io/.github/workflows/page-analysis.yml@main
+      secrets: inherit

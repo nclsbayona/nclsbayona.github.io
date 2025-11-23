@@ -1,9 +1,8 @@
 name: Analyze webpage
 
 on: 
+  workflow_call:
   workflow_dispatch:
-  schedule:
-  - cron:  '0 5 * * 0'
 jobs:
   # psi:
   #   name: Page Speed Insights
@@ -23,11 +22,30 @@ jobs:
   #       threshold: 50
   #       url: "https://nclsbayona.github.io"
   #       strategy: desktop
+  sitespeed:
+    if: always()
+    name: Page Load Analysis
+    runs-on: ubuntu-latest
+    steps:
+      - run: mkdir -p /tmp/artifacts
+      - name: Run Sitespeed.io
+        uses: addnab/docker-run-action@v3
+        with:
+          image: sitespeedio/sitespeed.io:latest
+          options: -v /tmp/artifacts:/sitespeed.io
+          run: >
+            /start.sh -v -d 3 https://nclsbayona.github.io
+      - name: Upload Sitespeed.io results
+        uses: actions/upload-artifact@v4
+        with:
+          name: sitespeed-results
+          path: /tmp/artifacts
   lighthouse:
+    if: always()
     name: Lighthouse
     runs-on: ubuntu-latest
     steps:
-    - run: mkdir /tmp/artifacts
+    - run: mkdir -p /tmp/artifacts
     - name: Run Lighthouse
       uses: foo-software/lighthouse-check-action@master
       with:
@@ -38,3 +56,43 @@ jobs:
       with:
         name: Lighthouse reports
         path: /tmp/artifacts
+  dependabot-checks:
+    if: always()
+    name: Dependabot Security Checks
+    runs-on: ubuntu-latest
+
+    concurrency:
+        group: sec_check-${{ github.ref }}
+        cancel-in-progress: false
+
+    steps:
+    - name: Dependabot Security Updates
+      uses: dependabot/fetch-metadata@v1
+      id: dependabot-metadata
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+  link-checker:
+    if: always()
+    name: Link Checker
+    runs-on: ubuntu-latest
+    concurrency:
+        group: link_check-${{ github.ref }}
+        cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v1.8.0
+        with:
+          format: markdown
+          jobSummary: true
+          output: 'lychee-report.md'
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Upload Link Checker Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-checker-report
+          path: lychee-report.md
