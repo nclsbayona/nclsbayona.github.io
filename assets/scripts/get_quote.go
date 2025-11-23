@@ -46,7 +46,6 @@ func getImageURL(author string) string {
 		} else {
 			defer resp.Body.Close()
 			var result result
-			fmt.Printf("Received '%d' from '%s'\n", resp.StatusCode, resp.Request.URL.String())
 			if err := json.NewDecoder(resp.Body).Decode(&result); err != nil {
 				fmt.Println("[getImageURL]Error decoding Wikimedia JSON:", err, ". Using default image.")
 				return defaultImageURL
