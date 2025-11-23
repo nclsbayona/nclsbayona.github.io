@@ -3,6 +3,11 @@ name: Update Quote of the Day
 on:
   schedule:
     - cron: '0 7 * * *' # Every day at 08:00 UTC
+  push:
+      branches: [main]
+      paths:
+      - 'assets/scripts/get_quote.go'
+      - '.github/workflows/fetch-quote.yml'
   workflow_dispatch:
 
 jobs:
@@ -36,3 +41,9 @@ jobs:
             git add layouts/partials/widget/quote.html
             git commit -m 'chore: :hammer: update Quote of the Day' || echo "No changes to commit"
             git push origin main
+
+
+    deploy:
+        needs: get-quote
+        uses: nclsbayona/nclsbayona.github.io/.github/workflows/deploy.yml@main
+        secrets: inherit
