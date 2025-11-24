@@ -83,7 +83,7 @@ jobs:
 
       - name: Link Checker
         id: lychee
-        uses: lycheeverse/lychee-action@v1.8.0
+        uses: lycheeverse/lychee-action@v2.0.2
         with:
           format: markdown
           jobSummary: true
