@@ -21,18 +21,18 @@ menu:
 quotes:
 - author: "John D. Rockefeller"
   text: "The secret of success is to do the common things uncommonly well."
-  image: "https://tagvault.org/wp-content/uploads/2024/03/John-D.-Rockefeller-Leadership-Style.jpg"
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/John-D-Rockefeller-sen.jpg/640px-John-D-Rockefeller-sen.jpg"
 - author: "Nikola Tesla"
   text: "I could only achieve success in my life through self-discipline, and I applied it until my wish and my will became one."
-  image: "https://www.thefamouspeople.com/profiles/images/nikola-tesla-11.jpg"
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Nikola_Tesla.jpg/640px-Nikola_Tesla.jpg"
 - author: "Alexander Graham Bell"
   text: "Before anything else, preparation is the key to success."
-  image: "https://www.thefamouspeople.com/profiles/images/alexander-graham-bell-1.jpg"
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Alexander_Graham_Bell_%28cropped%29.jpg/640px-Alexander_Graham_Bell_%28cropped%29.jpg"
 - author: "John D. Rockefeller"
   text: "Don't be afraid to give up the good to go for the great."
-  image: "https://tagvault.org/wp-content/uploads/2024/03/John-D.-Rockefeller-Leadership-Style.jpg"
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/John-D-Rockefeller-sen.jpg/640px-John-D-Rockefeller-sen.jpg"
 - author: "Babe Ruth"
   text: "You just can’t beat the person who never gives up."
-  image: "https://www.creativefabrica.com/wp-content/uploads/2023/05/06/Babe-Ruth-Graphic-69011883-1.png"
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Babe_Ruth_Red_Sox_1918_headshot_crop.jpg/640px-Babe_Ruth_Red_Sox_1918_headshot_crop.jpg"
 
 ---
