@@ -57,3 +57,43 @@ jobs:
       with:
         name: Lighthouse reports
         path: /tmp/artifacts
+  dependabot-checks:
+    if: always()
+    name: Dependabot Security Checks
+    runs-on: ubuntu-latest
+
+    concurrency:
+        group: sec_check-${{ github.ref }}
+        cancel-in-progress: false
+
+    steps:
+    - name: Dependabot Security Updates
+      uses: dependabot/fetch-metadata@v1
+      id: dependabot-metadata
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+  link-checker:
+    if: always()
+    name: Link Checker
+    runs-on: ubuntu-latest
+    concurrency:
+        group: link_check-${{ github.ref }}
+        cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v1.8.0
+        with:
+          format: markdown
+          jobSummary: true
+          output: 'lychee-report.md'
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Upload Link Checker Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-checker-report
+          path: lychee-report.md

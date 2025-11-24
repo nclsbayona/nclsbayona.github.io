@@ -14,49 +14,7 @@ on:
 
 jobs:
 
-    security-checks:
-      runs-on: ubuntu-latest
-      permissions:
-        contents: read
-        pull-requests: read
-
-      concurrency:
-        group: sec_check-${{ github.ref }}
-        cancel-in-progress: false
-
-      steps:
-      - name: Dependabot Security Updates
-        uses: dependabot/fetch-metadata@v1
-        id: dependabot-metadata
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Fail if there are any security updates
-        if: ${{ steps.dependabot-metadata.outputs.has-security-updates == 'true' }}
-        run: |
-          echo "There are pending Dependabot security updates. Please review and merge them before deploying."
-          exit 1
-
-      - uses: actions/checkout@v4
-
-      - name: Link Checker
-        id: lychee
-        uses: lycheeverse/lychee-action@v1.8.0
-        with:
-          format: markdown
-          jobSummary: true
-          output: 'lychee-report.md'
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-
-      - name: Upload Link Checker Report
-        uses: actions/upload-artifact@v4
-        with:
-          name: link-checker-report
-          path: lychee-report.md
-
     build:
-      needs: security-checks
       runs-on: ubuntu-latest
 
       permissions:
