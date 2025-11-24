@@ -35,7 +35,7 @@ jobs:
           image: sitespeedio/sitespeed.io:latest
           options: -v /tmp/artifacts:/sitespeed.io
           run: >
-            /start.sh -vvv -d 3 https://nclsbayona.github.io
+            /start.sh -v -d 3 https://nclsbayona.github.io
       - name: Upload Sitespeed.io results
         uses: actions/upload-artifact@v4
         with:
