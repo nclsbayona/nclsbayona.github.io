@@ -70,13 +70,13 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v2.0.2
         with:
-          args: --verbose --no-progress './**/*.md'
+          args: --root-dir "$(pwd)" --verbose --no-progress './**/*.md' './**/*.html'
           format: markdown
           jobSummary: true
           output: 'lychee-report.md'
           fail: false
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          failIfEmpty: false
+          token: ${{secrets.GITHUB_TOKEN}}
 
       - name: Upload Link Checker Report
         uses: actions/upload-artifact@v4
