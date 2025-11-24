@@ -70,7 +70,7 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v2.0.2
         with:
-          args: --root-dir "$(pwd)" --verbose --no-progress './**/*.md' './**/*.html'
+          args: --verbose --no-progress './**/*.md' './**/*.html'
           format: markdown
           jobSummary: true
           output: 'lychee-report.md'
