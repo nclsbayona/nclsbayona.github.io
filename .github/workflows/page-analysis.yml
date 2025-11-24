@@ -68,7 +68,7 @@ jobs:
 
       - name: Link Checker
         id: lychee
-        uses: lycheeverse/lychee-action@v2.0.2
+        uses: lycheeverse/lychee-action@v2.7.0
         with:
           args: --verbose --no-progress './**/*.md' './**/*.html'
           format: markdown
