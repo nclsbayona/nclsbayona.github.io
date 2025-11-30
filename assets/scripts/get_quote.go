@@ -104,7 +104,9 @@ func getFavoriteQuote() (quote) {
 		{Text: "Happiness is not something ready made. It comes from your own actions.", Author: "Dalai Lama", Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dalailama1_20121014_4639.jpg/640px-Dalailama1_20121014_4639.jpg"},
 	}
 	randIndex := randomGenerator.Intn(len(favorites))
-	return favorites[randIndex]
+    quote := favorites[randIndex]
+    fmt.Printf("[getFavoriteQuote] Using quote: %s by %s and image %s",quote.Text,quote.Author,quote.Image)
+	return quote
 }
 
 func writeQuoteToFile(quote quote, filePath string) error {
@@ -132,7 +134,7 @@ func writeQuoteToFile(quote quote, filePath string) error {
 func shouldFetch() bool {
 	random := (randomGenerator.Intn(100) + 1)
 	fmt.Printf("[shouldFetch] Random number: %d\n", random)
-	return random < 60 // 60% chance to fetch a new quote
+	return random < 80 // 80% chance to fetch a new quote
 }
 
 var randomGenerator *rand.Rand
