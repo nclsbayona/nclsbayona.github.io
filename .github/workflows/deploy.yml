@@ -16,6 +16,7 @@ jobs:
 
     build:
       runs-on: ubuntu-latest
+      name: Build Github Pages artifact
 
       permissions:
         contents: read
@@ -59,6 +60,7 @@ jobs:
 
     deploy:
       needs: build
+      name: Deploy Github Pages artifact
       runs-on: ubuntu-latest
 
       permissions:
