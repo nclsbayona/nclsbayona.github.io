@@ -36,7 +36,7 @@ jobs:
           run: >
             /start.sh -v -d 3 https://nclsbayona.github.io
       - name: Upload Sitespeed.io results
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: sitespeed-results
           path: /tmp/artifacts
@@ -79,7 +79,7 @@ jobs:
           token: ${{secrets.GITHUB_TOKEN}}
 
       - name: Upload Link Checker Report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: link-checker-report
           path: lychee-report.md
