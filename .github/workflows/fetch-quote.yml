@@ -2,7 +2,7 @@ name: Update Quote of the Day
 
 on:
   schedule:
-    - cron: '0 2 */3 * *' # Every three days at 02:00 UTC
+    - cron: '0 2 * * *' # Every day at 02:00 UTC
   push:
       branches: [main]
       paths:

@@ -1,21 +1,21 @@
 package main
 
 import (
-    "encoding/json"
-    "net/http"
+	"encoding/json"
+	"fmt"
 	"math/rand"
+	"net/http"
 	"net/url"
+	"os"
 	"strings"
 	"time"
-    "fmt"
-    "os"
 )
 
 // ZenQuotes API response structure
 type quote struct {
-    Text   string `json:"q"` // Quote text
-    Author string `json:"a"` // Author
-    Image  string `json:"i"` // Image URL
+	Text   string `json:"q"` // Quote text
+	Author string `json:"a"` // Author
+	Image  string `json:"i"` // Image URL
 }
 
 type result struct {
@@ -27,6 +27,7 @@ type result struct {
 		} `json:"pages"`
 	} `json:"query"`
 }
+
 func getImageURL(author string) string {
 	defaultImageURL := "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
 
@@ -69,23 +70,23 @@ func getImageURL(author string) string {
 
 func fetchNewQuote() (quote, error) {
 	// Fetch quote from ZenQuotes API
-    resp, err := http.Get("https://zenquotes.io/api/today")
-    if err != nil {
-        fmt.Println("[fetchNewQuote] Error fetching quote:", err)
-        return quote{}, err
-    }
-    defer resp.Body.Close()
+	resp, err := http.Get("https://zenquotes.io/api/today")
+	if err != nil {
+		fmt.Println("[fetchNewQuote] Error fetching quote:", err)
+		return quote{}, err
+	}
+	defer resp.Body.Close()
 
-    var quotes []quote
-    if err := json.NewDecoder(resp.Body).Decode(&quotes); err != nil {
-        fmt.Println("[fetchNewQuote] Error decoding JSON:", err)
-        return quote{}, err
-    }
-    if len(quotes) == 0 {
-        fmt.Println("[fetchNewQuote] No quotes found.")
-        return quote{}, nil
-    }
-    quote := quotes[0]
+	var quotes []quote
+	if err := json.NewDecoder(resp.Body).Decode(&quotes); err != nil {
+		fmt.Println("[fetchNewQuote] Error decoding JSON:", err)
+		return quote{}, err
+	}
+	if len(quotes) == 0 {
+		fmt.Println("[fetchNewQuote] No quotes found.")
+		return quote{}, nil
+	}
+	quote := quotes[0]
 
 	if quote.Image == "" {
 		fmt.Printf("[fetchNewQuote] No image URL found in the quote. Searching for an image of '%s' ...\n", quote.Author)
@@ -95,7 +96,7 @@ func fetchNewQuote() (quote, error) {
 	return quote, nil
 }
 
-func getFavoriteQuote() (quote) {
+func getFavoriteQuote() quote {
 	favorites := []quote{
 		{Text: "What we think, we become.", Author: "Buddha", Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Gautama_Buddha_11.jpg/640px-Gautama_Buddha_11.jpg"},
 		{Text: "The only way to do great work is to love what you do.", Author: "Steve Jobs", Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Stevejobs.jpg/640px-Stevejobs.jpg"},
@@ -104,29 +105,28 @@ func getFavoriteQuote() (quote) {
 		{Text: "Happiness is not something ready made. It comes from your own actions.", Author: "Dalai Lama", Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dalailama1_20121014_4639.jpg/640px-Dalailama1_20121014_4639.jpg"},
 	}
 	randIndex := randomGenerator.Intn(len(favorites))
-    quote := favorites[randIndex]
-    fmt.Printf("[getFavoriteQuote] Using quote: %s by %s and image %s",quote.Text,quote.Author,quote.Image)
+	quote := favorites[randIndex]
+	fmt.Printf("[getFavoriteQuote] Using quote: %s by %s and image %s", quote.Text, quote.Author, quote.Image)
 	return quote
 }
 
 func writeQuoteToFile(quote quote, filePath string) error {
-	// Read quote.html
-	content, err := os.ReadFile(filePath)
-	if err != nil {
-		return fmt.Errorf("error reading quote.html: %v", err)
-	}
-	lines := strings.Split(string(content), "\n")
-	if len(lines) >= 3 {
-		lines[0] = fmt.Sprintf(`{{ $image := "%s" }}`, quote.Image)
-		lines[1] = fmt.Sprintf(`{{ $author := "%s" }}`, quote.Author)
-		lines[2] = fmt.Sprintf(`{{ $text := "%s" }}`, quote.Text)
-	}
+	// Prepare front matter for Hugo Markdown
+	md := fmt.Sprintf(`---
+title: "Today's quote"
+slug: "quote"
+layout: "quote"
 
-	html := strings.Join(lines, "\n")
+quote:
+  image: "%s"
+  author: "%s"
+  text: "%s"
+---
+`, quote.Image, quote.Author, quote.Text)
 
-	// Write back to file
-	if err := os.WriteFile(filePath, []byte(html), 0644); err != nil {
-		return fmt.Errorf("error writing quote.html: %v", err)
+	// Write to file
+	if err := os.WriteFile(filePath, []byte(md), 0644); err != nil {
+		return fmt.Errorf("error writing to %s: %v", filePath, err)
 	}
 	return nil
 }
@@ -146,7 +146,7 @@ func init() {
 
 func main() {
 	var quote quote
-	const filePath = "./layouts/partials/widget/quote.html"
+	const filePath = "./content/page/quote/_index.md"
 	if shouldFetch() {
 		fmt.Println("[get_quote.go] Attempting to fetch a new quote...")
 		var err error

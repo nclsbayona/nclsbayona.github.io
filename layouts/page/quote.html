@@ -1,0 +1,8 @@
+{{ define "body-class" }}template-quote{{ end }}
+{{ define "main" }}
+{{- with .Params -}}
+<h1 class="section-title">{{ .Title }}</h1>
+{{ partial "custom/quote" (dict "image" .quote.image "author" .quote.author "text" .quote.text) }}
+{{- end -}}
+{{ partialCached "footer/footer" . }}
+{{ end }}

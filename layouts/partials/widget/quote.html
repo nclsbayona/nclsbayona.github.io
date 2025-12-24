@@ -1,22 +1,17 @@
-{{ $image := "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dalailama1_20121014_4639.jpg/640px-Dalailama1_20121014_4639.jpg" }}
-{{ $author := "Dalai Lama" }}
-{{ $text := "Happiness is not something ready made. It comes from your own actions." }}
-
-<section class="widget">
+{{- $context := first 1 (where .Context.Site.Pages "Layout" "==" "quote") -}}
+{{- if $context -}}
+{{- $page := index $context 0 -}}
+<section class="widget tagCloud">
     <div class="widget-icon">
         {{ partial "helper/icon" "quote" }}
     </div>
-    <h2 class="widget-title section-title">Today's quote</h2>
-
-    <!-- <section class="section-card" style="flex: 50%;">
-        <section class="section-image">
-            <img src="{{ $image }}" alt="{{ .title }}" />
-        </section>
-        <section class="section-details">
-            <p style="color: antiquewhite;">{{ $text }}</p>
-            <i style="color: aliceblue; align-self: flex-end;">{{ $author }}</i>
-        </section>
-    </section> -->
-    {{ partial "custom/quote" (dict "image" $image "author" $author "text" $text) }}
-
+    <h2 class="widget-title section-title">{{ T "quote" | default $page.Title }}</h2>
+{{- with $page.Params.quote -}}
+    <div class="widget-content">
+        {{ partial "custom/quote" (dict "image" .image "author" .author "text" .text) }}
+    </div>
 </section>
+{{- end -}}
+{{- else -}}
+    {{- warnf "Quote page not found. Create a page with layout: quote." -}}
+{{- end -}}
