@@ -40,9 +40,9 @@ jobs:
         with:
           path: |
             ./resources/_gen/images
-          key: ${{ runner.os }}-hugo-${{ hashFiles('./content') }}
+          key: hugo-images-${{ hashFiles('./content/**/*') }}
           restore-keys: |
-            ${{ runner.os }}-hugo-content
+            hugo-images
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
