@@ -43,16 +43,16 @@ So, to make it simple: Let's say that Talos OS is a minimal and immutable operat
 
 Now, you might be wondering _ok this is great but please define what do you mean by _essentials_?_ Look no further, I've got an answer for you. When I say "essentials", I mean that Talos OS includes only the components necessary to run Kubernetes, such as the container runtime, networking stack, and basic system utilities. It does not include unnecessary packages or services that are not required for Kubernetes operation like package managers. When I did my experiment counting the number of files inside the `/bin` directory gave me a total of 38 files, which is pretty minimal compared to other operating systems. Now you might be thinking _Ok, you mentioned there's no packages that aren't needed to run Kubernetes and I think that means there's no shell, so, how in the blue blazes did you count the number of files inside `/bin`?_ Good question, I did that by actually counting the files that a Talos VM had on its disk: I mounted the disk image on another Linux machine (That had the neccessary tools) and counted the files from there since Talos OS doesn't have a shell.
 
-The same goes for immutability. In the context of Operative Systems, immutability means that the OS is designed to be read-only and cannot be modified after deployment. This is achieved through the use of a read-only root filesystem and a declarative configuration model. In Talos' case, this means that the base operating system can't be modified, but there's some layers on top that in fact can (But not for everything). For example, you can modify the Kubernetes configuration, network settings, and other parameters through the Talos API, but you cannot modify the underlying OS components.
+The same goes for immutability. In the context of Operative Systems, immutability means that the OS is designed to be read-only and cannot be modified after deployment. This is achieved through the use of a read-only root filesystem and usually a declarative configuration model. In Talos' case, this means that the base operating system can't be modified, but there's some layers on top that in fact can (But not for everything). For example, you can modify the Kubernetes configuration, network settings, and other parameters through the Talos API, but you cannot modify the underlying OS components.
 
 Great, so now that we know what Talos OS is (At least a bit), let's proceed to the [deployment steps](https://talos.dev/docs). You should know there's a lot of ways to deploy Talos OS: you can use bare-metal servers, containers, virtual machines, cloud providers ... . For this tutorial, I'll be using virtual machines with [QEMU](https://www.qemu.org/) and [KVM](https://linux-kvm.org/page/Main_Page) as the hypervisor. Why? Because it's free and open-source, and I can run it on my Linux machine without any problem. Why not containers then? I did try that but I really think that using VMs is a better approach for this tutorial since it gives you a more realistic experience of running Talos OS on actual hardware. Plus, it allows you to experiment with different configurations and settings that might not be possible in a containerized environment. Can I use other hypervisors like VirtualBox, VMware, Hyper-V ... ? Yes, you can. The steps will be similar, but the commands and configurations might differ slightly depending on the hypervisor you choose. Why not cloud providers? Because I don't want to pay for something that I can run locally for free given I already have the tools. Can I combine multiple deployment mechanisms together? Yes, you can for example run the control plane nodes on bare-metal servers and the worker nodes on virtual machines or cloud providers, as long as they can communicate with each other there should be no problems.
 
 Ok, enough talking. Let's get our hands dirty and deploy Talos OS!
 
 1. Download Talos OS ISO image from the [image factory website](https://factory.talos.dev/): Here you select the hardware where you want to deploy Talos OS, in our case we will select `Bare-metal` as the hardware target. choose the latest available version (As of writing this tutorial, the latest version is `v1.12.0`), then select the architecture of the target machine (Most likely `amd64` for x86_64 machines). Finally, click on the `Download` button to download the ISO image.
-![Talos OS Image Factory 1](./images/image-01.png)
-![Talos OS Image Factory 2](./images/image-02.png)
-![Talos OS Image Factory 3](./images/image-03.png)
+![Talos OS Image Factory 1](images/image-01.png)
+![Talos OS Image Factory 2](images/image-02.png)
+![Talos OS Image Factory 3](images/image-03.png)
 
 2. Create virtual machines for the control plane and worker nodes. For this tutorial, we will create one control plane node and one worker node. You can use Virt-Manager in case you want a UI experience, i like the terminal so use the following commands to create the VMs using QEMU/KVM:
 
@@ -128,7 +128,7 @@ talosctl apply-config --insecure --nodes $CONTROL_PLANE_IP --file configs/contro
 talosctl apply-config --insecure --nodes $WORKER_IP --file configs/worker.yaml
 ```
 
-![VDA Disk](./images/image-04.png)
+![VDA Disk](images/image-04.png)
 
 4. Bootstrap ETCD (Only for the first control plane node and one time):
 
@@ -144,7 +144,7 @@ talosctl config endpoint $CONTROL_PLANE_IP
 talosctl -n $CONTROL_PLANE_IP bootstrap
 ```
 
-![ETCD Bootstrap](./images/image-05.png)
+![ETCD Bootstrap](images/image-05.png)
 
 5. After some time (Bootstraping can take a while), you should be able to access the Kubernetes cluster using `kubectl`. To do this, you need to get the kubeconfig file from the control plane node and set it up on your local machine:
 
@@ -157,7 +157,7 @@ export KUBECONFIG=$PWD/configs/kubeconfig
 kubectl get nodes -o wide
 ```
 
-![Kubectl Get Nodes](./images/image-06.png)
+![Kubectl Get Nodes](images/image-06.png)
 
 Yep, I ommited some really cool details like **System extensions** (Talos' way of installing additional software on the nodes), **A/B upgrades**, **Partitions** and other cool stuff, but this is just a basic tutorial to get you started with Talos OS. You can find more information about these topics in the [official Talos OS documentation](https://talos.dev/docs/). And also I would like to invite you to explore more about Talos OS and its features, as it has a lot to offer for running Kubernetes clusters efficiently and securely.
 
