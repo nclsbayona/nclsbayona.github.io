@@ -121,6 +121,12 @@ quote:
   image: "%s"
   author: "%s"
   text: "%s"
+
+menu:
+    main:
+        weight: 6
+        params: 
+            icon: quote
 ---
 `, quote.Image, quote.Author, quote.Text)
 
