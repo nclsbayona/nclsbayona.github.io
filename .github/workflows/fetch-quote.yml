@@ -46,5 +46,6 @@ jobs:
 
     deploy:
         needs: get-quote
+        name: Deploy
         uses: nclsbayona/nclsbayona.github.io/.github/workflows/deploy.yml@main
         secrets: inherit
