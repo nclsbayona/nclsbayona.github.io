@@ -39,7 +39,7 @@ jobs:
       - uses: actions/cache@v3
         with:
           path: |
-            ./resources/_gen
+            ./resources/_gen/images
           key: ${{ runner.os }}-hugo-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-hugo-
