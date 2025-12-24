@@ -1,6 +1,5 @@
 ---
 title: Talos OS deployment
-draft: true
 description: This is a blog post regarding deployment of Talos.
 slug: kubernetes-talos
 date: 2025-12-24 08:00:00+0000
