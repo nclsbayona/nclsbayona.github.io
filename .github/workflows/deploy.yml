@@ -78,5 +78,6 @@ jobs:
 
     analyze-page:
       needs: deploy
+      name: Analyze
       uses: nclsbayona/nclsbayona.github.io/.github/workflows/page-analysis.yml@main
       secrets: inherit
