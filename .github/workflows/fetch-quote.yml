@@ -39,7 +39,7 @@ jobs:
           run: |
             git config --global user.name 'nclsbayona'
             git config --global user.email 'bayona.n@javeriana.edu.co'
-            git add layouts/partials/widget/quote.html
+            git add content/page/quote
             git commit -m 'chore: :hammer: update Quote of the Day' || echo "No changes to commit"
             git push origin main
 
