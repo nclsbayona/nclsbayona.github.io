@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Alan_W._Watts_1937.png/250px-Alan_W._Watts_1937.png"
-  author: "Alan Watts"
-  text: "Muddy water is best cleared by leaving it alone."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Stevejobs.jpg/640px-Stevejobs.jpg"
+  author: "Steve Jobs"
+  text: "The only way to do great work is to love what you do."
 
 menu:
     main:
