@@ -1,7 +1,8 @@
 name: Analyze webpage
 
 on: 
-  workflow_call:
+  page_build:
+  deployment:
   workflow_dispatch:
 jobs:
   # psi:
