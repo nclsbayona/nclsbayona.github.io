@@ -24,14 +24,16 @@ weight: 1 # You can add weight to some posts to override the default sorting (da
 
 Now I know that for deploying Kubernetes clusters, there are many options available, there's applications like [kind](https://kind.sigs.k8s.io/), [microk8s](https://microk8s.io/), [minikube](https://minikube.sigs.k8s.io/), [k3s](https://k3s.io/), [kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/), and managed services like [EKS](https://aws.amazon.com/eks/), [GKE](https://cloud.google.com/kubernetes-engine), and [AKS](https://azure.microsoft.com/en-us/services/kubernetes-service/) that make it easy to get started.
 
-I've had experience with most of these tools, but there's always a problem: You have to either pay for maintenance (That's like the idea of managed-services) or maintain things yourself (Like with applications, services and that kind of stuff), so as I wanted to experiment I didn't really care about maintaining things for myself, but I wanted it to be simple. Now, the applications that I mentioned before intended to run Kubernetes are well that: _applications_ and I don't want to use the [OSI model](https://en.wikipedia.org/wiki/OSI_model) here, but you have to maintain more things if you run an application, these are designed to run on top of an operating system that is meant to run one or more applications. This was a problem to me because well I didn't want to do all that maintenance work instead of dedicating that time to Kubernetes, so after some research I found out there was an option named **Talos OS** that was exactly what I was looking for, an OS meant to just run Kubernetes.
+I've had experience with some of these tools, and I believe there's always a problem: You have to either pay for maintenance (That's like the idea of managed-services) or maintain things yourself (Run things for yourself, mantain dependencies and so on), so as I wanted to experiment I didn't really care about maintaining things for myself, but I wanted it to be simple. Now, the applications that I mentioned before intended to run Kubernetes are well that: _applications_ and I don't want to use the [OSI model](https://en.wikipedia.org/wiki/OSI_model) here, but when running applications you have to consider a lot more, these are designed to run on top of an operating system that is meant to run one or more applications. This was a problem to me because well I didn't want to do all that maintenance work instead of dedicating that time to Kubernetes, so after some research I found out there was an option named **Talos OS** that was exactly what I was looking for, an OS meant to just run Kubernetes.
 
 Now, you might be wondering:
 > Didn't you have like other options?
 
-There's [RancherOS](https://rancher.com/docs/os/v1.x/en/), [Flatcar Linux](https://www.flatcar-linux.org/) and [Fedora CoreOS](https://www.redhat.com/en/technologies/cloud-computing/openshift/what-was-coreos). But I chose **Talos OS** mainly because it's meant to only run Kubernetes and it also has other features that I found great for solving my problem. I'm not saying that the other OSes aren't great, but for my use case Talos was probably the best fit.
+Of course I had, just as an example there's [RancherOS](https://rancher.com/docs/os/v1.x/en/), [Flatcar Linux](https://www.flatcar-linux.org/) and [Fedora CoreOS](https://www.redhat.com/en/technologies/cloud-computing/openshift/what-was-coreos). But I chose **Talos OS** mainly because it's meant to only run Kubernetes and it also has other features that I found great for solving my problem. I'm not saying that the other OSes aren't great, but for my use case Talos was probably the best fit.
 
-Should I spend time explaining what Talos OS is? Maybe a little bit.
+> Should I spend time explaining what Talos OS is? 
+
+Maybe a little bit.
 
 So, to make it simple: Let's say that Talos OS is a minimal and immutable operating system designed specifically for running Kubernetes. It is designed to provide an efficient platform for deploying and managing Kubernetes clusters/workloads. Some of its key features include:
 
@@ -159,6 +161,6 @@ kubectl get nodes -o wide
 
 ![Kubectl Get Nodes](images/image-06.png)
 
-Yep, I ommited some really cool details like **System extensions** (Talos' way of installing additional software on the nodes), **A/B upgrades**, **Partitions** and other cool stuff, but this is just a basic tutorial to get you started with Talos OS. You can find more information about these topics in the [official Talos OS documentation](https://talos.dev/docs/). And also I would like to invite you to explore more about Talos OS and its features, as it has a lot to offer for running Kubernetes clusters efficiently and securely.
+Yep, I ommited some really cool details like **System extensions** (Talos' way of installing additional software on the nodes), **A/B upgrades**, **Partitions**, **Talos's way of running software** and other cool stuff, but this is just a basic tutorial to get you started with Talos OS. You can find more information about these topics in the [official Talos OS documentation](https://talos.dev/docs/). And also I would like to invite you to explore more about Talos OS and its features, as it has a lot to offer for running Kubernetes clusters efficiently and securely.
 
 Was this tutorial helpful? Do you have any questions or suggestions? Feel free to leave a comment. Happy clustering!
