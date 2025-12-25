@@ -44,6 +44,9 @@ jobs:
           restore-keys: |
             hugo-images
 
+      - name: Retrieve quote content
+        run: cat ./content/page/quote/_index.md
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
