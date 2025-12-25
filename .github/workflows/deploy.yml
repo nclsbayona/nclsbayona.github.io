@@ -45,7 +45,7 @@ jobs:
             hugo-images
 
       - name: Retrieve quote content
-        run: cat ./content/page/quote/_index.md
+        run: cat ./content/page/quote/_index.md >> $GITHUB_SUMMARY
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
