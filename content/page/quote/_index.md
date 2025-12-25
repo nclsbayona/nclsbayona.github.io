@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Alan_W._Watts_1937.png/250px-Alan_W._Watts_1937.png"
-  author: "Alan Watts"
-  text: "Muddy water is best cleared by leaving it alone."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dalailama1_20121014_4639.jpg/640px-Dalailama1_20121014_4639.jpg"
+  author: "Dalai Lama"
+  text: "Happiness is not something ready made. It comes from your own actions."
 
 menu:
     main:
