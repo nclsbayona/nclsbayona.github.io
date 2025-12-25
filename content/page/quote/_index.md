@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
-  author: "Roy T. Bennett"
-  text: "Be brave to stand for what you believe in even if you stand alone."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Alan_W._Watts_1937.png/250px-Alan_W._Watts_1937.png"
+  author: "Alan Watts"
+  text: "Muddy water is best cleared by leaving it alone."
 
 menu:
     main:
