@@ -78,9 +78,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-    analyze-page:
-      needs: deploy
-      name: Analyze
-      uses: nclsbayona/nclsbayona.github.io/.github/workflows/page-analysis.yml@main
-      secrets: inherit
