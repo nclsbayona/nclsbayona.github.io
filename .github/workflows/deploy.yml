@@ -30,14 +30,12 @@ jobs:
       steps:
       - uses: actions/setup-go@v6
         with:
-          go-version: "^1.17.0"
+          go-version: '^1.25.0'
+          cache: false
       
       - uses: actions/checkout@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: Retrieve quote content (Before cache)
-        run: echo "Before cache" && echo "Before cache" >> $GITHUB_STEP_SUMMARY && cat ./content/page/quote/_index.md &&  cat ./content/page/quote/_index.md >> $GITHUB_STEP_SUMMARY
 
       - uses: actions/cache@v5
         name: Cache Go module
@@ -48,9 +46,6 @@ jobs:
             key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
             restore-keys: |
               ${{ runner.os }}-go-
-
-      - name: Retrieve quote content (After cache)
-        run: echo "After cache" && echo "After cache" >> $GITHUB_STEP_SUMMARY && cat ./content/page/quote/_index.md &&  cat ./content/page/quote/_index.md >> $GITHUB_STEP_SUMMARY
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -64,7 +59,10 @@ jobs:
       - name: Update pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: './public/'
+          path: './public/'      
+
+      - name: Retrieve quote content
+        run: echo "Final quote" && echo "Final quote" >> $GITHUB_STEP_SUMMARY && cat ./content/page/quote/_index.md &&  cat ./content/page/quote/_index.md >> $GITHUB_STEP_SUMMARY
 
     deploy:
       needs: build
