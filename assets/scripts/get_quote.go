@@ -140,7 +140,7 @@ menu:
 func shouldFetch() bool {
 	random := (randomGenerator.Intn(100) + 1)
 	fmt.Printf("[shouldFetch] Random number: %d\n", random)
-	return random < 80 // 80% chance to fetch a new quote
+	return random < 70 // 70% chance to fetch a new quote
 }
 
 var randomGenerator *rand.Rand
