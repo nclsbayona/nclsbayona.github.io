@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dalailama1_20121014_4639.jpg/640px-Dalailama1_20121014_4639.jpg"
-  author: "Dalai Lama"
-  text: "Happiness is not something ready made. It comes from your own actions."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Babe_Ruth_cropped.jpg/640px-Babe_Ruth_cropped.jpg"
+  author: "Babe Ruth"
+  text: "You just can't beat the person who never gives up."
 
 menu:
     main:
