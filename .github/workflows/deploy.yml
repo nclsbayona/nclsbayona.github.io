@@ -36,6 +36,9 @@ jobs:
         with:
           go-version: "^1.17.0"
 
+      - name: Retrieve quote content (Before cache)
+        run: echo "Before cache" && echo "Before cache" >> $GITHUB_STEP_SUMMARY && cat ./content/page/quote/_index.md &&  cat ./content/page/quote/_index.md >> $GITHUB_STEP_SUMMARY
+
       - uses: actions/cache@v5
         name: Cache Go module
         with:
@@ -46,8 +49,8 @@ jobs:
             restore-keys: |
               ${{ runner.os }}-go-
 
-      - name: Retrieve quote content
-        run: cat ./content/page/quote/_index.md && cat ./content/page/quote/_index.md >> $GITHUB_STEP_SUMMARY
+      - name: Retrieve quote content (After cache)
+        run: echo "After cache" && echo "After cache" >> $GITHUB_STEP_SUMMARY && cat ./content/page/quote/_index.md &&  cat ./content/page/quote/_index.md >> $GITHUB_STEP_SUMMARY
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
