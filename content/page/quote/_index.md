@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Thomas_Leigh_Gatch_%28cropped%29.jpg/219px-Thomas_Leigh_Gatch_%28cropped%29.jpg"
-  author: "Carl Bard"
-  text: "Though no one can go back and make a brand new start, anyone can start from now and make a brand new ending."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Stevejobs.jpg/640px-Stevejobs.jpg"
+  author: "Steve Jobs"
+  text: "The only way to do great work is to love what you do."
 
 menu:
     main:
