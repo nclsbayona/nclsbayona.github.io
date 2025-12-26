@@ -11,9 +11,9 @@ links:
   website: https://github.com/siderolabs/talos
   image: https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png
 categories:
-- tutorials
-- cybersecurity
 - kubernetes
+- cybersecurity
+- tutorials
 tags:
 - devops
 - devsecops
