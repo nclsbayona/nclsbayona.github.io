@@ -38,11 +38,12 @@ jobs:
 
       - uses: actions/cache@v5
         with:
-          path: |
-            ./resources/_gen/images
-          key: hugo-images-${{ hashFiles('./content/**/*') }}
-          restore-keys: |
-            hugo-images
+        path: |
+          ~/.cache/go-build
+          ~/go/pkg/mod
+        key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+        restore-keys: |
+          ${{ runner.os }}-go-
 
       - name: Retrieve quote content
         run: cat ./content/page/quote/_index.md && cat ./content/page/quote/_index.md >> $GITHUB_STEP_SUMMARY
