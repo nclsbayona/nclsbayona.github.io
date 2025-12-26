@@ -44,21 +44,8 @@ jobs:
             git push origin main
   
         - name: Retrieve quote content
-          run: cat content/page/quote/_index.md && cat content/page/quote/_index.md >> $GITHUB_STEP_SUMMARY
+          run: echo "Quote content" && echo "Quote content" >> $GITHUB_STEP_SUMMARY && cat ./content/page/quote/_index.md &&  cat ./content/page/quote/_index.md >> $GITHUB_STEP_SUMMARY
 
-        - name: Sleep
-          uses: GuillaumeFalourd/wait-sleep-action@v1
-          with:
-            time: '20'
-
-        - name: Make sure that changes are available on remote
-          run: |
-            git config --global user.name 'nclsbayona'
-            git config --global user.email 'bayona.n@javeriana.edu.co'
-            git add content/page/quote
-            git commit -m 'chore: :hammer: update Quote' || true
-            git push origin main
-            cat content/page/quote/_index.md && cat content/page/quote/_index.md >> $GITHUB_STEP_SUMMARY
 
 
     deploy:
