@@ -40,7 +40,6 @@ jobs:
       - uses: actions/setup-go@v6
         with:
           go-version: '^1.25.0'
-          cache: false
           
       - uses: actions/cache@v5
         name: Cache Go module
@@ -67,7 +66,7 @@ jobs:
           path: './public/'      
 
       - name: Retrieve quote content
-        run: echo "Final quote" && echo "Final quote" >> $GITHUB_STEP_SUMMARY && cat ./content/page/quote/_index.md &&  cat ./content/page/quote/_index.md >> $GITHUB_STEP_SUMMARY
+        run: echo "Final quote" && echo "Final quote" >> $GITHUB_STEP_SUMMARY && grep -A 7 'section-card' public/page/quote/index.html &&  grep -A 7 'section-card' public/page/quote/index.html >> $GITHUB_STEP_SUMMARY
 
     deploy:
       needs: build
