@@ -43,6 +43,9 @@ links:
   description: K8s security geek is a blog by Itai Ganot that talks about various Kubernetes security-focused stuff.
   website: https://k8s-security.geek-kb.com/docs/fundamentals/intro/
   image: https://k8s-security.geek-kb.com/img/logo.svg
+- title: The CyberHub
+  description: A cybersecurity community
+  website: https://thecyberhub.org
 - title: Iximiuz webpage
   description: Iximiuz is a webpage that offers laboratories to acquire hands-on knowledge. Focused but not limited to Kubernetes and Contsiners.
   website: https://iximiuz.com
