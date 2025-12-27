@@ -1,6 +1,10 @@
 # nclsbayona.github.io
 
-[![Deploy site to Pages](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/deploy.yml)[![Update theme](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update-theme.yml/badge.svg)](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update-theme.yml)[![Semantic Release](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/semantic-release.yml/badge.svg)](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/semantic-release.yml)
+[![Deploy site to Pages](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/deploy.yml)
+
+[![Update theme](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update-theme.yml/badge.svg)](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update-theme.yml)
+
+[![Semantic Release](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/semantic-release.yml/badge.svg)](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/semantic-release.yml)
 
 ---
 
