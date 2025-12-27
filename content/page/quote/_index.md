@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/8/84/Sathya_Sai_Baba_Signature_1.jpg"
-  author: "Sathya Sai Baba"
-  text: "Start the day with love, spend the day with love, fill the day with love and end the day with love."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Stevejobs.jpg/640px-Stevejobs.jpg"
+  author: "Steve Jobs"
+  text: "The only way to do great work is to love what you do."
 
 menu:
     main:
