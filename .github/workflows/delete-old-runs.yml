@@ -1,4 +1,4 @@
-name: Remove old runs
+name: Purge old runs
 
 # Controls when the workflow will run
 on:
