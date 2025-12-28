@@ -1,4 +1,4 @@
-name: Update Quote of the Day
+name: Update quote of the day
 
 on:
   schedule:
