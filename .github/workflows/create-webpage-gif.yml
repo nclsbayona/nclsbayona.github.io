@@ -1,4 +1,4 @@
-name: Create Webpage GIF
+name: Update visualization GIF
 on:
   page_build:
   deployment: 
