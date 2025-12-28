@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/640px-Albert_Einstein_Head.jpg"
-  author: "Albert Einstein"
-  text: "In the middle of every difficulty lies opportunity."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Study_proverb.PNG/60px-Study_proverb.PNG"
+  author: "Chinese Proverb"
+  text: "A crisis is an opportunity riding the dangerous wind."
 
 menu:
     main:
