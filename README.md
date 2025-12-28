@@ -1,10 +1,8 @@
-# nclsbayona.github.io
+# [nclsbayona.github.io](https://nclsbayona.github.io)
 
 This is my personal blog. Here I post some things about cloud-native technologies, software {development,security,architecture} and things I like. I post content when I have relevant information to share. Be sure to stay tuned.
 
 ---
-
-[Visit My WebPage Here :D](https://nclsbayona.github.io)
 
 ![Webpage](demo.gif)
 
@@ -12,7 +10,7 @@ This is my personal blog. Here I post some things about cloud-native technologie
 
 ---
 
-Status badges:
+## Status badges
 
 [![Deploy site to Pages](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/deploy.yml)
 
