@@ -14,6 +14,7 @@
 				"github.vscode-github-actions",
 				"tamasfe.even-better-toml",
 				"davidanson.vscode-markdownlint",
+				"bierner.markdown-mermaid",
 				"github.copilot"
 			]
 		}
