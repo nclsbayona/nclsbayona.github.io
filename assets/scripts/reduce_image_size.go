@@ -77,7 +77,7 @@ func main() {
 		}
 
 		// write to temp file then replace
-		tmp, err := ioutil.TempFile(filepath.Dir(path), "reimg-")
+		tmp, err := os.CreateTemp(filepath.Dir(path), "reimg-")
 		if err != nil {
 			return err
 		}
