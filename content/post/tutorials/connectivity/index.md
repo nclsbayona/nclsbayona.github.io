@@ -33,11 +33,11 @@ Well. Leave if you want, I won't stop you. But if you stay, I promise it will be
 
 ### The OSI Model: A Quick Overview
 
-Ok, I know what I just said about jargon, but bear with me for a moment, trust me: This will be helpful when trying to understand connectivity. The **OSI (Open Systems Interconnection)** model is a conceptual framework (Aka: _reference model_ (Not real)) that helps to standardize the functions of a telecommunication or computing system into distinct layers. Each layer serves a specific purpose and interacts with the layers directly above and below it. Now enough with the fancy talk, let's try to explain this like it's a space mission:
+Ok, I know what I just said about technical jargon, but bear with me for a moment. This will be helpful when trying to understand connectivity. The **OSI (Open Systems Interconnection)** model is a conceptual framework (Aka: _reference model_ (Not real)) that helps to standardize the functions of a telecommunication or computing system into distinct layers. Each layer serves a specific purpose and interacts with the layers directly above and below it. Now enough with the fancy talk, let's try to explain this like it's a space mission:
 
 #### Layer 1: Physical Layer
 
-Ok so we have our space mission. In order for our mission control to be able to communicate with the spacecraft, we need a physical medium through which we can send and receive signals. That's exactly where the **Physical Layer** comes into play: It deals with the actual hardware components, such as cables, switches, and radio frequencies that allow us to send those messages (It might also be communication from spacecraft to mission control). In space terms, this would be the antennas and transmitters that send and receive signals to and from the spacecraft.
+Ok so we have our space mission. In order for our mission control to be able to communicate with the spacecraft, we need a physical medium through which we can send and receive signals. That's exactly where the **Physical Layer** comes into play: It deals with the actual hardware components, such as cables, network interfaces, and signal modulators that allow us to send those messages (It might also be communication from spacecraft to mission control). In space terms, this would be the antennas and transmitters that send and receive signals to and from the spacecraft.
 
 ##### Possible situations (Layer 1)
 
@@ -219,10 +219,10 @@ Here we are forwarding local port `8080` on the public machine to port `80` on t
 
 ```bash
 # From private resource (spacecraft)
-ssh -R 8080:localhost:80 user@bastion_host
+ssh -R 8080:localhost:80 user@mission_control
 ```
 
-Here we are forwarding port `80` on the private resource to port `8080` on the bastion host. So any data sent to `bastion_host:8080` will be forwarded to port `80` on the private resource. 
+Here we are forwarding port `80` on the private resource to port `8080` on the mission control. So any data sent to `mission_control:8080` will be forwarded to port `80` on the private resource. 
 
 4. Reverse Proxy example:
 Using Nginx as a reverse proxy:
