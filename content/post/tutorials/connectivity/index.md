@@ -10,7 +10,6 @@ links:
   description: Open Systems Interconnection model article on Wikipedia.
   website: https://en.wikipedia.org/wiki/OSI_model
   image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Osi-model-jb.svg/640px-Osi-model-jb.svg.png
-draft: true
 categories:
 - networking
 - fundamentals
@@ -369,3 +368,5 @@ I want to set a Kubernetes cluster with two nodes:
 - Node 2: Private node (Spacecraft: Private resource --> Can't be accessed directly from Node 1)
 
 The goal is to run a cluster where the control plane is reachable, but a worker node is private. For this we'll use **Konnektivity**, now, _Why this not so common tool?_ Because it's easy to set up and use, it abstracts away a lot of the complexity involved in setting up connectivity between public and private nodes, plus, it works really well with Kubernetes, which is what we're aiming for here. _Why not a more traditional thing? Like a VPN_ Good question, I hope my answer satisfies you: Because setting up a VPN, can sometimes be an overkill (Like in this case where all we need is to connect to the private node's **Kubelet** from the public machine) and if not configured correctly, potentially insecure. With Konnektivity, we're able to establish connectivity at Layer 4 without the need for connecting different networks, making it simpler and more efficient for our needs.
+
+![More soon...](https://cparc.org/wp-content/uploads/2023/08/building-under-construction-site-free-vector.jpg)
