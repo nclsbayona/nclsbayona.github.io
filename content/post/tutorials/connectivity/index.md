@@ -32,8 +32,7 @@ Well. Leave if you want, I won't stop you. But if you stay, I promise it will be
 
 ### The OSI Model: A Quick Overview
 
-The OSI Model: A Quick Overview
-I know I promised “no jargon,” and then immediately walked in carrying the [**OSI (Open Systems Interconnection) model**](https://en.wikipedia.org/wiki/OSI_model) like a shiny nerd trophy. But it really helps: **OSI** is a **reference model**: great for thinking and troubleshooting, while real-world stacks do not map perfectly to it. Think of OSI as a debugging lens, not a law of physics. Now enough with the fancy talk, let's try to explain this like it's a space mission:
+I know I promised “no jargon” and then immediately walked in carrying the [**Open Systems Interconnection (OSI) model**](https://en.wikipedia.org/wiki/OSI_model) like a shiny nerd trophy. But it really helps: **OSI** is a **reference model**: great for thinking and troubleshooting, while real-world stacks do not map perfectly to it. Think of OSI as a debugging lens, not a law of physics. Now enough with the fancy talk, let's try to explain this like it's a space mission:
 
 #### Layer 1: Physical Layer
 
