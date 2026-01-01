@@ -332,7 +332,7 @@ Example
 
 4.2 Layer 7 Reverse proxy example (**server-side**)
 
-A reverse proxy represents the **server**. Clients connect to the proxy as the public “front door,” and the proxy forwards requests to private backends. Clients generally do not need special proxy configuration.
+A reverse proxy represents the **server**. Clients connect to the proxy as the public “front door,” and the proxy forwards requests to private backends (optionally load balancing between many). Clients generally do not need special proxy configuration.
 
 ```nginx
 # Nginx HTTP reverse proxy (on bastion host)
