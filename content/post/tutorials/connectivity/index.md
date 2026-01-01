@@ -169,8 +169,14 @@ So how do we solve the Layer 3/4 parts in real life? You have options. Some are 
 1. **Using a Bastion Host (Jump box)**: Set up a bastion host (relay satellite) that both the public machine (mission control) and the private resource (spacecraft) can communicate to. This allows the public machine to communicate with the private one using this intermediary. This is simple, auditable, and boring (Sometimes boring is good), it is also interactive by default, which may or may not be what you want.
 2. **Using a Virtual Private Network (VPN)**: Establish a VPN connection between the public machine and the private network where the resource resides. By creating a secure tunnel, the public machine can access the private resource as if it were on the same local network (In other words, create a network for this two to communicate).
 3. **Using SSH Tunneling**: If the private resource allows outbound SSH connections, you can set up an SSH tunnel from the public machine to the private resource through an intermediary server (relay satellite). This allows the public machine to forward traffic to the private resource securely.
-4. **Using a Reverse Proxy**: Set up a reverse proxy server (relay satellite) that is publicly accessible and can forward requests to the private resource. The public machine communicates with the reverse proxy, which then forwards the requests to the private resource.
-5. **Using a Layer 4 Proxy**: Set up a Layer 4 proxy that can relay TCP connections between the public machine and the private resource. This allows for direct communication at the transport layer without exposing the private resource directly to the public network.
+4. **Using a Layer 7 Proxy**: A Layer 7 proxy is an intermediary server (relay satellite) that can understand application-wide protocols like for example HTTP/HTTPS . This is useful when you want to "limit" the usage to just an specofic application, for example: for security this means that you can block certain traffic based on application-wide requests.
+5. **Using a Layer 4 Proxy**: A Layer 4 proxy is an intermediary server (relay satellite) that doesn't understand application-wide protocols like HTTP/HTTPS but only transport-wide protocols like TCP or UDP. This gives you more possibilities as to what traffic can be sent using this proxy but you can't establish application-wide configurations.
+
+Ok I did that on purpose. What? Using a generic definition for proxies. Why? Probably you've heard that there's ***Forward*** and ***Reverse*** proxies, I just wanted you to know that the core idea is the same: a middlebox relays traffic between two parties. Yes, there are different implementations and that kind of stuff, but the idea is the same.
+
+> Forward proxies are **client-side** (Meant to represent the client: Sometimes explicitly configured, sometimes enforced transparently. This relates to *egress* traffic: Traffic leaving a **client** environment/network). 
+
+> Reverse proxies are **server-side** (Meant to represent the server: Clients may or may not realize a proxy is involved. This relates to *ingress* traffic: Traffic entering a *server* environment/network).
 
 Enough talking, let's do some practical examples:
 
@@ -304,14 +310,36 @@ Here we are setting up a dynamic port forwarding (SOCKS proxy) on port `1080` on
 
 > By default, remote forwards may bind to 127.0.0.1. Exposing them publicly requires SSH server configuration (GatewayPorts) and firewall rules. This is usually a feature, not a bug.
 
-4. Reverse Proxy example:
-A reverse proxy is a “public front door that forwards HTTP”. It is Layer 7 because it understands HTTP and can do headers, auth, TLS termination, and routing rules.
+4. Layer 7 Proxy example:
+
+A Layer 7 (Application) proxy understands an **application** protocols (most commonly HTTP/HTTPS). Because it understands HTTP, it can do things like routing based on host/path, authentication, header manipulation, and TLS termination.
+
+4.1 Layer 7 Forward proxy example (**client-side**)
+
+A forward proxy represents the **client**. The **client** (or the network) sends outbound HTTP requests to the proxy, and the proxy makes the *requests to the destination server* on the **client**’s behalf.
+
+Example
+- Client is configured to use forward proxy at the relay satellite
+- Client requests http://private_resource:80
+- Proxy fetches it and returns the response
+
+```goat
+.---------.   HTTP(S) to proxy    .----------------.   HTTP(S) to site    .-----------.
+| Clients |---------------------->| L7 Forward Proxy|--------------------->| Web/API   |
+|         |   (configured egress) | (client-side)   |                      | Server(s) |
+'---------'                        '----------------'                      '-----------'
+```
+
+4.2 Layer 7 Reverse proxy example (**server-side**)
+
+A reverse proxy represents the **server**. Clients connect to the proxy as the public “front door,” and the proxy forwards requests to private backends. Clients generally do not need special proxy configuration.
 
 ```nginx
-# Nginx configuration (on bastion host)
+# Nginx HTTP reverse proxy (on bastion host)
 server {
     listen 80;
     server_name bastion_host;
+
     location / {
         proxy_pass http://private_resource_ip:80;
         proxy_set_header Host $host;
@@ -322,12 +350,38 @@ server {
 }
 ```
 
-Here we are configuring Nginx to listen on port `80` and forward requests to the private resource. The public machine can then access the private resource by sending requests to the bastion host (But only HTTP not any arbitrary protocols. This is important to understand).
+Here we are configuring Nginx to listen for application traffic on port `80` and forward requests to the private resource. The public machine can then access the private resource by sending requests to the bastion host (But only HTTP not any arbitrary protocols. This is important to understand).
+
+```goat
+.---------.     HTTP(S) to bastion_host      .----------------.   HTTP to backend   .-----------------.
+| Clients |--------------------------------->| L7 Reverse Proxy|------------------->| Private resource |
+|         |          (front door)            | (server-side)   |                    | (HTTP service)   |
+'---------'                                  '----------------'                    '-----------------'
+```
 
 5. Layer 4 Proxy example:
-A Layer 4 proxy is a TCP relay that forwards arbitrary TCP connections. It does not understand application protocols like HTTP, making it more versatile for different types of traffic. It might not be able to connect any arbitrary port like VPN can but it doesn't need an ssh server or HTTP server running. So it is simpler in some ways. Think: “dumb pipe, but reliable and controllable”. That's a Layer 4 proxy for you.
 
-Option 1 (Nginx):
+A Layer 4 proxy forwards connections based on IP:port and connection state, it's more frequently used with connection-oriented protocols (Like TCP). It does not understand application semantics, which is why it works for many TCP-based protocols (databases, SSH, custom TCP services).
+
+5.1 Layer 4 Forward proxy example (**client-side**)
+
+A Layer 4 forward proxy represents the **client**. The **client** connects to the proxy and asks it to send traffic to a destination host:port.
+
+Example
+- Mission control uses SOCKS5 proxy at relay satellite
+- Mission control asks: “connect me to private_resource:5432”
+- Proxy opens the TCP connection and relays bytes
+
+```goat
+.---------.   TCP to proxy (SOCKS)   .----------------.    TCP to target      .-----------------.
+| Clients |------------------------->| L4 Forward Proxy|--------------------->| Private resource |
+|         |  "connect host:port"     | (client-side)   |   raw TCP stream     | host:port        |
+'---------'                          '----------------'                      '-----------------'
+```
+
+5.2 Layer 4 Reverse proxy (**server-side**)
+
+A Layer 4 reverse proxy represents the **server**. Clients connect to a stable public IP:port, and the proxy forwards the TCP stream to another backend host:port (optionally load-balancing among multiple backends).
 
 ```nginx
 # Nginx TCP proxy (on bastion host)
@@ -343,18 +397,13 @@ stream {
 }
 ```
 
-Option 2 (HAProxy):
+Here we are configuring Nginx to listen for TCP traffic on port `15432` and forward requests to the private resource. The public machine can then access the private resource by sending requests to the bastion host (It can be any arbitrary protocols. This is important to understand).
 
-```haproxy
-# HAProxy TCP proxy (on bastion host)
-frontend fe_db
-  bind *:15432
-  mode tcp
-  default_backend be_db
-
-backend be_db
-  mode tcp
-  server db1 private_resource_ip:5432 check
+```goat
+.---------.    TCP to bastion_host:15432   .----------------.   TCP to backend:5432  .-----------------.
+| Clients |------------------------------->| L4 Reverse Proxy|---------------------->| Private resource |
+|         |         (front door)          | (server-side)   |     raw TCP stream     | (TCP service)    |
+'---------'                               '----------------'                        '-----------------'
 ```
 
 ### Practical exercise
