@@ -174,9 +174,9 @@ So how do we solve the Layer 3/4 parts in real life? You have options. Some are 
 
 Ok I did that on purpose. What? Using a generic definition for proxies. Why? Probably you've heard that there's ***Forward*** and ***Reverse*** proxies, I just wanted you to know that the core idea is the same: a middlebox relays traffic between two parties. Yes, there are different implementations and that kind of stuff, but the idea is the same.
 
-> Forward proxies are **client-side** (Meant to represent the client: Sometimes explicitly configured, sometimes enforced transparently. This relates to *egress* traffic: Traffic leaving a **client** environment/network). 
+> Forward proxies are **client-side** (Meant to represent the **client**: Sometimes explicitly configured, sometimes enforced transparently. This relates to *egress* traffic: Traffic leaving a **client** environment/network). 
 
-> Reverse proxies are **server-side** (Meant to represent the server: Clients may or may not realize a proxy is involved. This relates to *ingress* traffic: Traffic entering a *server* environment/network).
+> Reverse proxies are **server-side** (Meant to represent the **server**: Clients may or may not realize a proxy is involved. This relates to *ingress* traffic: Traffic entering a **server** environment/network).
 
 Enough talking, let's do some practical examples:
 
