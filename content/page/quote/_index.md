@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Gautama_Buddha_11.jpg/640px-Gautama_Buddha_11.jpg"
-  author: "Buddha"
-  text: "What we think, we become."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Eric_Hoffer_in_LBJ_Oval_Office.jpg/250px-Eric_Hoffer_in_LBJ_Oval_Office.jpg"
+  author: "Eric Hoffer"
+  text: "Far more crucial than what we know or do not know is what we do not want to know."
 
 menu:
     main:
