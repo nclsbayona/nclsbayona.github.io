@@ -2,7 +2,7 @@
 title: Connectivity at different layers
 description: This is a blog post tutorial about connectivity and networking concepts at different layers.
 slug: connectivity-networking
-date: 2026-01-06 08:00:00+0000
+date: 2026-01-03 02:00:00+0000
 lastmod: 2026-01-07 15:00:00+0000
 image: cover.webp
 links:
@@ -189,7 +189,7 @@ ssh -J user@bastion_host user@private_resource
 
 Here we are using the `-J` flag to specify the bastion host as a jump host to connect to the private resource.
 
-2. VPN example:
+1. VPN example:
 
 Setting up a VPN can vary depending on the software used, but here's a basic (Unsafe) example using OpenVPN:
 
@@ -231,8 +231,7 @@ openvpn --config client.conf
 
 Here we are starting the OpenVPN server and connecting to it from the public machine. Once connected, traffic gets routed over the tunnel. If you need the client to reach private subnets behind the VPN server, you add routes and enable some kind of forwarding.
 
-3. SSH Tunneling example:
-
+1. SSH Tunneling example:
 
 ```bash
 # From public machine (mission control)
@@ -417,4 +416,89 @@ I want to set a Kubernetes cluster with two nodes:
 
 The goal is to run a cluster where the control plane is reachable, but a worker node is private. For this we'll use **Konnektivity**, now, _Why this not so common tool?_ Because it's easy to set up and use, it abstracts away a lot of the complexity involved in setting up connectivity between public and private nodes, plus, it works really well with Kubernetes, which is what we're aiming for here. _Why not a more traditional thing? Like a VPN_ Good question, I hope my answer satisfies you: Because setting up a VPN, can sometimes be an overkill (Like in this case where all we need is to connect to the private node's **Kubelet** to the public machine) and if not configured correctly, potentially insecure. With Konnektivity, we're able to establish connectivity at Layer 4 without the need for connecting different networks, making it simpler and more efficient for our needs.
 
-![More soon...](https://cparc.org/wp-content/uploads/2023/08/building-under-construction-site-free-vector.jpg)
+So, let's get started with the practical exercise:
+
+1. Set up a Kubernetes cluster with one public control plane node and one private worker node.
+2. Install and configure Konnectivity on both nodes to establish connectivity between them.
+3. Verify that the control plane can communicate with the private worker node using Konnectivity.
+4. Deploy a sample application on the private worker node and access it from the control plane.
+
+---
+
+1. To set up the Kubernetes cluster, you can use tools like `kubeadm`, `k3s`, or `microk8s`. For this exercise, I used `kubeadm` for a more traditional approach. Make sure you have two machines (or VMs) ready: one for the control plane and one for the worker node, and that they are properly configured with the necessary network settings so that worker node cannot be accessed directly from the control plane but the worker node can reach the control plane. To simulate this, you can set up firewall rules or configure your network for this (I created some Cloud VMs on different networks with no private connectivity and only one with public IP that the "private machine" could reach because I didn't want to mess up my network).
+
+![VMs created](images/image-01.png)
+
+This is not a Kubernetes tutorial, so I won't go into the details of setting up the cluster, but you can find plenty of resources online for that. After that you should have a working cluster with one control plane node and one worker node.
+
+![Kubernetes cluster](images/image-02.png)
+
+1. Here comes one of my favorite parts: Installing and configuring **Konnectivity**. First, we need to install the Konnectivity **server** on the control plane node and the Konnectivity **agent** on the **worker** node. You can find the installation instructions in the [Kubernetes documentation](https://kubernetes.io/docs/tasks/extend-kubernetes/setup-konnectivity/). Just know that in this tutorial, the agent gets installed as part of a _Daemon Set_ on the worker node, so it can run on various nodes (e.g., multiple worker nodes).
+
+The [documentation](https://kubernetes.io/docs/tasks/extend-kubernetes/setup-konnectivity/) is pretty good, so I won't repeat it here, but make sure to follow the steps carefully and more importantly: understand what you're doing. The key part is to configure the API server to use Konnectivity for egress traffic, setup the **Konnectivity** server in the control plane and make sure that the agent connects to this proxy.
+
+![Konnectivity setup](images/image-03.png)
+![Konnectivity agent running](images/image-04.png)
+
+1. Now, let's verify that the control plane can communicate with the private worker node using Konnectivity. You can do this by checking the logs of the Konnectivity agent on the worker node and ensuring that it is successfully connected to the Konnectivity server on the control plane. You can also try to access the Kubelet API on the worker node from the control plane using `kubectl` commands.
+
+2. Finally, let's deploy a sample application on the private worker node and access it from the control plane. You can use a simple Nginx pod for this. I ran a pod using the CLI like this:
+
+```bash
+kubectl run nginx --image=nginx test
+```
+
+![Pod running](images/image-05.png)
+
+Great so, to finish I just went ahead and tried executing a command inside this pod. Why? Why not just accessing the default page? Well, I believe that's out of the scope for this tutorial but the **Kubelet** really is the component that is in charge of managing the containers on each pod and providing the APIs that the kubelet uses, so if the API server can reach the kubelet on the private worker then it can deliver to kubectl the required output.
+
+![Finally...](images/image-06.png)
+
+These commands demonstrate that control-plane operations that rely on kubelet connectivity (logs, exec, attach) work through Konnectivity even when the worker node is not directly reachable from the control plane.
+
+---
+
+Connectivity is pretty cool, don't you think so?
+So, let's get started with the practical exercise:
+
+1. Set up a Kubernetes cluster with one public control plane node and one private worker node.
+2. Install and configure Konnectivity on both nodes to establish connectivity between them.
+3. Verify that the control plane can communicate with the private worker node using Konnectivity.
+4. Deploy a sample application on the private worker node and access it from the control plane.
+
+---
+
+1. To set up the Kubernetes cluster, you can use tools like `kubeadm`, `k3s`, or `microk8s`. For this exercise, I used `kubeadm` for a more traditional approach. Make sure you have two machines (or VMs) ready: one for the control plane and one for the worker node, and that they are properly configured with the necessary network settings so that worker node cannot be accessed directly from the control plane but the worker node can reach the control plane. To simulate this, you can set up firewall rules or configure your network for this (I created some Cloud VMs on different networks with no private connectivity and only one with public IP that the "private machine" could reach because I didn't want to mess up my network).
+
+![VMs created](images/image-01.png)
+
+This is not a Kubernetes tutorial, so I won't go into the details of setting up the cluster, but you can find plenty of resources online for that. After that you should have a working cluster with one control plane node and one worker node.
+
+![Kubernetes cluster](images/image-02.png)
+
+1. Here comes one of my favorite parts: Installing and configuring **Konnectivity**. First, we need to install the Konnectivity **server** on the control plane node and the Konnectivity **agent** on the **worker** node. You can find the installation instructions in the [Kubernetes documentation](https://kubernetes.io/docs/tasks/extend-kubernetes/setup-konnectivity/). Just know that in this tutorial, the agent gets installed as part of a _Daemon Set_ on the worker node, so it can run on various nodes (e.g., multiple worker nodes).
+
+The [documentation](https://kubernetes.io/docs/tasks/extend-kubernetes/setup-konnectivity/) is pretty good, so I won't repeat it here, but make sure to follow the steps carefully and more importantly: understand what you're doing. The key part is to configure the API server to use Konnectivity for egress traffic, setup the **Konnectivity** server in the control plane and make sure that the agent connects to this proxy.
+
+![Konnectivity setup](images/image-03.png)
+![Konnectivity agent running](images/image-04.png)
+
+1. Now, let's verify that the control plane can communicate with the private worker node using Konnectivity. You can do this by checking the logs of the Konnectivity agent on the worker node and ensuring that it is successfully connected to the Konnectivity server on the control plane. You can also try to access the Kubelet API on the worker node from the control plane using `kubectl` commands.
+
+2. Finally, let's deploy a sample application on the private worker node and access it from the control plane. You can use a simple Nginx pod for this. I ran a pod using the CLI like this:
+
+```bash
+kubectl run nginx --image=nginx test
+```
+
+![Pod running](images/image-05.png)
+
+Great so, to finish I just went ahead and tried executing a command inside this pod. Why? Why not just accessing the default page? Well, I believe that's out of the scope for this tutorial but the **Kubelet** really is the component that is in charge of managing the containers on each pod and providing the APIs that the kubelet uses, so if the API server can reach the kubelet on the private worker then it can deliver to kubectl the required output.
+
+![Finally...](images/image-06.png)
+
+These commands demonstrate that control-plane operations that rely on kubelet connectivity (logs, exec, attach) work through Konnectivity even when the worker node is not directly reachable from the control plane.
+
+---
+
+Connectivity is pretty cool, don't you think so?
