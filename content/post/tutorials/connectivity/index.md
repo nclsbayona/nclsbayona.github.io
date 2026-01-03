@@ -451,7 +451,7 @@ kubectl run nginx --image=nginx test
 
 ![Pod running](images/image-05.png)
 
-Great so, to finish I just went ahead and tried executing a command inside this pod. Why? Why not just accessing the default page? Well, I believe that's out of the scope for this tutorial but the **Kubelet** really is the component that is in charge of managing the containers on each pod and providing the APIs that the kubelet uses, so if the API server can reach the kubelet on the private worker then it can deliver to kubectl the required output.
+Great so, to finish I just went ahead and tried executing a command inside this pod. Why? Why not just accessing the default page? Well, I believe that's out of the scope for this tutorial but the **Kubelet** really is the component that is in charge of managing the containers on each pod and providing the APIs that the API Server uses, so if the API server can reach the kubelet on the private worker then it can deliver to kubectl the required output.
 
 ![Finally...](images/image-06.png)
 
