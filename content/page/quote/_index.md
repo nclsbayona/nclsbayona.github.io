@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Mevlana-celaleddin-i-rumi-1.jpg/120px-Mevlana-celaleddin-i-rumi-1.jpg"
-  author: "Rumi"
-  text: "When the world pushes you to your knees, you're in the perfect position to pray."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dalailama1_20121014_4639.jpg/640px-Dalailama1_20121014_4639.jpg"
+  author: "Dalai Lama"
+  text: "Happiness is not something ready made. It comes from your own actions."
 
 menu:
     main:
