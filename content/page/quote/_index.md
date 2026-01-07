@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dalailama1_20121014_4639.jpg/640px-Dalailama1_20121014_4639.jpg"
-  author: "Dalai Lama"
-  text: "Happiness is not something ready made. It comes from your own actions."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Theodor_Geisel_in_Army_Uniform.jpg/236px-Theodor_Geisel_in_Army_Uniform.jpg"
+  author: "Dr. Seuss"
+  text: "People are weird. When we find someone with weirdness that is compatible with ours, we team up and call it love."
 
 menu:
     main:
