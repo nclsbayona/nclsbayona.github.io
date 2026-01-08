@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Theodor_Geisel_in_Army_Uniform.jpg/236px-Theodor_Geisel_in_Army_Uniform.jpg"
-  author: "Dr. Seuss"
-  text: "People are weird. When we find someone with weirdness that is compatible with ours, we team up and call it love."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Miguel_de_Cervantes_lithography-cropped.jpg/250px-Miguel_de_Cervantes_lithography-cropped.jpg"
+  author: "Miguel de Cervantes"
+  text: "To be prepared is half the victory. "
 
 menu:
     main:
