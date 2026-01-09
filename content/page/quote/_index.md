@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Miguel_de_Cervantes_lithography-cropped.jpg/250px-Miguel_de_Cervantes_lithography-cropped.jpg"
-  author: "Miguel de Cervantes"
-  text: "To be prepared is half the victory. "
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Stevejobs.jpg/640px-Stevejobs.jpg"
+  author: "Steve Jobs"
+  text: "The only way to do great work is to love what you do."
 
 menu:
     main:
