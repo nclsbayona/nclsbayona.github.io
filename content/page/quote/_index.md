@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Deepak_Chopra_-_Synchronicity_%28cropped%29.jpg/182px-Deepak_Chopra_-_Synchronicity_%28cropped%29.jpg"
-  author: "Deepak Chopra"
-  text: "The most creative act you will ever undertake is the act of creating yourself."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Charles_Darwin_imagen.jpg/198px-Charles_Darwin_imagen.jpg"
+  author: "Charles Darwin"
+  text: "A man who dares to waste one hour of time has not discovered the value of life."
 
 menu:
     main:
