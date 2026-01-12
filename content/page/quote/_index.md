@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Neelam_Sanjiva_Reddy_and_Mother_Teresa.jpg"
-  author: "Mother Teresa"
-  text: "Yesterday is gone. Tomorrow has not yet come. We have only today."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/640px-Albert_Einstein_Head.jpg"
+  author: "Albert Einstein"
+  text: "In the middle of every difficulty lies opportunity."
 
 menu:
     main:
