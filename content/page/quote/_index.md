@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/640px-Albert_Einstein_Head.jpg"
-  author: "Albert Einstein"
-  text: "In the middle of every difficulty lies opportunity."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Bera_Bach_-_geograph.org.uk_-_79749.jpg/330px-Bera_Bach_-_geograph.org.uk_-_79749.jpg"
+  author: "Richard Bach"
+  text: "You're always free to change your mind and choose a different future, or a different past."
 
 menu:
     main:
