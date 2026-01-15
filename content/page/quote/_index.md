@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Bera_Bach_-_geograph.org.uk_-_79749.jpg/330px-Bera_Bach_-_geograph.org.uk_-_79749.jpg"
-  author: "Richard Bach"
-  text: "You're always free to change your mind and choose a different future, or a different past."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Official_Seal_SIS.png/250px-Official_Seal_SIS.png"
+  author: "Publilius Syrus"
+  text: "To do two things at once is to do neither."
 
 menu:
     main:
