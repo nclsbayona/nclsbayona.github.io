@@ -36,19 +36,19 @@ func getImageURL(author string) string {
 	fmt.Printf("[getImageURL] Using '%s' as API URL\n", imageURL)
 	req, err := http.NewRequest("GET", imageURL, nil)
 	if err != nil {
-		fmt.Println("[getImageURL]Error creating request:", err, ". Using default image.")
+		fmt.Println("[getImageURL] Error creating request:", err, ". Using default image.")
 		imageURL = defaultImageURL
 	} else {
 		req.Header.Set("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36")
 		resp, err := http.DefaultClient.Do(req)
 		if err != nil {
-			fmt.Println("[getImageURL]Error fetching Wikimedia image:", err, ". Using default image.")
+			fmt.Println("[getImageURL] Error fetching Wikimedia image:", err, ". Using default image.")
 			imageURL = defaultImageURL
 		} else {
 			defer resp.Body.Close()
 			var result result
 			if err := json.NewDecoder(resp.Body).Decode(&result); err != nil {
-				fmt.Println("[getImageURL]Error decoding Wikimedia JSON:", err, ". Using default image.")
+				fmt.Println("[getImageURL] Error decoding Wikimedia JSON:", err, ". Using default image.")
 				return defaultImageURL
 			}
 			if len(result.Query.Pages) > 0 {
@@ -103,6 +103,7 @@ func getFavoriteQuote() quote {
 		{Text: "In the middle of every difficulty lies opportunity.", Author: "Albert Einstein", Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/640px-Albert_Einstein_Head.jpg"},
 		{Text: "You just can't beat the person who never gives up.", Author: "Babe Ruth", Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Babe_Ruth_cropped.jpg/640px-Babe_Ruth_cropped.jpg"},
 		{Text: "Happiness is not something ready made. It comes from your own actions.", Author: "Dalai Lama", Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dalailama1_20121014_4639.jpg/640px-Dalailama1_20121014_4639.jpg"},
+		{Text: "Believe that you can and you're halfway there.", Author: "Theodore Roosevelt", Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Theodore_Roosevelt_by_the_Pach_Bros.jpg/960px-Theodore_Roosevelt_by_the_Pach_Bros.jpg"},
 	}
 	randIndex := randomGenerator.Intn(len(favorites))
 	quote := favorites[randIndex]

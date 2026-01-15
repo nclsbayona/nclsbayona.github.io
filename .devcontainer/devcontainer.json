@@ -3,13 +3,11 @@
 	"build": {
 		"dockerfile": "Dockerfile",
 	},
-
 	"customizations": {
 		"vscode": {
-			"settings": { 
+			"settings": {
 				"html.format.templating": true
 			},
-			
 			"extensions": [
 				"github.vscode-github-actions",
 				"tamasfe.even-better-toml",
@@ -19,15 +17,12 @@
 			]
 		}
 	},
-
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
 		1313
 	],
-
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "uname -a",
-
 	// Set `remoteUser` to `root` to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "node",
 	"features": {
