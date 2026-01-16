@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Theodore_Roosevelt_by_the_Pach_Bros.jpg/960px-Theodore_Roosevelt_by_the_Pach_Bros.jpg"
-  author: "Theodore Roosevelt"
-  text: "Believe that you can and you're halfway there."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Pro%C4%8D_-_jak_-_co.png/206px-Pro%C4%8D_-_jak_-_co.png"
+  author: "Simon Sinek"
+  text: "The goal is not to be perfect by the end, the goal is to be better today."
 
 menu:
     main:
