@@ -53,7 +53,7 @@ Lets start talking about the Control Plane components first:
 
 #### Node components
 
-- ***kubelet***: This component is in charge of allowing `kube-apiserver` to manage nodes on the cluster (Worker nodes specifically). The man job of Kubelet is acting as an interface so that `kube-apiserver` can communicate with the `container runtime` in a standardized way. The Kubelet is not officially well-documented but recently I went through a really cool tool called [**kubeletctl**](https://github.com/cyberark/kubeletctl) that provides a [list](https://github.com/cyberark/kubeletctl/blob/master/API_TABLE.md) of the available methods the API provides.
+- ***kubelet***: This component is in charge of allowing `kube-apiserver` to talk to nodes on the cluster (Worker nodes specifically). The main job of Kubelet is acting as an interface so that `kube-apiserver` can communicate with the `container runtime` in a standardized way. The Kubelet is not officially well-documented but recently I went through a really cool tool called [**kubeletctl**](https://github.com/cyberark/kubeletctl) that provides a [list](https://github.com/cyberark/kubeletctl/blob/master/API_TABLE.md) of the available methods the API provides.
 
 - ***Container-runtime***: This component is not specific to Kubernetes but it's necessary to be able to run containerized workflows and so it acts as a dependency for Kubernetes. As long as a container runtime implements [CRI](https://medium.com/@dmosyan/container-runtime-interface-explained-1c3c5af07eaf), Kubernetes can talk to it.
 
@@ -67,7 +67,7 @@ To understand communication flow, first let's take a look at communication withi
 
 The `cloud-controller-manager` communicates with the API server to learn about changes in the cluster state and then interacts with the cloud provider's APIs to implement those changes.  This allows Kubernetes to seamlessly integrate with the underlying cloud infrastructure, dynamically provisioning and managing resources as needed.  Essentially, it bridges the gap between the Kubernetes API and the cloud provider's control plane.
 
-Next, consider the communication between the control plane and the worker nodes.  The kubelet, which runs on each worker node, first communicates with the API server to register the node and report its status. The API server, in turn, communicates with the kubelet to instruct it to start, stop, or update containers. This communication typically uses HTTPS and is secured.
+Next, consider the communication between the control plane and the worker nodes.  The kubelet, which runs on each worker node, first communicates with the API server to register the node and report its status, as well as watching for any operations it needs to run. The API server, in turn, communicates with the kubelet to instruct it to exec into containers. This communication typically uses HTTPS and is secured.
 
 Optionally, the `kube-proxy` which also runs on each worker node, manages network rules for services. It communicates with the API server to learn about new services and updates the local network rules accordingly.
 
