@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Stevejobs.jpg/640px-Stevejobs.jpg"
-  author: "Steve Jobs"
-  text: "The only way to do great work is to love what you do."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Yoko_ono_en_1972.jpg/250px-Yoko_ono_en_1972.jpg"
+  author: "Yoko Ono"
+  text: "It's better to dance than to march through life."
 
 menu:
     main:
