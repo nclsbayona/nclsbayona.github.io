@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/John_Robert_Greene_speaking_at_Truman_Library.jpg/250px-John_Robert_Greene_speaking_at_Truman_Library.jpg"
-  author: "Robert Greene"
-  text: "Life goes by very fast. And the worst thing in life that you can have is a job that you hate, and have no energy and creativity in."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Stevejobs.jpg/640px-Stevejobs.jpg"
+  author: "Steve Jobs"
+  text: "The only way to do great work is to love what you do."
 
 menu:
     main:
