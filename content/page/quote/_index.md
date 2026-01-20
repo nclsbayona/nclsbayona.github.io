@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Yoko_ono_en_1972.jpg/250px-Yoko_ono_en_1972.jpg"
-  author: "Yoko Ono"
-  text: "It's better to dance than to march through life."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Babe_Ruth_cropped.jpg/640px-Babe_Ruth_cropped.jpg"
+  author: "Babe Ruth"
+  text: "You just can't beat the person who never gives up."
 
 menu:
     main:
