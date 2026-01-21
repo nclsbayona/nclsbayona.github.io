@@ -11,14 +11,74 @@ import (
 	"time"
 )
 
-// ZenQuotes API response structure
 type quote struct {
-	Text   string `json:"q"` // Quote text
-	Author string `json:"a"` // Author
-	Image  string `json:"i"` // Image URL
+	Text   string // Quote text
+	Author string // Author
+	Image  string // Image URL
 }
 
-type result struct {
+// UnmarshalJSON supports multiple shapes returned by different quote APIs,
+// including nested objects like {"data": {"author": ..., "quote": ...}}
+func (q *quote) UnmarshalJSON(data []byte) error {
+	var obj map[string]json.RawMessage
+	if err := json.Unmarshal(data, &obj); err != nil {
+		return err
+	}
+
+	// helper to extract string from possible keys
+	extract := func(keys []string) string {
+		var s string
+		for _, k := range keys {
+			if v, ok := obj[k]; ok {
+				if err := json.Unmarshal(v, &s); err == nil && s != "" {
+					return s
+				}
+			}
+		}
+		return ""
+	}
+
+	// direct fields
+	if t := extract([]string{"q", "quote", "text", "body"}); t != "" {
+		q.Text = t
+	}
+	if a := extract([]string{"a", "author"}); a != "" {
+		q.Author = a
+	}
+	if i := extract([]string{"i", "image", "img", "image_url", "imageUrl", "url"}); i != "" {
+		q.Image = i
+	}
+
+	// check nested data object if present
+	if v, ok := obj["data"]; ok {
+		var d map[string]json.RawMessage
+		if err := json.Unmarshal(v, &d); err == nil {
+			// try nested author/text keys
+			for _, k := range []string{"author"} {
+				if rv, ok := d[k]; ok {
+					var s string
+					if err := json.Unmarshal(rv, &s); err == nil && s != "" {
+						q.Author = s
+						break
+					}
+				}
+			}
+			for _, k := range []string{"quote", "text", "body"} {
+				if rv, ok := d[k]; ok {
+					var s string
+					if err := json.Unmarshal(rv, &s); err == nil && s != "" {
+						q.Text = s
+						break
+					}
+				}
+			}
+		}
+	}
+
+	return nil
+}
+
+type wikimedia_result struct {
 	Query struct {
 		Pages map[string]struct {
 			ImageInfo []struct {
@@ -46,7 +106,7 @@ func getImageURL(author string) string {
 			imageURL = defaultImageURL
 		} else {
 			defer resp.Body.Close()
-			var result result
+			var result wikimedia_result
 			if err := json.NewDecoder(resp.Body).Decode(&result); err != nil {
 				fmt.Println("[getImageURL] Error decoding Wikimedia JSON:", err, ". Using default image.")
 				return defaultImageURL
@@ -68,32 +128,74 @@ func getImageURL(author string) string {
 	return imageURL
 }
 
+func validateQuote(quote *quote) {
+
+	if (quote == nil) || (quote.Text == "") {
+		new_quote := getFavoriteQuote()
+		quote = &new_quote
+	} else if quote.Author == "" {
+		quote.Author = "Unknown"
+	}
+	if quote.Image == "" {
+		fmt.Printf("[validateQuote] No image URL found in the quote. Searching for an image of '%s' ...\n", quote.Author)
+		quote.Image = getImageURL(quote.Author)
+	}
+	fmt.Println("[validateQuote] Validated Quote:", quote.Text, "by", quote.Author, "\nImage URL:", quote.Image)
+
+}
+
 func fetchNewQuote() (quote, error) {
+	random := randomGenerator.Intn(100) + 1
+
+	if random < 50 {
+		fmt.Println("[fetchNewQuote] Fetch Zenquotes quote.")
+		return fetchNewZenquotesQuote()
+	}
+	fmt.Println("[fetchNewQuote] Fetch Stoic quote.")
+	return fetchNewStoicQuote()
+}
+
+func fetchNewZenquotesQuote() (quote, error) {
 	// Fetch quote from ZenQuotes API
 	resp, err := http.Get("https://zenquotes.io/api/today")
 	if err != nil {
-		fmt.Println("[fetchNewQuote] Error fetching quote:", err)
-		return quote{}, err
+		fmt.Println("[fetchNewZenquotesQuote] Error fetching quote:", err)
+		return getFavoriteQuote(), err
 	}
 	defer resp.Body.Close()
 
 	var quotes []quote
 	if err := json.NewDecoder(resp.Body).Decode(&quotes); err != nil {
-		fmt.Println("[fetchNewQuote] Error decoding JSON:", err)
-		return quote{}, err
+		fmt.Println("[fetchNewZenquotesQuote] Error decoding JSON:", err)
+		return getFavoriteQuote(), err
 	}
 	if len(quotes) == 0 {
-		fmt.Println("[fetchNewQuote] No quotes found.")
+		fmt.Println("[fetchNewZenquotesQuote] No quotes found.")
 		return quote{}, nil
 	}
 	quote := quotes[0]
 
-	if quote.Image == "" {
-		fmt.Printf("[fetchNewQuote] No image URL found in the quote. Searching for an image of '%s' ...\n", quote.Author)
-		quote.Image = getImageURL(quote.Author)
-	}
-	fmt.Println("[fetchNewQuote] Fetched Quote:", quote.Text, "by", quote.Author, "\nImage URL:", quote.Image)
+	validateQuote(&quote)
 	return quote, nil
+}
+
+func fetchNewStoicQuote() (quote, error) {
+	// Fetch quote from Stoic Tekloon API
+	resp, err := http.Get("https://stoic.tekloon.net/stoic-quote")
+	if err != nil {
+		fmt.Println("[fetchNewStoicQuote] Error fetching quote:", err)
+		return getFavoriteQuote(), err
+	}
+	defer resp.Body.Close()
+
+	var q quote
+	if err := json.NewDecoder(resp.Body).Decode(&q); err != nil {
+		fmt.Println("[fetchNewStoicQuote] Error decoding JSON:", err)
+		return getFavoriteQuote(), err
+	}
+
+	validateQuote(&q)
+	return q, nil
 }
 
 func getFavoriteQuote() quote {
