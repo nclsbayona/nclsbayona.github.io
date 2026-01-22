@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Babe_Ruth_cropped.jpg/640px-Babe_Ruth_cropped.jpg"
-  author: "Babe Ruth"
-  text: "You just can't beat the person who never gives up."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Nassim_Taleb_Lecturing.jpg/250px-Nassim_Taleb_Lecturing.jpg"
+  author: "Nassim Nicholas Taleb"
+  text: "Don’t aim to be perfect. Aim to be antifragile."
 
 menu:
     main:
