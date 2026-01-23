@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Nassim_Taleb_Lecturing.jpg/250px-Nassim_Taleb_Lecturing.jpg"
-  author: "Nassim Nicholas Taleb"
-  text: "Don’t aim to be perfect. Aim to be antifragile."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Stevejobs.jpg/640px-Stevejobs.jpg"
+  author: "Steve Jobs"
+  text: "The only way to do great work is to love what you do."
 
 menu:
     main:
