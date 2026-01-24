@@ -3,7 +3,7 @@ title: The value of becoming a Kubestronaut (and a Golden Kubestronaut) and why 
 description: This is a blog post regarding some lessons learned while following structured learning paths.
 slug: certs-real-value
 date: 2025-03-01 08:00:00+0000
-lastmod: 2025-09-14 23:00:00+0000
+lastmod: 2026-01-24 23:00:00+0000
 image: cover.webp
 categories:
 - non-technical
@@ -154,8 +154,19 @@ Ok, this one was a special one. I've been looking to do a Linux-related exam lon
 Well, what I did for this one? I think that practicing was the most important thing I did. But funny or not, I repeated what I did for [CKA](#cka) and I really enjoyed it.
 
 ##### KCA (Kyverno Certified Associate)
+I like security, it's not what I do the most but I like it anyway mainly because I enjoy understanding things at a deep level and security in a way relates to that. Hopefully one day I'll do it more profesionally. That's why this was great, not only because I could learn more about a wonderful project, but because security is great.
+
+At the time I was preparing for this exam I couldn't find a lot of preparation for it but let me just state how great the documentation of this project is and Nirmata (The company that backs this project) has also a great YouTube channel that explains topics really well.
+
 ##### ICA (Istio Certified Associate)
+Ok, I had like some inner-thoughts when preparing for this and so decided to move on and return to this exam later. I didn't attempt it and eventough I know its and important topic, I just wasn't sure that doing this before some of the others was the best idea.
+> I'll see you soon, just hang in there a little more.
+
 ##### CCA (Cilium Certified Associate)
+Well, **Cilium** is a fantastic project. I really didn't knew that much about it, but I just loved the experience of understanding it.
+
+Well, for this one I was really into practicing and verifying that everything I learnt theorically worked the same practically. I took almost the same I did for [CKA](#cka) but I gave an **emphasis** on practicing (Apart from [Isovalent's channel](https://youtube.com/@isovalent), I'm grateful for [Nico Vibert's](https://youtube.com/@nicovibert))
+
 ##### PCA (Prometheus Certified Associate) 
 ##### OTCA (OpenTelemetry Certified Associate)
 ##### CGOA (Certified GitOps Associate)
