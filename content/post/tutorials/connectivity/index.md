@@ -12,8 +12,8 @@ links:
   image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Osi-model-jb.svg/640px-Osi-model-jb.svg.png
 categories:
 - networking
-- fundamentals
 - tutorials
+- fundamentals
 tags:
 - devops
 - devsecops
