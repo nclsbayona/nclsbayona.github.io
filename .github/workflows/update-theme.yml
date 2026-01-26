@@ -2,6 +2,10 @@ name: Update theme
 
 # Controls when the workflow will run
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-theme.yml'
   schedule:
     # Update theme automatically everyday at 01:00 UTC
     - cron: "0 1 * * *"
