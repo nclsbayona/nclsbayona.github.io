@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Theodore_Roosevelt_by_the_Pach_Bros.jpg/960px-Theodore_Roosevelt_by_the_Pach_Bros.jpg"
-  author: "Theodore Roosevelt"
-  text: "Believe that you can and you're halfway there."
+  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
+  author: "Steve Maraboli"
+  text: "The universe doesn't give you what you ask for with your thoughts - it gives you what you demand with your actions."
 
 menu:
     main:
