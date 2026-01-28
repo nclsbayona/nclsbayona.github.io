@@ -209,7 +209,7 @@ func getFavoriteQuote() quote {
 	}
 	randIndex := randomGenerator.Intn(len(favorites))
 	quote := favorites[randIndex]
-	fmt.Printf("[getFavoriteQuote] Using quote: %s by %s and image %s", quote.Text, quote.Author, quote.Image)
+	fmt.Printf("[getFavoriteQuote] Using quote: %s by %s and image %s\n\n", quote.Text, quote.Author, quote.Image)
 	return quote
 }
 
