@@ -17,6 +17,6 @@ disqusShortname = "not-my-real-disqus-shortname"
 [pagination]
 pagerSize = 5
 
-enableRobotsTXT = true
+# enableRobotsTXT = true
 buildFuture = true
 enableEmoji = true
