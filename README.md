@@ -12,7 +12,7 @@ This is my personal blog. Here I post some things about cloud-native technologie
 
 <details name="main">
   <summary>
-    <h2>Workflows statuses</h2>
+    <h2>Workflow Badges</h2>
   </summary>
   <img alt="Deploy to Github Pages" src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/deploy.yml/badge.svg" />
   <img alt="Update quote of the day" src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/fetch-quote.yml/badge.svg" />
