@@ -19,5 +19,7 @@ This is my personal blog. Here I post some things about cloud-native technologie
   <img alt="Update Hugo theme"  src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update-theme.yml/badge.svg" />
   <img alt="Semantic Release" src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/semantic-release.yml/badge.svg" />
   <img alt="Webpage analysis" src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/page-analysis.yml/badge.svg" />
+  <img alt="Create webpage GIF" src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/create-webpage-gif.yml/badge.svg" />
+  <img alt="Purge old runs" src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/purge-old-runs.yml/badge.svg" />
   <hr />
 </details>
