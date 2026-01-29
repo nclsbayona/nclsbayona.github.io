@@ -12,15 +12,27 @@ This is my personal blog. Here I post some things about cloud-native technologie
 
 <details name="main">
   <summary>
-    <h2>Workflow Badges</h2>
+    <h2>Workflows</h2>
   </summary>
+  
+  <h3>Webpage related</h3>
+  
+  <h4>Content & deployment</h4>
   <img alt="Deploy to Github Pages" src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/deploy.yml/badge.svg" />
   <img alt="Update quote of the day" src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/fetch-quote.yml/badge.svg" />
   <img alt="Update Hugo theme"  src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update-theme.yml/badge.svg" />
-  <img alt="Semantic Release" src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/semantic-release.yml/badge.svg" />
+  <br />
+
+  <h4>User experience</h4>
   <img alt="Webpage analysis" src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/page-analysis.yml/badge.svg" />
+  <br />
+  
+
+  <h3>Repository related</h3>
   <img alt="Create webpage GIF" src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/create-webpage-gif.yml/badge.svg" />
+  <img alt="Semantic Release" src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/semantic-release.yml/badge.svg" />
   <img alt="Purge old runs" src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/delete-old-runs.yml/badge.svg" />
   <img alt="Merge dependabot PRs" src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/automatic-merge.yml/badge.svg" />
+  <br />
   <hr />
 </details>
