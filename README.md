@@ -21,6 +21,7 @@ This is my personal blog. Here I post some things about cloud-native technologie
   <img alt="Deploy to Github Pages" src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/deploy.yml/badge.svg" />
   <img alt="Update quote of the day" src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/fetch-quote.yml/badge.svg" />
   <img alt="Update Hugo theme"  src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update-theme.yml/badge.svg" />
+  <img alt="Security test"  src="https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/security-test.yml/badge.svg" />
   <br />
 
   <h4>User experience</h4>
