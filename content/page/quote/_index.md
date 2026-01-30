@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Naval_Ravikant.jpg/120px-Naval_Ravikant.jpg"
-  author: "Naval Ravikant"
-  text: "Meditation is intermittent fasting for the mind. Too much sugar leads to a heavy body, and too many distractions lead to a heavy mind. Time spent undistracted and alone, in self-examination, journaling, meditation, resolves the unresolved and takes us from mentally fat to fit."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Bera_Bach_-_geograph.org.uk_-_79749.jpg/330px-Bera_Bach_-_geograph.org.uk_-_79749.jpg"
+  author: "Richard Bach"
+  text: "Your only obligation in any lifetime is to be true to yourself."
 
 menu:
     main:
