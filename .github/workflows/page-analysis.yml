@@ -57,17 +57,17 @@ jobs:
       with:
         name: Lighthouse reports
         path: /tmp/artifacts
-  check-site-for-broken-links:
-    if: always()
-    name: Check sitemap for broken links
-    runs-on: ubuntu-latest
-    concurrency:
-        group: sitemap_check-${{ github.ref }}
-        cancel-in-progress: false
-    steps:
-      - uses: harrisonpim/broken-link-checker@0.2.1
-        with:
-          sitemap: https://nclsbayona.github.io/sitemap.xml
+  #check-site-for-broken-links:
+  #  if: always()
+  #  name: Check sitemap for broken links
+  #  runs-on: ubuntu-latest
+  #  concurrency:
+  #      group: sitemap_check-${{ github.ref }}
+  #      cancel-in-progress: false
+  #  steps:
+  #    - uses: harrisonpim/broken-link-checker@0.2.1
+  #      with:
+  #        sitemap: https://nclsbayona.github.io/sitemap.xml
   link-checker:
     if: always()
     name: Link Checker
