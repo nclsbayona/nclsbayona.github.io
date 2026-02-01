@@ -22,7 +22,8 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # - uses: GitHubSecurityLab/actions-permissions/monitor@v1
+      - name: Configure monitor
+        uses: GitHubSecurityLab/actions-permissions/monitor@v1
       - name: Delete old
       # You may pin to the exact commit or the version.
         uses: yanovation/delete-old-actions@v1
