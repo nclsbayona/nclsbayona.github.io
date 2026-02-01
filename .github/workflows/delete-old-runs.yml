@@ -25,9 +25,9 @@ jobs:
       # - uses: GitHubSecurityLab/actions-permissions/monitor@v1
       - name: Delete old
       # You may pin to the exact commit or the version.
-        uses: iamludal/action-purge-workflow-runs@v2.1.2
+      - uses: yanovation/delete-old-actions@v1
         with:
-    # least days the runs have to be old to get purged
-          days-old: 10
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          days-ago: 5
+          dry-run: true
+          keep-latest: 2
