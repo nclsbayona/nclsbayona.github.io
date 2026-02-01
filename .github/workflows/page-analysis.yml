@@ -28,6 +28,8 @@ jobs:
     name: Page Load Analysis
     runs-on: ubuntu-latest
     steps:
+      - name: Configure monitor
+        uses: GitHubSecurityLab/actions-permissions/monitor@v1
       - run: mkdir -p /tmp/artifacts
       - name: Run Sitespeed.io
         uses: addnab/docker-run-action@v3
@@ -46,6 +48,8 @@ jobs:
     name: Lighthouse
     runs-on: ubuntu-latest
     steps:
+    - name: Configure monitor
+      uses: GitHubSecurityLab/actions-permissions/monitor@v1
     - run: mkdir -p /tmp/artifacts
     - name: Run Lighthouse
       uses: foo-software/lighthouse-check-action@master
@@ -76,7 +80,12 @@ jobs:
         group: link_check-${{ github.ref }}
         cancel-in-progress: false
     steps:
+      - name: Configure monitor
+        uses: GitHubSecurityLab/actions-permissions/monitor@v1
+
       - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
 
       - name: Link Checker
         id: lychee
