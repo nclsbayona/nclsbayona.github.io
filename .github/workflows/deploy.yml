@@ -29,6 +29,9 @@ jobs:
 
       steps:
       
+      - name: Configure monitor
+        uses: GitHubSecurityLab/actions-permissions/monitor@v1
+
       - uses: actions/checkout@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
