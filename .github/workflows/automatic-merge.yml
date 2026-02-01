@@ -20,6 +20,9 @@ jobs:
       contents: write
         
     steps:
+      - name: Configure monitor
+        uses: GitHubSecurityLab/actions-permissions/monitor@v1
+
       - name: Dependabot metadata
         id: dependabot-metadata
         uses: dependabot/fetch-metadata@v2.5.0
