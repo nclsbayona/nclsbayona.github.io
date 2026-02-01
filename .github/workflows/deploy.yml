@@ -33,6 +33,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: ${{ github.ref }}
+          persist-credentials: false
 
       - name: Retrieve quote content
         run: echo "Quote" && echo "Quote" >> $GITHUB_STEP_SUMMARY && cat ./content/page/quote/_index.md &&  cat ./content/page/quote/_index.md >> $GITHUB_STEP_SUMMARY
