@@ -25,7 +25,7 @@ jobs:
       # - uses: GitHubSecurityLab/actions-permissions/monitor@v1
       - name: Delete old
       # You may pin to the exact commit or the version.
-      - uses: yanovation/delete-old-actions@v1
+        uses: yanovation/delete-old-actions@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           days-ago: 5
