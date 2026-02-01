@@ -1,5 +1,17 @@
 # The Changelog for nclsbayona.github.io
 
+# [1.1.0](https://github.com/nclsbayona/nclsbayona.github.io/compare/v1.0.0...v1.1.0) (2026-02-01)
+
+
+### Bug Fixes
+
+* Correct format ([66baa16](https://github.com/nclsbayona/nclsbayona.github.io/commit/66baa16bba6ffd368413d47ef3bfe98eeb941e93))
+
+
+### Features
+
+* add connectivity post ([c0bc894](https://github.com/nclsbayona/nclsbayona.github.io/commit/c0bc894d4cc6aadcf65e5ad8777ca17a535ce217))
+
 # 1.0.0 (2026-01-01)
 
 
