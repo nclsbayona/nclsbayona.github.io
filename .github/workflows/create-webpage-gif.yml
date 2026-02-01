@@ -11,6 +11,8 @@ jobs:
       contents: write
     steps:
     - uses: actions/checkout@v6
+      with:
+        persist-credentials: false
     - name: Website to file
       uses: PabloLec/website-to-gif@2.1.5
       with:
