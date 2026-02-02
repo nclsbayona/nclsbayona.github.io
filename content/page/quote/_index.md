@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Eleanor_Roosevelt_and_Josip_Broz_Tito_1953.jpg/330px-Eleanor_Roosevelt_and_Josip_Broz_Tito_1953.jpg"
-  author: "Eleanor Roosevelt"
-  text: "No one can hurt you without your consent."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Theodore_Roosevelt_by_the_Pach_Bros.jpg/960px-Theodore_Roosevelt_by_the_Pach_Bros.jpg"
+  author: "Theodore Roosevelt"
+  text: "Believe that you can and you're halfway there."
 
 menu:
     main:
