@@ -27,8 +27,7 @@ jobs:
     if: always()
     name: Page Load Analysis
     runs-on: ubuntu-latest
-    permissions:
-      artifacts: write
+    permissions: {}
     steps:
       #- name: Configure monitor
       #  uses: GitHubSecurityLab/actions-permissions/monitor@v1
@@ -49,8 +48,7 @@ jobs:
     if: always()
     name: Lighthouse
     runs-on: ubuntu-latest
-    permissions:
-      artifacts: write
+    permissions: {}
     steps:
     - name: Configure monitor
       uses: GitHubSecurityLab/actions-permissions/monitor@v1
@@ -80,8 +78,7 @@ jobs:
     if: always()
     name: Link Checker
     runs-on: ubuntu-latest
-    permissions:
-      artifacts: write
+    permissions: {}
     concurrency:
         group: link_check-${{ github.ref }}
         cancel-in-progress: false
