@@ -28,8 +28,8 @@ jobs:
     name: Page Load Analysis
     runs-on: ubuntu-latest
     steps:
-      - name: Configure monitor
-        uses: GitHubSecurityLab/actions-permissions/monitor@v1
+      #- name: Configure monitor
+      #  uses: GitHubSecurityLab/actions-permissions/monitor@v1
       - run: mkdir -p /tmp/artifacts
       - name: Run Sitespeed.io
         uses: addnab/docker-run-action@v3
