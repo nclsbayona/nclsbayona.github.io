@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Laozi.jpg/250px-Laozi.jpg"
-  author: "Lao Tzu"
-  text: "Be content with what you have; rejoice in the way things are. When you realize there is nothing lacking, the whole world belongs to you."
+  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
+  author: "TheStoicEmperor"
+  text: "Life is a storm that will test you unceasingly. Don’t wait for calm waters that may not arrive. Derive purpose from resilience. Learn to sail the raging sea. @"
 
 menu:
     main:
