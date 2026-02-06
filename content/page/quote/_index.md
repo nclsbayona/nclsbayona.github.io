@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
-  author: "TheStoicEmperor"
-  text: "Life is a storm that will test you unceasingly. Don’t wait for calm waters that may not arrive. Derive purpose from resilience. Learn to sail the raging sea. @"
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Lantern_in_the_Dark_%28Can_u_see_Danbo%3F%29_%285334486448%29.jpg/330px-Lantern_in_the_Dark_%28Can_u_see_Danbo%3F%29_%285334486448%29.jpg"
+  author: "Dan Millman"
+  text: "Be happy now, without reason - or you never will be at all."
 
 menu:
     main:
