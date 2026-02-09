@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Brajesh_Mishra_and_Colin_Powell_%28cropped%29.jpg/120px-Brajesh_Mishra_and_Colin_Powell_%28cropped%29.jpg"
-  author: "Colin Powell"
-  text: "Trust is the glue that holds people together and is the lubricant that keeps an organization moving forward."
+  image: "https://upload.wikimedia.org/wikipedia/commons/8/84/Sathya_Sai_Baba_Signature_1.jpg"
+  author: "Sathya Sai Baba"
+  text: "You are not one person, but three: The one you think you are; The one others think you are; The one you really are."
 
 menu:
     main:
