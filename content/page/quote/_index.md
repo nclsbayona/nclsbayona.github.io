@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Gautama_Buddha_11.jpg/640px-Gautama_Buddha_11.jpg"
-  author: "Buddha"
-  text: "What we think, we become."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/George_Bernard_Shaw.jpg/250px-George_Bernard_Shaw.jpg"
+  author: "George Bernard Shaw"
+  text: "All great truths begin as blasphemies."
 
 menu:
     main:
