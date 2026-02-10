@@ -58,4 +58,8 @@ jobs:
     deploy:
         needs: get-quote
         name: Deploy
+        permissions:
+          contents: read
+          pages: write
+          id-token: write
         uses: nclsbayona/nclsbayona.github.io/.github/workflows/deploy.yml@main
