@@ -4,6 +4,9 @@ on:
   page_build:
   deployment:
   workflow_dispatch:
+
+permissions: {}
+
 jobs:
   # psi:
   #   name: Page Speed Insights
