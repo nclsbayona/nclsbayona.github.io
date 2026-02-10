@@ -8,6 +8,7 @@ on:
 jobs:
   page-scan:
     runs-on: ubuntu-latest
+    permissions: {}
     steps:
     - name: Configure monitor
       uses: GitHubSecurityLab/actions-permissions/monitor@v1
@@ -23,8 +24,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       security-events: write
-      contents: read
-      actions: read
     steps:
       - name: Configure monitor
         uses: GitHubSecurityLab/actions-permissions/monitor@v1
