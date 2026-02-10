@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/George_Bernard_Shaw.jpg/250px-George_Bernard_Shaw.jpg"
-  author: "George Bernard Shaw"
-  text: "All great truths begin as blasphemies."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Theodore_Roosevelt_by_the_Pach_Bros.jpg/960px-Theodore_Roosevelt_by_the_Pach_Bros.jpg"
+  author: "Theodore Roosevelt"
+  text: "Believe that you can and you're halfway there."
 
 menu:
     main:
