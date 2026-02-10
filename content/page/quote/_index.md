@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/8/84/Sathya_Sai_Baba_Signature_1.jpg"
-  author: "Sathya Sai Baba"
-  text: "You are not one person, but three: The one you think you are; The one others think you are; The one you really are."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Gautama_Buddha_11.jpg/640px-Gautama_Buddha_11.jpg"
+  author: "Buddha"
+  text: "What we think, we become."
 
 menu:
     main:
