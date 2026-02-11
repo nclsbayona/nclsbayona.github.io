@@ -34,10 +34,14 @@ jobs:
 
       - name: Run zizmor 🌈
         uses: zizmorcore/zizmor-action@135698455da5c3b3e55f73f4419e481ab68cdd95 # v0.4.1
+
   gitleaks:
     runs-on: ubuntu-latest
     permissions: {}
     steps:
+      - name: Configure monitor
+        uses: GitHubSecurityLab/actions-permissions/monitor@v1
+
       - name: Checkout code
         uses: actions/checkout@v3
         with:
@@ -47,3 +51,30 @@ jobs:
         uses: gitleaks/gitleaks-action@v2
         with:
           args: "--verbose"
+
+  trivy:
+    runs-on: ubuntu-latest
+    permissions:
+      security-events: write  # Required to upload SARIF files to Security tab
+    steps:
+      - name: Configure monitor
+        uses: GitHubSecurityLab/actions-permissions/monitor@v1
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Run Trivy vulnerability scanner in repo mode
+        uses: aquasecurity/trivy-action@0.33.1
+        with:
+          scan-type: 'fs'
+          ignore-unfixed: true
+          format: 'sarif'
+          output: 'trivy-results.sarif'
+          severity: 'CRITICAL'
+
+      - name: Upload Trivy scan results to GitHub Security tab
+        uses: github/codeql-action/upload-sarif@v4
+        with:
+          sarif_file: 'trivy-results.sarif'
