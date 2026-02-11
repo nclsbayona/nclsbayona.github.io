@@ -82,13 +82,13 @@ This directory contains GitHub Actions workflows that automate building, testing
 
 **Key Steps**:
 1. Checkout repository
-2. Setup Go (v1.17.0)
-3. Run `assets/scripts/get_quote.go` to fetch new quote
+2. Setup Go and download dependencies
+3. Run `scripts/get_quote.go` to fetch new quote
 4. Commit changes if quote updated
 5. Call `deploy.yml` to redeploy site
 
 **Configuration**:
-- Go Version: ^1.17.0
+- Go Version: ^1.25.0
 - Commit message: `chore: 📅 Update quote for {date}` (with emoji)
 
 **Notes**:

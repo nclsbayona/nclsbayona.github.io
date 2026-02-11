@@ -38,7 +38,7 @@ go run get_quote.go
 - Timeout: 30 seconds
 
 **Dependencies**:
-- Go 1.17 or later
+- Go 1.25 or later
 - Internet connection to quote API
 
 **Error Handling**:
@@ -85,7 +85,7 @@ go run reduce_image_size.go ../content/post/my-post/ ../content/post/my-post/
 - (Check script for additional formats)
 
 **Dependencies**:
-- Go 1.17 or later
+- Go 1.25 or later
 - Image processing libraries (check script imports)
 
 ---
@@ -203,10 +203,10 @@ main "$@"
 
 ## Common Tasks
 
-### Run Quote Update Locally
+### Run Quote Script Locally
 
 ```bash
-cd /home/runner/work/nclsbayona.github.io/nclsbayona.github.io/scripts
+cd scripts/
 go run get_quote.go
 
 # Verify changes

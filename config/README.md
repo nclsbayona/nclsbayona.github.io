@@ -34,17 +34,14 @@ config/_default/
 - `buildFuture`: Build future-dated posts (true)
 
 **Important**:
-- ⚠️ `disqusShortname` is set to placeholder - not used (comments use utterances)
-- ⚠️ `enableRobotsTXT` is commented out - should be enabled for SEO
+- ✅ Disqus configuration removed (comments use utterances)
+- ✅ `enableRobotsTXT = true` - Enabled for SEO
 - ⚠️ `buildFuture = true` means draft posts dated in future will be published
 
-**Recommended Changes**:
+**Configuration**:
 ```toml
-# Enable for SEO
+# Enabled for SEO
 enableRobotsTXT = true
-
-# Remove if not using Disqus
-# disqusShortname = "not-my-real-disqus-shortname"
 
 # Consider setting to false in production
 buildFuture = false

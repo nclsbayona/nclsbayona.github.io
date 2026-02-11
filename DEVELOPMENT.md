@@ -19,7 +19,7 @@ This guide helps you set up and work with the nclsbayona.github.io blog locally.
   - Download: https://gohugo.io/installation/
   - Verify: `hugo version`
   
-- **Go** (v1.17 or later)
+- **Go** (v1.25 or later)
   - Download: https://go.dev/doc/install
   - Verify: `go version`
   
@@ -210,7 +210,7 @@ hugo mod clean
 ### Run Quote Script
 
 ```bash
-cd assets/scripts/
+cd scripts/
 go run get_quote.go
 ```
 
