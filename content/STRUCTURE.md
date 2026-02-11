@@ -221,7 +221,7 @@ Supported languages: `go`, `python`, `javascript`, `bash`, `yaml`, `dockerfile`,
 
 **Internal Links**:
 ```markdown
-[Related Post]({{< ref "post/kubernetes/intro" >}})
+[Related Post](/p/kubernetes-intro/)
 ```
 
 **External Links**:
@@ -257,15 +257,20 @@ Supported languages: `go`, `python`, `javascript`, `bash`, `yaml`, `dockerfile`,
 
 #### Callouts/Alerts
 
-Use Hugo shortcodes for callouts:
+Use blockquotes for emphasis and callouts:
 ```markdown
-{{< alert "info" >}}
-This is an informational note.
-{{< /alert >}}
+> **Note:** This is an informational note.
 
-{{< alert "warning" >}}
-This is a warning message.
-{{< /alert >}}
+> **Warning:** This is a warning message.
+
+> **Tip:** This is a helpful tip.
+```
+
+Or use custom HTML if supported by your theme:
+```html
+<div class="alert alert-info">
+This is an informational note.
+</div>
 ```
 
 ### SEO Best Practices
