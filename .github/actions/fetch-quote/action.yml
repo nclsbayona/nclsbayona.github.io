@@ -31,34 +31,7 @@ runs:
       run: |
         cd ${{ github.action_path }}/../../../scripts
         
-        # Run the Go script and capture output
-        OUTPUT=$(go run get_quote.go 2>&1)
-        echo "$OUTPUT"
+        # Run the Go script which outputs directly to GITHUB_OUTPUT
+        go run get_quote.go
         
-        # Extract quote, author, and image from the generated file
-        QUOTE_FILE="${GITHUB_WORKSPACE}/content/page/quote/_index.md"
-        
-        if [ -f "$QUOTE_FILE" ]; then
-          # Extract values from the frontmatter
-          QUOTE=$(grep -A 1 'text:' "$QUOTE_FILE" | tail -1 | sed 's/^[[:space:]]*"//;s/"[[:space:]]*$//')
-          AUTHOR=$(grep -A 1 'author:' "$QUOTE_FILE" | tail -1 | sed 's/^[[:space:]]*"//;s/"[[:space:]]*$//')
-          IMAGE=$(grep -A 1 'image:' "$QUOTE_FILE" | tail -1 | sed 's/^[[:space:]]*"//;s/"[[:space:]]*$//')
-          
-          # Set outputs
-          echo "quote=$QUOTE" >> $GITHUB_OUTPUT
-          echo "author=$AUTHOR" >> $GITHUB_OUTPUT
-          echo "image=$IMAGE" >> $GITHUB_OUTPUT
-          
-          # Also set as environment variables for potential use
-          echo "QUOTE=$QUOTE" >> $GITHUB_ENV
-          echo "AUTHOR=$AUTHOR" >> $GITHUB_ENV
-          echo "IMAGE=$IMAGE" >> $GITHUB_ENV
-          
-          echo "✅ Quote fetched successfully:"
-          echo "📝 Quote: $QUOTE"
-          echo "✍️  Author: $AUTHOR"
-          echo "🖼️  Image: $IMAGE"
-        else
-          echo "❌ Error: Quote file not found at $QUOTE_FILE"
-          exit 1
-        fi
+        echo "✅ Quote fetched successfully"

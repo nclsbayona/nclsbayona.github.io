@@ -33,7 +33,9 @@ See [.github/actions/fetch-quote/README.md](../.github/actions/fetch-quote/READM
 
 ### get_quote.go - Daily Quote Fetcher
 
-**Purpose**: Fetches an inspirational quote from an external API and updates the quote page content.
+**Purpose**: Fetches an inspirational quote from an external API and outputs it directly to GitHub Actions.
+
+**Go Module**: `github.com/nclsbayona/nclsbayona.github.io/scripts/get_quote`
 
 **Usage**:
 ```bash
@@ -42,14 +44,28 @@ go run get_quote.go
 ```
 
 **What It Does**:
-1. Fetches a random quote from a quote API
-2. Updates `/content/page/quote/_index.md` with new content
-3. Formats the quote with proper markdown
-4. Preserves frontmatter configuration
+1. Fetches a random quote from a quote API (ZenQuotes or Stoic quotes)
+2. Retrieves author image from Wikimedia Commons
+3. Outputs quote, author, and image directly to `GITHUB_OUTPUT`
+4. No intermediate files created
+
+**Output Format**:
+When run in GitHub Actions, outputs:
+- `quote`: The quote text
+- `author`: The author name
+- `image`: Author image URL
+
+When run locally (not in GitHub Actions), prints to stdout:
+```
+QUOTE=<quote text>
+AUTHOR=<author name>
+IMAGE=<image url>
+```
 
 **GitHub Actions Integration**:
+- Wrapped in reusable action: `.github/actions/fetch-quote/`
 - Runs daily at 02:00 UTC via `fetch-quote.yml` workflow
-- Automatically commits changes if quote updated
+- Workflow uses outputs to create frontmatter file
 - Triggers site redeployment
 
 **Configuration**:

@@ -38,6 +38,28 @@ jobs:
           id: quote
           uses: ./.github/actions/fetch-quote
     
+        - name: Create quote frontmatter file
+          run: |
+            mkdir -p content/page/quote
+            cat > content/page/quote/_index.md << EOF
+            ---
+            title: "Today's quote"
+            slug: "quote"
+            layout: "quote"
+            
+            quote:
+              image: "${{ steps.quote.outputs.image }}"
+              author: "${{ steps.quote.outputs.author }}"
+              text: "${{ steps.quote.outputs.quote }}"
+            
+            menu:
+                main:
+                    weight: 6
+                    params: 
+                        icon: quote
+            ---
+            EOF
+    
         - name: Commit and push changes
           run: |
             git config --global user.name 'nclsbayona'

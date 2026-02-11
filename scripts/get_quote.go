@@ -213,33 +213,6 @@ func getFavoriteQuote() quote {
 	return quote
 }
 
-func writeQuoteToFile(quote quote, filePath string) error {
-	// Prepare front matter for Hugo Markdown
-	md := fmt.Sprintf(`---
-title: "Today's quote"
-slug: "quote"
-layout: "quote"
-
-quote:
-  image: "%s"
-  author: "%s"
-  text: "%s"
-
-menu:
-    main:
-        weight: 6
-        params: 
-            icon: quote
----
-`, quote.Image, quote.Author, quote.Text)
-
-	// Write to file
-	if err := os.WriteFile(filePath, []byte(md), 0644); err != nil {
-		return fmt.Errorf("error writing to %s: %v", filePath, err)
-	}
-	return nil
-}
-
 func shouldFetch() bool {
 	random := (randomGenerator.Intn(100) + 1)
 	fmt.Printf("[shouldFetch] Random number: %d\n", random)
@@ -253,9 +226,41 @@ func init() {
 	randomGenerator = rand.New(rand.NewSource(seed))
 }
 
+func outputToGitHub(quote quote) error {
+	// Get GITHUB_OUTPUT environment variable
+	githubOutput := os.Getenv("GITHUB_OUTPUT")
+	if githubOutput == "" {
+		// If not in GitHub Actions, output to stdout for local testing
+		fmt.Printf("QUOTE=%s\n", quote.Text)
+		fmt.Printf("AUTHOR=%s\n", quote.Author)
+		fmt.Printf("IMAGE=%s\n", quote.Image)
+		return nil
+	}
+
+	// Open GITHUB_OUTPUT file in append mode
+	f, err := os.OpenFile(githubOutput, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		return fmt.Errorf("error opening GITHUB_OUTPUT file: %v", err)
+	}
+	defer f.Close()
+
+	// Write outputs in the format GitHub Actions expects
+	// Using multiline string format for proper handling
+	if _, err := fmt.Fprintf(f, "quote=%s\n", quote.Text); err != nil {
+		return fmt.Errorf("error writing quote output: %v", err)
+	}
+	if _, err := fmt.Fprintf(f, "author=%s\n", quote.Author); err != nil {
+		return fmt.Errorf("error writing author output: %v", err)
+	}
+	if _, err := fmt.Fprintf(f, "image=%s\n", quote.Image); err != nil {
+		return fmt.Errorf("error writing image output: %v", err)
+	}
+
+	return nil
+}
+
 func main() {
 	var quote quote
-	const filePath = "./content/page/quote/_index.md"
 	if shouldFetch() {
 		fmt.Println("[get_quote.go] Attempting to fetch a new quote...")
 		var err error
@@ -269,9 +274,14 @@ func main() {
 		quote = getFavoriteQuote()
 	}
 
-	if err := writeQuoteToFile(quote, filePath); err != nil {
-		fmt.Println("[get_quote.go] Error writing quote to file:", err)
-	} else {
-		fmt.Printf("[get_quote.go] Quote successfully written to %s\n", filePath)
+	// Output to GitHub Actions
+	if err := outputToGitHub(quote); err != nil {
+		fmt.Fprintf(os.Stderr, "[get_quote.go] Error outputting to GitHub: %v\n", err)
+		os.Exit(1)
 	}
+
+	fmt.Printf("[get_quote.go] Quote successfully output:\n")
+	fmt.Printf("  Quote: %s\n", quote.Text)
+	fmt.Printf("  Author: %s\n", quote.Author)
+	fmt.Printf("  Image: %s\n", quote.Image)
 }

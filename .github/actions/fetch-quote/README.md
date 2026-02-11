@@ -91,15 +91,16 @@ To use this action from another repository, reference it with the full path:
    - Fetches a quote with 70% probability, otherwise uses a favorite
    - Retrieves author images from Wikimedia Commons
    - Falls back to curated quotes if API fails
+   - Outputs quote, author, and image directly to `GITHUB_OUTPUT`
 
-2. **Output Extraction**: Parses the generated markdown file to extract:
-   - Quote text
-   - Author name
-   - Image URL
+2. **Direct Output**: The Go script writes outputs directly to GitHub Actions:
+   - No intermediate file creation
+   - Values immediately available as action outputs
+   - Clean, efficient data flow
 
-3. **Output Setting**: Makes values available as:
-   - Action outputs (accessible via `steps.<id>.outputs.<name>`)
-   - Environment variables (`QUOTE`, `AUTHOR`, `IMAGE`)
+3. **Output Availability**: Values are accessible as:
+   - Action outputs (via `steps.<id>.outputs.<name>`)
+   - Can be used immediately in subsequent steps
 
 ## Quote Sources
 
@@ -143,6 +144,28 @@ jobs:
         id: quote
         uses: ./.github/actions/fetch-quote
       
+      - name: Create quote page
+        run: |
+          mkdir -p content/page/quote
+          cat > content/page/quote/_index.md << EOF
+          ---
+          title: "Today's quote"
+          slug: "quote"
+          layout: "quote"
+          
+          quote:
+            image: "${{ steps.quote.outputs.image }}"
+            author: "${{ steps.quote.outputs.author }}"
+            text: "${{ steps.quote.outputs.quote }}"
+          
+          menu:
+              main:
+                  weight: 6
+                  params: 
+                      icon: quote
+          ---
+          EOF
+      
       - name: Commit changes
         run: |
           git config user.name 'github-actions[bot]'
@@ -165,15 +188,17 @@ jobs:
 
 ## Environment Variables Set
 
-The action also sets these environment variables for use in subsequent steps:
-
-- `QUOTE`: The quote text
-- `AUTHOR`: The author name
-- `IMAGE`: The image URL
+The action does not set environment variables. All outputs are available via the action outputs mechanism:
+- `steps.<id>.outputs.quote`
+- `steps.<id>.outputs.author`
+- `steps.<id>.outputs.image`
 
 ## Notes
 
-- The action creates/updates `content/page/quote/_index.md` in your repository
+- The action returns outputs directly from the Go script
+- No intermediate files are created for output extraction
+- The script uses a Go module for better dependency management
+- You can use the outputs to create your own frontmatter format
 - Quote selection has a 70% chance of fetching new, 30% chance of using favorites
 - Author images are fetched from Wikimedia Commons with a default fallback
 - The script includes retry logic and multiple quote sources for reliability
