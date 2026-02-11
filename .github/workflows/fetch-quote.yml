@@ -60,13 +60,10 @@ jobs:
             ---
             EOF
     
-        - name: Commit and push changes
-          run: |
-            git config --global user.name 'nclsbayona'
-            git config --global user.email 'bayona.n@javeriana.edu.co'
-            git add content/page/quote
-            git commit -m 'chore: :hammer: update Quote of the Day' || echo "No changes to commit"
-            git push origin main
+        - name: Commit changes
+          uses: stefanzweifel/git-auto-commit-action@v7
+          with:
+            commit_message: "chore: :hammer: Update quote"
   
         - name: Display quote in summary
           run: |
