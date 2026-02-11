@@ -57,4 +57,3 @@ jobs:
         if: ${{steps.dependabot-metadata.outputs.update-type == 'version-update:semver-major' && steps.dependabot-metadata.outputs.dependency-type == 'direct:production' && steps.dependabot-metadata.outputs.compatibility-score < 70}}
         run: |
           gh pr comment $PR_URL --body "I'm **not approving** this PR because **it includes a major update of a dependency used in production and compatibility is less than 70**"
-          gh pr edit $PR_URL --add-label "help-wanted"
