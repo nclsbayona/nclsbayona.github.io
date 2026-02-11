@@ -11,12 +11,9 @@ defaultContentLanguage = "en"
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage = false
 
-# Change it to your Disqus shortname before using
-disqusShortname = "not-my-real-disqus-shortname"
-
 [pagination]
 pagerSize = 5
 
-# enableRobotsTXT = true
+enableRobotsTXT = true
 buildFuture = true
 enableEmoji = true

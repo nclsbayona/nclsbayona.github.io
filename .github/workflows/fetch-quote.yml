@@ -6,7 +6,7 @@ on:
   push:
       branches: [main]
       paths:
-      - 'assets/scripts/get_quote.go'
+      - 'scripts/get_quote.go'
       - '.github/workflows/fetch-quote.yml'
   workflow_dispatch:
 
@@ -36,11 +36,11 @@ jobs:
         - name: Set up Go
           uses: actions/setup-go@v6
           with:
-            go-version: '^1.17.0'
+            go-version: '^1.25.0'
     
         - name: Fetch Quote of the Day
           run: |
-            go run ./assets/scripts/get_quote.go
+            cd scripts && go run get_quote.go
     
         - name: Commit and push changes
           run: |
