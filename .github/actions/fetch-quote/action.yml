@@ -1,0 +1,64 @@
+name: 'Fetch Quote of the Day'
+description: 'Fetches an inspirational quote with author and image from various quote APIs'
+author: 'nclsbayona'
+
+branding:
+  icon: 'message-circle'
+  color: 'blue'
+
+outputs:
+  quote:
+    description: 'The quote text'
+    value: ${{ steps.fetch.outputs.quote }}
+  author:
+    description: 'The quote author'
+    value: ${{ steps.fetch.outputs.author }}
+  image:
+    description: 'URL of the author image'
+    value: ${{ steps.fetch.outputs.image }}
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Set up Go
+      uses: actions/setup-go@v6
+      with:
+        go-version: '^1.25.0'
+    
+    - name: Fetch quote
+      id: fetch
+      shell: bash
+      run: |
+        cd ${{ github.action_path }}/../../../scripts
+        
+        # Run the Go script and capture output
+        OUTPUT=$(go run get_quote.go 2>&1)
+        echo "$OUTPUT"
+        
+        # Extract quote, author, and image from the generated file
+        QUOTE_FILE="${GITHUB_WORKSPACE}/content/page/quote/_index.md"
+        
+        if [ -f "$QUOTE_FILE" ]; then
+          # Extract values from the frontmatter
+          QUOTE=$(grep -A 1 'text:' "$QUOTE_FILE" | tail -1 | sed 's/^[[:space:]]*"//;s/"[[:space:]]*$//')
+          AUTHOR=$(grep -A 1 'author:' "$QUOTE_FILE" | tail -1 | sed 's/^[[:space:]]*"//;s/"[[:space:]]*$//')
+          IMAGE=$(grep -A 1 'image:' "$QUOTE_FILE" | tail -1 | sed 's/^[[:space:]]*"//;s/"[[:space:]]*$//')
+          
+          # Set outputs
+          echo "quote=$QUOTE" >> $GITHUB_OUTPUT
+          echo "author=$AUTHOR" >> $GITHUB_OUTPUT
+          echo "image=$IMAGE" >> $GITHUB_OUTPUT
+          
+          # Also set as environment variables for potential use
+          echo "QUOTE=$QUOTE" >> $GITHUB_ENV
+          echo "AUTHOR=$AUTHOR" >> $GITHUB_ENV
+          echo "IMAGE=$IMAGE" >> $GITHUB_ENV
+          
+          echo "✅ Quote fetched successfully:"
+          echo "📝 Quote: $QUOTE"
+          echo "✍️  Author: $AUTHOR"
+          echo "🖼️  Image: $IMAGE"
+        else
+          echo "❌ Error: Quote file not found at $QUOTE_FILE"
+          exit 1
+        fi

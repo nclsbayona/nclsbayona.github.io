@@ -2,6 +2,51 @@
 
 This directory contains GitHub Actions workflows that automate building, testing, deployment, and maintenance of the blog.
 
+## Directory Structure
+
+```
+.github/
+├── actions/           # Reusable composite actions
+│   └── fetch-quote/   # Fetch quote action (can be used independently)
+├── instructions/      # Agent instructions and guidelines
+├── workflows/         # GitHub Actions workflows
+└── README.md          # This file
+```
+
+## Reusable Actions
+
+### fetch-quote
+
+A reusable composite action that fetches inspirational quotes with author and image.
+
+**Location**: `.github/actions/fetch-quote/`
+
+**Outputs**:
+- `quote`: The quote text
+- `author`: The author name
+- `image`: Author image URL
+
+**Usage**:
+```yaml
+- name: Fetch quote
+  id: quote
+  uses: ./.github/actions/fetch-quote
+
+- name: Use outputs
+  run: |
+    echo "Quote: ${{ steps.quote.outputs.quote }}"
+    echo "Author: ${{ steps.quote.outputs.author }}"
+    echo "Image: ${{ steps.quote.outputs.image }}"
+```
+
+**External Use**:
+```yaml
+# From another repository
+- uses: nclsbayona/nclsbayona.github.io/.github/actions/fetch-quote@main
+```
+
+See [.github/actions/fetch-quote/README.md](actions/fetch-quote/README.md) for detailed documentation.
+
 ## Workflow Architecture
 
 ### Dependency Graph
@@ -77,24 +122,30 @@ This directory contains GitHub Actions workflows that automate building, testing
 
 **Triggers**:
 - Scheduled: Daily at 02:00 UTC
-- Push to `main` (when quote script changes)
+- Push to `main` (when quote script or action changes)
 - Manual dispatch
 
 **Key Steps**:
 1. Checkout repository
-2. Setup Go and download dependencies
-3. Run `scripts/get_quote.go` to fetch new quote
-4. Commit changes if quote updated
-5. Call `deploy.yml` to redeploy site
+2. Use fetch-quote action to get quote (returns quote, author, image as outputs)
+3. Commit changes if quote updated
+4. Call `deploy.yml` to redeploy site
 
 **Configuration**:
-- Go Version: ^1.25.0
+- Uses reusable action: `.github/actions/fetch-quote`
 - Commit message: `chore: 📅 Update quote for {date}` (with emoji)
 
+**Action Outputs**:
+- `quote`: The quote text
+- `author`: The author name  
+- `image`: Author image URL
+
 **Notes**:
+- Quote action is reusable - can be called from other workflows or repositories
+- See `.github/actions/fetch-quote/README.md` for standalone usage
 - Only commits if quote actually changed
 - Uses workflow_call to trigger deployment
-- Tight coupling with deploy.yml
+- Displays quote in job summary with formatting
 
 ---
 

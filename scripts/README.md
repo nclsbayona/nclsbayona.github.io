@@ -6,8 +6,28 @@ This directory contains utility scripts for maintaining and building the blog.
 
 | Script | Language | Purpose | Usage |
 |--------|----------|---------|-------|
-| `get_quote.go` | Go | Fetch daily inspirational quote | Run manually or via GitHub Actions |
+| `get_quote.go` | Go | Fetch daily inspirational quote | Run manually, via action, or via GitHub Actions |
 | `reduce_image_size.go` | Go | Optimize images for web | Run before committing new images |
+
+## GitHub Action Integration
+
+The `get_quote.go` script is wrapped in a reusable GitHub Action for easy integration:
+
+**Action Location**: `.github/actions/fetch-quote/`
+
+**Quick Usage**:
+```yaml
+- name: Fetch quote
+  id: quote
+  uses: ./.github/actions/fetch-quote
+  
+- name: Use outputs
+  run: |
+    echo "${{ steps.quote.outputs.quote }}"
+    echo "— ${{ steps.quote.outputs.author }}"
+```
+
+See [.github/actions/fetch-quote/README.md](../.github/actions/fetch-quote/README.md) for complete documentation.
 
 ## Script Details
 
