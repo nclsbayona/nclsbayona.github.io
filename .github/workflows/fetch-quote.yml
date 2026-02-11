@@ -6,8 +6,9 @@ on:
   push:
       branches: [main]
       paths:
-      - 'assets/scripts/get_quote.go'
+      - 'scripts/get_quote.go'
       - '.github/workflows/fetch-quote.yml'
+      - '.github/actions/fetch-quote/**'
   workflow_dispatch:
 
 permissions: {}
@@ -33,14 +34,31 @@ jobs:
           with:
             persist-credentials: true
     
-        - name: Set up Go
-          uses: actions/setup-go@v6
-          with:
-            go-version: '^1.17.0'
-    
         - name: Fetch Quote of the Day
+          id: quote
+          uses: ./.github/actions/fetch-quote
+    
+        - name: Create quote frontmatter file
           run: |
-            go run ./assets/scripts/get_quote.go
+            mkdir -p content/page/quote
+            cat > content/page/quote/_index.md << EOF
+            ---
+            title: "Today's quote"
+            slug: "quote"
+            layout: "quote"
+            
+            quote:
+              image: "${{ steps.quote.outputs.image }}"
+              author: "${{ steps.quote.outputs.author }}"
+              text: "${{ steps.quote.outputs.quote }}"
+            
+            menu:
+                main:
+                    weight: 6
+                    params: 
+                        icon: quote
+            ---
+            EOF
     
         - name: Commit and push changes
           run: |
@@ -50,8 +68,15 @@ jobs:
             git commit -m 'chore: :hammer: update Quote of the Day' || echo "No changes to commit"
             git push origin main
   
-        - name: Retrieve quote content
-          run: echo "Quote content" && echo "Quote content" >> $GITHUB_STEP_SUMMARY && cat ./content/page/quote/_index.md &&  cat ./content/page/quote/_index.md >> $GITHUB_STEP_SUMMARY
+        - name: Display quote in summary
+          run: |
+            echo "## 📅 Quote of the Day Updated" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "> ${{ steps.quote.outputs.quote }}" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**— ${{ steps.quote.outputs.author }}**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "![Author](${{ steps.quote.outputs.image }})" >> $GITHUB_STEP_SUMMARY
 
 
 

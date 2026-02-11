@@ -1,15 +1,46 @@
 version: 2
 updates:
+  # GitHub Actions - all workflows
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
     cooldown:
-      default-days: 14
+      default-days: 7
+    labels:
+      - "dependencies"
+      - "github-actions"
 
+  # Go modules - Hugo theme dependencies (root)
   - package-ecosystem: "gomod"
     directory: "/"
     schedule:
       interval: "weekly"
     cooldown:
       default-days: 7
+    labels:
+      - "dependencies"
+      - "go"
+
+  # Go modules - Quote fetcher script
+  - package-ecosystem: "gomod"
+    directory: "/scripts"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 7
+    labels:
+      - "dependencies"
+      - "go"
+
+  # Docker - devcontainer
+  - package-ecosystem: "docker"
+    directory: "/.devcontainer"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 7
+    labels:
+      - "dependencies"
+      - "docker"
+      - "devcontainer"

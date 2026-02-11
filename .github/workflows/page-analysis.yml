@@ -1,5 +1,9 @@
 name: Analyze webpage
 
+# This workflow performs various analyses on the deployed website including
+# performance metrics, accessibility checks, and link validation.
+# Some jobs are commented out - see individual sections for details.
+
 on: 
   page_build:
   deployment:
@@ -8,6 +12,10 @@ on:
 permissions: {}
 
 jobs:
+  # PageSpeed Insights (PSI) - COMMENTED OUT
+  # Reason: The psi-action@v1 may have rate limiting or reliability issues
+  # Alternative: Lighthouse provides similar metrics
+  # To re-enable: Uncomment this section and test for stability
   # psi:
   #   name: Page Speed Insights
   #   runs-on: ubuntu-latest
@@ -57,15 +65,20 @@ jobs:
       uses: GitHubSecurityLab/actions-permissions/monitor@v1
     - run: mkdir -p /tmp/artifacts
     - name: Run Lighthouse
-      uses: foo-software/lighthouse-check-action@master
+      uses: foo-software/lighthouse-check-action@v12.0.1
       with:
         outputDirectory: /tmp/artifacts
         urls: 'https://nclsbayona.github.io,https://nclsbayona.github.io/page'
     - name: Upload artifacts
-      uses: actions/upload-artifact@master
+      uses: actions/upload-artifact@v4
       with:
         name: Lighthouse reports
         path: /tmp/artifacts
+  
+  # Sitemap Link Checker - COMMENTED OUT
+  # Reason: The broken-link-checker@0.2.1 action may be outdated or unreliable
+  # Alternative: Using lychee-broken-link-checker below (link-checker job)
+  # To re-enable: Update to newer version and test
   #check-site-for-broken-links:
   #  if: always()
   #  name: Check sitemap for broken links
@@ -77,6 +90,7 @@ jobs:
   #    - uses: harrisonpim/broken-link-checker@0.2.1
   #      with:
   #        sitemap: https://nclsbayona.github.io/sitemap.xml
+  
   link-checker:
     if: always()
     name: Link Checker
