@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
-  author: "TheAncientSage"
-  text: "Do not care what others think of you. Be an unapologetic rebel. The masses are lost. Looking up to them for guidance is like a person with eyes looking up to the blind. Feel free to do your own thing without fearing the disapproval of others. If they don’t like it’s their problem. @"
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/John_Robert_Greene_speaking_at_Truman_Library.jpg/250px-John_Robert_Greene_speaking_at_Truman_Library.jpg"
+  author: "Robert Greene"
+  text: "Withstand the setbacks and failures, the days of drudgery, and the hard work that are always a part of any creative action."
 
 menu:
     main:
