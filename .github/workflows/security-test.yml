@@ -26,8 +26,8 @@ jobs:
     permissions:
       security-events: write
     steps:
-      - name: Configure monitor
-        uses: GitHubSecurityLab/actions-permissions/monitor@v1
+      #- name: Configure monitor
+      #  uses: GitHubSecurityLab/actions-permissions/monitor@v1
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
@@ -41,8 +41,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions: {}
     steps:
-      - name: Configure monitor
-        uses: GitHubSecurityLab/actions-permissions/monitor@v1
+    #  - name: Configure monitor
+    #    uses: GitHubSecurityLab/actions-permissions/monitor@v1
 
       - name: Checkout code
         uses: actions/checkout@v6
@@ -60,8 +60,8 @@ jobs:
     permissions:
       security-events: write  # Required to upload SARIF files to Security tab
     steps:
-      - name: Configure monitor
-        uses: GitHubSecurityLab/actions-permissions/monitor@v1
+    #  - name: Configure monitor
+    #    uses: GitHubSecurityLab/actions-permissions/monitor@v1
 
       - name: Checkout code
         uses: actions/checkout@v6
