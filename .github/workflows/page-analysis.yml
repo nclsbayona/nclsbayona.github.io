@@ -42,19 +42,15 @@ jobs:
     steps:
       #- name: Configure monitor
       #  uses: GitHubSecurityLab/actions-permissions/monitor@v1
-      - run: mkdir -p /tmp/artifacts
+      - run: mkdir -p /tmp/results
       - name: Run Sitespeed.io
-        uses: addnab/docker-run-action@v3
-        with:
-          image: sitespeedio/sitespeed.io:latest
-          options: -v /tmp/artifacts:/sitespeed.io
-          run: >
-            /start.sh -v -d 3 https://nclsbayona.github.io
+        run: |
+           docker run --rm -v /tmp/results:/results sitespeedio/sitespeed.io:latest -v -n 2 -d 3 https://nclsbayona.github.io
       - name: Upload Sitespeed.io results
         uses: actions/upload-artifact@v6
         with:
           name: sitespeed-results
-          path: /tmp/artifacts
+          path: /tmp/results
   lighthouse:
     if: always()
     name: Lighthouse

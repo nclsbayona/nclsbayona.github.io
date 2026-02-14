@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
-  author: "TheStoicEmperor"
-  text: "Life is full of suffering. Yes. Why should it be otherwise? Embrace. Endure. @"
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Jervas-JonathanSwift.jpg/250px-Jervas-JonathanSwift.jpg"
+  author: "Jonathan Swift"
+  text: "Laws are like cobwebs, which may catch small flies, but let wasps and hornets break through."
 
 menu:
     main:

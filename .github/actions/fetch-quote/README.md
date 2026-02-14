@@ -108,11 +108,6 @@ To use this action from another repository, reference it with the full path:
 - **Stoic Tekloon API**: Stoic philosophy quotes
 - **Favorite Quotes**: Curated fallback collection
 
-## Requirements
-
-- **Go**: Version 1.25 or later (automatically installed by the action)
-- **Repository checkout**: Must checkout the repository before using this action
-
 ## Error Handling
 
 The action includes robust error handling:

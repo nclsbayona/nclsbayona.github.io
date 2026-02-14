@@ -22,9 +22,9 @@ updates:
       - "dependencies"
       - "go"
 
-  # Go modules - Quote fetcher script
+  # Go modules - Quote fetcher action
   - package-ecosystem: "gomod"
-    directory: "/scripts"
+    directory: "/.github/actions/fetch-quote"
     schedule:
       interval: "weekly"
     cooldown:
@@ -32,6 +32,19 @@ updates:
     labels:
       - "dependencies"
       - "go"
+      - "fetch-quote-action"
+
+  # Docker - Quote fetcher action
+  - package-ecosystem: "docker"
+    directory: "/.devcontainer"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 7
+    labels:
+      - "dependencies"
+      - "docker"
+      - "fetch-quote-action"
 
   # Docker - devcontainer
   - package-ecosystem: "docker"

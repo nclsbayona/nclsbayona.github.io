@@ -9,29 +9,11 @@ branding:
 outputs:
   quote:
     description: 'The quote text'
-    value: ${{ steps.fetch.outputs.quote }}
   author:
     description: 'The quote author'
-    value: ${{ steps.fetch.outputs.author }}
   image:
     description: 'URL of the author image'
-    value: ${{ steps.fetch.outputs.image }}
 
 runs:
-  using: 'composite'
-  steps:
-    - name: Set up Go
-      uses: actions/setup-go@v6
-      with:
-        go-version: '^1.25.0'
-    
-    - name: Fetch quote
-      id: fetch
-      shell: bash
-      run: |
-        cd ${{ github.action_path }}/../../../scripts
-        
-        # Run the Go script which outputs directly to GITHUB_OUTPUT
-        go run get_quote.go
-        
-        echo "✅ Quote fetched successfully"
+  using: 'docker'
+  image: 'Dockerfile'

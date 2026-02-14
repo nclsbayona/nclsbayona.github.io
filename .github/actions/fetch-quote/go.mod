@@ -1,4 +1,4 @@
-module github.com/nclsbayona/nclsbayona.github.io/scripts/get_quote
+module github.com/nclsbayona/nclsbayona.github.io/.github/actions/fetch-quote
 
 go 1.25
 
