@@ -3,7 +3,7 @@ title: The value of becoming a Kubestronaut (and a Golden Kubestronaut) and why 
 description: This is a blog post regarding some lessons learned while following structured learning paths.
 slug: certs-real-value
 date: 2025-03-01 08:00:00+0000
-lastmod: 2026-01-24 23:00:00+0000
+lastmod: 2026-02-14 23:00:00+0000
 image: cover.webp
 categories:
 - non-technical
@@ -165,9 +165,13 @@ Ok, I had like some inner-thoughts when preparing for this and so decided to mov
 ##### CCA (Cilium Certified Associate)
 Well, **Cilium** is a fantastic project. I really didn't knew that much about it, but I just loved the experience of understanding it.
 
-Well, for this one I was really into practicing and verifying that everything I learnt theorically worked the same practically. I took almost the same I did for [CKA](#cka) but I gave an **emphasis** on practicing (Apart from [Isovalent's channel](https://youtube.com/@isovalent), I'm grateful for [Nico Vibert's](https://youtube.com/@nicovibert))
+Well, for this one I was really into practicing and verifying that everything I learnt theorically worked the same practically. I took almost the same I did for [CKA](#cka) but I gave an **emphasis** on practicing (Apart from [Isovalent's channel](https://youtube.com/@isovalent), I'm grateful for [Nico Vibert's](https://youtube.com/@nicovibert)).
 
 ##### PCA (Prometheus Certified Associate) 
+Yeah, some might even argue *Is Prometheus still relevant if tools like Grafana abstract the work for me?* or *If you ask me, metrics (and traces) are kind of irrelevant because if you can't express things with logs then probably it's not easy to understand and so that's a bad design right there* and yeah, probably heard/read that once or twice diring my learning journey for this. In the end that just made me want to understand more and more about this 'cause here's the truth: *This certification is not only related to Prometheus*, yeah, Prometheus is like 90% of this but in order to really understand its value you have to understand other concepts like SLA/SLI/SLO .
+
+Well, this one actually inspired me to investigate into some ideas that I plan on bringing to this blog some time in the future and practicing was a great part of that. I took almost the same I did for [CKA](#cka) but like I previously stated, I also read more blogs and watched other videos.
+
 ##### OTCA (OpenTelemetry Certified Associate)
 ##### CGOA (Certified GitOps Associate)
 ##### CAPA (Certified Argo Project Associate)
