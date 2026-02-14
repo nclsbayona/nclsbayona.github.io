@@ -42,7 +42,7 @@ Comprehensive documentation is available for all aspects of the project:
 
 - **[DEVELOPMENT.md](DEVELOPMENT.md)** - Local setup, project structure, common tasks
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contribution guidelines, commit conventions, PR process
-- **[.github/README.md](.github/README.md)** - Workflow architecture and CI/CD documentation
+- **[.github/workflows/README.md](.github/workflows/README.md)** - Workflow architecture and CI/CD documentation
 - **[config/README.md](config/README.md)** - Configuration files and Hugo settings
 - **[scripts/README.md](scripts/README.md)** - Utility scripts documentation
 
