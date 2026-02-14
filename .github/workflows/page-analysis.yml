@@ -57,8 +57,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions: {}
     steps:
-    - name: Configure monitor
-      uses: GitHubSecurityLab/actions-permissions/monitor@v1
+    # - name: Configure monitor
+    #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
     - run: mkdir -p /tmp/artifacts
     - name: Run Lighthouse
       uses: foo-software/lighthouse-check-action@v12.0.1
@@ -96,8 +96,8 @@ jobs:
         group: link_check-${{ github.ref }}
         cancel-in-progress: false
     steps:
-      - name: Configure monitor
-        uses: GitHubSecurityLab/actions-permissions/monitor@v1
+      # - name: Configure monitor
+      #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
 
       - uses: actions/checkout@v6
         with:

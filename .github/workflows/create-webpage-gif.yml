@@ -10,8 +10,8 @@ jobs:
     permissions:
       contents: write
     steps:
-    - name: Configure monitor
-      uses: GitHubSecurityLab/actions-permissions/monitor@v1
+    # - name: Configure monitor
+    #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
     - uses: actions/checkout@v6
       with:
         persist-credentials: false
