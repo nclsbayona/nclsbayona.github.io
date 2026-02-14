@@ -66,7 +66,7 @@ jobs:
         outputDirectory: /tmp/artifacts
         urls: 'https://nclsbayona.github.io,https://nclsbayona.github.io/page'
     - name: Upload artifacts
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: Lighthouse reports
         path: /tmp/artifacts
