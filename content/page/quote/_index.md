@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Jervas-JonathanSwift.jpg/250px-Jervas-JonathanSwift.jpg"
-  author: "Jonathan Swift"
-  text: "Laws are like cobwebs, which may catch small flies, but let wasps and hornets break through."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dalailama1_20121014_4639.jpg/640px-Dalailama1_20121014_4639.jpg"
+  author: "Dalai Lama"
+  text: "Happiness is not something ready made. It comes from your own actions."
 
 menu:
     main:
