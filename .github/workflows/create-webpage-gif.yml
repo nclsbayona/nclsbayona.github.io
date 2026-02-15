@@ -19,7 +19,7 @@ jobs:
     #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
     - uses: actions/checkout@v6
       with:
-        persist-credentials: false
+        persist-credentials: true
     - name: Website to file
       uses: PabloLec/website-to-gif@2.1.5
       with:
