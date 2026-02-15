@@ -3,7 +3,7 @@ title: Deployment of secure webpages
 description: This is a blog post regarding deployment of a secure webpages.
 slug: deployment-secure-webpages
 date: 2025-03-31 08:00:00+0000
-lastmod: 2025-04-03 23:00:00+0000
+lastmod: 2026-03-15 23:00:00+0000
 image: cover.webp
 links:
 - title: Github
@@ -47,8 +47,6 @@ There are two sides to the coin. You can generate the content on the client (kno
 Security is not absolute. Tools alone won’t save you if the mindset is wrong. Even with the “most secure” framework, misconfiguration can lead to vulnerabilities. Conversely, with simple tools and a security-first mindset, you can build very secure systems.
 
 You might think Rendering everything on the server is safest because no backend endpoints are exposed to users. While SSR does hide direct database or CMS access, it’s not foolproof. Misconfigured middleware or logic flaws can still lead to security issues. Ultimately, security posture matters more than the tools used.
-
-This blog isn’t about showing React tricks. Tools are just tools—but for security, SSR does hold advantages over CSR. I won’t claim there’s one perfect answer. Many sites need dynamic content—whether for authenticated users, CMS-backed content, or real-time updates.
 
 This blog isn’t about showing React tricks. Tools are just tools, but innevitably for security, SSR does hold advantages over CSR. I won’t claim there’s one perfect answer. Many sites need dynamic content—whether for authenticated users, CMS-backed content, or real-time updates.
 
