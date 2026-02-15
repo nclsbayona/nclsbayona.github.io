@@ -3,6 +3,11 @@ on:
   page_build:
   deployment: 
   workflow_dispatch:
+
+concurrency:
+  group: gif-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     name: Make GIF
@@ -20,9 +25,7 @@ jobs:
       with:
         url: "https://nclsbayona.github.io"
         scroll_step: 2
-    - name: Commit file to GH repo
-      run: |
-        git config --global user.name "PabloLec/website-to-gif"
-        git config --global user.email "action@github.com"
-        git add .
-        git commit -m 'docs: :memo: Update website gif' && git push || echo "No changes"
+    - name: Commit changes
+      uses: stefanzweifel/git-auto-commit-action@v7
+      with:
+        commit_message: "docs: :memo: Update website gif"
