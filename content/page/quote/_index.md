@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dalailama1_20121014_4639.jpg/640px-Dalailama1_20121014_4639.jpg"
-  author: "Dalai Lama"
-  text: "Happiness is not something ready made. It comes from your own actions."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/John_Milton.jpg/250px-John_Milton.jpg"
+  author: "John Milton"
+  text: "He who reigns within himself, and rules passions, desires, and fears, is more than a king."
 
 menu:
     main:
