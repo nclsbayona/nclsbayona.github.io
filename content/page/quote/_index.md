@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/John_Milton.jpg/250px-John_Milton.jpg"
-  author: "John Milton"
-  text: "He who reigns within himself, and rules passions, desires, and fears, is more than a king."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/640px-Albert_Einstein_Head.jpg"
+  author: "Albert Einstein"
+  text: "In the middle of every difficulty lies opportunity."
 
 menu:
     main:
