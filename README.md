@@ -3,6 +3,7 @@
 [![Deploy to Github Pages](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/deploy.yml)
 [![Semantic Release](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/semantic-release.yml/badge.svg)](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/semantic-release.yml)
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fnclsbayona.github.io&label=Visitors&labelColor=%23000000&countColor=%23ff8a65&style=flat-square&labelStyle=upper)](https://nclsbayona.github.io)
+![GitHub Release Date](https://img.shields.io/github/release-date/nclsbayona/nclsbayona.github.io)
 
 A personal blog focused on cloud-native technologies, software development, DevOps, security, and modern software architecture. Content is posted when there's relevant information to share about development best practices, tools, and methodologies.
 
