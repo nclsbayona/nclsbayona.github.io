@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/640px-Albert_Einstein_Head.jpg"
-  author: "Albert Einstein"
-  text: "In the middle of every difficulty lies opportunity."
+  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
+  author: "TheStoicEmperor"
+  text: "An hour of deeply contemplating your own moral failures will leave you feeling much more forgiving of the foibles of others. @"
 
 menu:
     main:
