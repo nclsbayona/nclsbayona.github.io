@@ -1,0 +1,62 @@
+name: Test sitemap with k6 and export dashboard
+
+on:
+  workflow_dispatch:
+    inputs:
+      BASE_URL:
+        description: "Base URL (e.g. https://yourdomain.com)"
+        required: true
+      SITEMAP_URL:
+        description: "Sitemap URL (defaults to BASE_URL/sitemap.xml)"
+        required: false
+        default: ""
+      VUS:
+        description: "Number of virtual users (VUs) to simulate"
+        required: false
+        default: "5"
+      DURATION:
+        description: "Duration of the test (e.g. 30s, 1m, 5m)"
+        required: false
+        default: "1m"
+      URL_LIMIT:
+        description: "Maximum number of URLs to test from the sitemap"
+        required: false
+        default: "500"
+      REDIRECT_LIMIT:
+        description: "Maximum number of redirects to follow per URL"
+        required: false
+        default: "5"
+      TEST_MODE:
+        description: "The test mode to run (vus (constant VUs for DURATION (classic concurrency test) , rate (constant arrival rate for DURATION))"
+        required: false
+        default: "vus"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/${{ github.actor }}/k6-playwright:latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run sitemap action
+        uses: ./.github/actions/k6-sitemap
+        with:
+          base_url: ${{ inputs.BASE_URL }}
+          sitemap_url: ${{ inputs.SITEMAP_URL }}
+          vus: ${{ inputs.VUS }}
+          duration: ${{ inputs.DURATION }}
+          redirect_limit: ${{ inputs.REDIRECT_LIMIT }}
+          test_mode: ${{ inputs.TEST_MODE }}
+          url_limit: ${{ inputs.URL_LIMIT }}
+
+      - name: Get dashboard variables
+        id: dashboard
+        run: |
+          echo "The HTML is available at ${{ steps.test.outputs.dashboard_html }}"
+          echo "The PNG is available at ${{ steps.test.outputs.dashboard_png }}"
+          echo "![k6 dashboard](${{ steps.test.outputs.dashboard_png }})" >> $GITHUB_STEP_SUMMARY
