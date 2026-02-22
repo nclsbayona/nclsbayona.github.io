@@ -1,11 +1,11 @@
-name: Update visualization GIF
+name: Update visualizations
 on:
   page_build:
   deployment: 
   workflow_dispatch:
 
 concurrency:
-  group: gif-${{ github.ref }}
+  group: visual-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -34,7 +34,7 @@ jobs:
     permissions:
       contents: write
     needs: build
-    name: Generate load PNG
+    name: Generate Test Results
     uses: nclsbayona/nclsbayona.github.io/.github/workflows/test-sitemap.yml@main
     with:
       VUS: "100"
