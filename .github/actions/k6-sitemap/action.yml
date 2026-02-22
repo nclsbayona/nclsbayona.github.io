@@ -87,5 +87,5 @@ runs:
       id: upload_png
       uses: actions/upload-artifact@v6
       with:
-        name: k6-sitemap-dashboard-${{ github.run_id }}
+        name: k6-sitemap-png-dashboard-${{ github.run_id }}
         path: ${{ steps.playwright.outputs.dashboard_png }}

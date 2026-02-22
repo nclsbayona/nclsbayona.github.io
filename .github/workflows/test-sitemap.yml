@@ -1,4 +1,4 @@
-name: Test sitemap with k6 and export dashboard
+name: Load test sitemap
 
 on:
   workflow_call:
@@ -108,9 +108,13 @@ jobs:
           echo "The PNG is available at ${{ steps.test.outputs.dashboard_png }}"
 
       - name: Download dashboard PNG
+        id: download_png
         uses: actions/download-artifact@v7
         with:
           name: ${{ steps.test.outputs.png_artifact_name }}
+
+      - name: Show PNG files
+        run: ls -la ${{ steps.download_png.outputs.download-path }}
 
       - name: Commit dashboard PNG
         uses: stefanzweifel/git-auto-commit-action@v7
