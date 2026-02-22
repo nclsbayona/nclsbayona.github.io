@@ -41,7 +41,7 @@ jobs:
       image: ghcr.io/${{ github.actor }}/k6-playwright:latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           persist-credentials: false
 
