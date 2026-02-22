@@ -37,10 +37,10 @@ jobs:
     name: Generate Test Results
     uses: nclsbayona/nclsbayona.github.io/.github/workflows/test-sitemap.yml@main
     with:
-      VUS: "100"
-      DURATION: "30s"
-      BASE_URL: "https://nclsbayona.github.io"
-      SITEMAP_URL: "https://nclsbayona.github.io/sitemap.xml"
-      URL_LIMIT: "500"
-      REDIRECT_LIMIT: "5"
-      TEST_MODE: "rate"
+      users: "100"
+      duration: "30s"
+      base_url: "https://nclsbayona.github.io"
+      sitemap_url: "https://nclsbayona.github.io/sitemap.xml"
+      url_limit: "500"
+      redirect_limit: "5"
+      test_mode: "rate"
