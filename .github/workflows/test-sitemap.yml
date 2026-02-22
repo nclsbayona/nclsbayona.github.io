@@ -112,6 +112,12 @@ jobs:
           echo "The HTML is available at ${{ steps.test.outputs.dashboard_html }}"
           echo "The PNG is available at ${{ steps.test.outputs.dashboard_png }}"
 
+      - name: Check Inputs
+        run: |
+          echo "event_name=${{ github.event_name }}"
+          echo "inputs=${{ toJson(inputs) }}"
+          echo "github.event.inputs=${{ toJson(github.event.inputs) }}"
+
       - name: Download dashboard artifacts
         id: download_png
         uses: actions/download-artifact@v7
