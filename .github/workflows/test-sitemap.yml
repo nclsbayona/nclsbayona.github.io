@@ -1,6 +1,44 @@
 name: Test sitemap with k6 and export dashboard
 
 on:
+  workflow_call:
+    inputs:
+      BASE_URL:
+        type: string
+        description: "Base URL (e.g. https://yourdomain.com)"
+        required: true
+      SITEMAP_URL:
+        type: string
+        description: "Sitemap URL (defaults to BASE_URL/sitemap.xml)"
+        required: false
+        default: ""
+      VUS:
+        type: string
+        description: "Number of virtual users (VUs) to simulate"
+        required: false
+        default: "5"
+      DURATION:
+        type: string
+        description: "Duration of the test (e.g. 30s, 1m, 5m)"
+        required: false
+        default: "1m"
+      URL_LIMIT:
+        type: string
+        description: "Maximum number of URLs to test from the sitemap"
+        required: false
+        default: "500"
+      REDIRECT_LIMIT:
+        type: string
+        description: "Maximum number of redirects to follow per URL"
+        required: false
+        default: "5"
+      TEST_MODE:
+        type: string
+        description: "The test mode to run (vus (constant VUs for DURATION (classic concurrency test) , rate (constant arrival rate for DURATION))"
+        required: false
+        default: "vus"
+    
+
   workflow_dispatch:
     inputs:
       BASE_URL:
@@ -35,7 +73,7 @@ on:
     - cron: "0 3 * * 0" # Weekly on Sundays at 03:00 UTC
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   test:
@@ -44,9 +82,12 @@ jobs:
       image: ghcr.io/${{ github.actor }}/k6-playwright:latest
 
     steps:
+      # - name: Configure monitor
+      #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
+
       - uses: actions/checkout@v6
         with:
-          persist-credentials: false
+          persist-credentials: true
 
       - name: Run sitemap action
         id: test
@@ -65,3 +106,13 @@ jobs:
         run: |
           echo "The HTML is available at ${{ steps.test.outputs.dashboard_html }}"
           echo "The PNG is available at ${{ steps.test.outputs.dashboard_png }}"
+
+      - name: Download dashboard PNG
+        uses: actions/download-artifact@v3
+        with:
+          name: ${{ steps.test.outputs.png_artifact_name }}
+
+      - name: Commit dashboard PNG
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "docs: :memo: Update load test dashboard"

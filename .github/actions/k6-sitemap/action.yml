@@ -37,6 +37,12 @@ outputs:
   dashboard_png:
     description: "PNG screenshot of the HTML dashboard"
     value: "${{ steps.playwright.outputs.dashboard_png }}"
+  png_artifact_name:
+    description: "The name of the uploaded artifact containing the dashboard png"
+    value: "${{ steps.upload_png.outputs.artifact_name }}"
+  html_artifact_name:
+    description: "The name of the uploaded artifact containing the dashboard HTML"
+    value: "${{ steps.upload_html.outputs.artifact_name }}"
 
 
 runs:
@@ -70,8 +76,16 @@ runs:
         node /opt/load-dashboard.mjs
         echo "dashboard_png=artifacts/images/dashboard.png" >> $GITHUB_OUTPUT
 
-    - name: Upload artifacts
+    - name: Upload artifacts (Dashboard HTML)
+      id: upload_html
       uses: actions/upload-artifact@v6
       with:
-        name: k6-sitemap-results
-        path: artifacts
+        name: k6-sitemap-html-dashboard-${{ github.run_id }}
+        path: ${{ steps.k6.outputs.dashboard_html }}
+
+    - name: Upload artifacts (Dashboard PNG)
+      id: upload_png
+      uses: actions/upload-artifact@v6
+      with:
+        name: k6-sitemap-dashboard-${{ github.run_id }}
+        path: ${{ steps.playwright.outputs.dashboard_png }}

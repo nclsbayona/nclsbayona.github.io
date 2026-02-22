@@ -29,3 +29,18 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v7
       with:
         commit_message: "docs: :memo: Update website gif"
+
+  generate_png:
+    permissions:
+      contents: write
+    needs: build
+    name: Generate load PNG
+    uses: nclsbayona/nclsbayona.github.io/.github/workflows/test-sitemap.yml@main
+    with:
+      VUS: "100"
+      DURATION: "30s"
+      BASE_URL: "https://nclsbayona.github.io"
+      SITEMAP_URL: "https://nclsbayona.github.io/sitemap.xml"
+      URL_LIMIT: "500"
+      REDIRECT_LIMIT: "5"
+      TEST_MODE: "rate"
