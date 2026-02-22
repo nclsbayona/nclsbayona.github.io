@@ -72,6 +72,11 @@ on:
   schedule:
     - cron: "0 3 * * 0" # Weekly on Sundays at 03:00 UTC
 
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/test-sitemap.yml'
+
 permissions:
   contents: write
 
@@ -111,10 +116,15 @@ jobs:
         id: download_png
         uses: actions/download-artifact@v7
         with:
-          name: ${{ steps.test.outputs.png_artifact_name }}
+          name: ${{ steps.test.outputs.artifact_name }}
 
-      - name: Show PNG files
-        run: ls -la ${{ steps.download_png.outputs.download-path }}
+      - name: Show REPORT files
+        run: |
+          ls -la
+
+      - name: Add safe directory
+        run: |
+          git config --global --add safe.directory /__w/nclsbayona.github.io/nclsbayona.github.io
 
       - name: Commit dashboard PNG
         uses: stefanzweifel/git-auto-commit-action@v7
