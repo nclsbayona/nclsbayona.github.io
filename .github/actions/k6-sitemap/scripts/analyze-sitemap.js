@@ -1,9 +1,8 @@
 import http from "k6/http";
 import { check, sleep } from "k6";
-import { XMLParser } from "https://jslib.k6.io/xml/2.0.0/index.js";
 import { Counter, Rate, Trend } from "k6/metrics";
 
-// --- Custom metrics (these show up in output + summary.json) ---
+// Metrics
 const pages_discovered = new Counter("pages_discovered");
 const pages_tested = new Counter("pages_tested");
 
@@ -12,33 +11,24 @@ const status_3xx = new Counter("status_3xx");
 const status_4xx = new Counter("status_4xx");
 const status_5xx = new Counter("status_5xx");
 const status_other = new Counter("status_other");
-
-// Exact status counter (tagged)
 const status_count = new Counter("status_count");
 
-// Pass/fail rates
 const check_pass_rate = new Rate("check_pass_rate");
 const http_error_rate = new Rate("http_error_rate");
-
-// Per-page duration trend (not replacing built-ins; just a handy view)
 const page_duration = new Trend("page_duration", true);
 
-// --- Config ---
+// Config
 const BASE = __ENV.BASE_URL || "https://example.com";
 const SITEMAP = __ENV.SITEMAP_URL || `${BASE}/sitemap.xml`;
 const URL_LIMIT = Number(__ENV.URL_LIMIT || 500);
+const REDIRECT_LIMIT = Number(__ENV.REDIRECT_LIMIT || 5);
 
-// Load model:
-// - MODE=vus: constant VUs for DURATION (classic concurrency test)
-// - MODE=rate: constant arrival rate (stable RPS-ish test)
-const MODE = (__ENV.TEST_MODE || "vus").toLowerCase();
-
-// VU mode
+// Load model
+const MODE = (__ENV.MODE || "vus").toLowerCase();
 const VUS = Number(__ENV.VUS || 5);
 const DURATION = __ENV.DURATION || "1m";
 
-// Rate mode
-const RATE = Number(__ENV.RATE || 10); // iterations/sec across all VUs
+const RATE = Number(__ENV.RATE || 10);
 const TIME_UNIT = __ENV.TIME_UNIT || "1s";
 const PREALLOCATED_VUS = Number(__ENV.PREALLOCATED_VUS || 20);
 const MAX_VUS = Number(__ENV.MAX_VUS || 50);
@@ -63,49 +53,59 @@ export const options = {
             duration: DURATION,
           },
         },
-
   thresholds: {
-    http_req_failed: ["rate<0.01"],          // built-in error rate
-    http_req_duration: ["p(95)<1500"],       // built-in latency
-    http_error_rate: ["rate<0.01"],          // our error rate
-    check_pass_rate: ["rate>0.99"],          // our pass rate
+    http_req_failed: ["rate<0.01"],
+    http_req_duration: ["p(95)<1500"],
+    http_error_rate: ["rate<0.01"],
+    check_pass_rate: ["rate>0.99"],
   },
-
-  // Cleaner console output grouping (optional)
   summaryTrendStats: ["avg", "min", "med", "max", "p(90)", "p(95)", "p(99)"],
 };
 
-function parseSitemap(xmlText) {
-  const parser = new XMLParser();
-  const doc = parser.parse(xmlText);
-
-  const urls = (doc.urlset?.url || []).map((u) => u.loc).filter(Boolean);
-  const nested = (doc.sitemapindex?.sitemap || []).map((s) => s.loc).filter(Boolean);
-
-  return { urls, nested };
+// Minimal sitemap parsing: extract <loc>...</loc>
+function extractLocs(xml) {
+  const locs = [];
+  const re = /<loc>\s*<!\[CDATA\[([\s\S]*?)\]\]>\s*<\/loc>|<loc>\s*([\s\S]*?)\s*<\/loc>/gi;
+  let m;
+  while ((m = re.exec(xml)) !== null) {
+    const url = (m[1] || m[2] || "").trim();
+    if (url) locs.push(url);
+  }
+  return locs;
 }
 
-function fetchAllUrls(sitemapUrl) {
-  const res = http.get(sitemapUrl, { tags: { name: "sitemap" } });
-  check(res, { "sitemap fetched (200)": (r) => r.status === 200 });
+// Detect sitemapindex vs urlset by looking for those tags
+function isSitemapIndex(xml) {
+  return /<sitemapindex[\s>]/i.test(xml);
+}
 
-  const { urls, nested } = parseSitemap(res.body);
+function fetchText(url, tagName) {
+  const res = http.get(url, { tags: { name: tagName } });
+  check(res, { [`${tagName} fetched (200)`]: (r) => r.status === 200 });
+  return res.body;
+}
 
-  if (nested.length) {
+function fetchAllUrlsFromSitemap(sitemapUrl) {
+  const xml = fetchText(sitemapUrl, "sitemap");
+
+  const locs = extractLocs(xml);
+
+  if (isSitemapIndex(xml)) {
+    // locs are child sitemap URLs
     let all = [];
-    for (const child of nested) {
-      const childRes = http.get(child, { tags: { name: "sitemap_child" } });
-      check(childRes, { "child sitemap fetched (200)": (r) => r.status === 200 });
-      all = all.concat(parseSitemap(childRes.body).urls);
+    for (const child of locs) {
+      const childXml = fetchText(child, "sitemap_child");
+      all = all.concat(extractLocs(childXml));
     }
     return all;
   }
 
-  return urls;
+  // urlset: locs are page URLs
+  return locs;
 }
 
 export function setup() {
-  const urls = fetchAllUrls(SITEMAP);
+  const urls = fetchAllUrlsFromSitemap(SITEMAP);
 
   pages_discovered.add(urls.length);
 
@@ -120,15 +120,14 @@ export default function (data) {
   const url = urls[Math.floor(Math.random() * urls.length)];
 
   const res = http.get(url, {
-    redirects: Number(__ENV.REDIRECT_LIMIT || 3),
-    tags: { name: "page", page: url }, // page tag is useful but can create high-cardinality metrics if huge
+    redirects: REDIRECT_LIMIT,
+    tags: { name: "page" },
     headers: { "User-Agent": "k6-sitemap-loadtest" },
   });
 
   pages_tested.add(1);
   page_duration.add(res.timings.duration);
 
-  // Status breakdown
   const s = res.status;
   status_count.add(1, { status: String(s) });
 
@@ -138,7 +137,6 @@ export default function (data) {
   else if (s >= 500 && s < 600) status_5xx.add(1);
   else status_other.add(1);
 
-  // “error rate” as “unexpected responses”
   const ok = check(res, {
     "status ok (200/204/301/302)": (r) => [200, 204, 301, 302].includes(r.status),
   });
@@ -146,14 +144,12 @@ export default function (data) {
   check_pass_rate.add(ok);
   http_error_rate.add(!ok);
 
-  // Think-time so you don’t accidentally run a pure-benchmark of your CDN edge
   sleep(Math.random() * 1.5);
 }
 
-// Write a machine-readable summary you can store as an artifact
 export function handleSummary(data) {
   return {
     "artifacts/summary.json": JSON.stringify(data, null, 2),
-    stdout: "", // keep console output cleaner; remove this line if you want default text summary
+    stdout: "",
   };
 }
