@@ -146,9 +146,3 @@ export default function (data) {
 
   sleep(Math.random() * 1.5);
 }
-
-export function handleSummary(data) {
-  return {
-    "artifacts/summary.json": JSON.stringify(data, null, 2),
-  };
-}
