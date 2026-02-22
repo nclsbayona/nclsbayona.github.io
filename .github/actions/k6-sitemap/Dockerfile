@@ -11,4 +11,12 @@ RUN apt-get update && apt-get install -y ca-certificates curl gnupg \
 
 COPY scripts/ /opt/
 
+# --- Playwright install ---
+WORKDIR /opt
+RUN npm init -y \
+  && npm i playwright \
+  && rm -rf /root/.npm
+
+ENV NODE_PATH=/opt/node_modules
+
 WORKDIR /work
