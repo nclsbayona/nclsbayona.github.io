@@ -5,7 +5,7 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - ".github/actions/k6-sitemap/Dockerfile"
+      - ".github/actions/k6-sitemap/**"
 
 permissions:
   contents: read
