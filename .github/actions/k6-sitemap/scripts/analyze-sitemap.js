@@ -150,6 +150,5 @@ export default function (data) {
 export function handleSummary(data) {
   return {
     "artifacts/summary.json": JSON.stringify(data, null, 2),
-    stdout: "",
   };
 }
