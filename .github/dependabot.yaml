@@ -36,7 +36,7 @@ updates:
 
   # Docker - Quote fetcher action
   - package-ecosystem: "docker"
-    directory: "/.devcontainer"
+    directory: "/.github/actions/fetch-quote"
     schedule:
       interval: "weekly"
     cooldown:
@@ -45,6 +45,18 @@ updates:
       - "dependencies"
       - "docker"
       - "fetch-quote-action"
+
+  # Docker - K6 sitemap action
+  - package-ecosystem: "docker"
+    directory: "/.github/actions/k6-sitemap"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 7
+    labels:
+      - "dependencies"
+      - "docker"
+      - "k6-sitemap-action"
 
   # Docker - devcontainer
   - package-ecosystem: "docker"

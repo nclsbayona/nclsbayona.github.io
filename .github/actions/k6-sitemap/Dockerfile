@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y ca-certificates curl gnupg \
   && echo "deb [signed-by=/etc/apt/keyrings/k6.gpg] https://dl.k6.io/deb stable main" \
      > /etc/apt/sources.list.d/k6.list \
   && apt-get update && apt-get install -y k6 \
-  && rm -rf /var/lib/apt/lists/*
+  && rm -rf /var/lib/apt/lists/* && RUN npm install -g playwright
 
 COPY scripts/ /opt/
 
