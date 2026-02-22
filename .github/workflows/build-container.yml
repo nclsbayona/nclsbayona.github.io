@@ -1,4 +1,4 @@
-name: Build k6+playwright image
+name: Build image (K6 + Playwright)
 
 on:
   workflow_dispatch:
@@ -6,6 +6,7 @@ on:
     branches: [ "main" ]
     paths:
       - ".github/actions/k6-sitemap/**"
+      - ".github/workflows/build-container.yml"
 
 permissions:
   contents: read
