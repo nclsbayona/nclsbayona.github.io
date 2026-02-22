@@ -6,4 +6,4 @@ Here, webpage's perfomance is commonly load tested.
 
 This files can also be consulted
 - [JSON summary](./summary.json)
-- [Dashboard HTML](./k6-dashboard.html)
+- [Dashboard HTML](./k6-report.html)
