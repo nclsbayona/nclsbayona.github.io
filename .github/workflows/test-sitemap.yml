@@ -108,7 +108,7 @@ jobs:
           echo "The PNG is available at ${{ steps.test.outputs.dashboard_png }}"
 
       - name: Download dashboard PNG
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v7
         with:
           name: ${{ steps.test.outputs.png_artifact_name }}
 
