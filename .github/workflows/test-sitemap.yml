@@ -112,15 +112,11 @@ jobs:
           echo "The HTML is available at ${{ steps.test.outputs.dashboard_html }}"
           echo "The PNG is available at ${{ steps.test.outputs.dashboard_png }}"
 
-      - name: Download dashboard PNG
+      - name: Download dashboard artifacts
         id: download_png
         uses: actions/download-artifact@v7
         with:
           name: ${{ steps.test.outputs.artifact_name }}
-
-      - name: Show REPORT files
-        run: |
-          ls -la
 
       - name: Add safe directory
         run: |
