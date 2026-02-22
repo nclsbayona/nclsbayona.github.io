@@ -5,30 +5,37 @@ inputs:
   base_url:
     required: true
     description: "Base URL (e.g. https://yourdomain.com)"
+    type: string
   sitemap_url:
     required: false
     default: ""
     description: "Sitemap URL (defaults to BASE_URL/sitemap.xml)"
+    type: string
   vus:
     required: false
     default: "5"
     description: "Number of virtual users (VUs) to simulate"
+    type: string
   duration:
     required: false
     default: "1m"
     description: "Duration of the test (e.g. 30s, 1m, 5m)"
+    type: string
   url_limit:
     required: false
     default: "500"
     description: "Maximum number of URLs to test from the sitemap"
+    type: string
   redirect_limit:
     required: false
     default: "5"
     description: "Maximum number of redirects to follow per URL"
+    type: string
   test_mode:
     required: false
     default: "vus"
     description: "The test mode to run (vus (constant VUs for DURATION (classic concurrency test) , rate (constant arrival rate for DURATION))"
+    type: string
 
 outputs:
   dashboard_html:
