@@ -58,6 +58,18 @@ updates:
       - "docker"
       - "k6-sitemap-action"
 
+  # GitHub Actions - K6 sitemap action
+  - package-ecosystem: "github-actions"
+    directory: "/.github/actions/k6-sitemap"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 7
+    labels:
+      - "dependencies"
+      - "github-actions"
+      - "k6-sitemap-action"
+
   # Docker - devcontainer
   - package-ecosystem: "docker"
     directory: "/.devcontainer"
