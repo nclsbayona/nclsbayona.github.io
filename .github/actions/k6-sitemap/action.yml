@@ -56,8 +56,7 @@ runs:
         K6_WEB_DASHBOARD_EXPORT: "artifacts/k6-report.html"
       run: |
         mkdir -p "artifacts"
-        ls -laR ${{ github.action_path }}
-        k6 run ${{ github.action_path }}/scripts/analyze-sitemap.js
+        k6 run /opt/analyze-sitemap.js
 
     - name: Screenshot dashboard to PNG
       shell: bash
@@ -65,7 +64,7 @@ runs:
         REPORT_HTML: "artifacts/k6-report.html"
         OUT_DIR: "artifacts/images"
       run: |
-        node ${{ github.action_path }}/scripts/load-dashboard.mjs
+        node /opt/load-dashboard.mjs
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v6

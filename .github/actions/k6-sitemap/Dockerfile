@@ -9,4 +9,6 @@ RUN apt-get update && apt-get install -y ca-certificates curl gnupg \
   && apt-get update && apt-get install -y k6 \
   && rm -rf /var/lib/apt/lists/*
 
+COPY scripts/ /opt/
+
 WORKDIR /work
