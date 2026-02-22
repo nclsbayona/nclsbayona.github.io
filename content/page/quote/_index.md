@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Stevejobs.jpg/640px-Stevejobs.jpg"
-  author: "Steve Jobs"
-  text: "The only way to do great work is to love what you do."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Zhuangzi_%28Chinese_characters%29.svg/120px-Zhuangzi_%28Chinese_characters%29.svg.png"
+  author: "Zhuangzi"
+  text: "To a mind that is still, the entire universe surrenders."
 
 menu:
     main:
