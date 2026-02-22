@@ -30,6 +30,9 @@ on:
         description: "The test mode to run (vus (constant VUs for DURATION (classic concurrency test) , rate (constant arrival rate for DURATION))"
         required: false
         default: "vus"
+    
+  schedule:
+    - cron: "0 3 * * 0" # Weekly on Sundays at 03:00 UTC
 
 permissions:
   contents: read
@@ -49,13 +52,13 @@ jobs:
         id: test
         uses: ./.github/actions/k6-sitemap
         with:
-          base_url: ${{ inputs.BASE_URL }}
-          sitemap_url: ${{ inputs.SITEMAP_URL }}
-          vus: ${{ inputs.VUS }}
-          duration: ${{ inputs.DURATION }}
-          redirect_limit: ${{ inputs.REDIRECT_LIMIT }}
-          test_mode: ${{ inputs.TEST_MODE }}
-          url_limit: ${{ inputs.URL_LIMIT }}
+          base_url: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.BASE_URL) || (github.event_name == 'schedule' && 'https://nclsbayona.github.io') }}
+          sitemap_url: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.SITEMAP_URL) || (github.event_name == 'schedule' && 'https://nclsbayona.github.io/sitemap.xml') }}
+          vus: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.VUS) || (github.event_name == 'schedule' && '50') }}
+          duration: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.DURATION) || (github.event_name == 'schedule' && '5m') }}
+          redirect_limit: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.REDIRECT_LIMIT) || (github.event_name == 'schedule' && '5') }}
+          test_mode: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.TEST_MODE) || (github.event_name == 'schedule' && 'rate') }}
+          url_limit: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.URL_LIMIT) || (github.event_name == 'schedule' && '500') }}
 
       - name: Get dashboard variables
         id: dashboard
