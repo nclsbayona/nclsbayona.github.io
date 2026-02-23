@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/The_Death_of_Seneca_%28La_mort_de_S%C3%A9n%C3%A8que%29_-_Pierre_Peyron.jpg/250px-The_Death_of_Seneca_%28La_mort_de_S%C3%A9n%C3%A8que%29_-_Pierre_Peyron.jpg"
-  author: "Seneca"
-  text: "."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Herbert_Hoover_1929-1933.jpg/250px-Herbert_Hoover_1929-1933.jpg"
+  author: "Herbert Hoover"
+  text: "Children are our greatest natural resource."
 
 menu:
     main:
