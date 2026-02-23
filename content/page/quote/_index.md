@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
-  author: "TheStoicEmperor"
-  text: ". Why don’t you? Too busy tracking social status. Too enthralled by imagery your evolution can’t resist. @"
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Herbert_Hoover_1929-1933.jpg/250px-Herbert_Hoover_1929-1933.jpg"
+  author: "Herbert Hoover"
+  text: "Children are our greatest natural resource."
 
 menu:
     main:
