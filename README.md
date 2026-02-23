@@ -8,7 +8,7 @@
 
 A personal blog focused on cloud-native technologies, software development, DevOps, security, and modern software architecture. Content is posted when there's relevant information to share about development best practices, tools, and methodologies.
 
-![Webpage Demo](demo.gif)
+[Auxiliary README](./artifacts/README.md)
 
 ## 🚀 Quick Start
 
