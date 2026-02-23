@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/JJ_Ellis_-_author.jpg/250px-JJ_Ellis_-_author.jpg"
-  author: "Author of"
-  text: "Take a deep breath. Get present in the moment and ask yourself what is important this very second. Greg McKeown ("
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Herbert_Hoover_1929-1933.jpg/250px-Herbert_Hoover_1929-1933.jpg"
+  author: "Herbert Hoover"
+  text: "Children are our greatest natural resource."
 
 menu:
     main:
