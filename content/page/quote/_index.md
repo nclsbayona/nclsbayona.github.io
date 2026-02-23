@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Zhuangzi_%28Chinese_characters%29.svg/120px-Zhuangzi_%28Chinese_characters%29.svg.png"
-  author: "Zhuangzi"
-  text: "To a mind that is still, the entire universe surrenders."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/JJ_Ellis_-_author.jpg/250px-JJ_Ellis_-_author.jpg"
+  author: "Author of"
+  text: "Take a deep breath. Get present in the moment and ask yourself what is important this very second. Greg McKeown ("
 
 menu:
     main:
