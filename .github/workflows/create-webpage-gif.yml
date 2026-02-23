@@ -1,6 +1,5 @@
 name: Update visualizations
 on:
-  page_build:
   deployment: 
   workflow_dispatch:
 
