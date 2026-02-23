@@ -1,6 +1,10 @@
-# Webpage testing
+# Auxiliary README
 
-Here, webpage's perfomance is commonly load tested.
+## Webpage GIF
+
+![Webpage GIF](./images/demo.gif)
+
+## Load test dashboard
 
 ![K6 Dashboard](./images/k6-dashboard.png)
 
