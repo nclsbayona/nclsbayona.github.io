@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
-  author: "TheAncientSage"
-  text: "Self-control is all about moment to moment self awareness. You catch yourself doing – or about to do – something undesirable, see that it isn’t good for you in the long term, and as a result of this awareness abstain from doing it. @"
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/The_Death_of_Seneca_%28La_mort_de_S%C3%A9n%C3%A8que%29_-_Pierre_Peyron.jpg/250px-The_Death_of_Seneca_%28La_mort_de_S%C3%A9n%C3%A8que%29_-_Pierre_Peyron.jpg"
+  author: "Seneca"
+  text: "."
 
 menu:
     main:
