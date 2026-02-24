@@ -5,79 +5,139 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+      day: "monday"
     cooldown:
       default-days: 7
     labels:
       - "dependencies"
       - "github-actions"
+    assignees:
+      - "nclsbayona"
+    commit-message:
+      prefix: "ci"
+      include: "scope"
 
   # Go modules - Hugo theme dependencies (root)
   - package-ecosystem: "gomod"
     directory: "/"
     schedule:
       interval: "weekly"
+      day: "tuesday"
     cooldown:
       default-days: 7
     labels:
       - "dependencies"
       - "go"
+    assignees:
+      - "nclsbayona"
+    commit-message:
+      prefix: "build"
+      include: "scope"
 
   # Go modules - Quote fetcher action
   - package-ecosystem: "gomod"
     directory: "/.github/actions/fetch-quote"
     schedule:
       interval: "weekly"
+      day: "tuesday"
     cooldown:
       default-days: 7
     labels:
       - "dependencies"
       - "go"
       - "fetch-quote-action"
+    assignees:
+      - "nclsbayona"
+    commit-message:
+      prefix: "build"
+      include: "scope"
 
   # Docker - Quote fetcher action
   - package-ecosystem: "docker"
     directory: "/.github/actions/fetch-quote"
     schedule:
       interval: "weekly"
+      day: "wednesday"
     cooldown:
       default-days: 7
     labels:
       - "dependencies"
       - "docker"
       - "fetch-quote-action"
+    assignees:
+      - "nclsbayona"
+    commit-message:
+      prefix: "build"
+      include: "scope"
 
   # Docker - K6 sitemap action
   - package-ecosystem: "docker"
     directory: "/.github/actions/k6-sitemap"
     schedule:
       interval: "weekly"
+      day: "wednesday"
     cooldown:
       default-days: 7
     labels:
       - "dependencies"
       - "docker"
       - "k6-sitemap-action"
+    assignees:
+      - "nclsbayona"
+    commit-message:
+      prefix: "build"
+      include: "scope"
 
   # GitHub Actions - K6 sitemap action
   - package-ecosystem: "github-actions"
     directory: "/.github/actions/k6-sitemap"
     schedule:
       interval: "weekly"
+      day: "monday"
     cooldown:
       default-days: 7
     labels:
       - "dependencies"
       - "github-actions"
       - "k6-sitemap-action"
+    assignees:
+      - "nclsbayona"
+    commit-message:
+      prefix: "github_actions"
+      include: "scope"
 
   # Docker - devcontainer
   - package-ecosystem: "docker"
     directory: "/.devcontainer"
     schedule:
       interval: "weekly"
+      day: "wednesday"
     cooldown:
       default-days: 7
     labels:
       - "dependencies"
       - "docker"
       - "devcontainer"
+    assignees:
+      - "nclsbayona"
+    commit-message:
+      prefix: "build"
+      include: "scope"
+
+  # Devcontainer - devcontainer
+  - package-ecosystem: "devcontainers"
+    directory: "/.devcontainer"
+    schedule:
+      interval: "weekly"
+      day: "thursday"
+    cooldown:
+      default-days: 7
+    labels:
+      - "dependencies"
+      - "docker"
+      - "devcontainer"
+    assignees:
+      - "nclsbayona"
+    commit-message:
+      prefix: "build"
+      include: "scope"
