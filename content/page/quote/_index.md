@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
-  author: "Greg McKeown"
-  text: "You cannot overestimate the unimportance of practically everything."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Benjamin_Franklin_%28by_Thomas_B._Welch%29.jpg/250px-Benjamin_Franklin_%28by_Thomas_B._Welch%29.jpg"
+  author: "Benjamin Franklin"
+  text: "By failing to prepare, you are preparing to fail."
 
 menu:
     main:
