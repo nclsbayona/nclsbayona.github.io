@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Benjamin_Franklin_%28by_Thomas_B._Welch%29.jpg/250px-Benjamin_Franklin_%28by_Thomas_B._Welch%29.jpg"
-  author: "Benjamin Franklin"
-  text: "By failing to prepare, you are preparing to fail."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Normal_Heraclitus_LO-IV-112H_LTVT.jpg/250px-Normal_Heraclitus_LO-IV-112H_LTVT.jpg"
+  author: "Heraclitus"
+  text: "Man’s character is his fate."
 
 menu:
     main:
