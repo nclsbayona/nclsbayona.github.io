@@ -156,8 +156,18 @@ func fetchNewQuote() (quote, error) {
 }
 
 func fetchNewZenquotesQuote() (quote, error) {
+ var url string
 	// Fetch quote from ZenQuotes API
-	resp, err := http.Get("https://zenquotes.io/api/today")
+	random := randomGenerator.Intn(100) + 1
+
+	if random < 50 {
+		fmt.Println("[fetchNewZenquotesQuote] Fetch Zenquotes quote from daily section.")
+		url = "https://zenquotes.io/api/today"
+	} else {
+	 fmt.Println("[fetchNewZenquotesQuote] Fetch Zenquotes quote from random section.")
+		url = "https://zenquotes.io/api/random"
+ }
+ resp, err := http.Get(url)
 	if err != nil {
 		fmt.Println("[fetchNewZenquotesQuote] Error fetching quote:", err)
 		return getFavoriteQuote(), err
