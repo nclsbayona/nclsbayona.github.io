@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Normal_Heraclitus_LO-IV-112H_LTVT.jpg/250px-Normal_Heraclitus_LO-IV-112H_LTVT.jpg"
-  author: "Heraclitus"
-  text: "Man’s character is his fate."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Eckhart_Tolle_side.jpg/120px-Eckhart_Tolle_side.jpg"
+  author: "Eckhart Tolle"
+  text: "Some changes look negative on the surface but you will soon realize that space is being created in your life for something new to emerge."
 
 menu:
     main:
