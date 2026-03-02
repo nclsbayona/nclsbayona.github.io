@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Charles_Dickens_3.jpg/250px-Charles_Dickens_3.jpg"
-  author: "Charles Dickens"
-  text: "The pain of parting is nothing to the joy of meeting again."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Epictetus.jpg/250px-Epictetus.jpg"
+  author: "Epictetus"
+  text: "Progress is not achieved by luck or accident, but by working on yourself daily."
 
 menu:
     main:
