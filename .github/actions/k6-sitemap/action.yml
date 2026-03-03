@@ -66,7 +66,7 @@ runs:
         K6_WEB_DASHBOARD: "true"
         K6_WEB_DASHBOARD_EXPORT: "results/artifacts/k6-report.html"
       run: |
-        mkdir -p "artifacts"
+        mkdir -p "results/artifacts"
         k6 run /opt/analyze-sitemap.js
         echo "dashboard_html=artifacts/k6-report.html" >> $GITHUB_OUTPUT
 
@@ -74,8 +74,8 @@ runs:
       shell: bash
       id: playwright
       env:
-        REPORT_HTML: "artifacts/k6-report.html"
-        OUT_DIR: "artifacts/images"
+        REPORT_HTML: "results/artifacts/k6-report.html"
+        OUT_DIR: "results/artifacts/images"
       run: |
         node /opt/load-dashboard.mjs
         echo "dashboard_png=artifacts/images/dashboard.png" >> $GITHUB_OUTPUT
@@ -85,4 +85,4 @@ runs:
       uses: actions/upload-artifact@v6
       with:
         name: k6-sitemap-reports-${{ github.run_id }}
-        path: artifacts
+        path: results/artifacts
