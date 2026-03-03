@@ -85,4 +85,4 @@ runs:
       uses: actions/upload-artifact@v6
       with:
         name: k6-sitemap-reports-${{ github.run_id }}
-        path: results/artifacts
+        path: results
