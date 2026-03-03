@@ -90,11 +90,11 @@ jobs:
       # - name: Configure monitor
       #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
 
-      - name: Check Inputs
-        run: |
-          echo "event_name=${{ github.event_name }}"
-          echo "inputs=${{ toJson(inputs) }}"
-          echo "github.event=${{ toJson(github.event) }}"
+      # - name: Check Inputs
+      #   run: |
+      #     echo "event_name=${{ github.event_name }}"
+      #     echo "inputs=${{ toJson(inputs) }}"
+      #     echo "github.event=${{ toJson(github.event) }}"
 
       - uses: actions/checkout@v6
         with:
@@ -124,7 +124,7 @@ jobs:
         id: download_png
         uses: actions/download-artifact@v7
         with:
-          name: ${{ steps.test.outputs.artifact_name }}
+          name: ${{ steps.test.outputs.artifact }}
 
       - name: Add safe directory
         run: |

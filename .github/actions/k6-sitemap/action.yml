@@ -44,9 +44,9 @@ outputs:
   dashboard_png:
     description: "PNG screenshot of the HTML dashboard"
     value: "${{ steps.playwright.outputs.dashboard_png }}"
-  artifact_name:
-    description: "The name of the uploaded artifact containing the dashboard png"
-    value: "${{ steps.upload_png.outputs.artifact_name }}"
+  artifact:
+    description: "The id of the uploaded artifact containing the dashboard png"
+    value: "${{ steps.upload.outputs.artifact-id }}"
 
 
 runs:
@@ -81,7 +81,7 @@ runs:
         echo "dashboard_png=artifacts/images/dashboard.png" >> $GITHUB_OUTPUT
     
     - name: Upload reports
-      id: upload_png
+      id: upload
       uses: actions/upload-artifact@v6
       with:
         name: k6-sitemap-reports-${{ github.run_id }}
