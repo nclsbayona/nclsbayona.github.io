@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Unknown_%28pel%C3%ADcula%29.svg/500px-Unknown_%28pel%C3%ADcula%29.svg.png"
-  author: "Unknown"
-  text: "What you’re supposed to do when you don’t like a thing is change it. If you can’t change it, change the way you think about it. Don’t complain."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Theodore_Roosevelt_by_the_Pach_Bros.jpg/960px-Theodore_Roosevelt_by_the_Pach_Bros.jpg"
+  author: "Theodore Roosevelt"
+  text: "Believe that you can and you're halfway there."
 
 menu:
     main:
