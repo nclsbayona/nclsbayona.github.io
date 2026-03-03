@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Epictetus.jpg/250px-Epictetus.jpg"
-  author: "Epictetus"
-  text: "Progress is not achieved by luck or accident, but by working on yourself daily."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Brian_Tracy_%284005302419%29_%28cropped%29.jpg/250px-Brian_Tracy_%284005302419%29_%28cropped%29.jpg"
+  author: "Brian Tracy"
+  text: "It doesn't matter where you are coming from. All that matters is where you are going. "
 
 menu:
     main:
