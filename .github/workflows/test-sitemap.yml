@@ -128,7 +128,7 @@ jobs:
 
       - name: Add safe directory
         run: |
-          git config --global --add safe.directory /__w/nclsbayona.github.io/nclsbayona.github.io
+          git config --global --add safe.directory /__w/nclsbayona.github.io/nclsbayona.github.io && rm -rf results
 
       - name: Commit dashboard PNG
         uses: stefanzweifel/git-auto-commit-action@v7
