@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Brian_Tracy_%284005302419%29_%28cropped%29.jpg/250px-Brian_Tracy_%284005302419%29_%28cropped%29.jpg"
-  author: "Brian Tracy"
-  text: "It doesn't matter where you are coming from. All that matters is where you are going. "
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Unknown_%28pel%C3%ADcula%29.svg/500px-Unknown_%28pel%C3%ADcula%29.svg.png"
+  author: "Unknown"
+  text: "What you’re supposed to do when you don’t like a thing is change it. If you can’t change it, change the way you think about it. Don’t complain."
 
 menu:
     main:
