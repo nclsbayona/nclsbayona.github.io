@@ -1,0 +1,369 @@
+{
+  "root_group": {
+    "name": "",
+    "path": "",
+    "id": "d41d8cd98f00b204e9800998ecf8427e",
+    "groups": [
+      {
+        "name": "setup",
+        "path": "::setup",
+        "id": "5c0f8025f7e0b6654089e5b00e950f1a",
+        "groups": [],
+        "checks": [
+            {
+              "name": "sitemap fetched (200)",
+              "path": "::setup::sitemap fetched (200)",
+              "id": "67128fecfec0a23a6eb6ed0798209570",
+              "passes": 1,
+              "fails": 0
+            },
+            {
+              "name": "found at least 1 URL",
+              "path": "::setup::found at least 1 URL",
+              "id": "52ed1fa1335148563b8de2257bfbca73",
+              "passes": 1,
+              "fails": 0
+            }
+          ]
+      }
+    ],
+    "checks": [
+      {
+        "path": "::status ok (200/204/301/302)",
+        "id": "071735920e18b7a640089225abc8970e",
+        "passes": 412,
+        "fails": 0,
+        "name": "status ok (200/204/301/302)"
+      }
+    ]
+  },
+  "options": {
+    "noColor": false,
+    "summaryTrendStats": [
+      "avg",
+      "min",
+      "med",
+      "max",
+      "p(90)",
+      "p(95)",
+      "p(99)"
+    ],
+    "summaryTimeUnit": ""
+  },
+  "state": {
+    "testRunDurationMs": 60787.097741,
+    "isStdOutTTY": false,
+    "isStdErrTTY": false
+  },
+  "metrics": {
+    "http_reqs": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 413,
+        "rate": 6.794204943945491
+      }
+    },
+    "http_req_tls_handshaking": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 0.10490218644067796,
+        "min": 0,
+        "med": 0,
+        "max": 9.247228,
+        "p(90)": 0,
+        "p(95)": 0,
+        "p(99)": 5.866193159999997
+      }
+    },
+    "http_req_receiving": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 0.4001245060532688,
+        "min": 0.073899,
+        "med": 0.20085,
+        "max": 6.345132,
+        "p(90)": 0.7626866000000001,
+        "p(95)": 1.343561599999999,
+        "p(99)": 4.1510871199999935
+      }
+    },
+    "checks": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "rate": 1,
+        "passes": 414,
+        "fails": 0
+      }
+    },
+    "vus_max": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "value": 5,
+        "min": 5,
+        "max": 5
+      }
+    },
+    "http_req_waiting": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 43.99593639999999,
+        "p(99)": 79.81409691999998,
+        "avg": 12.580370961259074,
+        "min": 1.823298,
+        "med": 5.7478,
+        "max": 387.182196,
+        "p(90)": 28.705260600000003
+      }
+    },
+    "check_pass_rate": {
+      "thresholds": {
+        "rate>0.99": {
+          "ok": true
+        }
+      },
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "fails": 0,
+        "rate": 1,
+        "passes": 412
+      }
+    },
+    "pages_discovered": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 37,
+        "rate": 0.6086817988522595
+      }
+    },
+    "iteration_duration": {
+      "values": {
+        "med": 712.8750315,
+        "max": 1537.676304,
+        "p(90)": 1354.9990627000002,
+        "p(95)": 1420.2763916,
+        "p(99)": 1506.39034468,
+        "avg": 733.4929777500005,
+        "min": 9.12838
+      },
+      "type": "trend",
+      "contains": "time"
+    },
+    "http_req_duration{expected_response:true}": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(99)": 83.54418183999998,
+        "avg": 13.090451772397094,
+        "min": 2.178505,
+        "med": 6.176423,
+        "max": 387.540473,
+        "p(90)": 29.88321760000002,
+        "p(95)": 44.3640548
+      }
+    },
+    "status_2xx": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "rate": 6.777754084517052,
+        "count": 412
+      }
+    },
+    "iterations": {
+      "values": {
+        "count": 412,
+        "rate": 6.777754084517052
+      },
+      "type": "counter",
+      "contains": "default"
+    },
+    "http_req_failed": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "rate": 0,
+        "passes": 0,
+        "fails": 413
+      },
+      "thresholds": {
+        "rate<0.01": {
+          "ok": true
+        }
+      }
+    },
+    "http_req_blocked": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 0.000771,
+        "p(99)": 8.78273247999999,
+        "avg": 0.26036228571428605,
+        "min": 0.00025,
+        "med": 0.000341,
+        "max": 61.116663,
+        "p(90)": 0.0006390000000000001
+      }
+    },
+    "http_req_sending": {
+      "values": {
+        "avg": 0.10995630508474573,
+        "min": 0.044503,
+        "med": 0.114614,
+        "max": 0.251046,
+        "p(90)": 0.142162,
+        "p(95)": 0.15029299999999998,
+        "p(99)": 0.16873791999999999
+      },
+      "type": "trend",
+      "contains": "time"
+    },
+    "http_error_rate": {
+      "thresholds": {
+        "rate<0.01": {
+          "ok": true
+        }
+      },
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "passes": 0,
+        "fails": 412,
+        "rate": 0
+      }
+    },
+    "pages_tested": {
+      "contains": "default",
+      "values": {
+        "count": 412,
+        "rate": 6.777754084517052
+      },
+      "type": "counter"
+    },
+    "status_count": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 412,
+        "rate": 6.777754084517052
+      }
+    },
+    "http_req_connecting": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 0.024222547215496368,
+        "min": 0,
+        "med": 0,
+        "max": 1.805347,
+        "p(90)": 0,
+        "p(95)": 0,
+        "p(99)": 1.53777304
+      }
+    },
+    "vus": {
+      "contains": "default",
+      "values": {
+        "value": 5,
+        "min": 5,
+        "max": 5
+      },
+      "type": "gauge"
+    },
+    "http_req_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "med": 6.176423,
+        "max": 387.540473,
+        "p(90)": 29.88321760000002,
+        "p(95)": 44.3640548,
+        "p(99)": 83.54418183999998,
+        "avg": 13.090451772397094,
+        "min": 2.178505
+      },
+      "thresholds": {
+        "p(95)<1500": {
+          "ok": true
+        }
+      }
+    },
+    "data_sent": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "count": 59130,
+        "rate": 972.7393180036245
+      }
+    },
+    "data_received": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "rate": 204866.56647205696,
+        "count": 12453244
+      }
+    },
+    "page_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "med": 6.1697690000000005,
+        "max": 387.540473,
+        "p(90)": 28.57398500000002,
+        "p(95)": 43.88481234999999,
+        "p(99)": 83.56798751999996,
+        "avg": 13.014685737864077,
+        "min": 2.178505
+      }
+    }
+  },
+  "setup_data": {
+    "urls": [
+      "https://nclsbayona.github.io/p/connectivity-networking/",
+      "https://nclsbayona.github.io/p/kubernetes-talos/",
+      "https://nclsbayona.github.io/p/deployment-secure-webpages/",
+      "https://nclsbayona.github.io/p/containers-internals/",
+      "https://nclsbayona.github.io/p/certs-real-value/",
+      "https://nclsbayona.github.io/p/containers-security/",
+      "https://nclsbayona.github.io/p/kubernetes-security/",
+      "https://nclsbayona.github.io/p/kubernetes-architecture/",
+      "https://nclsbayona.github.io/p/kubenomicon/",
+      "https://nclsbayona.github.io/p/github-static-deployment-tutorial/",
+      "https://nclsbayona.github.io/p/kubernetes-intro/",
+      "https://nclsbayona.github.io/p/gitrepo-exec-vulnerability/",
+      "https://nclsbayona.github.io/p/clustering-and-orchestration/",
+      "https://nclsbayona.github.io/p/containers-intro/",
+      "https://nclsbayona.github.io/p/leaky-vessels-vulnerability/",
+      "https://nclsbayona.github.io/",
+      "https://nclsbayona.github.io/categories/",
+      "https://nclsbayona.github.io/tags/devops/",
+      "https://nclsbayona.github.io/tags/devsecops/",
+      "https://nclsbayona.github.io/categories/fundamentals/",
+      "https://nclsbayona.github.io/categories/networking/",
+      "https://nclsbayona.github.io/post/",
+      "https://nclsbayona.github.io/tags/",
+      "https://nclsbayona.github.io/categories/tutorials/",
+      "https://nclsbayona.github.io/categories/cybersecurity/",
+      "https://nclsbayona.github.io/categories/kubernetes/",
+      "https://nclsbayona.github.io/tags/introductory/",
+      "https://nclsbayona.github.io/categories/containers/",
+      "https://nclsbayona.github.io/tags/non-technical/",
+      "https://nclsbayona.github.io/categories/non-technical/",
+      "https://nclsbayona.github.io/page/about/",
+      "https://nclsbayona.github.io/page/archives/",
+      "https://nclsbayona.github.io/page/favorites/",
+      "https://nclsbayona.github.io/page/",
+      "https://nclsbayona.github.io/structure/",
+      "https://nclsbayona.github.io/page/search/",
+      "https://nclsbayona.github.io/page/quote/"
+    ]
+  }
+}
