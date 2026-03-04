@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Theodore_Roosevelt_by_the_Pach_Bros.jpg/960px-Theodore_Roosevelt_by_the_Pach_Bros.jpg"
-  author: "Theodore Roosevelt"
-  text: "Believe that you can and you're halfway there."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/640px-Albert_Einstein_Head.jpg"
+  author: "Albert Einstein"
+  text: "In the middle of every difficulty lies opportunity."
 
 menu:
     main:
