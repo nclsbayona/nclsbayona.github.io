@@ -1,5 +1,6 @@
 FROM docker.io/mcp/playwright:latest
 
+USER root
 # Install k6 from Grafana's official apt repo
 RUN apt-get update && apt-get install -y ca-certificates curl gnupg \
   && mkdir -p /etc/apt/keyrings \
