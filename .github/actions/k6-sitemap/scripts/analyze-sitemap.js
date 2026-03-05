@@ -1,9 +1,8 @@
-import http from "k6/http";
+import * as http from "k6/http";
 import { check, sleep } from "k6";
 import { Counter, Rate, Trend } from "k6/metrics";
-import { parseHTML } from "k6/html";
 
-
+// -------------------- Helpers --------------------
 function parseDurationToSeconds(s) {
   // supports "30s", "5m", "1h", "1m30s"
   const re = /(\d+)\s*([smh])/g;
@@ -23,8 +22,6 @@ function stagesFromVUs({ peakVUs, duration, rampUp = "20s", rampDown = "20s" }) 
   const durSec = parseDurationToSeconds(duration);
   const upSec = parseDurationToSeconds(rampUp);
   const downSec = parseDurationToSeconds(rampDown);
-
-  // whatever remains is the steady-state hold
   const holdSec = Math.max(0, durSec - upSec - downSec);
 
   return [
@@ -33,7 +30,6 @@ function stagesFromVUs({ peakVUs, duration, rampUp = "20s", rampDown = "20s" }) 
     { duration: rampDown, target: 0 },
   ];
 }
-
 
 // -------------------- Metrics --------------------
 const pages_discovered = new Counter("pages_discovered");
@@ -51,7 +47,7 @@ const http_error_rate = new Rate("http_error_rate"); // “our definition of bad
 const page_duration = new Trend("page_duration", true);
 
 // -------------------- Config --------------------
-const BASE = __ENV.BASE_URL || "https://example.com";
+const BASE = (__ENV.BASE_URL || "https://example.com").replace(/\/+$/, "");
 const SITEMAP = __ENV.SITEMAP_URL || `${BASE}/sitemap.xml`;
 const URL_LIMIT = Number(__ENV.URL_LIMIT || 500);
 const REDIRECT_LIMIT = Number(__ENV.REDIRECT_LIMIT || 5);
@@ -66,23 +62,21 @@ const VUS = Number(__ENV.VUS || 5);
 const DURATION = __ENV.DURATION || "1m";
 
 // constant-arrival-rate
-const RATE = Number(__ENV.RATE || 10);
+const RATE_RPS = Number(__ENV.RATE || 10);
 const TIME_UNIT = __ENV.TIME_UNIT || "1s";
 const PREALLOCATED_VUS = Number(__ENV.PREALLOCATED_VUS || 20);
-const MAX_VUS = Number(__ENV.VUS || 50);
+const MAX_VUS = Number(__ENV.MAX_VUS || 50);
 
 // ramping-vus (gradual VU changes)
+const START_VUS = Number(__ENV.START_VUS || 0);
 const STAGES = __ENV.STAGES
-  ? JSON.parse(__ENV.STAGES) // e.g. [{"duration":"30s","target":5},{"duration":"1m","target":20},{"duration":"30s","target":0}]
-  : stagesFromVUs({
-      peakVUs: VUS,
-      duration: DURATION
-    })
+  ? JSON.parse(__ENV.STAGES)
+  : stagesFromVUs({ peakVUs: VUS, duration: DURATION });
 
 // ramping-arrival-rate (gradual RPS changes)
 const ARRIVAL_START_RATE = Number(__ENV.ARRIVAL_START_RATE || 1);
 const ARRIVAL_STAGES = __ENV.ARRIVAL_STAGES
-  ? JSON.parse(__ENV.ARRIVAL_STAGES) // e.g. [{"duration":"30s","target":10},{"duration":"1m","target":50},{"duration":"30s","target":5}]
+  ? JSON.parse(__ENV.ARRIVAL_STAGES)
   : [
       { duration: "20s", target: 10 },
       { duration: "40s", target: 30 },
@@ -91,10 +85,9 @@ const ARRIVAL_STAGES = __ENV.ARRIVAL_STAGES
 
 function buildScenario() {
   if (MODE === "rate") {
-    // constant arrival rate (open model)
     return {
       executor: "constant-arrival-rate",
-      rate: RATE,
+      rate: RATE_RPS,
       timeUnit: TIME_UNIT,
       duration: DURATION,
       preAllocatedVUs: PREALLOCATED_VUS,
@@ -103,17 +96,15 @@ function buildScenario() {
   }
 
   if (MODE === "ramp") {
-    // ramping VUs (closed model)
     return {
       executor: "ramping-vus",
-      startVUs: VUS,
+      startVUs: START_VUS,
       stages: STAGES,
       gracefulRampDown: "30s",
     };
   }
 
   if (MODE === "ramp-rate") {
-    // ramping arrival rate (open model)
     return {
       executor: "ramping-arrival-rate",
       startRate: ARRIVAL_START_RATE,
@@ -124,12 +115,13 @@ function buildScenario() {
     };
   }
 
-  // default: constant VUs (closed model)
   return { executor: "constant-vus", vus: VUS, duration: DURATION };
 }
 
 export const options = {
-  discardResponseBodies: true, // big win when you do not inspect bodies
+  // IMPORTANT: keep bodies for sitemap parsing in setup; k6 does not discard bodies in setup anyway.
+  // For VU requests we do not inspect bodies, so discard saves memory.
+  discardResponseBodies: true,
   scenarios: {
     sitemap_pages: buildScenario(),
   },
@@ -143,9 +135,6 @@ export const options = {
 };
 
 // -------------------- Sitemap parsing --------------------
-// More robust than regex: parse and select <loc> tags.
-// For typical sitemaps, <loc> tag names are plain even with namespaces.
-// Extract <loc>...</loc> with or without CDATA
 function extractLocs(xml) {
   const locs = [];
   const re = /<loc>\s*(?:<!\[CDATA\[([\s\S]*?)\]\]>|([\s\S]*?))\s*<\/loc>/gi;
@@ -165,6 +154,7 @@ function isUrlset(xml) {
   return /<urlset[\s>]/i.test(xml);
 }
 
+// Accept absolute URLs; also accept relative locs when base is provided.
 function normalizeUrl(value, base) {
   if (typeof value !== "string") return null;
   const s = value.trim();
@@ -176,93 +166,113 @@ function normalizeUrl(value, base) {
   }
 }
 
-function fetchText(url, tagName) {
-  const u = normalizeUrl(url); // root urls should be absolute
-  if (!u) return null;
+function fetchXml(url, tagName) {
+  const u = normalizeUrl(url);
+  if (!u) {
+    console.error(`[${tagName}] Invalid URL input:`, url);
+    return null;
+  }
 
   const res = http.get(u, {
     timeout: HTTP_TIMEOUT,
     redirects: REDIRECT_LIMIT,
     tags: { name: tagName },
-    headers: { "User-Agent": USER_AGENT, "Accept": "application/xml,text/xml,*/*" },
+    headers: {
+      "User-Agent": USER_AGENT,
+      Accept: "application/xml,text/xml,*/*",
+    },
   });
 
-  check(res, { [`${tagName} fetched (200)`]: (r) => r.status === 200 });
-  if (res.status !== 200) return null;
+  if (!check(res, { [`${tagName} fetched (200)`]: (r) => r.status === 200 })) {
+    console.error(
+      `[${tagName}] Fetch failed url=${u} status=${res.status} head=${String(
+        res.body || ""
+      ).slice(0, 80)}`
+    );
+    return null;
+  }
 
+  // If you accidentally hit a .gz sitemap, body will look like binary garbage and parsing yields nonsense.
   return res.body;
 }
 
-export function fetchAllUrlsFromSitemap(sitemapUrl) {
-  const root = normalizeUrl(sitemapUrl);
-  const xml = fetchText(root, "sitemap_root");
-  if (!xml) return [];
-
-  // Root urlset => page URLs
-  if (isUrlset(xml) && !isSitemapIndex(xml)) {
-    return extractLocs(xml)
-      .map((loc) => normalizeUrl(loc, root))
-      .filter(Boolean);
-  }
-
-  // Root index => child sitemaps
+function parseSitemap(xml, baseUrl) {
   if (isSitemapIndex(xml)) {
-    let all = [];
-    const children = extractLocs(xml)
-      .map((loc) => normalizeUrl(loc, root))
+    const childSitemaps = extractLocs(xml)
+      .map((loc) => normalizeUrl(loc, baseUrl))
       .filter(Boolean);
-
-    for (const child of children) {
-      const childXml = fetchText(child, "sitemap_child");
-      if (!childXml) continue;
-
-      if (isSitemapIndex(childXml)) {
-        const grandChildren = extractLocs(childXml)
-          .map((loc) => normalizeUrl(loc, child))
-          .filter(Boolean);
-
-        for (const gc of grandChildren) {
-          const gcXml = fetchText(gc, "sitemap_grandchild");
-          if (!gcXml) continue;
-          if (isUrlset(gcXml)) {
-            all = all.concat(
-              extractLocs(gcXml).map((loc) => normalizeUrl(loc, gc)).filter(Boolean)
-            );
-          }
-        }
-      } else if (isUrlset(childXml)) {
-        all = all.concat(
-          extractLocs(childXml).map((loc) => normalizeUrl(loc, child)).filter(Boolean)
-        );
-      }
-    }
-    return all;
+    return { kind: "index", childSitemaps, urls: [] };
   }
 
-  return [];
+  if (isUrlset(xml)) {
+    const urls = extractLocs(xml)
+      .map((loc) => normalizeUrl(loc, baseUrl))
+      .filter(Boolean);
+    return { kind: "urlset", childSitemaps: [], urls };
+  }
+
+  return { kind: "unknown", childSitemaps: [], urls: [] };
 }
+
+export function fetchAllUrlsFromSitemap(sitemapUrl, { maxDepth = 3 } = {}) {
+  const root = normalizeUrl(sitemapUrl);
+  if (!root) return [];
+
+  const seenSitemaps = new Set();
+  const seenUrls = new Set();
+
+  function addUrls(urls) {
+    for (const u of urls) {
+      if (u) seenUrls.add(u);
+    }
+  }
+
+  function walk(url, depth) {
+    if (depth > maxDepth) return;
+    if (seenSitemaps.has(url)) return;
+    seenSitemaps.add(url);
+
+    const xml = fetchXml(url, depth === 0 ? "sitemap_root" : "sitemap_child");
+    if (!xml) return;
+
+    const parsed = parseSitemap(xml, url);
+
+    if (parsed.kind === "urlset") {
+      addUrls(parsed.urls);
+      return;
+    }
+
+    if (parsed.kind === "index") {
+      for (const child of parsed.childSitemaps) {
+        if (!child) continue;
+        walk(child, depth + 1);
+      }
+      return;
+    }
+
+    console.error(`[sitemap] Unknown format at ${url}. First bytes: ${String(xml).slice(0, 120)}`);
+  }
+
+  walk(root, 0);
+  return Array.from(seenUrls);
+}
+
 // -------------------- Lifecycle --------------------
 export function setup() {
-  const raw = fetchAllUrlsFromSitemap(SITEMAP);
+  const raw = fetchAllUrlsFromSitemap(SITEMAP, { maxDepth: 5 });
 
-  // normalize + dedupe + optional clamp
-  const deduped = new Set();
-  for (const u of raw) {
-    const nu = normalizeUrl(u);
-    if (nu) deduped.add(nu);
-  }
-
-  const urls = Array.from(deduped);
+  const urls = raw.slice(0, URL_LIMIT);
   pages_discovered.add(urls.length);
 
-  const sliced = urls.slice(0, URL_LIMIT);
-  check({ n: sliced.length }, { "found at least 1 URL": (x) => x.n > 0 });
+  check({ n: urls.length }, { "found at least 1 URL": (x) => x.n > 0 });
 
-  return { urls: sliced };
+  return { urls };
 }
 
 export default function (data) {
   const urls = data.urls;
+  if (!urls || urls.length === 0) return;
+
   const url = urls[Math.floor(Math.random() * urls.length)];
 
   const res = http.get(url, {
@@ -284,8 +294,6 @@ export default function (data) {
   else if (s >= 500 && s < 600) status_5xx.add(1);
   else status_other.add(1);
 
-  // “OK” definition: treat any 2xx as pass.
-  // If you care about redirects, track them separately via status counters already.
   const ok = check(res, {
     "status is 2xx": (r) => r.status >= 200 && r.status < 300,
   });
@@ -297,7 +305,6 @@ export default function (data) {
 }
 
 export function handleSummary(data) {
-  // Safer filename unless your runner guarantees directory creation.
   return {
     "results/artifacts/summary.json": JSON.stringify(data, null, 2),
   };
