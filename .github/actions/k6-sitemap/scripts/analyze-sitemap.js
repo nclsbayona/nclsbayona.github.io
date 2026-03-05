@@ -146,44 +146,43 @@ export const options = {
 // More robust than regex: parse and select <loc> tags.
 // For typical sitemaps, <loc> tag names are plain even with namespaces.
 function extractLocs(xml) {
-  const doc = parseHTML(xml);
-  return doc
-    .find("loc")
-    .toArray()
-    .map((n) => (n.textContent() || "").trim())
-    .filter(Boolean);
+  const locs = [];
+  const re = /<loc>\s*<!\[CDATA\[([\s\S]*?)\]\]>\s*<\/loc>|<loc>\s*([\s\S]*?)\s*<\/loc>/gi;
+  let m;
+  while ((m = re.exec(xml)) !== null) {
+    const url = (m[1] || m[2] || "").trim();
+    if (url) locs.push(url);
+  }
+  return locs;
+}
+
+// Detect sitemapindex vs urlset by looking for those tags
+function isSitemapIndex(xml) {
+  return /<sitemapindex[\s>]/i.test(xml);
 }
 
 function fetchText(url, tagName) {
-  const res = http.get(url, {
-    timeout: HTTP_TIMEOUT,
-    redirects: 0, // for sitemaps, do not silently follow chains
-    tags: { name: tagName },
-    headers: { "User-Agent": USER_AGENT },
-  });
-
-  const ok = check(res, { [`${tagName} fetched (200)`]: (r) => r.status === 200 });
-  if (!ok) {
-    // Returning empty makes setup fail fast on “no URLs” check later.
-    return "";
-  }
-  return res.body || "";
-}
-
-function normalizeUrl(u) {
-  try {
-    return new URL(u).toString();
-  } catch (_) {
-    return null;
-  }
+  const res = http.get(url, { tags: { name: tagName } });
+  check(res, { [`${tagName} fetched (200)`]: (r) => r.status === 200 });
+  return res.body;
 }
 
 function fetchAllUrlsFromSitemap(sitemapUrl) {
   const xml = fetchText(sitemapUrl, "sitemap");
-  if (!xml) return [];
 
   const locs = extractLocs(xml);
 
+  if (isSitemapIndex(xml)) {
+    // locs are child sitemap URLs
+    let all = [];
+    for (const child of locs) {
+      const childXml = fetchText(child, "sitemap_child");
+      all = all.concat(extractLocs(childXml));
+    }
+    return all;
+  }
+
+  // urlset: locs are page URLs
   return locs;
 }
 
