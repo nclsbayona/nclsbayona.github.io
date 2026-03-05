@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/playwright:v1.58.2-noble
+FROM docker.io/mcp/playwright:latest
 
 # Install k6 from Grafana's official apt repo
 RUN apt-get update && apt-get install -y ca-certificates curl gnupg \
