@@ -1,8 +1,41 @@
 import http from "k6/http";
 import { check, sleep } from "k6";
 import { Counter, Rate, Trend } from "k6/metrics";
+import { parseHTML } from "k6/html";
 
-// Metrics
+
+function parseDurationToSeconds(s) {
+  // supports "30s", "5m", "1h", "1m30s"
+  const re = /(\d+)\s*([smh])/g;
+  let total = 0;
+  let m;
+  while ((m = re.exec(String(s))) !== null) {
+    const n = Number(m[1]);
+    const unit = m[2];
+    if (unit === "s") total += n;
+    else if (unit === "m") total += n * 60;
+    else if (unit === "h") total += n * 3600;
+  }
+  return total;
+}
+
+function stagesFromVUs({ peakVUs, duration, rampUp = "20s", rampDown = "20s" }) {
+  const durSec = parseDurationToSeconds(duration);
+  const upSec = parseDurationToSeconds(rampUp);
+  const downSec = parseDurationToSeconds(rampDown);
+
+  // whatever remains is the steady-state hold
+  const holdSec = Math.max(0, durSec - upSec - downSec);
+
+  return [
+    { duration: rampUp, target: peakVUs },
+    { duration: `${holdSec}s`, target: peakVUs },
+    { duration: rampDown, target: 0 },
+  ];
+}
+
+
+// -------------------- Metrics --------------------
 const pages_discovered = new Counter("pages_discovered");
 const pages_tested = new Counter("pages_tested");
 
@@ -14,45 +47,92 @@ const status_other = new Counter("status_other");
 const status_count = new Counter("status_count");
 
 const check_pass_rate = new Rate("check_pass_rate");
-const http_error_rate = new Rate("http_error_rate");
+const http_error_rate = new Rate("http_error_rate"); // “our definition of bad”
 const page_duration = new Trend("page_duration", true);
 
-// Config
+// -------------------- Config --------------------
 const BASE = __ENV.BASE_URL || "https://example.com";
 const SITEMAP = __ENV.SITEMAP_URL || `${BASE}/sitemap.xml`;
 const URL_LIMIT = Number(__ENV.URL_LIMIT || 500);
 const REDIRECT_LIMIT = Number(__ENV.REDIRECT_LIMIT || 5);
 
-// Load model
+const HTTP_TIMEOUT = __ENV.HTTP_TIMEOUT || "10s";
+const USER_AGENT = __ENV.USER_AGENT || "k6-sitemap-loadtest";
+
 const MODE = (__ENV.MODE || "vus").toLowerCase();
+
+// constant-vus
 const VUS = Number(__ENV.VUS || 5);
 const DURATION = __ENV.DURATION || "1m";
 
+// constant-arrival-rate
 const RATE = Number(__ENV.RATE || 10);
 const TIME_UNIT = __ENV.TIME_UNIT || "1s";
 const PREALLOCATED_VUS = Number(__ENV.PREALLOCATED_VUS || 20);
-const MAX_VUS = Number(__ENV.MAX_VUS || 50);
+const MAX_VUS = Number(__ENV.VUS || 50);
+
+// ramping-vus (gradual VU changes)
+const STAGES = __ENV.STAGES
+  ? JSON.parse(__ENV.STAGES) // e.g. [{"duration":"30s","target":5},{"duration":"1m","target":20},{"duration":"30s","target":0}]
+  : stagesFromVUs({
+      peakVUs: VUS,
+      duration: DURATION
+    })
+
+// ramping-arrival-rate (gradual RPS changes)
+const ARRIVAL_START_RATE = Number(__ENV.ARRIVAL_START_RATE || 1);
+const ARRIVAL_STAGES = __ENV.ARRIVAL_STAGES
+  ? JSON.parse(__ENV.ARRIVAL_STAGES) // e.g. [{"duration":"30s","target":10},{"duration":"1m","target":50},{"duration":"30s","target":5}]
+  : [
+      { duration: "20s", target: 10 },
+      { duration: "40s", target: 30 },
+      { duration: "20s", target: 0 },
+    ];
+
+function buildScenario() {
+  if (MODE === "rate") {
+    // constant arrival rate (open model)
+    return {
+      executor: "constant-arrival-rate",
+      rate: RATE,
+      timeUnit: TIME_UNIT,
+      duration: DURATION,
+      preAllocatedVUs: PREALLOCATED_VUS,
+      maxVUs: MAX_VUS,
+    };
+  }
+
+  if (MODE === "ramp") {
+    // ramping VUs (closed model)
+    return {
+      executor: "ramping-vus",
+      startVUs: START_VUS,
+      stages: STAGES,
+      gracefulRampDown: "30s",
+    };
+  }
+
+  if (MODE === "ramp-rate") {
+    // ramping arrival rate (open model)
+    return {
+      executor: "ramping-arrival-rate",
+      startRate: ARRIVAL_START_RATE,
+      timeUnit: TIME_UNIT,
+      stages: ARRIVAL_STAGES,
+      preAllocatedVUs: PREALLOCATED_VUS,
+      maxVUs: MAX_VUS,
+    };
+  }
+
+  // default: constant VUs (closed model)
+  return { executor: "constant-vus", vus: VUS, duration: DURATION };
+}
 
 export const options = {
-  scenarios:
-    MODE === "rate"
-      ? {
-          sitemap_pages: {
-            executor: "constant-arrival-rate",
-            rate: RATE,
-            timeUnit: TIME_UNIT,
-            duration: DURATION,
-            preAllocatedVUs: PREALLOCATED_VUS,
-            maxVUs: MAX_VUS,
-          },
-        }
-      : {
-          sitemap_pages: {
-            executor: "constant-vus",
-            vus: VUS,
-            duration: DURATION,
-          },
-        },
+  discardResponseBodies: true, // big win when you do not inspect bodies
+  scenarios: {
+    sitemap_pages: buildScenario(),
+  },
   thresholds: {
     http_req_failed: ["rate<0.01"],
     http_req_duration: ["p(95)<1500"],
@@ -62,51 +142,80 @@ export const options = {
   summaryTrendStats: ["avg", "min", "med", "max", "p(90)", "p(95)", "p(99)"],
 };
 
-// Minimal sitemap parsing: extract <loc>...</loc>
+// -------------------- Sitemap parsing --------------------
+// More robust than regex: parse and select <loc> tags.
+// For typical sitemaps, <loc> tag names are plain even with namespaces.
 function extractLocs(xml) {
+  const doc = parseHTML(xml);
+  const locNodes = doc.find("loc");
   const locs = [];
-  const re = /<loc>\s*<!\[CDATA\[([\s\S]*?)\]\]>\s*<\/loc>|<loc>\s*([\s\S]*?)\s*<\/loc>/gi;
-  let m;
-  while ((m = re.exec(xml)) !== null) {
-    const url = (m[1] || m[2] || "").trim();
+  for (const n of locNodes.toArray()) {
+    const url = (n.textContent || "").trim();
     if (url) locs.push(url);
   }
   return locs;
 }
 
-// Detect sitemapindex vs urlset by looking for those tags
 function isSitemapIndex(xml) {
+  // lightweight check; keep it simple
   return /<sitemapindex[\s>]/i.test(xml);
 }
 
 function fetchText(url, tagName) {
-  const res = http.get(url, { tags: { name: tagName } });
-  check(res, { [`${tagName} fetched (200)`]: (r) => r.status === 200 });
-  return res.body;
+  const res = http.get(url, {
+    timeout: HTTP_TIMEOUT,
+    redirects: 0, // for sitemaps, do not silently follow chains
+    tags: { name: tagName },
+    headers: { "User-Agent": USER_AGENT },
+  });
+
+  const ok = check(res, { [`${tagName} fetched (200)`]: (r) => r.status === 200 });
+  if (!ok) {
+    // Returning empty makes setup fail fast on “no URLs” check later.
+    return "";
+  }
+  return res.body || "";
+}
+
+function normalizeUrl(u) {
+  try {
+    return new URL(u).toString();
+  } catch (_) {
+    return null;
+  }
 }
 
 function fetchAllUrlsFromSitemap(sitemapUrl) {
   const xml = fetchText(sitemapUrl, "sitemap");
+  if (!xml) return [];
 
   const locs = extractLocs(xml);
 
   if (isSitemapIndex(xml)) {
-    // locs are child sitemap URLs
     let all = [];
     for (const child of locs) {
       const childXml = fetchText(child, "sitemap_child");
+      if (!childXml) continue;
       all = all.concat(extractLocs(childXml));
     }
     return all;
   }
 
-  // urlset: locs are page URLs
   return locs;
 }
 
+// -------------------- Lifecycle --------------------
 export function setup() {
-  const urls = fetchAllUrlsFromSitemap(SITEMAP);
+  const raw = fetchAllUrlsFromSitemap(SITEMAP);
 
+  // normalize + dedupe + optional clamp
+  const deduped = new Set();
+  for (const u of raw) {
+    const nu = normalizeUrl(u);
+    if (nu) deduped.add(nu);
+  }
+
+  const urls = Array.from(deduped);
   pages_discovered.add(urls.length);
 
   const sliced = urls.slice(0, URL_LIMIT);
@@ -120,9 +229,10 @@ export default function (data) {
   const url = urls[Math.floor(Math.random() * urls.length)];
 
   const res = http.get(url, {
+    timeout: HTTP_TIMEOUT,
     redirects: REDIRECT_LIMIT,
     tags: { name: "page" },
-    headers: { "User-Agent": "k6-sitemap-loadtest" },
+    headers: { "User-Agent": USER_AGENT },
   });
 
   pages_tested.add(1);
@@ -137,8 +247,10 @@ export default function (data) {
   else if (s >= 500 && s < 600) status_5xx.add(1);
   else status_other.add(1);
 
+  // “OK” definition: treat any 2xx as pass.
+  // If you care about redirects, track them separately via status counters already.
   const ok = check(res, {
-    "status ok (200/204/301/302)": (r) => [200, 204, 301, 302].includes(r.status),
+    "status is 2xx": (r) => r.status >= 200 && r.status < 300,
   });
 
   check_pass_rate.add(ok);
@@ -148,7 +260,8 @@ export default function (data) {
 }
 
 export function handleSummary(data) {
+  // Safer filename unless your runner guarantees directory creation.
   return {
-    "results/artifacts/summary.json": JSON.stringify(data, null, 2)
+    "results/artifacts/summary.json": JSON.stringify(data, null, 2),
   };
 }
