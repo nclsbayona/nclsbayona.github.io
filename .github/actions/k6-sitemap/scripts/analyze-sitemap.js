@@ -147,18 +147,11 @@ export const options = {
 // For typical sitemaps, <loc> tag names are plain even with namespaces.
 function extractLocs(xml) {
   const doc = parseHTML(xml);
-  const locNodes = doc.find("loc");
-  const locs = [];
-  for (const n of locNodes.toArray()) {
-    const url = (n.textContent || "").trim();
-    if (url) locs.push(url);
-  }
-  return locs;
-}
-
-function isSitemapIndex(xml) {
-  // lightweight check; keep it simple
-  return /<sitemapindex[\s>]/i.test(xml);
+  return doc
+    .find("loc")
+    .toArray()
+    .map((n) => (n.textContent() || "").trim())
+    .filter(Boolean);
 }
 
 function fetchText(url, tagName) {
@@ -190,16 +183,6 @@ function fetchAllUrlsFromSitemap(sitemapUrl) {
   if (!xml) return [];
 
   const locs = extractLocs(xml);
-
-  if (isSitemapIndex(xml)) {
-    let all = [];
-    for (const child of locs) {
-      const childXml = fetchText(child, "sitemap_child");
-      if (!childXml) continue;
-      all = all.concat(extractLocs(childXml));
-    }
-    return all;
-  }
 
   return locs;
 }
