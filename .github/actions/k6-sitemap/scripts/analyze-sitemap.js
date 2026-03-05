@@ -106,7 +106,7 @@ function buildScenario() {
     // ramping VUs (closed model)
     return {
       executor: "ramping-vus",
-      startVUs: START_VUS,
+      startVUs: VUS,
       stages: STAGES,
       gracefulRampDown: "30s",
     };
@@ -148,9 +148,7 @@ export const options = {
 // Extract <loc>...</loc> with or without CDATA
 function extractLocs(xml) {
   const locs = [];
-  const re =
-    /<loc>\s*<!\[CDATA\[([\s\S]*?)\]\]>\s*<\/loc>|<loc>\s*([\s\S]*?)\s*<\/loc>/gi;
-
+  const re = /<loc>\s*(?:<!\[CDATA\[([\s\S]*?)\]\]>|([\s\S]*?))\s*<\/loc>/gi;
   let m;
   while ((m = re.exec(xml)) !== null) {
     const raw = (m[1] || m[2] || "").trim();
@@ -167,75 +165,81 @@ function isUrlset(xml) {
   return /<urlset[\s>]/i.test(xml);
 }
 
-// Return null if not a valid absolute URL
-function normalizeUrl(value) {
+function normalizeUrl(value, base) {
   if (typeof value !== "string") return null;
   const s = value.trim();
   if (!s) return null;
-
-  // k6 URL parsing: rely on global URL (available in k6)
   try {
-    return new URL(s).toString();
+    return new URL(s, base).toString();
   } catch {
     return null;
   }
 }
 
 function fetchText(url, tagName) {
-  const u = normalizeUrl(url);
-  if (!u) {
-    // Skip instead of crashing with "invalid url #<nil>"
-    return null;
-  }
+  const u = normalizeUrl(url); // root urls should be absolute
+  if (!u) return null;
 
-  const res = http.get(u, { tags: { name: tagName } });
+  const res = http.get(u, {
+    timeout: HTTP_TIMEOUT,
+    redirects: REDIRECT_LIMIT,
+    tags: { name: tagName },
+    headers: { "User-Agent": USER_AGENT, "Accept": "application/xml,text/xml,*/*" },
+  });
+
   check(res, { [`${tagName} fetched (200)`]: (r) => r.status === 200 });
-
   if (res.status !== 200) return null;
+
   return res.body;
 }
 
 export function fetchAllUrlsFromSitemap(sitemapUrl) {
-  const xml = fetchText(sitemapUrl, "sitemap_root");
+  const root = normalizeUrl(sitemapUrl);
+  const xml = fetchText(root, "sitemap_root");
   if (!xml) return [];
 
-  // Extract *all* locs; we’ll validate later
-  const locs = extractLocs(xml)
-    .map(normalizeUrl)
-    .filter(Boolean);
+  // Root urlset => page URLs
+  if (isUrlset(xml) && !isSitemapIndex(xml)) {
+    return extractLocs(xml)
+      .map((loc) => normalizeUrl(loc, root))
+      .filter(Boolean);
+  }
 
+  // Root index => child sitemaps
   if (isSitemapIndex(xml)) {
-    // In sitemapindex: locs are child sitemap URLs
     let all = [];
-    for (const child of locs) {
+    const children = extractLocs(xml)
+      .map((loc) => normalizeUrl(loc, root))
+      .filter(Boolean);
+
+    for (const child of children) {
       const childXml = fetchText(child, "sitemap_child");
       if (!childXml) continue;
 
-      // Child might itself be an index or a urlset; handle both
-      const childLocs = extractLocs(childXml)
-        .map(normalizeUrl)
-        .filter(Boolean);
-
       if (isSitemapIndex(childXml)) {
-        // One more level deep (common in large sites)
-        for (const grandChild of childLocs) {
-          const gXml = fetchText(grandChild, "sitemap_grandchild");
-          if (!gXml) continue;
-          all = all.concat(
-            extractLocs(gXml).map(normalizeUrl).filter(Boolean)
-          );
+        const grandChildren = extractLocs(childXml)
+          .map((loc) => normalizeUrl(loc, child))
+          .filter(Boolean);
+
+        for (const gc of grandChildren) {
+          const gcXml = fetchText(gc, "sitemap_grandchild");
+          if (!gcXml) continue;
+          if (isUrlset(gcXml)) {
+            all = all.concat(
+              extractLocs(gcXml).map((loc) => normalizeUrl(loc, gc)).filter(Boolean)
+            );
+          }
         }
       } else if (isUrlset(childXml)) {
-        all = all.concat(childLocs);
-      } else {
-        // Unknown XML; ignore
+        all = all.concat(
+          extractLocs(childXml).map((loc) => normalizeUrl(loc, child)).filter(Boolean)
+        );
       }
     }
     return all;
   }
 
-  // urlset: locs are page URLs
-  return locs;
+  return [];
 }
 // -------------------- Lifecycle --------------------
 export function setup() {
