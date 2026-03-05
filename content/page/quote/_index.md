@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Alexander_Pope_Jr._%281849%E2%80%931924%29.png/250px-Alexander_Pope_Jr._%281849%E2%80%931924%29.png"
-  author: "Alexander Pope"
-  text: "If you want to know what God thinks about money just look at the people He gives it to."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Epictetus.jpg/250px-Epictetus.jpg"
+  author: "Epictetus"
+  text: "Show me someone for whom success is less important than the manner in which it is achieved. Of concern for the means, rather than the ends, of their actions…I want to see him. This is the person I have looked for a long time, the true genius."
 
 menu:
     main:
