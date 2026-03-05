@@ -145,9 +145,6 @@ export const options = {
 // -------------------- Sitemap parsing --------------------
 // More robust than regex: parse and select <loc> tags.
 // For typical sitemaps, <loc> tag names are plain even with namespaces.
-import http from "k6/http";
-import { check } from "k6";
-
 // Extract <loc>...</loc> with or without CDATA
 function extractLocs(xml) {
   const locs = [];
