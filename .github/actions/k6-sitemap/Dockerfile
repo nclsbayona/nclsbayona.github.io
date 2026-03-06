@@ -16,6 +16,7 @@ COPY scripts/ /opt/
 WORKDIR /opt
 RUN npm init -y \
   && npm i playwright \
+  && npx playwright install chromium \
   && rm -rf /root/.npm
 
 ENV NODE_PATH=/opt/node_modules
