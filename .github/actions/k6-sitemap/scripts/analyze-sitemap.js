@@ -31,22 +31,49 @@ function stagesFromVUs({ peakVUs, duration, rampUp = "20s", rampDown = "20s" }) 
   ];
 }
 
-// -------------------- Metrics --------------------
+function pickRandom(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
+function clamp(n, lo, hi) {
+  return Math.max(lo, Math.min(hi, n));
+}
+
+// -------------------- Golden Signals Metrics --------------------
+// Latency (Trends)
+const gs_latency_total = new Trend("gs_latency_total", true);
+const gs_latency_blocked = new Trend("gs_latency_blocked", true);
+const gs_latency_connecting = new Trend("gs_latency_connecting", true);
+const gs_latency_tls = new Trend("gs_latency_tls", true);
+const gs_latency_sending = new Trend("gs_latency_sending", true);
+const gs_latency_waiting = new Trend("gs_latency_waiting", true);
+const gs_latency_receiving = new Trend("gs_latency_receiving", true);
+
+// Traffic (Counters)
+const gs_requests = new Counter("gs_requests");          // count of requests
+const gs_bytes_in = new Counter("gs_bytes_in");          // response bytes
+const gs_bytes_out = new Counter("gs_bytes_out");        // request bytes (best-effort)
+
+// Errors (Rates + Counters)
+const gs_error_rate = new Rate("gs_error_rate");         // true when request considered "bad"
+const gs_check_pass_rate = new Rate("gs_check_pass_rate");
+const gs_status_count = new Counter("gs_status_count");  // with tags: status, endpoint_group
+const gs_status_2xx = new Counter("gs_status_2xx");
+const gs_status_3xx = new Counter("gs_status_3xx");
+const gs_status_4xx = new Counter("gs_status_4xx");
+const gs_status_5xx = new Counter("gs_status_5xx");
+const gs_status_other = new Counter("gs_status_other");
+
+// Saturation (Trends)
+const gs_iter_duration = new Trend("gs_iteration_duration", true);  // iteration wall time
+const gs_sleep_time = new Trend("gs_sleep_time", true);             // time we intentionally slept
+const gs_sitemap_parse_ms = new Trend("gs_sitemap_parse_ms", true); // setup parse time
+
+// Your original “business” counters
 const pages_discovered = new Counter("pages_discovered");
 const pages_tested = new Counter("pages_tested");
 
-const status_2xx = new Counter("status_2xx");
-const status_3xx = new Counter("status_3xx");
-const status_4xx = new Counter("status_4xx");
-const status_5xx = new Counter("status_5xx");
-const status_other = new Counter("status_other");
-const status_count = new Counter("status_count");
-
-const check_pass_rate = new Rate("check_pass_rate");
-const http_error_rate = new Rate("http_error_rate"); // “our definition of bad”
-const page_duration = new Trend("page_duration", true);
-
-// -------------------- Config --------------------
+// -------------------- Config (keeps your env vars) --------------------
 const BASE = (__ENV.BASE_URL || "https://example.com").replace(/\/+$/, "");
 const SITEMAP = __ENV.SITEMAP_URL || `${BASE}/sitemap.xml`;
 const URL_LIMIT = Number(__ENV.URL_LIMIT || 500);
@@ -119,17 +146,17 @@ function buildScenario() {
 }
 
 export const options = {
-  // IMPORTANT: keep bodies for sitemap parsing in setup; k6 does not discard bodies in setup anyway.
-  // For VU requests we do not inspect bodies, so discard saves memory.
   discardResponseBodies: true,
   scenarios: {
     sitemap_pages: buildScenario(),
   },
   thresholds: {
+    // keep your original intent + golden-signal thresholds
     http_req_failed: ["rate<0.01"],
     http_req_duration: ["p(95)<1500"],
-    http_error_rate: ["rate<0.01"],
-    check_pass_rate: ["rate>0.99"],
+    gs_error_rate: ["rate<0.01"],
+    gs_check_pass_rate: ["rate>0.99"],
+    gs_latency_total: ["p(95)<1500"],
   },
   summaryTrendStats: ["avg", "min", "med", "max", "p(90)", "p(95)", "p(99)"],
 };
@@ -149,12 +176,10 @@ function extractLocs(xml) {
 function isSitemapIndex(xml) {
   return /<sitemapindex[\s>]/i.test(xml);
 }
-
 function isUrlset(xml) {
   return /<urlset[\s>]/i.test(xml);
 }
 
-// Accept absolute URLs; also accept relative locs when base is provided.
 function normalizeUrl(value, base) {
   if (typeof value !== "string") return null;
   const s = value.trim();
@@ -168,31 +193,21 @@ function normalizeUrl(value, base) {
 
 function fetchXml(url, tagName) {
   const u = normalizeUrl(url);
-  if (!u) {
-    console.error(`[${tagName}] Invalid URL input:`, url);
-    return null;
-  }
+  if (!u) return null;
 
   const res = http.get(u, {
     timeout: HTTP_TIMEOUT,
     redirects: REDIRECT_LIMIT,
-    tags: { name: tagName },
+    tags: { name: tagName, endpoint_group: tagName },
     headers: {
       "User-Agent": USER_AGENT,
       Accept: "application/xml,text/xml,*/*",
     },
   });
 
-  if (!check(res, { [`${tagName} fetched (200)`]: (r) => r.status === 200 })) {
-    console.error(
-      `[${tagName}] Fetch failed url=${u} status=${res.status} head=${String(
-        res.body || ""
-      ).slice(0, 80)}`
-    );
-    return null;
-  }
+  check(res, { [`${tagName} fetched (200)`]: (r) => r.status === 200 });
+  if (res.status !== 200) return null;
 
-  // If you accidentally hit a .gz sitemap, body will look like binary garbage and parsing yields nonsense.
   return res.body;
 }
 
@@ -214,18 +229,12 @@ function parseSitemap(xml, baseUrl) {
   return { kind: "unknown", childSitemaps: [], urls: [] };
 }
 
-export function fetchAllUrlsFromSitemap(sitemapUrl, { maxDepth = 3 } = {}) {
+export function fetchAllUrlsFromSitemap(sitemapUrl, { maxDepth = 5 } = {}) {
   const root = normalizeUrl(sitemapUrl);
   if (!root) return [];
 
   const seenSitemaps = new Set();
   const seenUrls = new Set();
-
-  function addUrls(urls) {
-    for (const u of urls) {
-      if (u) seenUrls.add(u);
-    }
-  }
 
   function walk(url, depth) {
     if (depth > maxDepth) return;
@@ -236,32 +245,57 @@ export function fetchAllUrlsFromSitemap(sitemapUrl, { maxDepth = 3 } = {}) {
     if (!xml) return;
 
     const parsed = parseSitemap(xml, url);
-
     if (parsed.kind === "urlset") {
-      addUrls(parsed.urls);
+      for (const u of parsed.urls) seenUrls.add(u);
       return;
     }
 
     if (parsed.kind === "index") {
-      for (const child of parsed.childSitemaps) {
-        if (!child) continue;
-        walk(child, depth + 1);
-      }
+      for (const child of parsed.childSitemaps) walk(child, depth + 1);
       return;
     }
-
-    console.error(`[sitemap] Unknown format at ${url}. First bytes: ${String(xml).slice(0, 120)}`);
   }
 
+  const t0 = Date.now();
   walk(root, 0);
+  gs_sitemap_parse_ms.add(Date.now() - t0, { endpoint_group: "sitemap_parse" });
+
   return Array.from(seenUrls);
+}
+
+// -------------------- Golden signals recording --------------------
+function recordGoldenSignals(res, { endpoint_group }) {
+  // Traffic
+  gs_requests.add(1, { endpoint_group });
+  gs_bytes_in.add(res.body ? res.body.length : 0, { endpoint_group });
+  // request bytes are not easily known; approximate from headers only if available
+  const out = res.request && res.request.body ? String(res.request.body).length : 0;
+  gs_bytes_out.add(out, { endpoint_group });
+
+  // Latency breakdown
+  gs_latency_total.add(res.timings.duration, { endpoint_group });
+  gs_latency_blocked.add(res.timings.blocked, { endpoint_group });
+  gs_latency_connecting.add(res.timings.connecting, { endpoint_group });
+  gs_latency_tls.add(res.timings.tls_handshaking, { endpoint_group });
+  gs_latency_sending.add(res.timings.sending, { endpoint_group });
+  gs_latency_waiting.add(res.timings.waiting, { endpoint_group });
+  gs_latency_receiving.add(res.timings.receiving, { endpoint_group });
+
+  // Status class counters + tagged status count
+  const s = res.status;
+  gs_status_count.add(1, { endpoint_group, status: String(s) });
+  if (s >= 200 && s < 300) gs_status_2xx.add(1, { endpoint_group });
+  else if (s >= 300 && s < 400) gs_status_3xx.add(1, { endpoint_group });
+  else if (s >= 400 && s < 500) gs_status_4xx.add(1, { endpoint_group });
+  else if (s >= 500 && s < 600) gs_status_5xx.add(1, { endpoint_group });
+  else gs_status_other.add(1, { endpoint_group });
 }
 
 // -------------------- Lifecycle --------------------
 export function setup() {
   const raw = fetchAllUrlsFromSitemap(SITEMAP, { maxDepth: 5 });
 
-  const urls = raw.slice(0, URL_LIMIT);
+  const urls = raw.slice(0, clamp(URL_LIMIT, 1, Number.MAX_SAFE_INTEGER));
   pages_discovered.add(urls.length);
 
   check({ n: urls.length }, { "found at least 1 URL": (x) => x.n > 0 });
@@ -270,38 +304,42 @@ export function setup() {
 }
 
 export default function (data) {
+  const iterStart = Date.now();
+
   const urls = data.urls;
   if (!urls || urls.length === 0) return;
 
-  const url = urls[Math.floor(Math.random() * urls.length)];
+  const url = pickRandom(urls);
+
+  // “endpoint_group” is the key tag for dashboards (slice everything by it).
+  const endpoint_group = "page";
 
   const res = http.get(url, {
     timeout: HTTP_TIMEOUT,
     redirects: REDIRECT_LIMIT,
-    tags: { name: "page" },
+    tags: { name: "page", endpoint_group },
     headers: { "User-Agent": USER_AGENT },
   });
 
   pages_tested.add(1);
-  page_duration.add(res.timings.duration);
 
-  const s = res.status;
-  status_count.add(1, { status: String(s) });
-
-  if (s >= 200 && s < 300) status_2xx.add(1);
-  else if (s >= 300 && s < 400) status_3xx.add(1);
-  else if (s >= 400 && s < 500) status_4xx.add(1);
-  else if (s >= 500 && s < 600) status_5xx.add(1);
-  else status_other.add(1);
-
+  // Errors definition: treat only 2xx as pass (same as you wanted)
   const ok = check(res, {
     "status is 2xx": (r) => r.status >= 200 && r.status < 300,
   });
 
-  check_pass_rate.add(ok);
-  http_error_rate.add(!ok);
+  gs_check_pass_rate.add(ok, { endpoint_group });
+  gs_error_rate.add(!ok, { endpoint_group });
 
-  sleep(Math.random() * 1.5);
+  recordGoldenSignals(res, { endpoint_group });
+
+  // Saturation proxies
+  const sleepFor = Math.random() * 1.5;
+  gs_sleep_time.add(sleepFor * 1000, { endpoint_group: "sleep" });
+
+  sleep(sleepFor);
+
+  gs_iter_duration.add(Date.now() - iterStart, { endpoint_group: "iteration" });
 }
 
 export function handleSummary(data) {
