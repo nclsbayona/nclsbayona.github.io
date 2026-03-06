@@ -43,4 +43,4 @@ jobs:
       sitemap_url: "https://nclsbayona.github.io/sitemap.xml"
       url_limit: "500"
       redirect_limit: "5"
-      test_mode: "rate"
+      test_mode: "ramp-rate"
