@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Epictetus.jpg/250px-Epictetus.jpg"
-  author: "Epictetus"
-  text: "Keep death and exile before your eyes each day, along with everything that seems terrible — by doing so, you’ll never have a base thought nor will you have excessive desire."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Gesshin_Myoko_Prabhasa_Dharma_%281992%29.jpg/250px-Gesshin_Myoko_Prabhasa_Dharma_%281992%29.jpg"
+  author: "Pema Chodron"
+  text: "The most difficult times for many of us are the ones we give ourselves."
 
 menu:
     main:
