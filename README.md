@@ -110,7 +110,8 @@ The repository uses GitHub Actions for automation:
 ### Maintenance
 - **Auto-merge**: Automatic dependency PR merges for minor/patch updates
 - **Cleanup**: Daily workflow run cleanup
-- **Demo GIF**: Generates demo.gif for repository visualization
+- **Create GIF**: Generates GIF for repository visualization
+- **Load test Sitemap**: Load tests the webpage using the sitemap for URL discovery
 
 See [.github/README.md](.github/README.md) for detailed workflow documentation.
 
@@ -188,7 +189,7 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
   ![Webpage analysis](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/page-analysis.yml/badge.svg)
   
   ### Repository Related
-  ![Create webpage GIF](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/create-webpage-gif.yml/badge.svg)
+  ![Create visualizations](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/create-webpage-gif.yml/badge.svg)
   ![Semantic Release](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/semantic-release.yml/badge.svg)
   ![Purge old runs](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/delete-old-runs.yml/badge.svg)
   ![Merge dependabot PRs](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/automatic-merge.yml/badge.svg)
