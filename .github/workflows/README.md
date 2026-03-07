@@ -47,6 +47,46 @@ A reusable composite action that fetches inspirational quotes with author and im
 
 See [.github/actions/fetch-quote/README.md](actions/fetch-quote/README.md) for detailed documentation.
 
+### k6-sitemap
+
+A reusable composite action that takes an screenshot to the k6 load testing of the webpage
+
+**Location**: `.github/actions/k6-sitemap/`
+
+**Outputs**:
+- `dashboard_html`: The HTML file path
+- `dashboard_png`: The PNG file path
+- `artifact`: Uploaded artifact ID
+
+**Usage**:
+```yaml
+- name: Load Test Sitemap
+  id: sitemap
+  uses: ./.github/actions/k6-sitemap
+  with:
+    base_url: ${{ inputs.base_url }}
+    sitemap_url: ${{ inputs.sitemap_url }}
+    vus: ${{ inputs.users }}
+    duration: ${{ inputs.duration }}
+    redirect_limit: ${{ inputs.redirect_limit }}
+    test_mode: ${{ inputs.test_mode }}
+    url_limit: ${{ inputs.url_limit }}
+
+- name: Use outputs
+  run: |
+    echo "HTML: ${{ steps.sitemap.outputs.dashboard_html }}"
+    echo "PNG: ${{ steps.sitemap.outputs.dashboard_png }}"
+    echo "ID: ${{ steps.sitemap.outputs.artifact }}"
+```
+
+**External Use**:
+```yaml
+# From another repository
+- uses: nclsbayona/nclsbayona.github.io/.github/actions/k6-sitemap@main
+```
+
+See [.github/actions/k6-sitemap/README.md](actions/k6-sitemap/README.md) for detailed documentation.
+
 ## Workflow Architecture
 
 ### Dependency Graph
@@ -83,7 +123,8 @@ See [.github/actions/fetch-quote/README.md](actions/fetch-quote/README.md) for d
 | **page-analysis.yml** | Manual | Run Lighthouse and performance tests | None | Manual |
 | **automatic-merge.yml** | Dependabot PR | Auto-merge dependency updates | None | On Dependabot PR |
 | **delete-old-runs.yml** | Daily | Clean up old workflow runs | None | Daily |
-| **create-webpage-gif.yml** | Manual | Generate demo GIF of website | None | Manual |
+| **create-webpage-gif.yml** | Webpage deployment/Manual | Generate visualizations of website | None | - |
+| **test-sitemap.yml** | Manual | Generate load test of website | None | Manual |
 
 ## Workflow Details
 
