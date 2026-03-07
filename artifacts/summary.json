@@ -1,9 +1,5 @@
 {
-  "setup_data": {
-    "urls": []
-  },
   "root_group": {
-    "id": "d41d8cd98f00b204e9800998ecf8427e",
     "groups": [
       {
         "name": "setup",
@@ -12,18 +8,19 @@
         "groups": [],
         "checks": [
             {
+              "fails": 1,
               "name": "found at least 1 URL",
               "path": "::setup::found at least 1 URL",
               "id": "52ed1fa1335148563b8de2257bfbca73",
-              "passes": 0,
-              "fails": 1
+              "passes": 0
             }
           ]
       }
     ],
     "checks": [],
     "name": "",
-    "path": ""
+    "path": "",
+    "id": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "options": {
     "summaryTrendStats": [
@@ -39,28 +36,11 @@
     "noColor": false
   },
   "state": {
-    "isStdOutTTY": false,
     "isStdErrTTY": false,
-    "testRunDurationMs": 180015.925784
+    "testRunDurationMs": 180003.431259,
+    "isStdOutTTY": false
   },
   "metrics": {
-    "iterations": {
-      "type": "counter",
-      "contains": "default",
-      "values": {
-        "count": 59608535,
-        "rate": 331129.2305966524
-      }
-    },
-    "vus": {
-      "values": {
-        "value": 200,
-        "min": 200,
-        "max": 200
-      },
-      "type": "gauge",
-      "contains": "default"
-    },
     "data_sent": {
       "type": "counter",
       "contains": "data",
@@ -69,48 +49,12 @@
         "rate": 0
       }
     },
-    "data_received": {
+    "iterations": {
       "type": "counter",
-      "contains": "data",
-      "values": {
-        "count": 0,
-        "rate": 0
-      }
-    },
-    "iteration_duration": {
-      "type": "trend",
-      "contains": "time",
-      "values": {
-        "p(95)": 0.006703,
-        "p(99)": 0.011712,
-        "avg": 0.0038120698079583846,
-        "min": 0.001192,
-        "med": 0.002495,
-        "max": 496.217015,
-        "p(90)": 0.006292
-      }
-    },
-    "gs_error_rate": {
-      "thresholds": {
-        "rate<0.01": {
-          "ok": true
-        }
-      },
-      "type": "rate",
       "contains": "default",
       "values": {
-        "rate": 0,
-        "passes": 0,
-        "fails": 0
-      }
-    },
-    "checks": {
-      "type": "rate",
-      "contains": "default",
-      "values": {
-        "rate": 0,
-        "passes": 0,
-        "fails": 1
+        "count": 60323351,
+        "rate": 335123.33947236295
       }
     },
     "gs_check_pass_rate": {
@@ -127,22 +71,39 @@
         }
       }
     },
-    "http_req_duration": {
-      "type": "trend",
-      "contains": "time",
+    "gs_latency_total": {
       "values": {
-        "avg": 0,
         "min": 0,
         "med": 0,
         "max": 0,
         "p(90)": 0,
         "p(95)": 0,
-        "p(99)": 0
+        "p(99)": 0,
+        "avg": 0
       },
       "thresholds": {
         "p(95)<1500": {
           "ok": true
         }
+      },
+      "type": "trend",
+      "contains": "time"
+    },
+    "data_received": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "count": 0,
+        "rate": 0
+      }
+    },
+    "vus_max": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "value": 200,
+        "min": 200,
+        "max": 200
       }
     },
     "http_req_failed": {
@@ -159,33 +120,6 @@
         }
       }
     },
-    "vus_max": {
-      "values": {
-        "max": 200,
-        "value": 200,
-        "min": 200
-      },
-      "type": "gauge",
-      "contains": "default"
-    },
-    "gs_latency_total": {
-      "type": "trend",
-      "contains": "time",
-      "values": {
-        "max": 0,
-        "p(90)": 0,
-        "p(95)": 0,
-        "p(99)": 0,
-        "avg": 0,
-        "min": 0,
-        "med": 0
-      },
-      "thresholds": {
-        "p(95)<1500": {
-          "ok": true
-        }
-      }
-    },
     "pages_discovered": {
       "type": "counter",
       "contains": "default",
@@ -193,6 +127,72 @@
         "count": 0,
         "rate": 0
       }
+    },
+    "checks": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "rate": 0,
+        "passes": 0,
+        "fails": 1
+      }
+    },
+    "gs_error_rate": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "rate": 0,
+        "passes": 0,
+        "fails": 0
+      },
+      "thresholds": {
+        "rate<0.01": {
+          "ok": true
+        }
+      }
+    },
+    "http_req_duration": {
+      "thresholds": {
+        "p(95)<1500": {
+          "ok": true
+        }
+      },
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "min": 0,
+        "med": 0,
+        "max": 0,
+        "p(90)": 0,
+        "p(95)": 0,
+        "p(99)": 0,
+        "avg": 0
+      }
+    },
+    "iteration_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "min": 0.001202,
+        "med": 0.002514,
+        "max": 264.847102,
+        "p(90)": 0.006322,
+        "p(95)": 0.006723,
+        "p(99)": 0.011391,
+        "avg": 0.003668941364009306
+      }
+    },
+    "vus": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "max": 200,
+        "value": 200,
+        "min": 200
+      }
     }
+  },
+  "setup_data": {
+    "urls": []
   }
 }
