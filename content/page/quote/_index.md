@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/640px-Albert_Einstein_Head.jpg"
-  author: "Albert Einstein"
-  text: "In the middle of every difficulty lies opportunity."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Naval_Ravikant.jpg/120px-Naval_Ravikant.jpg"
+  author: "Naval Ravikant"
+  text: "The world doesn't always give you want, but it often gives you what you need."
 
 menu:
     main:
