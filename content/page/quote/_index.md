@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Naval_Ravikant.jpg/120px-Naval_Ravikant.jpg"
-  author: "Naval Ravikant"
-  text: "The world doesn't always give you want, but it often gives you what you need."
+  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
+  author: "Roy T. Bennett"
+  text: "Start each day with a positive thought and a grateful heart."
 
 menu:
     main:
