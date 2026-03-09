@@ -1,9 +1,10 @@
 {
   "root_group": {
+    "name": "",
+    "path": "",
     "id": "d41d8cd98f00b204e9800998ecf8427e",
     "groups": [
       {
-        "id": "5c0f8025f7e0b6654089e5b00e950f1a",
         "groups": [],
         "checks": [
             {
@@ -15,14 +16,15 @@
             }
           ],
         "name": "setup",
-        "path": "::setup"
+        "path": "::setup",
+        "id": "5c0f8025f7e0b6654089e5b00e950f1a"
       }
     ],
-    "checks": [],
-    "name": "",
-    "path": ""
+    "checks": []
   },
   "options": {
+    "summaryTimeUnit": "",
+    "noColor": false,
     "summaryTrendStats": [
       "avg",
       "min",
@@ -31,76 +33,51 @@
       "p(90)",
       "p(95)",
       "p(99)"
-    ],
-    "summaryTimeUnit": "",
-    "noColor": false
+    ]
   },
   "state": {
     "isStdOutTTY": false,
     "isStdErrTTY": false,
-    "testRunDurationMs": 60004.841881
+    "testRunDurationMs": 60004.106756
   },
   "metrics": {
-    "gs_check_pass_rate": {
+    "vus": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "max": 5,
+        "value": 5,
+        "min": 5
+      }
+    },
+    "gs_error_rate": {
       "type": "rate",
       "contains": "default",
       "values": {
+        "fails": 0,
         "rate": 0,
-        "passes": 0,
-        "fails": 0
+        "passes": 0
       },
       "thresholds": {
-        "rate>0.99": {
+        "rate<0.01": {
           "ok": true
         }
       }
     },
     "gs_latency_total": {
-      "thresholds": {
-        "p(95)<1500": {
-          "ok": true
-        }
-      },
       "type": "trend",
       "contains": "time",
       "values": {
-        "p(90)": 0,
-        "p(95)": 0,
-        "p(99)": 0,
-        "avg": 0,
-        "min": 0,
-        "med": 0,
-        "max": 0
-      }
-    },
-    "http_req_duration": {
-      "contains": "time",
-      "values": {
-        "p(95)": 0,
-        "p(99)": 0,
         "avg": 0,
         "min": 0,
         "med": 0,
         "max": 0,
-        "p(90)": 0
+        "p(90)": 0,
+        "p(95)": 0,
+        "p(99)": 0
       },
       "thresholds": {
         "p(95)<1500": {
-          "ok": true
-        }
-      },
-      "type": "trend"
-    },
-    "http_req_failed": {
-      "type": "rate",
-      "contains": "default",
-      "values": {
-        "rate": 0,
-        "passes": 0,
-        "fails": 0
-      },
-      "thresholds": {
-        "rate<0.01": {
           "ok": true
         }
       }
@@ -114,25 +91,47 @@
         "fails": 1
       }
     },
+    "data_sent": {
+      "contains": "data",
+      "values": {
+        "count": 0,
+        "rate": 0
+      },
+      "type": "counter"
+    },
+    "data_received": {
+      "contains": "data",
+      "values": {
+        "count": 0,
+        "rate": 0
+      },
+      "type": "counter"
+    },
     "iteration_duration": {
       "type": "trend",
       "contains": "time",
       "values": {
-        "p(95)": 0.006683,
-        "p(99)": 0.01073,
-        "avg": 0.0034489196158559426,
-        "min": 0.001192,
+        "avg": 0.0034563137088301278,
+        "min": 0.001182,
         "med": 0.002515,
-        "max": 22.699126,
-        "p(90)": 0.006292
+        "max": 24.344814,
+        "p(90)": 0.006282,
+        "p(95)": 0.006673,
+        "p(99)": 0.011191
       }
     },
-    "iterations": {
-      "type": "counter",
+    "gs_check_pass_rate": {
+      "type": "rate",
       "contains": "default",
       "values": {
-        "rate": 322404.69924687344,
-        "count": 19345843
+        "rate": 0,
+        "passes": 0,
+        "fails": 0
+      },
+      "thresholds": {
+        "rate>0.99": {
+          "ok": true
+        }
       }
     },
     "vus_max": {
@@ -152,23 +151,33 @@
         "rate": 0
       }
     },
-    "data_sent": {
-      "values": {
-        "count": 0,
-        "rate": 0
-      },
+    "iterations": {
       "type": "counter",
-      "contains": "data"
-    },
-    "data_received": {
-      "type": "counter",
-      "contains": "data",
+      "contains": "default",
       "values": {
-        "count": 0,
-        "rate": 0
+        "count": 19592311,
+        "rate": 326516.16796280205
       }
     },
-    "gs_error_rate": {
+    "http_req_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "min": 0,
+        "med": 0,
+        "max": 0,
+        "p(90)": 0,
+        "p(95)": 0,
+        "p(99)": 0,
+        "avg": 0
+      },
+      "thresholds": {
+        "p(95)<1500": {
+          "ok": true
+        }
+      }
+    },
+    "http_req_failed": {
       "type": "rate",
       "contains": "default",
       "values": {
@@ -180,15 +189,6 @@
         "rate<0.01": {
           "ok": true
         }
-      }
-    },
-    "vus": {
-      "type": "gauge",
-      "contains": "default",
-      "values": {
-        "value": 5,
-        "min": 5,
-        "max": 5
       }
     }
   },

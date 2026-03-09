@@ -51,9 +51,9 @@
     "vus": 5,
     "vus_max": 5,
     "iteration_duration": {
-      "avg": 0.0034489196158559426,
-      "p95": 0.006683,
-      "p99": 0.01073
+      "avg": 0.0034563137088301278,
+      "p95": 0.006673,
+      "p99": 0.011191
     },
     "custom_iteration_duration": {
       "avg": null,
