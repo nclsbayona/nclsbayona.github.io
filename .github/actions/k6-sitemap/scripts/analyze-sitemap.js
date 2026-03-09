@@ -198,6 +198,7 @@ function fetchXml(url, tagName) {
   const res = http.get(u, {
     timeout: HTTP_TIMEOUT,
     redirects: REDIRECT_LIMIT,
+    responseType: "text",
     tags: { name: tagName, endpoint_group: tagName },
     headers: {
       "User-Agent": USER_AGENT,
