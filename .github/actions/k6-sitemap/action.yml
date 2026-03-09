@@ -26,15 +26,10 @@ inputs:
     default: "500"
     description: "Maximum number of URLs to test from the sitemap"
     type: string
-  redirect_limit:
+  http_timeout:
     required: false
-    default: "5"
-    description: "Maximum number of redirects to follow per URL"
-    type: string
-  test_mode:
-    required: false
-    default: "vus"
-    description: "The test mode to run (vus (constant VUs for DURATION (classic concurrency test) , rate (constant arrival rate for DURATION))"
+    default: "5s"
+    description: "Timeout for HTTP"
     type: string
 
 outputs:
@@ -61,8 +56,7 @@ runs:
         VUS: ${{ inputs.vus }}
         DURATION: ${{ inputs.duration }}
         URL_LIMIT: ${{ inputs.url_limit }}
-        REDIRECT_LIMIT: ${{ inputs.redirect_limit }}
-        TEST_MODE: ${{ inputs.test_mode }}
+        HTTP_TIMEOUT: ${{ inputs.http_timeout }}
         K6_WEB_DASHBOARD: "true"
         K6_WEB_DASHBOARD_EXPORT: "results/artifacts/k6-report.html"
       run: |
