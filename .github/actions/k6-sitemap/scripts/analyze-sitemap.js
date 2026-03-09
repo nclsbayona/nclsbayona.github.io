@@ -153,5 +153,6 @@ export function handleSummary(data) {
   return {
     stdout: output,
     "results/artifacts/summary.json": JSON.stringify(data, null, 2),
+    "results/artifacts/golden-signals.json": JSON.stringify(output, null, 2)
   };
 }
