@@ -113,7 +113,7 @@ jobs:
 
       - name: Download dashboard artifacts
         id: download_png
-        uses: actions/download-artifact@v7
+        uses: actions/download-artifact@v8
         with:
           artifact-ids: ${{ steps.test.outputs.artifact }}
 
