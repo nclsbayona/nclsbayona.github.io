@@ -146,7 +146,7 @@ function buildScenario() {
 }
 
 export const options = {
-  discardResponseBodies: true,
+  discardResponseBodies: false,
   scenarios: {
     sitemap_pages: buildScenario(),
   },
