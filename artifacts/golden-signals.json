@@ -1,0 +1,67 @@
+{
+  "latency": {
+    "http_req_duration": {
+      "avg": 0,
+      "med": 0,
+      "p90": 0,
+      "p95": 0,
+      "p99": 0,
+      "max": 0
+    },
+    "page_latency_custom": {
+      "avg": 0,
+      "p95": 0,
+      "p99": 0
+    }
+  },
+  "traffic": {
+    "requests": {
+      "count": null,
+      "rate": null
+    },
+    "bytes": {
+      "received": 0,
+      "sent": 0
+    },
+    "business": {
+      "pages_discovered": 0,
+      "pages_tested": null
+    }
+  },
+  "errors": {
+    "http_req_failed": {
+      "rate": 0
+    },
+    "checks": {
+      "rate": 0
+    },
+    "custom": {
+      "error_rate": 0,
+      "check_pass_rate": 0
+    },
+    "status_classes": {
+      "2xx": null,
+      "3xx": null,
+      "4xx": null,
+      "5xx": null,
+      "other": null
+    }
+  },
+  "saturation": {
+    "vus": 5,
+    "vus_max": 5,
+    "iteration_duration": {
+      "avg": 0.0035302499074147385,
+      "p95": 0.006875,
+      "p99": 0.010297
+    },
+    "custom_iteration_duration": {
+      "avg": null,
+      "p95": null,
+      "p99": null
+    },
+    "sleep_time": {
+      "avg": null
+    }
+  }
+}

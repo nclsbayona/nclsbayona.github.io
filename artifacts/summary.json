@@ -1,42 +1,66 @@
 {
+  "options": {
+    "summaryTrendStats": [
+      "avg",
+      "min",
+      "med",
+      "max",
+      "p(90)",
+      "p(95)",
+      "p(99)"
+    ],
+    "summaryTimeUnit": "",
+    "noColor": false
+  },
   "state": {
+    "testRunDurationMs": 60016.402747,
     "isStdOutTTY": false,
-    "isStdErrTTY": false,
-    "testRunDurationMs": 60015.293957
+    "isStdErrTTY": false
   },
   "metrics": {
-    "gs_latency_total": {
-      "type": "trend",
-      "contains": "time",
+    "data_sent": {
+      "type": "counter",
+      "contains": "data",
       "values": {
-        "p(90)": 0,
-        "p(95)": 0,
-        "p(99)": 0,
-        "avg": 0,
-        "min": 0,
-        "med": 0,
-        "max": 0
-      },
-      "thresholds": {
-        "p(95)<1500": {
-          "ok": true
-        }
+        "count": 0,
+        "rate": 0
       }
     },
-    "http_req_duration": {
-      "type": "trend",
-      "contains": "time",
+    "data_received": {
+      "type": "counter",
+      "contains": "data",
       "values": {
-        "max": 0,
-        "p(90)": 0,
-        "p(95)": 0,
-        "p(99)": 0,
-        "avg": 0,
-        "min": 0,
-        "med": 0
+        "rate": 0,
+        "count": 0
+      }
+    },
+    "iterations": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 18747282,
+        "rate": 312369.3047553922
+      }
+    },
+    "vus": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "value": 5,
+        "min": 5,
+        "max": 5
+      }
+    },
+    "http_req_failed": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "rate": 0,
+        "passes": 0,
+        "fails": 0
       },
       "thresholds": {
-        "p(95)<1500": {
+        "rate<0.01": {
           "ok": true
         }
       }
@@ -50,96 +74,67 @@
         "fails": 1
       }
     },
-    "data_received": {
-      "contains": "data",
-      "values": {
-        "count": 0,
-        "rate": 0
-      },
-      "type": "counter"
-    },
-    "vus": {
-      "type": "gauge",
-      "contains": "default",
-      "values": {
-        "value": 5,
-        "min": 5,
-        "max": 5
-      }
-    },
-    "pages_discovered": {
-      "contains": "default",
-      "values": {
-        "count": 0,
-        "rate": 0
-      },
-      "type": "counter"
-    },
     "iteration_duration": {
+      "type": "trend",
       "contains": "time",
       "values": {
-        "med": 0.002545,
-        "max": 22.813588,
-        "p(90)": 0.006282,
-        "p(95)": 0.006703,
-        "p(99)": 0.011221,
-        "avg": 0.0034756497727582956,
-        "min": 0.001212
-      },
-      "type": "trend"
-    },
-    "vus_max": {
-      "type": "gauge",
-      "contains": "default",
-      "values": {
-        "value": 5,
-        "min": 5,
-        "max": 5
-      }
-    },
-    "http_req_failed": {
-      "type": "rate",
-      "contains": "default",
-      "values": {
-        "fails": 0,
-        "rate": 0,
-        "passes": 0
-      },
-      "thresholds": {
-        "rate<0.01": {
-          "ok": true
-        }
-      }
-    },
-    "data_sent": {
-      "values": {
-        "count": 0,
-        "rate": 0
-      },
-      "type": "counter",
-      "contains": "data"
-    },
-    "iterations": {
-      "type": "counter",
-      "contains": "default",
-      "values": {
-        "count": 19360493,
-        "rate": 322592.65469684254
+        "max": 34.137869,
+        "p(90)": 0.006411,
+        "p(95)": 0.006875,
+        "p(99)": 0.010297,
+        "avg": 0.0035302499074147385,
+        "min": 0.00118,
+        "med": 0.00257
       }
     },
     "gs_check_pass_rate": {
       "type": "rate",
       "contains": "default",
       "values": {
-        "fails": 0,
         "rate": 0,
-        "passes": 0
+        "passes": 0,
+        "fails": 0
       },
       "thresholds": {
         "rate>0.99": {
           "ok": true
         }
       }
+    },
+    "pages_discovered": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 0,
+        "rate": 0
+      }
+    },
+    "http_req_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "med": 0,
+        "max": 0,
+        "p(90)": 0,
+        "p(95)": 0,
+        "p(99)": 0,
+        "avg": 0,
+        "min": 0
+      },
+      "thresholds": {
+        "p(95)<1500": {
+          "ok": true
+        }
+      }
+    },
+    "vus_max": {
+      "contains": "default",
+      "values": {
+        "value": 5,
+        "min": 5,
+        "max": 5
+      },
+      "type": "gauge"
     },
     "gs_error_rate": {
       "type": "rate",
@@ -154,45 +149,50 @@
           "ok": true
         }
       }
+    },
+    "gs_latency_total": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "med": 0,
+        "max": 0,
+        "p(90)": 0,
+        "p(95)": 0,
+        "p(99)": 0,
+        "avg": 0,
+        "min": 0
+      },
+      "thresholds": {
+        "p(95)<1500": {
+          "ok": true
+        }
+      }
     }
   },
   "setup_data": {
     "urls": []
   },
   "root_group": {
-    "checks": [],
-    "name": "",
     "path": "",
     "id": "d41d8cd98f00b204e9800998ecf8427e",
     "groups": [
-        {
-          "groups": [],
-          "checks": [
-              {
-                "name": "found at least 1 URL",
-                "path": "::setup::found at least 1 URL",
-                "id": "52ed1fa1335148563b8de2257bfbca73",
-                "passes": 0,
-                "fails": 1
-              }
-            ],
-          "name": "setup",
-          "path": "::setup",
-          "id": "5c0f8025f7e0b6654089e5b00e950f1a"
-        }
-      ]
-  },
-  "options": {
-    "summaryTrendStats": [
-      "avg",
-      "min",
-      "med",
-      "max",
-      "p(90)",
-      "p(95)",
-      "p(99)"
+      {
+        "name": "setup",
+        "path": "::setup",
+        "id": "5c0f8025f7e0b6654089e5b00e950f1a",
+        "groups": [],
+        "checks": [
+            {
+              "id": "52ed1fa1335148563b8de2257bfbca73",
+              "passes": 0,
+              "fails": 1,
+              "name": "found at least 1 URL",
+              "path": "::setup::found at least 1 URL"
+            }
+          ]
+      }
     ],
-    "summaryTimeUnit": "",
-    "noColor": false
+    "checks": [],
+    "name": ""
   }
 }
