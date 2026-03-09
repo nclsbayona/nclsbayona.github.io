@@ -12,4 +12,6 @@ This files can also be consulted:
 
 - [JSON summary](./summary.json)
 
+- [Golden Signals JSON](./golden-signals.json)
+
 - [Dashboard HTML](./k6-report.html)
