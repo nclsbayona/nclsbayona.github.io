@@ -27,16 +27,11 @@ on:
         description: "Maximum number of URLs to test from the sitemap"
         required: false
         default: "500"
-      redirect_limit:
+      http_timeout:
         type: string
-        description: "Maximum number of redirects to follow per URL"
+        description: "The timeout for HTTP"
         required: false
-        default: "5"
-      test_mode:
-        type: string
-        description: "The test mode to run (vus (constant VUs for DURATION (classic concurrency test) , rate (constant arrival rate for DURATION))"
-        required: false
-        default: "vus"
+        default: "5s"
     
 
   workflow_dispatch:
@@ -60,14 +55,11 @@ on:
         description: "Maximum number of URLs to test from the sitemap"
         required: false
         default: "500"
-      REDIRECT_LIMIT:
-        description: "Maximum number of redirects to follow per URL"
+      HTTP_TIMEOUT:
+        type: string
+        description: "The timeout for HTTP"
         required: false
-        default: "5"
-      TEST_MODE:
-        description: "The test mode to run (vus (constant VUs for DURATION (classic concurrency test) , rate (constant arrival rate for DURATION))"
-        required: false
-        default: "vus"
+        default: "5s"
     
   # schedule:
   # - cron: "0 3 * * 0" # Weekly on Sundays at 03:00 UTC
@@ -110,8 +102,7 @@ jobs:
           sitemap_url: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.SITEMAP_URL) || (github.event_name == 'schedule' && 'https://nclsbayona.github.io/sitemap.xml') || (github.event_name == 'workflow_dispatch' && inputs.sitemap_url) || (github.event_name == 'push' && 'https://nclsbayona.github.io/sitemap.xml') || (github.event_name == 'deployment' && inputs.sitemap_url) }}
           vus: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.VUS) || (github.event_name == 'schedule' && '50') || (github.event_name == 'workflow_dispatch' && inputs.users) || (github.event_name == 'push' && '10') || (github.event_name == 'deployment' && inputs.users) }}
           duration: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.DURATION) || (github.event_name == 'schedule' && '5m') || (github.event_name == 'workflow_dispatch' && inputs.duration) || (github.event_name == 'push' && '30s') || (github.event_name == 'deployment' && inputs.duration) }}
-          redirect_limit: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.REDIRECT_LIMIT) || (github.event_name == 'schedule' && '5') || (github.event_name == 'workflow_dispatch' && inputs.redirect_limit) || (github.event_name == 'push' && '5') || (github.event_name == 'deployment' && inputs.redirect_limit) }}
-          test_mode: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.TEST_MODE) || (github.event_name == 'schedule' && 'rate') || (github.event_name == 'workflow_dispatch' && inputs.test_mode) || (github.event_name == 'push' && 'rate') || (github.event_name == 'deployment' && inputs.test_mode) }}
+          http_timeout: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.HTTP_TIMEOUT) || (github.event_name == 'schedule' && '5s') || (github.event_name == 'workflow_dispatch' && inputs.http_timeout) || (github.event_name == 'push' && '5s') || (github.event_name == 'deployment' && inputs.http_timeout }}
           url_limit: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.URL_LIMIT) || (github.event_name == 'schedule' && '500') || (github.event_name == 'workflow_dispatch' && inputs.url_limit) || (github.event_name == 'push' && '500') || (github.event_name == 'deployment' && inputs.url_limit) }}
 
       - name: Get dashboard variables
