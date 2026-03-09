@@ -343,8 +343,113 @@ export default function (data) {
   gs_iter_duration.add(Date.now() - iterStart, { endpoint_group: "iteration" });
 }
 
+function metricValue(data, name, field, fallback = null) {
+  return data.metrics?.[name]?.values?.[field] ?? fallback;
+}
+
 export function handleSummary(data) {
+  const golden = {
+    latency: {
+      http_req_duration: {
+        avg: metricValue(data, "http_req_duration", "avg"),
+        med: metricValue(data, "http_req_duration", "med"),
+        p90: metricValue(data, "http_req_duration", "p(90)"),
+        p95: metricValue(data, "http_req_duration", "p(95)"),
+        p99: metricValue(data, "http_req_duration", "p(99)"),
+        max: metricValue(data, "http_req_duration", "max"),
+      },
+      page_latency_custom: {
+        avg: metricValue(data, "gs_latency_total", "avg"),
+        p95: metricValue(data, "gs_latency_total", "p(95)"),
+        p99: metricValue(data, "gs_latency_total", "p(99)"),
+      },
+    },
+    traffic: {
+      requests: {
+        count: metricValue(data, "http_reqs", "count"),
+        rate: metricValue(data, "http_reqs", "rate"),
+      },
+      bytes: {
+        received: metricValue(data, "data_received", "count"),
+        sent: metricValue(data, "data_sent", "count"),
+      },
+      business: {
+        pages_discovered: metricValue(data, "pages_discovered", "count"),
+        pages_tested: metricValue(data, "pages_tested", "count"),
+      },
+    },
+    errors: {
+      http_req_failed: {
+        rate: metricValue(data, "http_req_failed", "rate"),
+      },
+      checks: {
+        rate: metricValue(data, "checks", "rate"),
+      },
+      custom: {
+        error_rate: metricValue(data, "gs_error_rate", "rate"),
+        check_pass_rate: metricValue(data, "gs_check_pass_rate", "rate"),
+      },
+      status_classes: {
+        "2xx": metricValue(data, "gs_status_2xx", "count"),
+        "3xx": metricValue(data, "gs_status_3xx", "count"),
+        "4xx": metricValue(data, "gs_status_4xx", "count"),
+        "5xx": metricValue(data, "gs_status_5xx", "count"),
+        other: metricValue(data, "gs_status_other", "count"),
+      },
+    },
+    saturation: {
+      vus: metricValue(data, "vus", "value"),
+      vus_max: metricValue(data, "vus_max", "value"),
+      iteration_duration: {
+        avg: metricValue(data, "iteration_duration", "avg"),
+        p95: metricValue(data, "iteration_duration", "p(95)"),
+        p99: metricValue(data, "iteration_duration", "p(99)"),
+      },
+      custom_iteration_duration: {
+        avg: metricValue(data, "gs_iteration_duration", "avg"),
+        p95: metricValue(data, "gs_iteration_duration", "p(95)"),
+        p99: metricValue(data, "gs_iteration_duration", "p(99)"),
+      },
+      sleep_time: {
+        avg: metricValue(data, "gs_sleep_time", "avg"),
+      },
+    },
+  };
+
+  const text = [
+    "",
+    "=== GOLDEN SIGNALS ===",
+    "",
+    `Latency`,
+    `  http_req_duration p95: ${golden.latency.http_req_duration.p95} ms`,
+    `  http_req_duration p99: ${golden.latency.http_req_duration.p99} ms`,
+    `  gs_latency_total p95: ${golden.latency.page_latency_custom.p95} ms`,
+    "",
+    `Traffic`,
+    `  http_reqs count: ${golden.traffic.requests.count}`,
+    `  http_reqs rate: ${golden.traffic.requests.rate}/s`,
+    `  data_received: ${golden.traffic.bytes.received} bytes`,
+    `  data_sent: ${golden.traffic.bytes.sent} bytes`,
+    `  pages_discovered: ${golden.traffic.business.pages_discovered}`,
+    `  pages_tested: ${golden.traffic.business.pages_tested}`,
+    "",
+    `Errors`,
+    `  http_req_failed rate: ${golden.errors.http_req_failed.rate}`,
+    `  checks pass rate: ${golden.errors.checks.rate}`,
+    `  gs_error_rate: ${golden.errors.custom.error_rate}`,
+    `  2xx=${golden.errors.status_classes["2xx"]} 3xx=${golden.errors.status_classes["3xx"]} 4xx=${golden.errors.status_classes["4xx"]} 5xx=${golden.errors.status_classes["5xx"]}`,
+    "",
+    `Saturation`,
+    `  vus: ${golden.saturation.vus}`,
+    `  vus_max: ${golden.saturation.vus_max}`,
+    `  iteration_duration p95: ${golden.saturation.iteration_duration.p95} ms`,
+    `  gs_iteration_duration p95: ${golden.saturation.custom_iteration_duration.p95} ms`,
+    "",
+  ].join("\n");
+
   return {
+    stdout: text,
     "results/artifacts/summary.json": JSON.stringify(data, null, 2),
+    "results/artifacts/golden-signals.json": JSON.stringify(golden, null, 2),
   };
 }
