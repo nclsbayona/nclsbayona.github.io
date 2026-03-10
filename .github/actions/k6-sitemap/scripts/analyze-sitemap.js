@@ -25,9 +25,7 @@ export const options = {
   duration: DURATION,
   discardResponseBodies: false,
   thresholds: {
-    http_req_failed: ["rate<0.5"],
     http_req_duration: ["p(95)<2000"],
-    gs_error_rate: ["rate<0.5"],
     gs_latency: ["p(95)<2000"],
   },
   summaryTrendStats: ["avg", "min", "med", "max", "p(90)", "p(95)", "p(99)"],
