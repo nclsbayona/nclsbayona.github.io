@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/The_Death_of_Seneca_%28La_mort_de_S%C3%A9n%C3%A8que%29_-_Pierre_Peyron.jpg/250px-The_Death_of_Seneca_%28La_mort_de_S%C3%A9n%C3%A8que%29_-_Pierre_Peyron.jpg"
-  author: "Seneca"
-  text: "Set aside a certain number of days during which you shall be content with the scantiest and cheapest fare, with coarse and rough dress, saying to yourself the while, “Is this the condition that I feared?”"
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/640px-Albert_Einstein_Head.jpg"
+  author: "Albert Einstein"
+  text: "In the middle of every difficulty lies opportunity."
 
 menu:
     main:
