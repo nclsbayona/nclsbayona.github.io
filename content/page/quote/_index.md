@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Carl_Jung_%28maler%29.jpg/250px-Carl_Jung_%28maler%29.jpg"
-  author: "Carl Jung"
-  text: "We cannot change anything unless we accept it."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Tony_Robbins_Signature.png/120px-Tony_Robbins_Signature.png"
+  author: "Tony Robbins"
+  text: "Setting goals is the first step in turning the invisible into the visible."
 
 menu:
     main:
