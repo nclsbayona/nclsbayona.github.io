@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Tony_Robbins_Signature.png/120px-Tony_Robbins_Signature.png"
-  author: "Tony Robbins"
-  text: "Setting goals is the first step in turning the invisible into the visible."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Babe_Ruth_cropped.jpg/640px-Babe_Ruth_cropped.jpg"
+  author: "Babe Ruth"
+  text: "You just can't beat the person who never gives up."
 
 menu:
     main:
