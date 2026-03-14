@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Babe_Ruth_cropped.jpg/640px-Babe_Ruth_cropped.jpg"
-  author: "Babe Ruth"
-  text: "You just can't beat the person who never gives up."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Augustine_Lateran.jpg/120px-Augustine_Lateran.jpg"
+  author: "Augustine of Hippo"
+  text: "Order your soul. Reduce your wants."
 
 menu:
     main:
