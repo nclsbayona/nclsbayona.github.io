@@ -1,5 +1,9 @@
 {{/* robots.txt generated for homepage output format 'robots' */}}
 User-agent: *
-Disallow:
+Disallow: /page/search/
+Disallow: /page/about/
+Disallow: /page/archives/
+Disallow: /page/favorites/
+Crawl-delay: 2
 
 Sitemap: {{ absURL "sitemap.xml" }}
