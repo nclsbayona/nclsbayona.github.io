@@ -17,3 +17,12 @@ pagerSize = 5
 enableRobotsTXT = true
 buildFuture = true
 enableEmoji = true
+
+[outputFormats.robots]
+	mediaType = "text/plain"
+	baseName = "robots"
+	isPlainText = true
+	notAlternative = true
+
+[outputs]
+	home = ["HTML", "robots", "RSS"]

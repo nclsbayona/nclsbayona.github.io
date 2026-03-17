@@ -1,0 +1,5 @@
+{{/* robots.txt generated for homepage output format 'robots' */}}
+User-agent: *
+Disallow:
+
+Sitemap: {{ absURL "sitemap.xml" }}
