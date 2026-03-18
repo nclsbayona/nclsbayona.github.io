@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dalailama1_20121014_4639.jpg/640px-Dalailama1_20121014_4639.jpg"
-  author: "Dalai Lama"
-  text: "Happiness is not something ready made. It comes from your own actions."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/The_Death_of_Seneca_%28La_mort_de_S%C3%A9n%C3%A8que%29_-_Pierre_Peyron.jpg/250px-The_Death_of_Seneca_%28La_mort_de_S%C3%A9n%C3%A8que%29_-_Pierre_Peyron.jpg"
+  author: "Seneca"
+  text: "Let us prepare our minds as if we’d come to the very end of life. Let us postpone nothing."
 
 menu:
     main:
