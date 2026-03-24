@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Babe_Ruth_cropped.jpg/640px-Babe_Ruth_cropped.jpg"
-  author: "Babe Ruth"
-  text: "You just can't beat the person who never gives up."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Laozi.jpg/250px-Laozi.jpg"
+  author: "Lao Tzu"
+  text: "A man with outward courage dares to die: a man with inner courage dares to live."
 
 menu:
     main:
