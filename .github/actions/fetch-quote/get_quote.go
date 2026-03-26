@@ -214,6 +214,7 @@ func getFavoriteQuote() quote {
 		{Text: "The only way to do great work is to love what you do.", Author: "Steve Jobs", Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Stevejobs.jpg/640px-Stevejobs.jpg"},
 		{Text: "In the middle of every difficulty lies opportunity.", Author: "Albert Einstein", Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/640px-Albert_Einstein_Head.jpg"},
 		{Text: "You just can't beat the person who never gives up.", Author: "Babe Ruth", Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Babe_Ruth_cropped.jpg/640px-Babe_Ruth_cropped.jpg"},
+  {Text: "Don't be afraid to give up the good to go for the great.", Author: "John D. Rockefeller", Image: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Portrait_of_J._D._Rockefeller.jpg"},
 		{Text: "Happiness is not something ready made. It comes from your own actions.", Author: "Dalai Lama", Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dalailama1_20121014_4639.jpg/640px-Dalailama1_20121014_4639.jpg"},
 		{Text: "Believe that you can and you're halfway there.", Author: "Theodore Roosevelt", Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Theodore_Roosevelt_by_the_Pach_Bros.jpg/960px-Theodore_Roosevelt_by_the_Pach_Bros.jpg"},
 	}
