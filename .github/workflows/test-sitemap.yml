@@ -75,6 +75,7 @@ permissions:
 jobs:
   test:
     runs-on: ubuntu-latest
+    name: Run sitemap analysis
     container:
       image: ghcr.io/${{ github.actor }}/k6-playwright:latest
 
