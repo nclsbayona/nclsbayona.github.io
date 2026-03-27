@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/ButcherBlock.png/60px-ButcherBlock.png"
-  author: "Jack Butcher"
-  text: "Write to help yourself, publish to help others."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Stevejobs.jpg/640px-Stevejobs.jpg"
+  author: "Steve Jobs"
+  text: "The only way to do great work is to love what you do."
 
 menu:
     main:
