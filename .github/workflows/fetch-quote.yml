@@ -16,7 +16,7 @@ permissions: {}
 jobs:
     get-quote:
         runs-on: ubuntu-latest
-        name: Fetch and Update Quote of the Day
+        name: Fetch and update quote of the day
     
         permissions:
             contents: write
@@ -79,7 +79,7 @@ jobs:
 
     deploy:
         needs: get-quote
-        name: Deploy
+        name: Deploy page
         permissions:
           contents: read
           pages: write
