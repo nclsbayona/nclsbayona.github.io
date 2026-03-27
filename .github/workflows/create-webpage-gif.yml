@@ -38,7 +38,7 @@ jobs:
     uses: nclsbayona/nclsbayona.github.io/.github/workflows/test-sitemap.yml@main
     with:
       users: "100"
-      duration: "3m"
+      duration: "8m"
       base_url: "https://nclsbayona.github.io"
       sitemap_url: "https://nclsbayona.github.io/sitemap.xml"
       url_limit: "500"
