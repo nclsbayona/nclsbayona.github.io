@@ -20,6 +20,8 @@ jobs:
       contents: write
       actions: write
         
+    name: PR Review
+
     steps:
       # - name: Configure monitor
       #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
