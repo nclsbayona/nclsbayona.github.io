@@ -34,7 +34,7 @@ jobs:
     permissions:
       contents: write
     needs: build
-    name: Generate Test Results
+    name: Generate K6 Results
     uses: nclsbayona/nclsbayona.github.io/.github/workflows/test-sitemap.yml@main
     with:
       users: "100"
