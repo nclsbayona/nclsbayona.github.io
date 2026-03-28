@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Woody_Allen_HS_Yearbook.jpeg"
-  author: "Woody Allen"
-  text: "Confidence is what you have before you understand the problem."
+  image: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Neelam_Sanjiva_Reddy_and_Mother_Teresa.jpg"
+  author: "Mother Teresa"
+  text: "Intense love does not measure, it just gives."
 
 menu:
     main:
