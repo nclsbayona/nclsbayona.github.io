@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Unknown_%28pel%C3%ADcula%29.svg/500px-Unknown_%28pel%C3%ADcula%29.svg.png"
-  author: "Unknown"
-  text: "It is not daily increase but daily decrease, hack away the unessential. The closer to the source, the less wastage there is."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Epictetus.jpg/250px-Epictetus.jpg"
+  author: "Epictetus"
+  text: "Wealth consists not in having great possessions, but in having few wants."
 
 menu:
     main:
