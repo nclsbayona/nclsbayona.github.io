@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dalailama1_20121014_4639.jpg/640px-Dalailama1_20121014_4639.jpg"
-  author: "Dalai Lama"
-  text: "Happiness is not something ready made. It comes from your own actions."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Unknown_%28pel%C3%ADcula%29.svg/500px-Unknown_%28pel%C3%ADcula%29.svg.png"
+  author: "Unknown"
+  text: "Never have I put my trust in fortune, even when she appeared to be offering peace; all those gifts she bestowed on me in her kindness —"
 
 menu:
     main:
