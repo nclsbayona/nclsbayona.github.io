@@ -19,6 +19,7 @@ jobs:
       pull-requests: write
       contents: write
       actions: write
+      workflows: write
         
     name: PR Review
 
