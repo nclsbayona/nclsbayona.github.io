@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dalailama1_20121014_4639.jpg/640px-Dalailama1_20121014_4639.jpg"
-  author: "Dalai Lama"
-  text: "Happiness is not something ready made. It comes from your own actions."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Eckhart_Tolle_side.jpg/120px-Eckhart_Tolle_side.jpg"
+  author: "Eckhart Tolle"
+  text: "Remember that your perception of the world is a reflection of your state of consciousness."
 
 menu:
     main:
