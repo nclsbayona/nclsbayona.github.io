@@ -1,5 +1,12 @@
 # The Changelog for nclsbayona.github.io
 
+## [1.1.1](https://github.com/nclsbayona/nclsbayona.github.io/compare/v1.1.0...v1.1.1) (2026-05-01)
+
+
+### Bug Fixes
+
+* Update custom.html ([0ff3ceb](https://github.com/nclsbayona/nclsbayona.github.io/commit/0ff3cebf703c98244d1aabffadf67d92510adbe9))
+
 # [1.1.0](https://github.com/nclsbayona/nclsbayona.github.io/compare/v1.0.0...v1.1.0) (2026-02-01)
 
 
