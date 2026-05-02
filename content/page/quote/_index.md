@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dalailama1_20121014_4639.jpg/640px-Dalailama1_20121014_4639.jpg"
-  author: "Dalai Lama"
-  text: "Happiness is not something ready made. It comes from your own actions."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Bodhidharma_%26_the_Emperor_Wu.png/250px-Bodhidharma_%26_the_Emperor_Wu.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  author: "Bodhidharma"
+  text: "As mortals, we're ruled by conditions, not by ourselves."
 
 menu:
     main:
