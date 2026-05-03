@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Bodhidharma_%26_the_Emperor_Wu.png/250px-Bodhidharma_%26_the_Emperor_Wu.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  author: "Bodhidharma"
-  text: "As mortals, we're ruled by conditions, not by ourselves."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/NSRW_Thucydides.jpg/120px-NSRW_Thucydides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  author: "Thucydides"
+  text: "Self-control is the chief element in self-respect, and self-respect is the chief element in courage."
 
 menu:
     main:
