@@ -5,8 +5,8 @@ layout: "quote"
 
 quote:
   image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
-  author: "Celestine Chua"
-  text: "If what you're doing is not your passion, you have nothing to lose."
+  author: "The Daily Stoic"
+  text: "Humility is a knowledge of our weaknesses, confidence is a knowledge of our strengths, and ego is something dangerous with none of the former and a skewed sense of the latter."
 
 menu:
     main:
