@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/George_Bernard_Shaw.jpg/250px-George_Bernard_Shaw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  author: "George Bernard Shaw"
-  text: "We don't stop playing because we grow old; we grow old because we stop playing."
+  image: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Portrait_of_J._D._Rockefeller.jpg"
+  author: "John D. Rockefeller"
+  text: "Don't be afraid to give up the good to go for the great."
 
 menu:
     main:
