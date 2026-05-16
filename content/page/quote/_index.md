@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Benjamin_D._Maxham_-_Henry_David_Thoreau_-_svg_0.svg/250px-Benjamin_D._Maxham_-_Henry_David_Thoreau_-_svg_0.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  author: "Henry David Thoreau"
-  text: "Go confidently in the direction of your dreams! Live the life you've imagined."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Jikai_Dainin_Katagiri_Roshi.png/330px-Jikai_Dainin_Katagiri_Roshi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  author: "Shunryu Suzuki"
+  text: "Life is like stepping onto a boat which is about to sail out to sea and sink."
 
 menu:
     main:
