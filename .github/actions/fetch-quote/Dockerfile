@@ -1,4 +1,4 @@
-FROM docker.io/golang:1.25 AS build
+FROM docker.io/golang:1.26.3 AS build
 WORKDIR /src
 COPY get_quote.go go.mod ./
 RUN CGO_ENABLED=0 go build -o /bin/main .
