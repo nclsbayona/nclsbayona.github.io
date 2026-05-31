@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Theodore_Roosevelt_by_the_Pach_Bros.jpg/960px-Theodore_Roosevelt_by_the_Pach_Bros.jpg"
-  author: "Theodore Roosevelt"
-  text: "Believe that you can and you're halfway there."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Othello_and_Iago.gif/330px-Othello_and_Iago.gif"
+  author: "Othello"
+  text: "The robbed that smiles steals something from the thief."
 
 menu:
     main:
