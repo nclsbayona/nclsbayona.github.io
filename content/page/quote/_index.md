@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Othello_and_Iago.gif/330px-Othello_and_Iago.gif"
-  author: "Othello"
-  text: "The robbed that smiles steals something from the thief."
+  image: "https://zenquotes.io/img/winston-churchill.jpg"
+  author: "Winston Churchill"
+  text: "Continuous effort - not strength or intelligence - is the key to unlocking our potential."
 
 menu:
     main:
