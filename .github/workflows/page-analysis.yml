@@ -99,7 +99,7 @@ jobs:
       # - name: Configure monitor
       #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
 
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v6.0.2
         with:
           persist-credentials: false
 
