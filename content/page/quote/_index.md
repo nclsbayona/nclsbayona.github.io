@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
-  author: "TheAncientSage"
-  text: "and its laws. It is what it is. No amount of complaining, resentment or mourning will help. Accept, let go and move on. @"
+  image: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Portrait_of_J._D._Rockefeller.jpg"
+  author: "John D. Rockefeller"
+  text: "Don't be afraid to give up the good to go for the great."
 
 menu:
     main:
