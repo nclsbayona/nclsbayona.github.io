@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Rep_Robert_Greene_State_of_NH_Pic.jpg/250px-Rep_Robert_Greene_State_of_NH_Pic.jpg"
-  author: "Robert Greene"
-  text: "The pain and boredom we experience in the initial stage of learning a skill toughens our minds."
+  image: "https://zenquotes.io/img/ralph-marston.jpg"
+  author: "Ralph Marston"
+  text: "Expect the best of yourself, and then do what is necessary to make it a reality."
 
 menu:
     main:
