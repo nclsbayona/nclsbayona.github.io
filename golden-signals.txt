@@ -2,29 +2,29 @@
 === GOLDEN SIGNALS ===
 
 Latency
-  http_req_duration p95: 3.4286135000000004 ms
-  gs_latency p95: 3.428478399999999 ms
+  http_req_duration p95: 15.51692645 ms
+  gs_latency p95: 15.516851799999998 ms
 
 Traffic
-  http_reqs count: 178654
-  data_received: 5737307069 bytes
-  data_sent: 39338273 bytes
+  http_reqs count: 174838
+  data_received: 5644783041 bytes
+  data_sent: 38759873 bytes
   pages_discovered: 37
-  pages_tested: 178653
+  pages_tested: 174837
 
 Errors
-  http_req_failed rate: 0.000011194823513607307
-  checks rate: 0.999988805113824
-  gs_error_rate: 0.000011194886175994805
+  http_req_failed rate: 0.000005719580411581007
+  checks rate: 0.9999942803868747
+  gs_error_rate: 0.0000057196131253682005
 
 Saturation
-  vus: 100
+  vus: 4
   vus_max: 100
-  iteration_duration p95: 953.0466468 ms
-  gs_iteration p95: 953 ms
+  iteration_duration p95: 964.7889016 ms
+  gs_iteration p95: 965 ms
 
 HTTP Status Codes
-  200: 178651
+  200: 174836
   204: 0
   301: 0
   302: 0
@@ -36,11 +36,11 @@ HTTP Status Codes
   429: 0
   500: 0
   502: 0
-  503: 1
+  503: 0
   other: 1
 
 HTTP Status Families
-  2xx: 178651
+  2xx: 174836
   3xx: 0
   4xx: 0
-  5xx: 1
+  5xx: 0
