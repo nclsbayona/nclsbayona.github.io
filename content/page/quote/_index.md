@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Babe_Ruth_cropped.jpg/640px-Babe_Ruth_cropped.jpg"
-  author: "Babe Ruth"
-  text: "You just can't beat the person who never gives up."
+  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
+  author: "The Daily Stoic"
+  text: "Live as if you died, but were resuscitated and every minute was a gift."
 
 menu:
     main:
