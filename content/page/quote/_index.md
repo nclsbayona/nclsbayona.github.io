@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
-  author: "The Daily Stoic"
-  text: "Live as if you died, but were resuscitated and every minute was a gift."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Unknown_%28pel%C3%ADcula%29.svg/500px-Unknown_%28pel%C3%ADcula%29.svg.png"
+  author: "Unknown"
+  text: "If you are easily provoked you are easily controlled."
 
 menu:
     main:
