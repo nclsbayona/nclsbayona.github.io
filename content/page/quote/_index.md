@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Carlyle_Holiday_%28Notre_Dame_wide_receiver%29_playing_in_September_2003_football_game_against_Washington_State_at_Notre_Dame_Stadium.jpg/250px-Carlyle_Holiday_%28Notre_Dame_wide_receiver%29_playing_in_September_2003_football_game_against_Washington_State_at_Notre_Dame_Stadium.jpg"
-  author: "Ryan Holiday"
-  text: "What matters most is not what our obstacles are but how we see them, how we react to them, and whether we keep our composure."
+  image: "https://commons.wikimedia.org/wiki/Friedrich_Nietzsche#/media/File:Nietzsche187a.jpg"
+  author: "Friedrich Nietzsche"
+  text: "He who has a why to live can bear almost any how"
 
 menu:
     main:
