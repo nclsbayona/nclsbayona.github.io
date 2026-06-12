@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Albert_Einstein_%28Nobel%29.png/250px-Albert_Einstein_%28Nobel%29.png"
-  author: "Albert Einstein"
-  text: "Failure and deprivation are the best educators and purifiers."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Samuel_Beckett_by_Edmund_S._Valtman_ppmsc.07951.svg/120px-Samuel_Beckett_by_Edmund_S._Valtman_ppmsc.07951.svg.png"
+  author: "Samuel Beckett"
+  text: "All has not been said and never will be."
 
 menu:
     main:
