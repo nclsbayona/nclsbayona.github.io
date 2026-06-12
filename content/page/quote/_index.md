@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://commons.wikimedia.org/wiki/Friedrich_Nietzsche#/media/File:Nietzsche187a.jpg"
-  author: "Friedrich Nietzsche"
-  text: "He who has a why to live can bear almost any how"
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Albert_Einstein_%28Nobel%29.png/250px-Albert_Einstein_%28Nobel%29.png"
+  author: "Albert Einstein"
+  text: "Failure and deprivation are the best educators and purifiers."
 
 menu:
     main:
