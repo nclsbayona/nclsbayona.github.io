@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Samuel_Beckett_by_Edmund_S._Valtman_ppmsc.07951.svg/120px-Samuel_Beckett_by_Edmund_S._Valtman_ppmsc.07951.svg.png"
-  author: "Samuel Beckett"
-  text: "All has not been said and never will be."
+  image: "https://zenquotes.io/img/henry-ford.jpg"
+  author: "Henry Ford"
+  text: "You can't build a reputation on what you are going to do."
 
 menu:
     main:
