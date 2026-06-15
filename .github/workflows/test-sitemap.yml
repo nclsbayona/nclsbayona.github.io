@@ -89,7 +89,7 @@ jobs:
       #     echo "inputs=${{ toJson(inputs) }}"
       #     echo "github.event=${{ toJson(github.event) }}"
 
-      - uses: actions/checkout@v6.0.2
+      - uses: actions/checkout@v6.0.3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: ${{ github.ref }}
