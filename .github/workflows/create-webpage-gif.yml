@@ -16,7 +16,7 @@ jobs:
     steps:
     # - name: Configure monitor
     #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
-    - uses: actions/checkout@v6.0.2
+    - uses: actions/checkout@v6.0.3
       with:
         persist-credentials: true
     - name: Website to file
