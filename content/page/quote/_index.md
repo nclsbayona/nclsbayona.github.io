@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Buddha_Kopf.jpg/250px-Buddha_Kopf.jpg"
-  author: "Buddha"
-  text: "A man is not called wise because he talks and talks again; but if he is peaceful, loving and fearless then he is in truth called wise."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Nassim_Taleb_Lecturing.jpg/250px-Nassim_Taleb_Lecturing.jpg"
+  author: "Nassim Nicholas Taleb"
+  text: "Heroes are heroes because they are heroic in behaviour, not because they won or lost."
 
 menu:
     main:
