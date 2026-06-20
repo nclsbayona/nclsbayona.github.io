@@ -92,6 +92,40 @@ jobs:
         with:
           args: "--verbose"
 
+  ossf:
+    name: Scorecard analysis
+    runs-on: ubuntu-latest
+    permissions:
+      security-events: write
+      id-token: write
+
+    steps:
+    #  - name: Configure monitor
+    #    uses: GitHubSecurityLab/actions-permissions/monitor@v1
+    
+      - name: "Checkout code"
+        uses: actions/checkout@v6.0.3
+        with:
+          persist-credentials: false
+
+      - name: "Run analysis"
+        uses: ossf/scorecard-action@v2.4.1
+        with:
+          results_file: results.sarif
+          results_format: sarif
+          publish_results: true
+          
+      - name: "Upload artifact"
+        uses: actions/upload-artifact@v4.6.1
+        with:
+          name: SARIF file
+          path: results.sarif
+          retention-days: 5
+
+      - name: "Upload to code-scanning"
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: results.sarif
   trivy:
     name: Run Trivy 🧐
     runs-on: ubuntu-latest
@@ -120,3 +154,4 @@ jobs:
         uses: github/codeql-action/upload-sarif@v4.36.2
         with:
           sarif_file: 'trivy-results.sarif'
+          
