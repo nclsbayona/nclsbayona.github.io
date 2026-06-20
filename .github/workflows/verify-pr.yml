@@ -1,0 +1,41 @@
+name: Verify PR
+
+on: 
+  pull_request
+
+permissions: {}
+
+jobs:
+  link-checker:
+    if: always()
+    name: Link Checker
+    runs-on: ubuntu-latest
+    permissions: {}
+    concurrency:
+        group: link_check-${{ github.ref }}
+        cancel-in-progress: false
+    steps:
+      # - name: Configure monitor
+      #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
+
+      - uses: actions/checkout@v6.0.3
+        with:
+          persist-credentials: false
+
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2.8.0
+        with:
+          args: --verbose --no-progress './**/*.md' './**/*.html'
+          format: markdown
+          jobSummary: true
+          output: 'lychee-report.md'
+          fail: false
+          failIfEmpty: false
+          token: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Upload Link Checker Report
+        uses: actions/upload-artifact@v7
+        with:
+          name: link-checker-report
+          path: lychee-report.md
