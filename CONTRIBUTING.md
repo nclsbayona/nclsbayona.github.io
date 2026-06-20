@@ -181,7 +181,7 @@ This repository uses GitHub Actions for:
 - **Quote Updates**: Daily quote of the day refresh
 - **Semantic Release**: Automated versioning and changelog generation
 
-See [.github/README.md](.github/README.md) for detailed workflow documentation.
+See [.github/workflows/README.md](.github/workflows/README.md) for detailed workflow documentation.
 
 ## Questions?
 

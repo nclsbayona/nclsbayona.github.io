@@ -39,10 +39,10 @@ links:
 - title: Ahmet Alp Balkan's blog
   description: Ahmet Alp Balkan is a software engineer that usually posts relevant content on the technology field.
   website: https://ahmet.im
-- title: K8S security geek
-  description: K8s security geek is a blog by Itai Ganot that talks about various Kubernetes security-focused stuff.
-  website: https://k8s-security.geek-kb.com/docs/fundamentals/intro/
-  image: https://k8s-security.geek-kb.com/img/logo.svg
+- title: OWASP Cheat Sheet Series
+  description: The OWASP Cheat Sheet Series is a collection of high-value information on specific cybersecurity topics.
+  website: https://cheatsheetseries.owasp.org/
+  image: https://cheatsheetseries.owasp.org/assets/OWASP_Logo.svg
 - title: The CyberHub
   description: A cybersecurity community
   website: https://thecyberhub.org

@@ -336,5 +336,5 @@ GitHub Actions will automatically:
 ## Next Steps
 
 - Read [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines
-- Check [.github/README.md](.github/README.md) for workflow documentation
+- Check [.github/workflows/README.md](.github/workflows/README.md) for workflow documentation
 - Review [config/README.md](config/README.md) for configuration options
