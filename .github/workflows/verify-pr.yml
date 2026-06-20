@@ -41,7 +41,7 @@ jobs:
           path: lychee-report.md
 
 
-    review-dependabot-pr:
+  review-dependabot-pr:
       runs-on: ubuntu-latest
       name: Automatically merge Dependabot PRs
       if: ${{ github.event.pull_request.user.login == 'dependabot[bot]' }}
