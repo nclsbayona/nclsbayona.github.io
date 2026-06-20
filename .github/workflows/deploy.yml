@@ -10,7 +10,6 @@ on:
       - 'assets/**/*'
       - 'config/**/*'
       - 'layouts/**/*'
-      - '.github/workflows/deploy.yml'
 
 jobs:
 

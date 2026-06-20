@@ -45,7 +45,7 @@ A reusable composite action that fetches inspirational quotes with author and im
 - uses: nclsbayona/nclsbayona.github.io/.github/actions/fetch-quote@main
 ```
 
-See [.github/actions/fetch-quote/README.md](actions/fetch-quote/README.md) for detailed documentation.
+See [.github/actions/fetch-quote/README.md](../actions/fetch-quote/README.md) for detailed documentation.
 
 ### k6-sitemap
 
@@ -85,7 +85,7 @@ A reusable composite action that takes an screenshot to the k6 load testing of t
 - uses: nclsbayona/nclsbayona.github.io/.github/actions/k6-sitemap@main
 ```
 
-See [.github/actions/k6-sitemap/README.md](actions/k6-sitemap/README.md) for detailed documentation.
+See [.github/actions/k6-sitemap/README.md](../actions/k6-sitemap/README.md) for detailed documentation.
 
 ## Workflow Architecture
 
@@ -183,7 +183,7 @@ See [.github/actions/k6-sitemap/README.md](actions/k6-sitemap/README.md) for det
 
 **Notes**:
 - Quote action is reusable - can be called from other workflows or repositories
-- See `.github/actions/fetch-quote/README.md` for standalone usage
+- See [.github/actions/fetch-quote/README.md](../actions/fetch-quote/README.md) for standalone usage
 - Only commits if quote actually changed
 - Uses workflow_call to trigger deployment
 - Displays quote in job summary with formatting
