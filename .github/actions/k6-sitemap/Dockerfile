@@ -8,9 +8,10 @@ RUN apt-get update && apt-get install -y ca-certificates curl gnupg \
   && echo "deb [signed-by=/etc/apt/keyrings/k6.gpg] https://dl.k6.io/deb stable main" \
      > /etc/apt/sources.list.d/k6.list \
   && apt-get update && apt-get install -y git k6 \
-  && rm -rf /var/lib/apt/lists/* && npm install -g playwright
+  && rm -rf /var/lib/apt/lists/*
 
 COPY scripts/ /opt/
+COPY entrypoint.sh /entrypoint.sh
 
 # --- Playwright install ---
 WORKDIR /opt
@@ -20,5 +21,5 @@ RUN npm init -y \
   && rm -rf /root/.npm
 
 ENV NODE_PATH=/opt/node_modules
-
-WORKDIR /work
+WORKDIR /github/workspace
+ENTRYPOINT ["/entrypoint.sh"]

@@ -32,6 +32,10 @@ on:
         description: "The timeout for HTTP"
         required: false
         default: "5s"
+      base_output_dir:
+        type: string
+        description: "Directory where the HTML dashboard and PNG screenshot will be saved (default: results)"
+        required: true
     
 
   workflow_dispatch:
@@ -60,34 +64,24 @@ on:
         description: "The timeout for HTTP"
         required: false
         default: "5s"
-    
-  # schedule:
-  # - cron: "0 3 * * 0" # Weekly on Sundays at 03:00 UTC
-
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/test-sitemap.yml'
-
-permissions:
-  contents: write
+      BASE_OUTPUT_DIR:
+        description: "Directory where the HTML dashboard and PNG screenshot will be saved (default: results)"
+        required: false
+        default: "artifacts"
 
 jobs:
   test:
     runs-on: ubuntu-latest
     name: Run sitemap analysis
-    container:
-      image: ghcr.io/${{ github.actor }}/k6-playwright:latest
-
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      PR_BRANCH: "update-gif-${{ github.run_id }}"
+      ARTIFACTS_DIR: ${{ github.event.inputs.BASE_OUTPUT_DIR || inputs.base_output_dir }}
     steps:
       # - name: Configure monitor
       #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
-
-      # - name: Check Inputs
-      #   run: |
-      #     echo "event_name=${{ github.event_name }}"
-      #     echo "inputs=${{ toJson(inputs) }}"
-      #     echo "github.event=${{ toJson(github.event) }}"
 
       - uses: actions/checkout@v6.0.3
         with:
@@ -99,30 +93,42 @@ jobs:
         id: test
         uses: ./.github/actions/k6-sitemap
         with:
-          base_url: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.BASE_URL) || (github.event_name == 'schedule' && 'https://nclsbayona.github.io') || (github.event_name == 'workflow_dispatch' && inputs.base_url) || (github.event_name == 'push' && 'https://nclsbayona.github.io') || (github.event_name == 'deployment' && inputs.base_url) }}
-          sitemap_url: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.SITEMAP_URL) || (github.event_name == 'schedule' && 'https://nclsbayona.github.io/sitemap.xml') || (github.event_name == 'workflow_dispatch' && inputs.sitemap_url) || (github.event_name == 'push' && 'https://nclsbayona.github.io/sitemap.xml') || (github.event_name == 'deployment' && inputs.sitemap_url) }}
-          vus: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.VUS) || (github.event_name == 'schedule' && '50') || (github.event_name == 'workflow_dispatch' && inputs.users) || (github.event_name == 'push' && '10') || (github.event_name == 'deployment' && inputs.users) }}
-          duration: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.DURATION) || (github.event_name == 'schedule' && '5m') || (github.event_name == 'workflow_dispatch' && inputs.duration) || (github.event_name == 'push' && '30s') || (github.event_name == 'deployment' && inputs.duration) }}
-          http_timeout: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.HTTP_TIMEOUT) || (github.event_name == 'schedule' && '5s') || (github.event_name == 'workflow_dispatch' && inputs.http_timeout) || (github.event_name == 'push' && '5s') || (github.event_name == 'deployment' && inputs.http_timeout) }}
-          url_limit: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.URL_LIMIT) || (github.event_name == 'schedule' && '500') || (github.event_name == 'workflow_dispatch' && inputs.url_limit) || (github.event_name == 'push' && '500') || (github.event_name == 'deployment' && inputs.url_limit) }}
+          base_output_dir: ${{ env.ARTIFACTS_DIR }}
+          base_url: ${{ github.event.inputs.BASE_URL || inputs.base_url }}
+          sitemap_url: ${{ github.event.inputs.SITEMAP_URL || inputs.sitemap_url }}
+          vus: ${{ github.event.inputs.VUS || inputs.users }}
+          duration: ${{ github.event.inputs.DURATION || inputs.duration }}
+          http_timeout: ${{ github.event.inputs.HTTP_TIMEOUT || inputs.http_timeout }}
+          url_limit: ${{ github.event.inputs.URL_LIMIT || inputs.url_limit }}
 
-      - name: Get dashboard variables
-        id: dashboard
-        run: |
-          echo "The HTML is available at ${{ steps.test.outputs.dashboard_html }}"
-          echo "The PNG is available at ${{ steps.test.outputs.dashboard_png }}"
-
-      - name: Download dashboard artifacts
-        id: download_png
-        uses: actions/download-artifact@v8
+      - name: Upload reports
+        if: success()
+        uses: actions/upload-artifact@v7
         with:
-          artifact-ids: ${{ steps.test.outputs.artifact }}
+          name: k6-sitemap-reports-${{ github.run_id }}
+          path: ${{ env.ARTIFACTS_DIR }}
 
-      - name: Add safe directory
+      - name: Create branch and push changes
+        env:
+          BRANCH: ${{ env.PR_BRANCH }}
         run: |
-          git config --global --add safe.directory /__w/nclsbayona.github.io/nclsbayona.github.io && rm -rf results
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add ${{ env.ARTIFACTS_DIR }} || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "docs: :memo: Update loadtest image"
+            git push --set-upstream origin "$BRANCH"
+          fi
 
-      - name: Commit dashboard PNG
-        uses: stefanzweifel/git-auto-commit-action@v7
+      - name: Create Pull Request
+        id: create_pr
+        uses: peter-evans/create-pull-request@v5
         with:
-          commit_message: "docs: :memo: Update load test dashboard"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ env.PR_BRANCH }}
+          base: main
+          title: "docs: :memo: Update loadtest image"
+          body: "Automated update: refresh loadtest in directory ${{ env.ARTIFACTS_DIR }}"

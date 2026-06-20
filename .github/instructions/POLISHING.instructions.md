@@ -116,7 +116,7 @@ draft: false
 - [ ] **Secrets**: Use GitHub Secrets for sensitive data
 - [ ] **Error handling**: Graceful failure handling
 - [ ] **Concurrency**: Appropriate concurrency controls
-- [ ] **Documentation**: Update .github/README.md if needed
+- [ ] **Documentation**: Update .github/workflows/README.md if needed
 
 ## Pre-Commit Checklist
 
@@ -277,5 +277,5 @@ For questions about polishing standards or suggestions for improvement:
 
 - [CONTRIBUTING.md](../../CONTRIBUTING.md) - Contribution guidelines
 - [DEVELOPMENT.md](../../DEVELOPMENT.md) - Development setup
-- [.github/README.md](../README.md) - Workflow documentation
+- [.github/workflows/README.md](../workflows/README.md) - Workflow documentation
 - [config/README.md](../../config/README.md) - Configuration guide
