@@ -101,4 +101,4 @@ jobs:
       base_url: "https://nclsbayona.github.io"
       sitemap_url: "https://nclsbayona.github.io/sitemap.xml"
       url_limit: "500"
-      base_output_dir: ${{ env.ARTIFACTS_DIR }}
+      base_output_dir: "artifacts"
