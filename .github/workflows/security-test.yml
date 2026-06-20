@@ -93,7 +93,7 @@ jobs:
           args: "--verbose"
 
   ossf:
-    name: Scorecard analysis
+    name: Scorecard analysis 🔒️
     runs-on: ubuntu-latest
     permissions:
       security-events: write
