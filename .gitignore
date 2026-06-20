@@ -28,3 +28,8 @@ Thumbs.db
 *.tmp
 *.log
 /tmp/
+
+# Custom helping skills and their configurations
+skills/
+registry/
+state
