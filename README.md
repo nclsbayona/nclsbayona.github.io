@@ -113,7 +113,7 @@ The repository uses GitHub Actions for automation:
 - **Create GIF**: Generates GIF for repository visualization
 - **Load test Sitemap**: Load tests the webpage using the sitemap for URL discovery
 
-See [.github/README.md](.github/README.md) for detailed workflow documentation.
+See [.github/workflows/README.md](.github/workflows/README.md) for detailed workflow documentation.
 
 ## 🤝 Contributing
 
@@ -155,7 +155,7 @@ Content focuses on:
 - GitHub Actions security linting with zizmor
 
 To report security issues, please use GitHub's private vulnerability reporting.
-
+See [.github/workflows/README.md](.github/workflows/README.md) for detailed workflow documentation.
 ## 📄 License
 
 This project is licensed under the terms specified in the [LICENSE](LICENSE) file.
