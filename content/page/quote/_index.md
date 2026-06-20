@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Nassim_Taleb_Lecturing.jpg/250px-Nassim_Taleb_Lecturing.jpg"
-  author: "Nassim Nicholas Taleb"
-  text: "The fragile wants tranquility, the antifragile grows from disorder, and the robust doesn’t care too much."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Manson-Self.jpg/250px-Manson-Self.jpg"
+  author: "Mark Manson"
+  text: "Being wrong brings the opportunity for growth."
 
 menu:
     main:
