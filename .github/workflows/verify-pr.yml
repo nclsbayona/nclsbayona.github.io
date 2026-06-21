@@ -5,6 +5,10 @@ on:
 
 permissions: {}
 
+env:
+  PR_URL: ${{github.event.pull_request.html_url}}
+  GH_TOKEN: ${{ secrets.PR_TOKEN }}
+
 jobs:
   link-checker:
     if: always()
@@ -47,11 +51,6 @@ jobs:
     if: |
       github.event.pull_request.user.login == 'github-actions[bot]' && 
       github.event.pull_request.title == 'docs: :memo: Update website gif'
-    env:
-      PR_URL: ${{github.event.pull_request.html_url}}
-      GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-    permissions:
-      pull-requests: write
     steps:
     # - name: Configure monitor
     #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
@@ -68,11 +67,6 @@ jobs:
     if: |
       github.event.pull_request.user.login == 'github-actions[bot]' && 
       github.event.pull_request.title == 'docs: :memo: Update loadtest image'
-    env:
-      PR_URL: ${{github.event.pull_request.html_url}}
-      GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-    permissions:
-      pull-requests: write
     steps:
     # - name: Configure monitor
     #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
@@ -87,11 +81,6 @@ jobs:
     needs: link-checker
     name: Automatically merge Dependabot PRs
     if: ${{ github.event.pull_request.user.login == 'dependabot[bot]' }}
-    env:
-      PR_URL: ${{github.event.pull_request.html_url}}
-      GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-    permissions:
-      pull-requests: write
     steps:
     # - name: Configure monitor
     #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
