@@ -1,4 +1,5 @@
 name: Semantic Release
+run-name: ${{ github.workflow }} (#${{ github.run_id }})
 
 on:
   workflow_dispatch:
