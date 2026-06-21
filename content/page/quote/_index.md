@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Babe_Ruth_cropped.jpg/640px-Babe_Ruth_cropped.jpg"
-  author: "Babe Ruth"
-  text: "You just can't beat the person who never gives up."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Carlyle_Holiday_%28Notre_Dame_wide_receiver%29_playing_in_September_2003_football_game_against_Washington_State_at_Notre_Dame_Stadium.jpg/250px-Carlyle_Holiday_%28Notre_Dame_wide_receiver%29_playing_in_September_2003_football_game_against_Washington_State_at_Notre_Dame_Stadium.jpg"
+  author: "Ryan Holiday"
+  text: "No one is asking you to look at the world through rose-colored glasses."
 
 menu:
     main:
