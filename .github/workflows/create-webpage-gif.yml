@@ -34,8 +34,8 @@ jobs:
       uses: PabloLec/website-to-gif@2.1.5
       with:
         url: "https://nclsbayona.github.io"
-        scroll_step: 2
-        save_path: "${{ env.ARTIFACTS_DIR }}/images"
+        scroll_step: 100
+        save_path: "/${{ env.ARTIFACTS_DIR }}/images"
 
     - name: Create branch and push changes
       env:
