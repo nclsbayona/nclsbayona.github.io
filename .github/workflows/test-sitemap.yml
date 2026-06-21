@@ -108,27 +108,13 @@ jobs:
           name: k6-sitemap-reports-${{ github.run_id }}
           path: ${{ env.ARTIFACTS_DIR }}
 
-      - name: Create branch and push changes
-        env:
-          BRANCH: ${{ env.PR_BRANCH }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout -b "$BRANCH"
-          git add ${{ env.ARTIFACTS_DIR }} || true
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "docs: :memo: Update loadtest image"
-            git push --set-upstream origin "$BRANCH"
-          fi
-
       - name: Create Pull Request
         id: create_pr
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v8.1.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ env.PR_BRANCH }}
           base: main
+          delete-branch: true
           title: "docs: :memo: Update loadtest image"
           body: "Automated update: refresh loadtest in directory ${{ env.ARTIFACTS_DIR }}"
