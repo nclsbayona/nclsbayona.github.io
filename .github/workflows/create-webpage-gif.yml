@@ -28,7 +28,9 @@ jobs:
     #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
     - uses: actions/checkout@v6.0.3
       with:
-        persist-credentials: true
+        token: ${{ secrets.GITHUB_TOKEN }}
+        ref: ${{ github.ref }}
+        persist-credentials: false
 
     - name: Website to file
       uses: PabloLec/website-to-gif@2.1.5
