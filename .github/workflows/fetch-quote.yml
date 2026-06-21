@@ -1,4 +1,5 @@
 name: Update quote of the day
+run-name: ${{ github.workflow }} (#${{ github.run_id }})
 
 on:
   schedule:

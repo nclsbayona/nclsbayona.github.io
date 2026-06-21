@@ -1,4 +1,5 @@
 name: Update visualizations
+run-name: ${{ github.workflow }} (#${{ github.run_id }})
 on:
   deployment: 
   workflow_dispatch:

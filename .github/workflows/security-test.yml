@@ -1,4 +1,5 @@
 name: Security scan
+run-name: ${{ github.workflow }} (#${{ github.run_id }})
 
 on:
   schedule:
