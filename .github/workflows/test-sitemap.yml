@@ -87,7 +87,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: ${{ github.ref }}
-          persist-credentials: true
+          persist-credentials: false
 
       - name: Run sitemap action
         id: test
