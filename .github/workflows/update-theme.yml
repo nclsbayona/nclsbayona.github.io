@@ -50,35 +50,3 @@ jobs:
           delete-branch: true
           title: "ci: :arrow_up: Update theme"
           body: "Automated update: update theme"
-
-      - name: Wait for PR to be merged
-        uses: actions/github-script@v6
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const prNumber = Number("${{ steps.create_pr.outputs.pull-request-number }}");
-
-            if (!prNumber || Number.isNaN(prNumber)) {
-              core.setFailed(
-                "No PR number received. Check."
-              );
-              return;
-            }
-
-            console.log(`Waiting for PR #${prNumber} to be merged`);
-
-            while (true) {
-              const { data: pr } = await github.rest.pulls.get({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                pull_number: prNumber,
-              });
-
-              if (pr.merged) {
-                console.log(`PR #${prNumber} has been merged!`);
-                break;
-              }
-
-              console.log(`PR #${prNumber} is not merged yet. Checking again in 90 seconds...`);
-              await new Promise(resolve => setTimeout(resolve, 90000));
-            }"
