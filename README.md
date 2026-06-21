@@ -192,7 +192,7 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
   ![Create visualizations](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/create-webpage-gif.yml/badge.svg)
   ![Semantic Release](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/semantic-release.yml/badge.svg)
   ![Purge old runs](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/delete-old-runs.yml/badge.svg)
-  ![Merge dependabot PRs](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/automatic-merge.yml/badge.svg)
+  ![Verify PRs](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/verify-pr.yml/badge.svg)
   
 </details>
 
