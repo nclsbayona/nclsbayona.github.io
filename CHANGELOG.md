@@ -1,5 +1,14 @@
 # The Changelog for nclsbayona.github.io
 
+# [1.2.0](https://github.com/nclsbayona/nclsbayona.github.io/compare/v1.1.1...v1.2.0) (2026-06-21)
+
+
+### Features
+
+* Updates to content ([90fdd75](https://github.com/nclsbayona/nclsbayona.github.io/commit/90fdd7580c82f6c8a49b96aa1cb27c2718e64e99))
+* Updates to content ([d61b0e9](https://github.com/nclsbayona/nclsbayona.github.io/commit/d61b0e98b63b7b0fda618b565308ae62605bed61))
+* Updates to content ([#57](https://github.com/nclsbayona/nclsbayona.github.io/issues/57)) ([65268d5](https://github.com/nclsbayona/nclsbayona.github.io/commit/65268d501a934d011245cba4002bd0876278436d))
+
 ## [1.1.1](https://github.com/nclsbayona/nclsbayona.github.io/compare/v1.1.0...v1.1.1) (2026-05-01)
 
 
