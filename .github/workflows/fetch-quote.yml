@@ -18,9 +18,12 @@ jobs:
     get-quote:
         runs-on: ubuntu-latest
         name: Fetch and update quote of the day
+        env:
+          PR_BRANCH: "update-quote-${{ github.run_id }}"
     
         permissions:
-            contents: write
+          contents: write
+          pull-requests: write
 
         concurrency:
             group: quote-${{ github.ref }}
@@ -61,10 +64,48 @@ jobs:
             ---
             EOF
     
-        - name: Commit changes
-          uses: stefanzweifel/git-auto-commit-action@v7
+        - name: Create Pull Request
+          id: create_pr
+          uses: peter-evans/create-pull-request@v8.1.1
           with:
-            commit_message: "chore: :hammer: Update quote"
+            token: ${{ secrets.GITHUB_TOKEN }}
+            branch: ${{ env.PR_BRANCH }}
+            base: main
+            delete-branch: true
+            title: "chore: :hammer: Update quote of the day"
+            body: "Automated update: update quote of the day"
+
+        - name: Wait for PR to be merged
+          uses: actions/github-script@v6
+          with:
+            github-token: ${{ secrets.GITHUB_TOKEN }}
+            script: |
+              const prNumber = Number("${{ steps.create_pr.outputs.pull-request-number }}");
+
+              if (!prNumber || Number.isNaN(prNumber)) {
+                core.setFailed(
+                  "No PR number received. Check."
+                );
+                return;
+              }
+
+              console.log(`Waiting for PR #${prNumber} to be merged`);
+
+              while (true) {
+                const { data: pr } = await github.rest.pulls.get({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  pull_number: prNumber,
+                });
+
+                if (pr.merged) {
+                  console.log(`PR #${prNumber} has been merged!`);
+                  break;
+                }
+
+                console.log(`PR #${prNumber} is not merged yet. Checking again in 90 seconds...`);
+                await new Promise(resolve => setTimeout(resolve, 90000));
+              }
   
         - name: Display quote in summary
           run: |
@@ -75,8 +116,6 @@ jobs:
             echo "**— ${{ steps.quote.outputs.author }}**" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "![Author](${{ steps.quote.outputs.image }})" >> $GITHUB_STEP_SUMMARY
-
-
 
     deploy:
         needs: get-quote
