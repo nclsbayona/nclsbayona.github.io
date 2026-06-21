@@ -55,13 +55,23 @@ jobs:
     runs-on: ubuntu-latest
     name: Wait for GIF PR to be merged
     steps:
+      - name: Debug PR outputs
+        run: |
+          echo "number=${{ needs.make-gif.outputs.pr_number }}"
+          echo "url=${{ needs.make-gif.outputs.pr_url }}"
       - name: Wait for PR to be merged
         uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const prNumber = Number("${{ needs.make-gif.outputs.pr_number }}");
-            const prUrl = "${{ needs.make-gif.outputs.pr_url }}";
+
+            if (!prNumber || Number.isNaN(prNumber)) {
+              core.setFailed(
+                "No PR number received. Check."
+              );
+              return;
+            }
 
             console.log(`Waiting for PR #${prNumber} to be merged: ${prUrl}`);
 
