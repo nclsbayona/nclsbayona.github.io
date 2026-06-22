@@ -68,7 +68,7 @@ jobs:
           id: create_pr
           uses: peter-evans/create-pull-request@v8.1.1
           with:
-            token: ${{ secrets.GITHUB_TOKEN }}
+            token: ${{ secrets.PR_TOKEN }}
             branch: ${{ env.PR_BRANCH }}
             base: main
             delete-branch: true

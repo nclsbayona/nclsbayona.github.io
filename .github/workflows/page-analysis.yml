@@ -1,9 +1,6 @@
 name: Analyze webpage
 run-name: ${{ github.workflow }} (#${{ github.run_id }})
 
-# This workflow performs various analyses on the deployed website including
-# performance metrics, accessibility checks, and link validation.
-# Some jobs are commented out - see individual sections for details.
 
 on: 
   page_build:

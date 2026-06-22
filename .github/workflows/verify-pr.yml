@@ -4,11 +4,13 @@ run-name: ${{ github.workflow }} (#${{ github.run_id }})
 on: 
   pull_request
 
-permissions: {}
+permissions:
+  contents: read
+  pull-requests: write
 
 env:
   PR_URL: ${{github.event.pull_request.html_url}}
-  GH_TOKEN: ${{ secrets.PR_TOKEN }}
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   link-checker:

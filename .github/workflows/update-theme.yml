@@ -1,14 +1,12 @@
 name: Update theme
 run-name: ${{ github.workflow }} (#${{ github.run_id }})
 
-# Controls when the workflow will run
 on:
   push:
     branches: [main]
     paths:
       - '.github/workflows/update-theme.yml'
   schedule:
-    # Update theme automatically everyday at 01:00 UTC
     - cron: "0 1 * * *"
 
 jobs:
@@ -19,8 +17,6 @@ jobs:
       PR_BRANCH: "update-theme-${{ github.run_id }}"
 
     permissions:
-      # Give the default GITHUB_TOKEN write permission to commit and push the
-      # added or changed files to the repository.
       contents: write
       pull-requests: write
     
@@ -45,7 +41,7 @@ jobs:
         id: create_pr
         uses: peter-evans/create-pull-request@v8.1.1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PR_TOKEN }}
           branch: ${{ env.PR_BRANCH }}
           base: main
           delete-branch: true
