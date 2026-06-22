@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Carlyle_Holiday_%28Notre_Dame_wide_receiver%29_playing_in_September_2003_football_game_against_Washington_State_at_Notre_Dame_Stadium.jpg/250px-Carlyle_Holiday_%28Notre_Dame_wide_receiver%29_playing_in_September_2003_football_game_against_Washington_State_at_Notre_Dame_Stadium.jpg"
-  author: "Ryan Holiday"
-  text: "No one is asking you to look at the world through rose-colored glasses."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Mevlana-celaleddin-i-rumi-1.jpg/120px-Mevlana-celaleddin-i-rumi-1.jpg"
+  author: "Rumi"
+  text: "Don’t grieve. Anything you lose comes round in another form."
 
 menu:
     main:
