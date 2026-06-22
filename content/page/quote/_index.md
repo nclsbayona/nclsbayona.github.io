@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Charles_Dickens_3.jpg/250px-Charles_Dickens_3.jpg"
-  author: "Charles Dickens"
-  text: "One always begins to forgive a place as soon as it's left behind."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Stevejobs.jpg/960px-Stevejobs.jpg"
+  author: "Steve Jobs"
+  text: "The only way to do great work is to love what you do."
 
 menu:
     main:
