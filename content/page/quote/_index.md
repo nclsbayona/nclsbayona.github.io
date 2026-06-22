@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://zenquotes.io/img/richard-bach.jpg"
-  author: "Richard Bach"
-  text: "Argue for your limitations and sure enough, they're yours."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Charles_Dickens_3.jpg/250px-Charles_Dickens_3.jpg"
+  author: "Charles Dickens"
+  text: "One always begins to forgive a place as soon as it's left behind."
 
 menu:
     main:
