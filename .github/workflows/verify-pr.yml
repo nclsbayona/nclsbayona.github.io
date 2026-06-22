@@ -52,7 +52,7 @@ jobs:
     needs: link-checker
     name: Automatically merge GIF PRs
     if: |
-      github.event.pull_request.user.login == 'github-actions[bot]' && 
+      github.event.pull_request.user.login == 'nclsbayona' && 
       github.event.pull_request.title == 'docs: :memo: Update website gif'
     steps:
     # - name: Configure monitor
@@ -68,7 +68,7 @@ jobs:
     needs: link-checker
     name: Automatically merge theme PRs
     if: |
-      github.event.pull_request.user.login == 'github-actions[bot]' && 
+      github.event.pull_request.user.login == 'nclsbayona' && 
       github.event.pull_request.title == 'ci: :arrow_up: Update theme'
     steps:
     # - name: Configure monitor
@@ -84,7 +84,7 @@ jobs:
     needs: link-checker
     name: Automatically merge quote PRs
     if: |
-      github.event.pull_request.user.login == 'github-actions[bot]' && 
+      github.event.pull_request.user.login == 'nclsbayona' && 
       github.event.pull_request.title == 'chore: :hammer: Update quote of the day'
     steps:
     # - name: Configure monitor
@@ -100,7 +100,7 @@ jobs:
     needs: link-checker
     name: Automatically merge loadtest PRs
     if: |
-      github.event.pull_request.user.login == 'github-actions[bot]' && 
+      github.event.pull_request.user.login == 'nclsbayona' && 
       github.event.pull_request.title == 'docs: :memo: Update loadtest image'
     steps:
     # - name: Configure monitor
