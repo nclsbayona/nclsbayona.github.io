@@ -33,7 +33,6 @@ jobs:
       with:
           persist-credentials: false
 
-    # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v4.36.2
       with:
@@ -131,7 +130,7 @@ jobs:
     name: Run Trivy 🧐
     runs-on: ubuntu-latest
     permissions:
-      security-events: write  # Required to upload SARIF files to Security tab
+      security-events: write
     steps:
     #  - name: Configure monitor
     #    uses: GitHubSecurityLab/actions-permissions/monitor@v1

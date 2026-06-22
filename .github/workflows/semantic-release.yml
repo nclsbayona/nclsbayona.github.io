@@ -4,7 +4,6 @@ run-name: ${{ github.workflow }} (#${{ github.run_id }})
 on:
   workflow_dispatch:
   schedule:
-    # Release automatically at 10:00 UTC on day 1 of every second month
     - cron: "0 10 1 */2 *"
 
 jobs:
