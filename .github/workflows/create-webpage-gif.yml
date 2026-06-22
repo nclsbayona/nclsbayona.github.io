@@ -101,6 +101,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+    secrets: inherit
     needs: wait-for-gif
     name: Generate K6 Results
     uses: nclsbayona/nclsbayona.github.io/.github/workflows/test-sitemap.yml@main
