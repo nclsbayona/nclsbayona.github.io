@@ -10,7 +10,6 @@ updates:
       default-days: 7
     labels:
       - "dependencies"
-      - "github-actions"
     assignees:
       - "nclsbayona"
     commit-message:
@@ -27,7 +26,6 @@ updates:
       default-days: 7
     labels:
       - "dependencies"
-      - "go"
     assignees:
       - "nclsbayona"
     commit-message:
@@ -44,8 +42,6 @@ updates:
       default-days: 7
     labels:
       - "dependencies"
-      - "go"
-      - "fetch-quote-action"
     assignees:
       - "nclsbayona"
     commit-message:
@@ -62,8 +58,6 @@ updates:
       default-days: 7
     labels:
       - "dependencies"
-      - "docker"
-      - "fetch-quote-action"
     assignees:
       - "nclsbayona"
     commit-message:
@@ -80,8 +74,6 @@ updates:
       default-days: 7
     labels:
       - "dependencies"
-      - "docker"
-      - "k6-sitemap-action"
     assignees:
       - "nclsbayona"
     commit-message:
@@ -98,8 +90,6 @@ updates:
       default-days: 7
     labels:
       - "dependencies"
-      - "github-actions"
-      - "k6-sitemap-action"
     assignees:
       - "nclsbayona"
     commit-message:
@@ -116,8 +106,6 @@ updates:
       default-days: 7
     labels:
       - "dependencies"
-      - "docker"
-      - "devcontainer"
     assignees:
       - "nclsbayona"
     commit-message:
@@ -134,8 +122,6 @@ updates:
       default-days: 7
     labels:
       - "dependencies"
-      - "docker"
-      - "devcontainer"
     assignees:
       - "nclsbayona"
     commit-message:
