@@ -76,7 +76,7 @@ jobs:
             body: "Automated update: update quote of the day"
 
         - name: Wait for PR to be merged
-          uses: actions/github-script@v6
+          uses: actions/github-script@v9
           with:
             github-token: ${{ secrets.GITHUB_TOKEN }}
             script: |
