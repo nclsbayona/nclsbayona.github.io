@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Mevlana-celaleddin-i-rumi-1.jpg/120px-Mevlana-celaleddin-i-rumi-1.jpg"
-  author: "Rumi"
-  text: "Don’t grieve. Anything you lose comes round in another form."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Walt_Whitman%2C_by_J._J._Lankes.jpg/250px-Walt_Whitman%2C_by_J._J._Lankes.jpg"
+  author: "Walt Whitman"
+  text: "Be curious, not judgmental."
 
 menu:
     main:
