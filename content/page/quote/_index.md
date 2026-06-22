@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Walt_Whitman%2C_by_J._J._Lankes.jpg/250px-Walt_Whitman%2C_by_J._J._Lankes.jpg"
-  author: "Walt Whitman"
-  text: "Be curious, not judgmental."
+  image: "https://zenquotes.io/img/richard-bach.jpg"
+  author: "Richard Bach"
+  text: "Argue for your limitations and sure enough, they're yours."
 
 menu:
     main:
