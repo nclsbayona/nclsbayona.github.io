@@ -117,10 +117,10 @@ jobs:
         id: create_pr
         uses: peter-evans/create-pull-request@v8.1.1
         with:
-          commit-message: "chore: Update"
           token: ${{ secrets.PR_TOKEN }}
           branch: ${{ env.PR_BRANCH }}
           base: main
           delete-branch: true
+          commit-message: "chore: Update"
           title: "docs: :memo: Update loadtest image"
           body: "Automated update: refresh loadtest in directory ${{ env.ARTIFACTS_DIR }}"

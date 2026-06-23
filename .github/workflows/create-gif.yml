@@ -67,6 +67,7 @@ jobs:
         branch: ${{ env.PR_BRANCH }}
         base: main
         delete-branch: true
+        commit-message: "chore: Update website gif"
         title: "docs: :memo: Update website gif"
         body: "Automated update: refresh website gif in ${{ env.DIRECTORY }}"
 
