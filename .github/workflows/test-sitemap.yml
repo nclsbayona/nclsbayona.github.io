@@ -90,6 +90,10 @@ jobs:
           ref: ${{ github.ref }}
           persist-credentials: false
 
+      - name: Create directory for Artifacts
+        run: |
+          mkdir -p ${{ env.ARTIFACTS_DIR }}
+
       - name: Run sitemap action
         id: test
         uses: ./.github/actions/k6-sitemap

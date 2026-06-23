@@ -1,0 +1,37 @@
+name: Update visualizations
+run-name: ${{ github.workflow }} (#${{ github.run_id }})
+on:
+  deployment: 
+  workflow_dispatch:
+
+concurrency:
+  group: visual-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  ARTIFACTS_DIR: "artifacts"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate_gif:
+    name: Generate Webpage GIF
+    uses: nclsbayona/nclsbayona.github.io/.github/workflows/create-gif.yml@main
+    secrets: inherit
+    with:
+      base_dir: "artifacts"
+      wait_for_merge: true
+  generate_png:
+    needs: generate_gif
+    name: Generate K6 Results
+    uses: nclsbayona/nclsbayona.github.io/.github/workflows/test-sitemap.yml@main
+    secrets: inherit
+    with:
+      users: "100"
+      duration: "15m"
+      base_url: "https://nclsbayona.github.io"
+      sitemap_url: "https://nclsbayona.github.io/sitemap.xml"
+      url_limit: "500"
+      base_output_dir: "artifacts"
