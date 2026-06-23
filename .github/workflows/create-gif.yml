@@ -1,29 +1,44 @@
-name: Update visualizations
+name: Create webpage GIF
 run-name: ${{ github.workflow }} (#${{ github.run_id }})
-on:
-  deployment: 
-  workflow_dispatch:
 
-concurrency:
-  group: visual-${{ github.ref }}
-  cancel-in-progress: true
+on:
+  workflow_call:
+    inputs:
+      base_dir:
+        type: string
+        description: "Directory where the artifacts should be stored"
+        required: false
+        default: "artifacts"
+      wait_for_merge:
+        type: boolean
+        description: "Whether to wait for the PR to be merged before proceeding"
+        required: false
+        default: true
+  workflow_dispatch:
+    inputs:
+      BASE_DIR:
+        type: string
+        description: "Directory where the artifacts should be stored"
+        required: false
+        default: "artifacts"
+      WAIT_FOR_MERGE:
+        type: boolean
+        description: "Whether to wait for the PR to be merged before proceeding"
+        required: false
+        default: false
 
 env:
-  ARTIFACTS_DIR: "artifacts"
+  PR_BRANCH: update-website-gif-${{ github.run_id }}
+  DIRECTORY: ${{ (github.event_name == 'workflow_call' && github.event.inputs.base_dir) || (github.event_name == 'workflow_dispatch' && inputs.base_dir) }}/images
 
 jobs:
   make-gif:
     name: Make GIF
     runs-on: ubuntu-latest
-    env:
-      PR_BRANCH: update-website-gif-${{ github.run_id }}
     outputs:
       pr_branch: ${{ env.PR_BRANCH }}
       pr_url: ${{ steps.create_pr.outputs.pull-request-url }}
       pr_number: ${{ steps.create_pr.outputs.pull-request-number }}
-    permissions:
-      contents: write
-      pull-requests: write
     steps:
     # - name: Configure monitor
     #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
@@ -35,26 +50,25 @@ jobs:
 
     - name: Create directory for GIF
       run: |
-        mkdir -p ${{ env.ARTIFACTS_DIR }}/images
+        mkdir -p ${{ env.DIRECTORY }}
 
     - name: Website to file
       uses: PabloLec/website-to-gif@2.1.5
       with:
         url: "https://nclsbayona.github.io"
         scroll_step: 100
-        save_path: "/${{ env.ARTIFACTS_DIR }}/images"
+        save_path: "/${{ env.DIRECTORY }}"
 
     - name: Create Pull Request
       id: create_pr
       uses: peter-evans/create-pull-request@v8.1.1
       with:
-        commit-message: "chore: Update"
         token: ${{ secrets.PR_TOKEN }}
         branch: ${{ env.PR_BRANCH }}
         base: main
         delete-branch: true
         title: "docs: :memo: Update website gif"
-        body: "Automated update: refresh website gif in ${{ env.ARTIFACTS_DIR }}"
+        body: "Automated update: refresh website gif in ${{ env.DIRECTORY }}"
 
   wait-for-gif:
     needs: make-gif
@@ -67,7 +81,8 @@ jobs:
           echo "url=${{ needs.make-gif.outputs.pr_url }}"
 
       - name: Wait for PR to be merged
-        uses: actions/github-script@v9
+        if: ${{ (github.event_name == 'workflow_call' && github.event.inputs.wait_for_merge) || (github.event_name == 'workflow_dispatch' && inputs.WAIT_FOR_MERGE) }}
+        uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
@@ -97,19 +112,3 @@ jobs:
               console.log(`PR #${prNumber} is not merged yet. Checking again in 90 seconds...`);
               await new Promise(resolve => setTimeout(resolve, 90000));
             }
-
-  generate_png:
-    permissions:
-      contents: write
-      pull-requests: write
-    secrets: inherit
-    needs: wait-for-gif
-    name: Generate K6 Results
-    uses: nclsbayona/nclsbayona.github.io/.github/workflows/test-sitemap.yml@main
-    with:
-      users: "100"
-      duration: "15m"
-      base_url: "https://nclsbayona.github.io"
-      sitemap_url: "https://nclsbayona.github.io/sitemap.xml"
-      url_limit: "500"
-      base_output_dir: "artifacts"

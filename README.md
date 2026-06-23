@@ -59,7 +59,7 @@ Comprehensive documentation is available for all aspects of the project:
 
 ## 📂 Project Structure
 
-```
+```text
 nclsbayona.github.io/
 ├── .github/           # GitHub Actions workflows and documentation
 ├── assets/            # Source assets (SCSS, icons)
@@ -78,6 +78,7 @@ nclsbayona.github.io/
 ## ✨ Features
 
 ### Content
+
 - 📝 Technical blog posts on software development and DevOps
 - 🏷️ Category and tag-based organization
 - 🔍 Full-text search capability
@@ -85,6 +86,7 @@ nclsbayona.github.io/
 - 📅 Daily inspirational quotes
 
 ### Technical
+
 - ⚡ Fast static site generation with Hugo
 - 🎨 Responsive design with dark/light mode
 - 🔒 Security scanning (Gitleaks, Trivy, ZAP)
@@ -98,16 +100,19 @@ nclsbayona.github.io/
 The repository uses GitHub Actions for automation:
 
 ### Deployment & Content
+
 - **Deploy**: Builds and deploys to GitHub Pages on content changes
 - **Quote Update**: Daily quote refresh at 02:00 UTC
 - **Theme Update**: Daily theme dependency updates
 
 ### Quality & Security
+
 - **Security Test**: Vulnerability scanning (Gitleaks, Trivy, ZAP, zizmor)
 - **Page Analysis**: Performance testing with Lighthouse and Sitespeed
 - **Semantic Release**: Automated versioning and changelog generation
 
 ### Maintenance
+
 - **Auto-merge**: Automatic dependency PR merges for minor/patch updates
 - **Cleanup**: Daily workflow run cleanup
 - **Create GIF**: Generates GIF for repository visualization
@@ -130,7 +135,7 @@ Contributions are welcome! Please follow these steps:
 
 This project follows [Conventional Commits](https://www.conventionalcommits.org/):
 
-```
+```text
 feat(post): add kubernetes security best practices guide
 fix(workflow): correct Hugo version pinning
 docs(readme): update setup instructions
@@ -156,6 +161,7 @@ Content focuses on:
 
 To report security issues, please use GitHub's private vulnerability reporting.
 See [.github/workflows/README.md](.github/workflows/README.md) for detailed workflow documentation.
+
 ## 📄 License
 
 This project is licensed under the terms specified in the [LICENSE](LICENSE) file.
@@ -175,27 +181,30 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 ---
 
 <details>
-  <summary><h2>📊 All Workflow Status Badges</h2></summary>
+<summary><h2>📊 All Workflow Status Badges</h2></summary>
   
-  ### Webpage Related
+### Webpage Related
   
-  #### Content & Deployment
-  ![Deploy to Github Pages](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/deploy.yml/badge.svg)
-  ![Update quote of the day](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/fetch-quote.yml/badge.svg)
-  ![Update Hugo theme](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update-theme.yml/badge.svg)
-  ![Security test](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/security-test.yml/badge.svg)
+#### Content & Deployment
+
+![Deploy to Github Pages](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/deploy.yml/badge.svg)
+![Update quote of the day](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/fetch-quote.yml/badge.svg)
+![Update Hugo theme](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update-theme.yml/badge.svg)
+![Security test](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/security-test.yml/badge.svg)
   
-  #### User Experience
-  ![Webpage analysis](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/page-analysis.yml/badge.svg)
-  
-  ### Repository Related
-  ![Create visualizations](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/create-webpage-gif.yml/badge.svg)
-  ![Semantic Release](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/semantic-release.yml/badge.svg)
-  ![Purge old runs](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/delete-old-runs.yml/badge.svg)
-  ![Verify PRs](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/verify-pr.yml/badge.svg)
+#### User Experience
+
+![Webpage analysis](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/page-analysis.yml/badge.svg)
+
+### Repository Related
+
+![Update visualizations](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update-visualizations.yml/badge.svg)
+![Test sitemap](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/test-sitemap.yml/badge.svg)
+![Create GIF](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/create-gif.yml/badge.svg)
+![Semantic Release](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/semantic-release.yml/badge.svg)
+![Purge old runs](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/delete-old-runs.yml/badge.svg)
+![Verify PRs](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/verify-pr.yml/badge.svg)
   
 </details>
 
 ---
-
-**Built with ❤️ and Hugo**
