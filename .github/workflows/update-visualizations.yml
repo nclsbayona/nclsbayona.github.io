@@ -8,9 +8,6 @@ concurrency:
   group: visual-${{ github.ref }}
   cancel-in-progress: true
 
-env:
-  ARTIFACTS_DIR: "artifacts"
-
 permissions:
   contents: write
   pull-requests: write

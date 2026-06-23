@@ -45,5 +45,6 @@ jobs:
           branch: ${{ env.PR_BRANCH }}
           base: main
           delete-branch: true
+          commit-message: "chore: Update theme"
           title: "ci: :arrow_up: Update theme"
           body: "Automated update: update theme"

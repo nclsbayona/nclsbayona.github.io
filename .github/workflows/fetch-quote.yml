@@ -72,6 +72,7 @@ jobs:
             branch: ${{ env.PR_BRANCH }}
             base: main
             delete-branch: true
+            commit-message: "chore: Update quote of the day"
             title: "chore: :hammer: Update quote of the day"
             body: "Automated update: update quote of the day"
 
