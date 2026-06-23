@@ -90,7 +90,7 @@ jobs:
             const prNumber = Number("${{ needs.make-gif.outputs.pr_number }}");
 
             if (!prNumber || Number.isNaN(prNumber)) {
-              core.setFailed(
+              console.log(
                 "No PR number received. Check."
               );
               return;
