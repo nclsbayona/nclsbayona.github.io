@@ -29,7 +29,7 @@ on:
 
 env:
   PR_BRANCH: update-website-gif-${{ github.run_id }}
-  DIRECTORY: ${{ (github.event_name == 'workflow_call' && github.event.inputs.base_dir) || (github.event_name == 'workflow_dispatch' && inputs.base_dir) }}/images
+  DIRECTORY: ${{ (github.event_name == 'workflow_call' && github.event.inputs.base_dir) || (github.event_name == 'workflow_dispatch' && inputs.BASE_DIR) }}/images
 
 jobs:
   make-gif:
