@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Gautama_Buddha_11.jpg/960px-Gautama_Buddha_11.jpg"
-  author: "Buddha"
-  text: "What we think, we become."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Les_Brown_Billboard.jpg/250px-Les_Brown_Billboard.jpg"
+  author: "Les Brown"
+  text: "Fear does not have any special power unless you empower it by submitting to it."
 
 menu:
     main:
