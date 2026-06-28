@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/1/12/Hans_Christian_Andersen_Medal.png"
-  author: "Hans Christian Andersen"
-  text: "Life is like a beautiful melody, only the lyrics are messed up."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Eleanor_Roosevelt_and_Josip_Broz_Tito_1953.jpg/330px-Eleanor_Roosevelt_and_Josip_Broz_Tito_1953.jpg"
+  author: "Eleanor Roosevelt"
+  text: "Light a candle instead of cursing the darkness."
 
 menu:
     main:
