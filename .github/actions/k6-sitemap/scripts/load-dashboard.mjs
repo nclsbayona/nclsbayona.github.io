@@ -2,8 +2,8 @@ import { chromium } from "playwright";
 import path from "path";
 import fs from "fs";
 
-const reportPath = process.env.REPORT_HTML || "artifacts/k6-report.html";
-const outDir = process.env.OUT_DIR || "artifacts/images";
+const reportPath = process.env.REPORT_HTML;
+const outDir = process.env.OUT_DIR;
 
 fs.mkdirSync(outDir, { recursive: true });
 
