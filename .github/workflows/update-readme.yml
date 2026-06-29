@@ -9,14 +9,11 @@ jobs:
   update-readme:
     name: Update README with contributors
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
     steps:
     - name: Contribute List
       uses: akhilmhdh/contributors-readme-action@v2.3.11
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PR_TOKEN }}
       with:
         columns_per_row: 2
         use_username: true
