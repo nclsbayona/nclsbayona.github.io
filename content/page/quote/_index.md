@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Eleanor_Roosevelt_and_Josip_Broz_Tito_1953.jpg/330px-Eleanor_Roosevelt_and_Josip_Broz_Tito_1953.jpg"
-  author: "Eleanor Roosevelt"
-  text: "Light a candle instead of cursing the darkness."
+  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
+  author: "TheStoicEmperor"
+  text: "Conviction is much more powerful than “positive thinking”. Positive thinking is fragile and easily shattered by random tragedy. Random tragedy is an inevitable feature of life. Conviction guides you through misfortune. It does not wish it away. Purpose outdoes positivity. @"
 
 menu:
     main:
