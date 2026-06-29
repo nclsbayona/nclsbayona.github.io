@@ -75,7 +75,7 @@ jobs:
     needs: make-gif
     runs-on: ubuntu-latest
     name: Wait for GIF PR to be merged
-    if: ${{ (github.event_name == 'workflow_call' && github.event.inputs.wait_for_merge) || (github.event_name == 'workflow_dispatch' && inputs.WAIT_FOR_MERGE) }}
+    if: ${{ (github.event_name == 'workflow_call' && inputs.wait_for_merge) || (github.event_name == 'workflow_dispatch' && inputs.WAIT_FOR_MERGE) }}
     steps:
       - name: Debug PR outputs
         run: |
