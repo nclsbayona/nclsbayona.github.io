@@ -84,7 +84,7 @@ jobs:
 
       - name: Wait for PR to be merged
         if: ${{ (github.event_name == 'workflow_call' && github.event.inputs.wait_for_merge) || (github.event_name == 'workflow_dispatch' && inputs.WAIT_FOR_MERGE) }}
-        uses: actions/github-script@v6
+        uses: actions/github-script@v9
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
