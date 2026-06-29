@@ -34,7 +34,7 @@ jobs:
         #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
 
         - name: Checkout repository
-          uses: actions/checkout@v6.0.3
+          uses: actions/checkout@v7.0.0
           with:
             persist-credentials: true
     
