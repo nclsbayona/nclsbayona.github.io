@@ -1,16 +1,9 @@
-name: Deploy to Github Pages
+name: Update webpage
 run-name: ${{ github.workflow }} (#${{ github.run_id }})
 
 on:
     workflow_call:
     workflow_dispatch:
-    push:
-      branches: [main]
-      paths:
-      - 'content/**/*'
-      - 'assets/**/*'
-      - 'config/**/*'
-      - 'layouts/**/*'
 
 jobs:
 
