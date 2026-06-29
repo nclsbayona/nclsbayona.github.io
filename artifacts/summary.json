@@ -1,0 +1,367 @@
+{
+  "root_group": {
+    "groups": [],
+    "checks": [
+        {
+          "name": "status is 2xx",
+          "path": "::status is 2xx",
+          "id": "625da780c1868b693c9052f10511e6a0",
+          "passes": 176096,
+          "fails": 0
+        }
+      ],
+    "name": "",
+    "path": "",
+    "id": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "options": {
+    "summaryTimeUnit": "",
+    "noColor": false,
+    "summaryTrendStats": [
+      "avg",
+      "min",
+      "med",
+      "max",
+      "p(90)",
+      "p(95)",
+      "p(99)"
+    ]
+  },
+  "state": {
+    "isStdOutTTY": false,
+    "isStdErrTTY": false,
+    "testRunDurationMs": 901094.48848
+  },
+  "metrics": {
+    "checks": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "rate": 1,
+        "passes": 176096,
+        "fails": 0
+      }
+    },
+    "http_req_failed": {
+      "values": {
+        "fails": 176097,
+        "rate": 0,
+        "passes": 0
+      },
+      "type": "rate",
+      "contains": "default"
+    },
+    "gs_latency": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 11.404341500000001,
+        "p(99)": 16.44501889999997,
+        "avg": 9.9241992123727,
+        "min": 8.447942,
+        "med": 9.267357,
+        "max": 533.447614,
+        "p(90)": 10.597486
+      },
+      "thresholds": {
+        "p(95)<2000": {
+          "ok": true
+        }
+      }
+    },
+    "gs_error_rate": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "rate": 0,
+        "passes": 0,
+        "fails": 176096
+      },
+      "thresholds": {
+        "rate<0.05": {
+          "ok": true
+        }
+      }
+    },
+    "status_2xx": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "rate": 195.42456673666413,
+        "count": 176096
+      }
+    },
+    "http_req_connecting": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "max": 12.978576,
+        "p(90)": 0,
+        "p(95)": 0,
+        "p(99)": 0,
+        "avg": 0.00564534044872996,
+        "min": 0,
+        "med": 0
+      }
+    },
+    "http_req_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "max": 533.447614,
+        "p(90)": 10.5975114,
+        "p(95)": 11.404533799999989,
+        "p(99)": 16.447558200000007,
+        "avg": 9.924896084277322,
+        "min": 8.447942,
+        "med": 9.267358
+      },
+      "thresholds": {
+        "p(95)<2000": {
+          "ok": true
+        }
+      }
+    },
+    "data_received": {
+      "values": {
+        "count": 5253319993,
+        "rate": 5829932.443446077
+      },
+      "type": "counter",
+      "contains": "data"
+    },
+    "vus": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "value": 9,
+        "min": 9,
+        "max": 100
+      }
+    },
+    "http_req_duration{expected_response:true}": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 9.924896084277322,
+        "min": 8.447942,
+        "med": 9.267358,
+        "max": 533.447614,
+        "p(90)": 10.5975114,
+        "p(95)": 11.404533799999989,
+        "p(99)": 16.447558200000007
+      }
+    },
+    "http_req_tls_handshaking": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 0.022448718002010253,
+        "min": 0,
+        "med": 0,
+        "max": 67.635081,
+        "p(90)": 0,
+        "p(95)": 0,
+        "p(99)": 0
+      }
+    },
+    "http_req_sending": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(99)": 0.0935144800000001,
+        "avg": 0.048673774936539786,
+        "min": 0.012022,
+        "med": 0.043712,
+        "max": 13.045877,
+        "p(90)": 0.066234,
+        "p(95)": 0.07286719999999998
+      }
+    },
+    "data_sent": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "count": 36397155,
+        "rate": 40392.16249274378
+      }
+    },
+    "http_req_blocked": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 0.000421,
+        "p(99)": 0.000572,
+        "avg": 0.02870963519532831,
+        "min": 0.000121,
+        "med": 0.00029,
+        "max": 76.073462,
+        "p(90)": 0.000381
+      }
+    },
+    "gs_requests": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 176096,
+        "rate": 195.42456673666413
+      }
+    },
+    "vus_max": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "value": 100,
+        "min": 100,
+        "max": 100
+      }
+    },
+    "status_count": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 176096,
+        "rate": 195.42456673666413
+      }
+    },
+    "http_reqs": {
+      "contains": "default",
+      "values": {
+        "count": 176097,
+        "rate": 195.42567649819614
+      },
+      "type": "counter"
+    },
+    "pages_tested": {
+      "values": {
+        "count": 176096,
+        "rate": 195.42456673666413
+      },
+      "type": "counter",
+      "contains": "default"
+    },
+    "gs_iteration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 961,
+        "p(99)": 1001,
+        "avg": 511.2736291568236,
+        "min": 9,
+        "med": 511,
+        "max": 1361,
+        "p(90)": 911
+      }
+    },
+    "http_req_receiving": {
+      "values": {
+        "max": 98.761155,
+        "p(90)": 0.44787379999999993,
+        "p(95)": 0.9819235999999995,
+        "p(99)": 1.7942288800000001,
+        "avg": 0.2927835640868371,
+        "min": 0.030537,
+        "med": 0.195837
+      },
+      "type": "trend",
+      "contains": "time"
+    },
+    "status_200": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 176096,
+        "rate": 195.42456673666413
+      }
+    },
+    "iterations": {
+      "values": {
+        "count": 176096,
+        "rate": 195.42456673666413
+      },
+      "type": "counter",
+      "contains": "default"
+    },
+    "http_req_waiting": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 10.904299399999998,
+        "p(99)": 15.332361960000004,
+        "avg": 9.583438745254028,
+        "min": 7.684303,
+        "med": 8.988429,
+        "max": 533.320636,
+        "p(90)": 10.049589
+      }
+    },
+    "pages_discovered": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 43,
+        "rate": 0.047719745875412035
+      }
+    },
+    "iteration_duration": {
+      "values": {
+        "p(95)": 961.17228,
+        "p(99)": 1000.6145040999999,
+        "avg": 511.2870435496372,
+        "min": 9.100891,
+        "med": 511.143552,
+        "max": 1360.7079,
+        "p(90)": 911.4301965
+      },
+      "type": "trend",
+      "contains": "time"
+    }
+  },
+  "setup_data": {
+    "urls": [
+      "https://nclsbayona.github.io/p/connectivity-networking/",
+      "https://nclsbayona.github.io/p/kubernetes-talos/",
+      "https://nclsbayona.github.io/p/deployment-secure-webpages/",
+      "https://nclsbayona.github.io/p/containers-internals/",
+      "https://nclsbayona.github.io/p/certs-real-value/",
+      "https://nclsbayona.github.io/p/containers-security/",
+      "https://nclsbayona.github.io/p/kubernetes-security/",
+      "https://nclsbayona.github.io/p/kubernetes-architecture/",
+      "https://nclsbayona.github.io/p/kubenomicon/",
+      "https://nclsbayona.github.io/p/github-static-deployment-tutorial/",
+      "https://nclsbayona.github.io/p/kubernetes-intro/",
+      "https://nclsbayona.github.io/p/gitrepo-exec-vulnerability/",
+      "https://nclsbayona.github.io/p/clustering-and-orchestration/",
+      "https://nclsbayona.github.io/p/containers-intro/",
+      "https://nclsbayona.github.io/p/leaky-vessels-vulnerability/",
+      "https://nclsbayona.github.io/",
+      "https://nclsbayona.github.io/tags/agents/",
+      "https://nclsbayona.github.io/tags/ai/",
+      "https://nclsbayona.github.io/categories/ai/",
+      "https://nclsbayona.github.io/categories/",
+      "https://nclsbayona.github.io/p/cloud-native-lessons-ai-kubernetes/",
+      "https://nclsbayona.github.io/categories/devops/",
+      "https://nclsbayona.github.io/tags/kubernetes/",
+      "https://nclsbayona.github.io/categories/kubernetes/",
+      "https://nclsbayona.github.io/tags/orchestration/",
+      "https://nclsbayona.github.io/post/",
+      "https://nclsbayona.github.io/tags/",
+      "https://nclsbayona.github.io/tags/devops/",
+      "https://nclsbayona.github.io/tags/devsecops/",
+      "https://nclsbayona.github.io/categories/fundamentals/",
+      "https://nclsbayona.github.io/categories/networking/",
+      "https://nclsbayona.github.io/categories/tutorials/",
+      "https://nclsbayona.github.io/categories/cybersecurity/",
+      "https://nclsbayona.github.io/tags/introductory/",
+      "https://nclsbayona.github.io/categories/containers/",
+      "https://nclsbayona.github.io/tags/non-technical/",
+      "https://nclsbayona.github.io/categories/non-technical/",
+      "https://nclsbayona.github.io/page/archives/",
+      "https://nclsbayona.github.io/page/favorites/",
+      "https://nclsbayona.github.io/page/",
+      "https://nclsbayona.github.io/structure/",
+      "https://nclsbayona.github.io/page/search/",
+      "https://nclsbayona.github.io/page/quote/"
+    ]
+  }
+}
