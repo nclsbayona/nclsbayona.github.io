@@ -2,7 +2,8 @@ name: Verify PR
 run-name: ${{ github.workflow }} (#${{ github.run_id }})
 
 on: 
-  pull_request
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 permissions:
   contents: write
@@ -10,11 +11,9 @@ permissions:
 
 env:
   PR_URL: ${{github.event.pull_request.html_url}}
-  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   link-checker:
-    if: always()
     name: Link Checker
     runs-on: ubuntu-latest
     permissions: {}

@@ -256,9 +256,56 @@ export function handleSummary(data) {
     "",
   ].join("\n");
 
+  const goldenSignals = {
+    latency: {
+      http_req_duration_p95: value(data, "http_req_duration", "p(95)", 0),
+      gs_latency_p95: value(data, "gs_latency", "p(95)", 0),
+    },
+    traffic: {
+      http_reqs_count: value(data, "http_reqs", "count", 0),
+      data_received_bytes: value(data, "data_received", "count", 0),
+      data_sent_bytes: value(data, "data_sent", "count", 0),
+      pages_discovered: value(data, "pages_discovered", "count", 0),
+      pages_tested: value(data, "pages_tested", "count", 0),
+    },
+    errors: {
+      http_req_failed_rate: value(data, "http_req_failed", "rate", 0),
+      checks_rate: value(data, "checks", "rate", 0),
+      gs_error_rate: value(data, "gs_error_rate", "rate", 0),
+    },
+    saturation: {
+      vus: value(data, "vus", "value", 0),
+      vus_max: value(data, "vus_max", "value", 0),
+      iteration_duration_p95: value(data, "iteration_duration", "p(95)", 0),
+      gs_iteration_p95: value(data, "gs_iteration", "p(95)", 0),
+    },
+    http_status_codes: {
+      200: value(data, "status_200", "count", 0),
+      204: value(data, "status_204", "count", 0),
+      301: value(data, "status_301", "count", 0),
+      302: value(data, "status_302", "count", 0),
+      304: value(data, "status_304", "count", 0),
+      400: value(data, "status_400", "count", 0),
+      401: value(data, "status_401", "count", 0),
+      403: value(data, "status_403", "count", 0),
+      404: value(data, "status_404", "count", 0),
+      429: value(data, "status_429", "count", 0),
+      500: value(data, "status_500", "count", 0),
+      502: value(data, "status_502", "count", 0),
+      503: value(data, "status_503", "count", 0),
+      other: value(data, "status_other", "count", 0),
+    },
+    http_status_families: {
+      "2xx": value(data, "status_2xx", "count", 0),
+      "3xx": value(data, "status_3xx", "count", 0),
+      "4xx": value(data, "status_4xx", "count", 0),
+      "5xx": value(data, "status_5xx", "count", 0),
+    },
+  };
+
   return {
     stdout: output,
-    "summary.json": JSON.stringify(data, null, 2),
-    "golden-signals.txt": output,
+    [`${OUT_DIR}/summary.json`]: JSON.stringify(data, null, 2),
+    [`${OUT_DIR}/golden-signals.json`]: JSON.stringify(goldenSignals, null, 2),
   };
 }

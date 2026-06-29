@@ -180,6 +180,13 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 
 ---
 
+## Contributors
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
+<!-- readme: bots -start -->
+<!-- readme: bots -end -->
+---
+
 <details>
 <summary><h2>📊 All Workflow Status Badges</h2></summary>
   
