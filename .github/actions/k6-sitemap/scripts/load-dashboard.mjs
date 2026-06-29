@@ -15,9 +15,8 @@ const page = await browser.newPage({ viewport: { width: 1400, height: 900 } });
 
 await page.goto(url, { waitUntil: "networkidle" });
 
-images = path.join(outDir, "images"),
 await page.screenshot({
-  path: path.join(images, "dashboard.png"),
+  path: path.join(path.join(outDir, "images"), "dashboard.png"),
   fullPage: true,
 });
 
