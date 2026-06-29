@@ -1,0 +1,17 @@
+{
+  "LABEL": {
+    "name": "PR title needs reformatting",
+    "color": "EEEEEE"
+  },
+  "CHECKS": {
+    "prefixes": ["fix: ", "feat: ", "docs: ", "chore: ", "refactor: ", "test: ", "style: ", "ci: ", "perf: ", "revert: ", "build: "],
+    "regexp": "docs\\(.[0-9]\\): ",
+    "regexpFlags": "i",
+    "ignoreLabels" : ["dependencies"]
+  },
+  "MESSAGES": {
+    "success": "All OK",
+    "failure": "Failing CI test",
+    "notice": ""
+  }
+}
