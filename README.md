@@ -1,6 +1,6 @@
 # [nclsbayona.github.io](https://nclsbayona.github.io)
 
-[![Deploy to Github Pages](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/deploy.yml)
+[![Deploy to Github Pages](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update-webpage.yml/badge.svg)](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update-webpage.yml)
 [![Semantic Release](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/semantic-release.yml/badge.svg)](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/semantic-release.yml)
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fnclsbayona.github.io&label=Visitors&labelColor=%23000000&countColor=%23ff8a65&style=flat-square&labelStyle=upper)](https://nclsbayona.github.io)
 ![GitHub Release](https://img.shields.io/github/v/release/nclsbayona/nclsbayona.github.io)
