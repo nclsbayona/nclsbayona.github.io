@@ -29,7 +29,7 @@ jobs:
           build-mode: none
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v6.0.3
+      uses: actions/checkout@v7.0.0
       with:
           persist-credentials: false
 
@@ -67,7 +67,7 @@ jobs:
       #- name: Configure monitor
       #  uses: GitHubSecurityLab/actions-permissions/monitor@v1
       - name: Checkout repository
-        uses: actions/checkout@v6.0.3
+        uses: actions/checkout@v7.0.0
         with:
           persist-credentials: false
 
@@ -83,7 +83,7 @@ jobs:
     #    uses: GitHubSecurityLab/actions-permissions/monitor@v1
 
       - name: Checkout code
-        uses: actions/checkout@v6.0.3
+        uses: actions/checkout@v7.0.0
         with:
           persist-credentials: false
 
@@ -104,7 +104,7 @@ jobs:
     #    uses: GitHubSecurityLab/actions-permissions/monitor@v1
     
       - name: "Checkout code"
-        uses: actions/checkout@v6.0.3
+        uses: actions/checkout@v7.0.0
         with:
           persist-credentials: false
 
@@ -136,7 +136,7 @@ jobs:
     #    uses: GitHubSecurityLab/actions-permissions/monitor@v1
 
       - name: Checkout code
-        uses: actions/checkout@v6.0.3
+        uses: actions/checkout@v7.0.0
         with:
           persist-credentials: false
 
