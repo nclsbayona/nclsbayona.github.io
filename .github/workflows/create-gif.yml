@@ -16,12 +16,12 @@ on:
         default: true
   workflow_dispatch:
     inputs:
-      BASE_DIR:
+      base_dir:
         type: string
         description: "Directory where the artifacts should be stored"
         required: false
         default: "artifacts"
-      WAIT_FOR_MERGE:
+      wait_for_merge:
         type: boolean
         description: "Whether to wait for the PR to be merged before proceeding"
         required: false
@@ -29,7 +29,7 @@ on:
 
 env:
   PR_BRANCH: update-website-gif-${{ github.run_id }}
-  DIRECTORY: ${{ (github.event_name == 'workflow_call' && inputs.base_dir) || (github.event_name == 'workflow_dispatch' && inputs.BASE_DIR) }}/images
+  DIRECTORY: ${{ inputs.base_dir }}/images
 
 jobs:
   make-gif:
@@ -75,7 +75,7 @@ jobs:
     needs: make-gif
     runs-on: ubuntu-latest
     name: Wait for GIF PR to be merged
-    if: ${{ (github.event_name == 'workflow_call' && inputs.wait_for_merge) || (github.event_name == 'workflow_dispatch' && inputs.WAIT_FOR_MERGE) }}
+    if: ${{ inputs.wait_for_merge }}
     steps:
       - name: Debug PR outputs
         run: |
