@@ -11,6 +11,7 @@ permissions:
 
 env:
   PR_URL: ${{github.event.pull_request.html_url}}
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   link-checker:
@@ -126,6 +127,15 @@ jobs:
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         compat-lookup: true
+
+    - name: Verify GH_TOKEN is present
+      run: |
+        if [ -z "${GH_TOKEN:-}" ]; then
+          echo "GH_TOKEN is empty"
+          exit 1
+        fi
+        echo "GH_TOKEN is set"
+        gh auth status
 
     - name: Add dependency update labels
       run: |
