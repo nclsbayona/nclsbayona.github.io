@@ -2,7 +2,7 @@ import { chromium } from "playwright";
 import path from "path";
 import fs from "fs";
 
-const reportPath = process.env.REPORT_HTML;
+const reportPath = process.env.K6_WEB_DASHBOARD_EXPORT;
 const outDir = process.env.OUTPUT_DIR;
 
 fs.mkdirSync(outDir, { recursive: true });
