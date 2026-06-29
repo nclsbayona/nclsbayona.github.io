@@ -3,12 +3,13 @@ import { check, fail, sleep } from "k6";
 import { Counter, Rate, Trend } from "k6/metrics";
 
 // -------------------- Config --------------------
-const BASE_URL = (__ENV.BASE_URL || "https://example.com").replace(/\/+$/, "");
-const SITEMAP_URL = __ENV.SITEMAP_URL || `${BASE_URL}/sitemap.xml`;
-const VUS = Number(__ENV.VUS || 5);
-const DURATION = __ENV.DURATION || "1m";
-const URL_LIMIT = Number(__ENV.URL_LIMIT || 100);
-const HTTP_TIMEOUT = __ENV.HTTP_TIMEOUT || "10s";
+const BASE_URL = __ENV.BASE_URL;
+const SITEMAP_URL = __ENV.SITEMAP_URL;
+const VUS = Number(__ENV.VUS);
+const DURATION = __ENV.DURATION;
+const URL_LIMIT = Number(__ENV.URL_LIMIT);
+const HTTP_TIMEOUT = __ENV.HTTP_TIMEOUT;
+const OUT_DIR = __ENV.OUTPUT_DIR;
 
 // -------------------- Custom Golden Signals --------------------
 const pages_discovered = new Counter("pages_discovered");
