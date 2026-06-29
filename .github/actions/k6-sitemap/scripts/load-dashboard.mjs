@@ -3,7 +3,7 @@ import path from "path";
 import fs from "fs";
 
 const reportPath = process.env.REPORT_HTML;
-const outDir = process.env.OUT_DIR;
+const outDir = process.env.OUTPUT_DIR;
 
 fs.mkdirSync(outDir, { recursive: true });
 
