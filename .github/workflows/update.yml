@@ -5,15 +5,20 @@ permissions:
   contents: write
   id-token: write
   pages: write
+  pull-requests: write
 
 on:
     workflow_dispatch:
 
 jobs:
     update-readme:
+      secrets: inherit
+      name: Update README with contributors
       uses: ./.github/workflows/update-readme.yml
 
     update-website:
       needs: update-readme
+      secrets: inherit
+      name: Update webpage & visualizations
       uses: ./.github/workflows/update-webpage.yml
 
