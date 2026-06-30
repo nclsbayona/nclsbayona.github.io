@@ -241,6 +241,7 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 	<tbody>
 </table>
 <!-- readme: bots -end -->
+
 ---
 
 <details>
@@ -250,7 +251,8 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
   
 #### Content & Deployment
 
-![Deploy to Github Pages](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/deploy.yml/badge.svg)
+![Update webpage](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update-webpage.yml/badge.svg)
+![Update Webpage & Visualizations](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update.yml/badge.svg)
 ![Update quote of the day](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/fetch-quote.yml/badge.svg)
 ![Update Hugo theme](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update-theme.yml/badge.svg)
 ![Security test](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/security-test.yml/badge.svg)
@@ -261,7 +263,9 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 
 ### Repository Related
 
+![Update README](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update-readme.yml/badge.svg)
 ![Update visualizations](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update-visualizations.yml/badge.svg)
+![Update Webpage & Visualizations](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update.yml/badge.svg)
 ![Test sitemap](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/test-sitemap.yml/badge.svg)
 ![Create GIF](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/create-gif.yml/badge.svg)
 ![Semantic Release](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/semantic-release.yml/badge.svg)
