@@ -28,7 +28,7 @@ jobs:
         id: semantic
         uses: cycjimmy/semantic-release-action@v6
         with:
-          dry-run: ${{ github.event_name == 'workflow_dispatch' }}
+          dry_run: ${{ github.event_name == 'workflow_dispatch' }}
           extra_plugins: |
             @semantic-release/changelog
             @semantic-release/git
