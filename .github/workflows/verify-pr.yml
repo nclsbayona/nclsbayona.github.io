@@ -37,12 +37,11 @@ jobs:
           recreate: true
           message: |
               ### 🚨 PR Title Needs Formatting
-              The title of this PR needs to be formatted correctly and include an Azure Boards Reference. 
-              Please update the title to match the format `type: description AB#xxx`. Examples:
-              * `bugfix: fix typo in README.md AB#123`
-              * `chore: update dependencies AB#456`
-              * `feat: add new feature AB#789`
-              * `chore: fixing build pipeline` - no AB reference
+              The title of this PR needs to be formatted correctly. Please update the title to match the format `type: description`. Examples:
+              * `bugfix: fix typo in README.md`
+              * `chore: update dependencies`
+              * `feat: add new feature`
+              * `chore: fixing build pipeline`
 
       - name: Add comment that PR title is fixed
         if: ${{ steps.check.outputs.success == 'true'}}
@@ -52,7 +51,7 @@ jobs:
           recreate: true
           message: |
               ### ✅ PR Title Formatted Correctly
-              The title of this PR has been updated to match the correct format. Thank you!
+              The title of this PR does match the correct format. Thank you!
   link-checker:
     name: Link Checker
     runs-on: ubuntu-latest
