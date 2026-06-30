@@ -36,14 +36,18 @@ jobs:
           header: 'PR Title Check'
           recreate: true
           message: |
-              ### 🚨 PR Title Needs Formatting
+              ### 🚨 PR Title needs formatting
               The title of this PR needs to be formatted correctly. Please update the title to match the format `type: description`. Examples:
               * `bugfix: fix typo in README.md`
               * `chore: update dependencies`
               * `feat: add new feature`
               * `chore: fixing build pipeline`
 
-      - name: Add comment that PR title is fixed
+      - name: Exit with error if PR title is not formatted correctly
+        if: ${{ steps.check.outputs.success == 'false'}}
+        run: exit 1
+
+      - name: Add comment that PR title is ok
         if: ${{ steps.check.outputs.success == 'true'}}
         uses: marocchino/sticky-pull-request-comment@v2
         with:
@@ -52,6 +56,7 @@ jobs:
           message: |
               ### ✅ PR Title Formatted Correctly
               The title of this PR does match the correct format. Thank you!
+  
   link-checker:
     name: Link Checker
     runs-on: ubuntu-latest
