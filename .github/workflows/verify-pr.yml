@@ -3,7 +3,7 @@ run-name: ${{ github.workflow }} (#${{ github.run_id }})
 
 on: 
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [opened, synchronize, reopened, edited]
 
 permissions:
   contents: write
