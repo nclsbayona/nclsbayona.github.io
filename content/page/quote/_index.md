@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://zenquotes.io/img/jim-rohn.jpg"
-  author: "Jim Rohn"
-  text: "All leaders are readers."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Heraclitus_lunar_crater_map.jpg/250px-Heraclitus_lunar_crater_map.jpg"
+  author: "Heraclitus"
+  text: "Man’s character is his fate."
 
 menu:
     main:
