@@ -1,0 +1,39 @@
+name: "Screenshot page element by ID"
+description: "Take a browser screenshot of a statically rendered element found by ID and expose the PNG path for artifact upload"
+
+branding:
+  icon: 'image'
+  color: 'blue'
+
+inputs:
+  page_url:
+    required: true
+    description: "Full URL of the page to capture"
+    type: string
+  element_id:
+    required: true
+    description: "HTML element ID to screenshot"
+    type: string
+  output_dir:
+    required: false
+    default: "results"
+    description: "Directory where the screenshot will be saved"
+    type: string
+  screenshot_name:
+    required: false
+    default: "screenshot.png"
+    description: "Name of the screenshot file"
+    type: string
+  timeout:
+    required: false
+    default: "30000"
+    description: "Navigation timeout in milliseconds"
+    type: string
+
+outputs:
+  screenshot_png:
+    description: "Path to the screenshot PNG file"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
