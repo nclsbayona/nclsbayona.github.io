@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Naval_Ravikant.jpg/120px-Naval_Ravikant.jpg"
-  author: "Naval Ravikant"
-  text: "True rewards – wealth, knowledge, love, fitness, and equanimity – come from ignoring others and improving ourselves."
+  image: "https://zenquotes.io/img/a_a_-milne.jpg"
+  author: "A.A. Milne"
+  text: "One of the advantages of being disorganized is that one is always having surprising discoveries."
 
 menu:
     main:
