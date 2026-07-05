@@ -6,10 +6,9 @@ WORKDIR /opt
 RUN npm init -y \
   && npm i playwright \
   && npx playwright install chromium \
-  && rm -rf /root/.npm 
-  apt-get update && \
-  apt-get install -y ca-certificates && Ç
-  rm -rf /var/lib/apt/lists/*
+  && rm -rf /root/.npm \
+  && apt-get update && apt-get install -y ca-certificates \
+  && rm -rf /var/lib/apt/lists/*
   
 ENV NODE_PATH=/opt/node_modules
 WORKDIR /github/workspace
