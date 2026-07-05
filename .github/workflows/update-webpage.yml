@@ -60,9 +60,6 @@ jobs:
         with:
           path: './public/'      
 
-      - name: Retrieve quote content
-        run: echo "Final quote" && echo "Final quote" >> $GITHUB_STEP_SUMMARY && grep -A 7 'section-card' public/page/quote/index.html &&  grep -A 7 'section-card' public/page/quote/index.html >> $GITHUB_STEP_SUMMARY
-
     deploy:
       needs: build
       name: Deploy Github Pages artifact
