@@ -7,12 +7,13 @@ on:
       base_url:
         type: string
         description: "Base URL (e.g. https://yourdomain.com)"
-        required: true
+        required: false
+        default: "https://nclsbayona.github.io"
       sitemap_url:
         type: string
-        description: "Sitemap URL (defaults to BASE_URL/sitemap.xml)"
+        description: "Sitemap URL"
         required: false
-        default: ""
+        default: "https://nclsbayona.github.io/sitemap.xml"
       users:
         type: string
         description: "Number of virtual users (VUs) to simulate"
@@ -36,7 +37,8 @@ on:
       base_output_dir:
         type: string
         description: "Directory where the HTML dashboard and PNG screenshot will be saved (default: results)"
-        required: true
+        required: false
+        default: "artifacts"
       wait_for_merge:
         type: boolean
         description: "Whether to wait for the PR to be merged before proceeding"
@@ -48,11 +50,12 @@ on:
     inputs:
       BASE_URL:
         description: "Base URL (e.g. https://yourdomain.com)"
-        required: true
-      SITEMAP_URL:
-        description: "Sitemap URL (defaults to BASE_URL/sitemap.xml)"
         required: false
-        default: ""
+        default: "https://nclsbayona.github.io"
+      SITEMAP_URL:
+        description: "Sitemap URL"
+        required: false
+        default: "https://nclsbayona.github.io/sitemap.xml"
       VUS:
         description: "Number of virtual users (VUs) to simulate"
         required: false
