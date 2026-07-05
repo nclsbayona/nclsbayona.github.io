@@ -267,6 +267,7 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 ![Update visualizations](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update-visualizations.yml/badge.svg)
 ![Update Webpage & Visualizations](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/update.yml/badge.svg)
 ![Test sitemap](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/test-sitemap.yml/badge.svg)
+![Update quote image](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/today_quote_png.yml/badge.svg)
 ![Create GIF](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/create-gif.yml/badge.svg)
 ![Semantic Release](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/semantic-release.yml/badge.svg)
 ![Purge old runs](https://github.com/nclsbayona/nclsbayona.github.io/actions/workflows/delete-old-runs.yml/badge.svg)
