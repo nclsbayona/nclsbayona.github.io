@@ -36,6 +36,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Output new release version
-        if: steps.semantic.outputs.new_release_published == 'true'
         run: |
-          echo ${{ steps.semantic.outputs.new_release_version }}
+          if [ "${{ steps.semantic.outputs.new_release_version }}" != "" ]; then
+            printf "New release version: ${{ steps.semantic.outputs.new_release_version }} ."
+          else
+            printf "No new release version."
+          fi
+          if [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
+            printf "Published to GitHub."
+          else
+            printf "Dry run, not published to GitHub."
+          fi
