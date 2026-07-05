@@ -20,6 +20,7 @@ jobs:
     with:
       base_dir: "artifacts"
       wait_for_merge: true
+
   generate_png:
     needs: generate_gif
     name: Generate K6 Results
@@ -32,3 +33,16 @@ jobs:
       sitemap_url: "https://nclsbayona.github.io/sitemap.xml"
       url_limit: "500"
       base_output_dir: "artifacts"
+      wait_for_merge: true
+
+  generate_screenshot:
+    needs: generate_png
+    name: Generate Quote Screenshot
+    uses: nclsbayona/nclsbayona.github.io/.github/workflows/today_quote_png.yml@main
+    secrets: inherit
+    with:
+      page_url: "https://nclsbayona.github.io/page/quote"
+      element_id: "quote"
+      output_dir: "artifacts/images"
+      screenshot_name: "quote_of_the_day.png"
+      timeout: 30000
