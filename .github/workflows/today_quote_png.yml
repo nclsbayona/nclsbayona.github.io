@@ -1,0 +1,54 @@
+name: Screenshot today's quote as PNG
+run-name: ${{ github.workflow }} (#${{ github.run_id }})
+on:
+    workflow_dispatch:
+    page_build:
+    deployment:
+
+permissions:
+    contents: read
+    pull-requests: write
+
+env:
+    ARTIFACTS_DIR: "artifacts/images"
+    PR_BRANCH: "update-quote-screenshot-${{ github.run_id }}"
+
+jobs:
+    screenshot:
+        name: Screenshot today's quote
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v7.0.0
+              with:
+                  fetch-depth: 0
+                  persist-credentials: false
+
+            - name: Take screenshot of today's quote
+              id: screenshot
+              uses: ./.github/actions/element-screenshot
+              with:
+                  page_url: "https://nclsbayona.github.io/page/quote"
+                  element_id: "quote"
+                  output_dir: "${{ env.ARTIFACTS_DIR }}"
+                  screenshot_name: "quote_of_the_day.png"
+                  timeout: "30000"
+
+            - name: Upload screenshot
+              if: success()
+              uses: actions/upload-artifact@v7.0.1
+              with:
+                name: quote-screenshot-${{ github.run_id }}
+                path: ${{ env.ARTIFACTS_DIR }}
+
+            - name: Create Pull Request
+              id: create_pr
+              uses: peter-evans/create-pull-request@v8.1.1
+              with:
+                token: ${{ secrets.PR_TOKEN }}
+                branch: ${{ env.PR_BRANCH }}
+                base: main
+                delete-branch: true
+                commit-message: "chore: Update"
+                title: "docs: :memo: Update quote image"
+                body: "Automated update: refresh quote in directory ${{ env.ARTIFACTS_DIR }}"
