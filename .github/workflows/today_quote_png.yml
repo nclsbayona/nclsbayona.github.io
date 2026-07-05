@@ -1,12 +1,69 @@
 name: Screenshot today's quote as PNG
 run-name: ${{ github.workflow }} (#${{ github.run_id }})
 on:
+    workflow_call:
+        inputs:
+            page_url:
+                type: string
+                description: "URL of the page to take a screenshot of"
+                required: false
+                default: "https://nclsbayona.github.io/page/quote"
+            element_id:
+                type: string
+                description: "ID of the element to take a screenshot of"
+                required: false
+                default: "quote"
+            output_dir:
+                type: string
+                description: "Directory where the PNG screenshot will be saved (default: artifacts/images)"
+                required: false
+                default: "artifacts/images"
+            screenshot_name:
+                type: string
+                description: "Name of the PNG screenshot file (default: quote_of_the_day.png)"
+                required: false
+                default: "quote_of_the_day.png"
+            timeout:
+                type: number
+                description: "Timeout for taking the screenshot in milliseconds (default: 30000)"
+                required: false
+                default: 30000
+            wait_for_merge:
+                type: boolean
+                description: "Whether to wait for the PR to be merged before proceeding"
+                required: false
+                default: false
     workflow_dispatch:
-    page_build:
-    deployment:
+        inputs:
+            page_url:
+                description: "URL of the page to take a screenshot of"
+                required: false
+                default: "https://nclsbayona.github.io/page/quote"
+            element_id:
+                description: "ID of the element to take a screenshot of"
+                required: false
+                default: "quote"
+            output_dir:
+                description: "Directory where the PNG screenshot will be saved (default: artifacts/images)"
+                required: false
+                default: "artifacts/images"
+            screenshot_name:
+                description: "Name of the PNG screenshot file (default: quote_of_the_day.png)"
+                required: false
+                default: "quote_of_the_day.png"
+            timeout:
+                description: "Timeout for taking the screenshot in milliseconds (default: 30000)"
+                required: false
+                type: number
+                default: 30000
+            wait_for_merge:
+                description: "Whether to wait for the PR to be merged before proceeding"
+                required: false
+                type: boolean
+                default: false
 
 concurrency:
-    group: screenshot-for-webpage-${{ github.ref }}
+    group: screenshot-${{ github.ref }}
     cancel-in-progress: false
 
 permissions:
@@ -14,13 +71,17 @@ permissions:
     pull-requests: write
 
 env:
-    ARTIFACTS_DIR: "artifacts/images"
-    PR_BRANCH: "update-quote-screenshot-${{ github.run_id }}"
+    ARTIFACTS_DIR: "${{ inputs.output_dir }}"
+    PR_BRANCH: "screenshot-${{ github.run_id }}"
 
 jobs:
     screenshot:
         name: Screenshot today's quote
         runs-on: ubuntu-latest
+        outputs:
+            pr_branch: ${{ env.PR_BRANCH }}
+            pr_url: ${{ steps.create_pr.outputs.pull-request-url }}
+            pr_number: ${{ steps.create_pr.outputs.pull-request-number }}
         steps:
             - name: Checkout repository
               uses: actions/checkout@v7.0.0
@@ -32,17 +93,17 @@ jobs:
               id: screenshot
               uses: ./.github/actions/element-screenshot
               with:
-                  page_url: "https://nclsbayona.github.io/page/quote"
-                  element_id: "quote"
-                  output_dir: "${{ env.ARTIFACTS_DIR }}"
-                  screenshot_name: "quote_of_the_day.png"
-                  timeout: "30000"
+                  page_url: ${{ inputs.page_url }}
+                  element_id: ${{ inputs.element_id }}
+                  output_dir: ${{ env.ARTIFACTS_DIR }}
+                  screenshot_name: ${{ inputs.screenshot_name }}
+                  timeout: ${{ inputs.timeout }}
 
             - name: Upload screenshot
               if: success()
               uses: actions/upload-artifact@v7.0.1
               with:
-                name: quote-screenshot-${{ github.run_id }}
+                name: screenshot-${{ github.run_id }}
                 path: ${{ env.ARTIFACTS_DIR }}
 
             - name: Create Pull Request
@@ -56,3 +117,47 @@ jobs:
                 commit-message: "chore: Update"
                 title: "docs: :memo: Update quote image"
                 body: "Automated update: refresh quote in directory ${{ env.ARTIFACTS_DIR }}"
+
+    wait-for-screenshot:
+        needs: screenshot
+        runs-on: ubuntu-latest
+        name: Wait for Test PR to be merged
+        if: ${{ inputs.wait_for_merge }}
+        steps:
+        - name: Debug PR outputs
+          run: |
+            echo "number=${{ needs.screenshot.outputs.pr_number }}"
+            echo "url=${{ needs.screenshot.outputs.pr_url }}"
+
+        - name: Wait for PR to be merged
+          if: ${{ (github.event_name == 'workflow_call' && github.event.inputs.wait_for_merge) || (github.event_name == 'workflow_dispatch' && inputs.WAIT_FOR_MERGE) }}
+          uses: actions/github-script@v9
+          with:
+            github-token: ${{ secrets.GITHUB_TOKEN }}
+            script: |
+                const prNumber = Number("${{ needs.screenshot.outputs.pr_number }}");
+
+                if (!prNumber || Number.isNaN(prNumber)) {
+                console.log(
+                    "No PR number received. Check."
+                );
+                return;
+                }
+
+                console.log(`Waiting for PR #${prNumber} to be merged`);
+
+                while (true) {
+                const { data: pr } = await github.rest.pulls.get({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    pull_number: prNumber,
+                });
+
+                if (pr.merged) {
+                    console.log(`PR #${prNumber} has been merged!`);
+                    break;
+                }
+
+                console.log(`PR #${prNumber} is not merged yet. Checking again in 90 seconds...`);
+                await new Promise(resolve => setTimeout(resolve, 90000));
+                }
