@@ -20,6 +20,8 @@ jobs:
         name: Fetch and update quote of the day
         env:
           PR_BRANCH: "update-quote-${{ github.run_id }}"
+        outputs:
+          update: ${{ steps.create_pr.outputs.pull-request-number != '' }}
     
         permissions:
           contents: write
@@ -120,6 +122,7 @@ jobs:
 
     deploy:
         needs: get-quote
+        if: ${{ needs.get-quote.result }}
         name: Update page
         permissions:
           contents: read
