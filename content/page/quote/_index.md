@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Theodore_Roosevelt_by_the_Pach_Bros.jpg/960px-Theodore_Roosevelt_by_the_Pach_Bros.jpg"
-  author: "Theodore Roosevelt"
-  text: "Believe that you can and you're halfway there."
+  image: "https://zenquotes.io/img/betty-white.jpg"
+  author: "Betty White"
+  text: "Don't take yourself too seriously, pretty soon you can find the humor in our everyday lives."
 
 menu:
     main:
