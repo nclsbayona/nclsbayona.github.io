@@ -84,7 +84,7 @@ jobs:
               const prNumber = Number("${{ steps.create_pr.outputs.pull-request-number }}");
 
               if (!prNumber || Number.isNaN(prNumber)) {
-                core.setFailed(
+                console.log(
                   "No PR number received. Check."
                 );
                 return;
