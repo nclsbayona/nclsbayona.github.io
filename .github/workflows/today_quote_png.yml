@@ -136,6 +136,12 @@ jobs:
               run: |
                 echo "date=$(date -u '+%Y-%m-%d %H:%M')" >> "$GITHUB_OUTPUT"
 
+            - name: Create unique file
+              if: ${{ inputs.send_telegram_notification }}
+              run: |
+                mkdir -p out
+                cp "${{ steps.screenshot.outputs.screenshot_png }}" "out/image${{ github.run_id }}.png"
+
             - name: Send Telegram notification
               if: ${{ inputs.send_telegram_notification }}
               uses: appleboy/telegram-action@v1.0.1
@@ -143,7 +149,7 @@ jobs:
                 to: ${{ secrets.TELEGRAM_CHAT_ID }}
                 token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
                 message: "${{ steps.get_date.outputs.date }}"
-                photo: ${{ steps.screenshot.outputs.screenshot_png }}
+                photo: out/image${{ github.run_id }}.png
 
     wait-for-screenshot:
         needs: screenshot
