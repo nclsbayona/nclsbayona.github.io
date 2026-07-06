@@ -28,6 +28,11 @@ on:
                 description: "Timeout for taking the screenshot in milliseconds (default: 30000)"
                 required: false
                 default: 30000
+            send_telegram_notification:
+                type: boolean
+                description: "Whether to send a Telegram notification with the quote image"
+                required: false
+                default: true
             wait_for_merge:
                 type: boolean
                 description: "Whether to wait for the PR to be merged before proceeding"
@@ -56,6 +61,11 @@ on:
                 required: false
                 type: number
                 default: 30000
+            send_telegram_notification:
+                type: boolean
+                description: "Whether to send a Telegram notification with the quote image"
+                required: false
+                default: true
             wait_for_merge:
                 description: "Whether to wait for the PR to be merged before proceeding"
                 required: false
@@ -79,6 +89,7 @@ jobs:
         name: Screenshot today's quote
         runs-on: ubuntu-latest
         outputs:
+            screenshot_path: ${{ steps.screenshot.outputs.screenshot_png }}
             pr_branch: ${{ env.PR_BRANCH }}
             pr_url: ${{ steps.create_pr.outputs.pull-request-url }}
             pr_number: ${{ steps.create_pr.outputs.pull-request-number }}
@@ -117,6 +128,17 @@ jobs:
                 commit-message: "chore: Update"
                 title: "docs: :memo: Update quote image"
                 body: "Automated update: refresh quote in directory ${{ env.ARTIFACTS_DIR }}"
+            
+            - name: Send Telegram notification
+              if: ${{ inputs.send_telegram_notification }}
+              uses: appleboy/telegram-action@main
+              with:
+                to: ${{ secrets.TELEGRAM_CHAT_ID }}
+                token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+                photo: ${{ steps.screenshot.outputs.screenshot_png }}
+                message: |
+                  Today's quote has been updated! Check it out: ${{ inputs.page_url }}
+                  Image PR: ${{ steps.create_pr.outputs.pull-request-url }}
 
     wait-for-screenshot:
         needs: screenshot
