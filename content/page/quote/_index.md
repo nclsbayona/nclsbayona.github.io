@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://zenquotes.io/img/betty-white.jpg"
-  author: "Betty White"
-  text: "Don't take yourself too seriously, pretty soon you can find the humor in our everyday lives."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Gautama_Buddha_11.jpg/960px-Gautama_Buddha_11.jpg"
+  author: "Buddha"
+  text: "What we think, we become."
 
 menu:
     main:
