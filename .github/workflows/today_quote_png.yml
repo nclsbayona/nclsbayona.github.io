@@ -97,7 +97,7 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v7.0.0
               with:
-                  fetch-depth: 0
+                  fetch-depth: 1
                   persist-credentials: false
 
             - name: Take screenshot of today's quote
