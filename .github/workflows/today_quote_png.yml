@@ -136,9 +136,6 @@ jobs:
                 to: ${{ secrets.TELEGRAM_CHAT_ID }}
                 token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
                 photo: ${{ steps.screenshot.outputs.screenshot_png }}
-                message: |
-                  Today's quote has been updated! Check it out: ${{ inputs.page_url }}
-                  Image PR: ${{ steps.create_pr.outputs.pull-request-url }}
 
     wait-for-screenshot:
         needs: screenshot
