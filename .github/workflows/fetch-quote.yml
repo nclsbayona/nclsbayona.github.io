@@ -114,7 +114,7 @@ jobs:
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "> ${{ steps.quote.outputs.quote }}" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
-            echo "**— ${{ steps.quote.outputs.author }}**" >> $GITHUB_STEP_SUMMARY
+            echo "**— ${{ steps.quote.outputs.author }}** (${{ steps.quote.outputs.source }})" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "![Author](${{ steps.quote.outputs.image }})" >> $GITHUB_STEP_SUMMARY
 
