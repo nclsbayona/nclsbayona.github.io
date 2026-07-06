@@ -111,25 +111,6 @@ jobs:
                   screenshot_name: ${{ inputs.screenshot_name }}
                   timeout: ${{ inputs.timeout }}
 
-            - name: Upload screenshot
-              if: success()
-              uses: actions/upload-artifact@v7.0.1
-              with:
-                name: screenshot-${{ github.run_id }}
-                path: ${{ env.ARTIFACTS_DIR }}
-
-            - name: Create Pull Request
-              id: create_pr
-              uses: peter-evans/create-pull-request@v8.1.1
-              with:
-                token: ${{ secrets.PR_TOKEN }}
-                branch: ${{ env.PR_BRANCH }}
-                base: main
-                delete-branch: true
-                commit-message: "chore: Update"
-                title: "docs: :memo: Update quote image"
-                body: "Automated update: refresh quote in directory ${{ env.ARTIFACTS_DIR }}"
-            
             - name: Get date
               id: get_date
               if: ${{ inputs.send_telegram_notification }}
@@ -150,6 +131,30 @@ jobs:
                 token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
                 message: "${{ steps.get_date.outputs.date }}"
                 photo: out/image${{ github.run_id }}.png
+
+            - name: Remove temporary files
+              if: ${{ inputs.send_telegram_notification }}
+              run: |
+                rm -rf out
+                
+            - name: Upload screenshot
+              if: success()
+              uses: actions/upload-artifact@v7.0.1
+              with:
+                name: screenshot-${{ github.run_id }}
+                path: ${{ steps.screenshot.outputs.screenshot_png }}
+
+            - name: Create Pull Request
+              id: create_pr
+              uses: peter-evans/create-pull-request@v8.1.1
+              with:
+                token: ${{ secrets.PR_TOKEN }}
+                branch: ${{ env.PR_BRANCH }}
+                base: main
+                delete-branch: true
+                commit-message: "chore: Update"
+                title: "docs: :memo: Update quote image"
+                body: "Automated update: refresh quote image in file ${{ steps.screenshot.outputs.screenshot_png }}"
 
     wait-for-screenshot:
         needs: screenshot
