@@ -234,6 +234,11 @@ jobs:
       run: |
         gh pr review $PR_URL --approve -b "I'm **approving** this pull request because **it includes a major update of a dependency used in production but compatibility is greater than *70%***"
 
+    - name: Comment on major updates of production dependencies with compatibility score lower than 70
+      if: ${{steps.dependabot-metadata.outputs.compatibility-score < 70}}
+      run: |
+        gh pr review $PR_URL -b "I'm **not approving** this pull request because **it includes a major update of a dependency used in production and compatibility is lower than *70%***"
+
     - name: Merge Dependabot PRs
       env:
         GH_TOKEN: ${{ secrets.PR_TOKEN }}
