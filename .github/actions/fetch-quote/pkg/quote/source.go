@@ -24,14 +24,16 @@ func ShouldFetch() bool {
 	return shouldFetch()
 }
 
-func FetchNewQuote() (Quote, error) {
+func FetchNewQuote() (Quote, string, error) {
 	random := randomGenerator.Intn(100) + 1
 	if random < 50 {
 		fmt.Println("[FetchNewQuote] Fetch Zenquotes quote.")
-		return fetchNewZenquotesQuote()
+		quote, err := fetchNewZenquotesQuote()
+		return quote, "zenquotes", err
 	}
 	fmt.Println("[FetchNewQuote] Fetch Stoic quote.")
-	return fetchNewStoicQuote()
+	quote, err := fetchNewStoicQuote()
+	return quote, "stoic", err
 }
 
 func fetchNewZenquotesQuote() (Quote, error) {
