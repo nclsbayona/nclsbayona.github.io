@@ -161,7 +161,7 @@ jobs:
       name: Automatically merge contributor PRs
       if: |
         github.event.pull_request.user.login == 'nclsbayona' && 
-        github.event.pull_request.title == 'docs(contributor): contributors readme action update'
+        github.event.pull_request.title == 'docs: contributors update'
       steps:
       # - name: Configure monitor
       #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
