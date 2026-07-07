@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Stevejobs.jpg/960px-Stevejobs.jpg"
-  author: "Steve Jobs"
-  text: "The only way to do great work is to love what you do."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dalailama1_20121014_4639.jpg/960px-Dalailama1_20121014_4639.jpg"
+  author: "Dalai Lama"
+  text: "Happiness is not something ready made. It comes from your own actions."
 
 menu:
     main:
