@@ -17,3 +17,4 @@ jobs:
       with:
         columns_per_row: 2
         use_username: true
+        pr_title_on_protected: "docs: contributors update"
