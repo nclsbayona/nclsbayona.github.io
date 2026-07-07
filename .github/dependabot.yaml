@@ -12,6 +12,7 @@ updates:
       - "dependencies"
     assignees:
       - "nclsbayona"
+    pull-request-branch-name.separator: "-"
     commit-message:
       prefix: "ci"
       include: "scope"
@@ -28,6 +29,7 @@ updates:
       - "dependencies"
     assignees:
       - "nclsbayona"
+    pull-request-branch-name.separator: "-"
     commit-message:
       prefix: "build"
       include: "scope"
@@ -44,6 +46,7 @@ updates:
       - "dependencies"
     assignees:
       - "nclsbayona"
+    pull-request-branch-name.separator: "-"
     commit-message:
       prefix: "build"
       include: "scope"
@@ -60,6 +63,7 @@ updates:
       - "dependencies"
     assignees:
       - "nclsbayona"
+    pull-request-branch-name.separator: "-"
     commit-message:
       prefix: "build"
       include: "scope"
@@ -76,6 +80,7 @@ updates:
       - "dependencies"
     assignees:
       - "nclsbayona"
+    pull-request-branch-name.separator: "-"
     commit-message:
       prefix: "build"
       include: "scope"
@@ -92,6 +97,41 @@ updates:
       - "dependencies"
     assignees:
       - "nclsbayona"
+    pull-request-branch-name.separator: "-"
+    commit-message:
+      prefix: "github_actions"
+      include: "scope"
+
+  # Docker - Element screenshot action
+  - package-ecosystem: "docker"
+    directory: "/.github/actions/element-screenshot"
+    schedule:
+      interval: "weekly"
+      day: "wednesday"
+    cooldown:
+      default-days: 7
+    labels:
+      - "dependencies"
+    assignees:
+      - "nclsbayona"
+    pull-request-branch-name.separator: "-"
+    commit-message:
+      prefix: "build"
+      include: "scope"
+
+  # GitHub Actions - Element screenshot action
+  - package-ecosystem: "github-actions"
+    directory: "/.github/actions/element-screenshot"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    cooldown:
+      default-days: 7
+    labels:
+      - "dependencies"
+    assignees:
+      - "nclsbayona"
+    pull-request-branch-name.separator: "-"
     commit-message:
       prefix: "github_actions"
       include: "scope"
@@ -108,6 +148,7 @@ updates:
       - "dependencies"
     assignees:
       - "nclsbayona"
+    pull-request-branch-name.separator: "-"
     commit-message:
       prefix: "build"
       include: "scope"
@@ -124,6 +165,7 @@ updates:
       - "dependencies"
     assignees:
       - "nclsbayona"
+    pull-request-branch-name.separator: "-"
     commit-message:
       prefix: "build"
       include: "scope"
