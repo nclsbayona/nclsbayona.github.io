@@ -12,7 +12,8 @@ updates:
       - "dependencies"
     assignees:
       - "nclsbayona"
-    pull-request-branch-name.separator: "-"
+    pull-request-branch-name:
+      separator: "-"
     commit-message:
       prefix: "ci"
       include: "scope"
@@ -29,7 +30,8 @@ updates:
       - "dependencies"
     assignees:
       - "nclsbayona"
-    pull-request-branch-name.separator: "-"
+    pull-request-branch-name:
+      separator: "-"
     commit-message:
       prefix: "build"
       include: "scope"
@@ -46,7 +48,8 @@ updates:
       - "dependencies"
     assignees:
       - "nclsbayona"
-    pull-request-branch-name.separator: "-"
+    pull-request-branch-name:
+      separator: "-"
     commit-message:
       prefix: "build"
       include: "scope"
@@ -63,7 +66,8 @@ updates:
       - "dependencies"
     assignees:
       - "nclsbayona"
-    pull-request-branch-name.separator: "-"
+    pull-request-branch-name:
+      separator: "-"
     commit-message:
       prefix: "build"
       include: "scope"
@@ -80,7 +84,8 @@ updates:
       - "dependencies"
     assignees:
       - "nclsbayona"
-    pull-request-branch-name.separator: "-"
+    pull-request-branch-name:
+      separator: "-"
     commit-message:
       prefix: "build"
       include: "scope"
@@ -97,7 +102,8 @@ updates:
       - "dependencies"
     assignees:
       - "nclsbayona"
-    pull-request-branch-name.separator: "-"
+    pull-request-branch-name:
+      separator: "-"
     commit-message:
       prefix: "github_actions"
       include: "scope"
@@ -114,7 +120,8 @@ updates:
       - "dependencies"
     assignees:
       - "nclsbayona"
-    pull-request-branch-name.separator: "-"
+    pull-request-branch-name:
+      separator: "-"
     commit-message:
       prefix: "build"
       include: "scope"
@@ -131,7 +138,8 @@ updates:
       - "dependencies"
     assignees:
       - "nclsbayona"
-    pull-request-branch-name.separator: "-"
+    pull-request-branch-name:
+      separator: "-"
     commit-message:
       prefix: "github_actions"
       include: "scope"
@@ -148,7 +156,8 @@ updates:
       - "dependencies"
     assignees:
       - "nclsbayona"
-    pull-request-branch-name.separator: "-"
+    pull-request-branch-name:
+      separator: "-"
     commit-message:
       prefix: "build"
       include: "scope"
@@ -165,7 +174,8 @@ updates:
       - "dependencies"
     assignees:
       - "nclsbayona"
-    pull-request-branch-name.separator: "-"
+    pull-request-branch-name:
+      separator: "-"
     commit-message:
       prefix: "build"
       include: "scope"
