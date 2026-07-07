@@ -208,17 +208,17 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 	<tbody>
 		<tr>
             <td align="center">
-                <a href="https://github.com/actions-user">
-                    <img src="https://avatars.githubusercontent.com/u/65916846?v=4" width="100;" alt="actions-user"/>
-                    <br />
-                    <sub><b>actions-user</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/github-actions[bot]">
                     <img src="https://avatars.githubusercontent.com/in/15368?v=4" width="100;" alt="github-actions[bot]"/>
                     <br />
                     <sub><b>github-actions[bot]</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/actions-user">
+                    <img src="https://avatars.githubusercontent.com/u/65916846?v=4" width="100;" alt="actions-user"/>
+                    <br />
+                    <sub><b>actions-user</b></sub>
                 </a>
             </td>
 		</tr>
