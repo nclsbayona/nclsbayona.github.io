@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/960px-Nietzsche187a.jpg"
-  author: "Friedrich Nietzsche"
-  text: "He who has a why to live can bear almost any how"
+  image: "https://zenquotes.io/img/steve-maraboli.jpg"
+  author: "Steve Maraboli"
+  text: "Letting go means to come to the realization that some people are a part of your history, but not a part of your destiny."
 
 menu:
     main:
