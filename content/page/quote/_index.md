@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dalailama1_20121014_4639.jpg/960px-Dalailama1_20121014_4639.jpg"
-  author: "Dalai Lama"
-  text: "Happiness is not something ready made. It comes from your own actions."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Epictetus.jpg/250px-Epictetus.jpg"
+  author: "Epictetus"
+  text: "Give yourself fully to your endeavors. Decide to construct your character through excellent actions and determine to pay the price of a worthy goal. The trials you encounter will introduce you to your strengths."
 
 menu:
     main:
