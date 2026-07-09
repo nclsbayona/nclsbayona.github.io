@@ -9,8 +9,12 @@ permissions:
   contents: write
   pull-requests: write
 
+concurrency:
+  group: verify-pr-${{ github.ref }}
+  cancel-in-progress: false
+
 env:
-  PR_URL: ${{github.event.pull_request.html_url}}
+  PR_URL: ${{ github.event.pull_request.html_url }}
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
@@ -62,9 +66,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions: {}
     needs: review-title
-    concurrency:
-        group: link_check-${{ github.ref }}
-        cancel-in-progress: false
     steps:
       # - name: Configure monitor
       #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
