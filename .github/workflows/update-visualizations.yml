@@ -12,13 +12,30 @@ permissions:
   contents: write
   pull-requests: write
 
+env:
+  WEBPAGE_URL: "https://nclsbayona.github.io"
+  ARTIFACTS_DIR: "artifacts"
+
 jobs:
+  generate_screenshot:
+    needs: generate_png
+    name: Generate Quote Screenshot
+    uses: nclsbayona/nclsbayona.github.io/.github/workflows/today_quote_png.yml@main
+    secrets: inherit
+    with:
+      page_url: ${{ env.WEBPAGE_URL }}/page/quote
+      element_id: "quote"
+      output_dir: ${{ env.ARTIFACTS_DIR }}/images
+      screenshot_name: "quote_of_the_day.png"
+      timeout: 30000
+      wait_for_merge: true
+
   generate_gif:
     name: Generate Webpage GIF
     uses: nclsbayona/nclsbayona.github.io/.github/workflows/create-gif.yml@main
     secrets: inherit
     with:
-      base_dir: "artifacts"
+      base_dir: ${{ env.ARTIFACTS_DIR }}
       wait_for_merge: true
 
   generate_png:
@@ -29,20 +46,8 @@ jobs:
     with:
       users: "100"
       duration: "15m"
-      base_url: "https://nclsbayona.github.io"
-      sitemap_url: "https://nclsbayona.github.io/sitemap.xml"
+      base_url: ${{ env.WEBPAGE_URL }}
+      sitemap_url: ${{ env.WEBPAGE_URL }}/sitemap.xml
       url_limit: "500"
-      base_output_dir: "artifacts"
+      base_output_dir: ${{ env.ARTIFACTS_DIR }}
       wait_for_merge: true
-
-  generate_screenshot:
-    needs: generate_png
-    name: Generate Quote Screenshot
-    uses: nclsbayona/nclsbayona.github.io/.github/workflows/today_quote_png.yml@main
-    secrets: inherit
-    with:
-      page_url: "https://nclsbayona.github.io/page/quote"
-      element_id: "quote"
-      output_dir: "artifacts/images"
-      screenshot_name: "quote_of_the_day.png"
-      timeout: 30000
