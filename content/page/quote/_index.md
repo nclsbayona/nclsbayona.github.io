@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Mongol_Leaders_before_Genghis_Khan.jpg/250px-Mongol_Leaders_before_Genghis_Khan.jpg"
-  author: "Genghis Khan"
-  text: "There is no value in anything until it is finished."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Gautama_Buddha_11.jpg/960px-Gautama_Buddha_11.jpg"
+  author: "Buddha"
+  text: "What we think, we become."
 
 menu:
     main:
