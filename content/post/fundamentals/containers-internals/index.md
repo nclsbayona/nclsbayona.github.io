@@ -10,7 +10,6 @@ categories:
 tags:
 - introductory
 - devops
-weight: 1 # You can add weight to some posts to override the default sorting (date descending)
 links:
 - title: Performance evaluation of container-based virtualization for high performance computing environments
   description:  In-depth performance evaluation of container-based virtualization for HPC.
