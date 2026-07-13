@@ -9,7 +9,6 @@ categories:
 - non-technical
 tags:
 - non-technical
-weight: 1
 ---
 
 > ***NOTE*** \
