@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
-  author: "Live Math Money"
-  text: "Life is a slow treadmill. People who stand still are actually going behind."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Naval_Ravikant.jpg/120px-Naval_Ravikant.jpg"
+  author: "Naval Ravikant"
+  text: "We are bacteria to the universe. We’re basically monkeys on a small rock orbiting a small backwards star in a huge galaxy, which is in an absolutely staggeringly gigantic universe, which itself may be part of a gigantic multiverse."
 
 menu:
     main:
