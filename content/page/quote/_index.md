@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://zenquotes.io/img/confucius.jpg"
-  author: "Confucius"
-  text: "Death and life have their determined appointments; riches and honors depend upon heaven."
+  image: "https://upload.wikimedia.org/wikipedia/commons/a/a5/EB1911_-_N_-_longer_limb.png"
+  author: "n"
+  text: "Fear is a atural reaction to moving closer to the truth. Pema Chödrön"
 
 menu:
     main:
