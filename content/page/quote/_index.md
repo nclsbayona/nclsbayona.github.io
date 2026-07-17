@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://zenquotes.io/img/lao-tzu.jpg"
-  author: "Lao Tzu"
-  text: "Knowing others is wisdom, knowing yourself is enlightenment."
+  image: "https://zenquotes.io/img/confucius.jpg"
+  author: "Confucius"
+  text: "Death and life have their determined appointments; riches and honors depend upon heaven."
 
 menu:
     main:
