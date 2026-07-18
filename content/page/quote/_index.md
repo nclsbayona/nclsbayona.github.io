@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/a/a5/EB1911_-_N_-_longer_limb.png"
-  author: "n"
-  text: "Fear is a atural reaction to moving closer to the truth. Pema Chödrön"
+  image: "https://zenquotes.io/img/robin-sharma.jpg"
+  author: "Robin Sharma"
+  text: "Would you rather live your life according to the approval of others or aligned with your truth and your dreams?"
 
 menu:
     main:
