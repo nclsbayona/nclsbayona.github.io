@@ -164,7 +164,7 @@ updates:
 
   # Devcontainer - devcontainer
   - package-ecosystem: "devcontainers"
-    directory: "/.devcontainer"
+    directory: "/"
     schedule:
       interval: "weekly"
       day: "thursday"
