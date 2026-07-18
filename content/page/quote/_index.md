@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://zenquotes.io/img/robin-sharma.jpg"
-  author: "Robin Sharma"
-  text: "Would you rather live your life according to the approval of others or aligned with your truth and your dreams?"
+  image: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Portrait_of_J._D._Rockefeller.jpg"
+  author: "John D. Rockefeller"
+  text: "Don't be afraid to give up the good to go for the great."
 
 menu:
     main:
