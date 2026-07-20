@@ -5,9 +5,9 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-      day: "monday"
+      day: "wednesday"
     cooldown:
-      default-days: 7
+      default-days: 20
     labels:
       - "dependencies"
     assignees:
@@ -23,7 +23,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-      day: "tuesday"
+      day: "monday"
     cooldown:
       default-days: 7
     labels:
@@ -41,9 +41,9 @@ updates:
     directory: "/.github/actions/fetch-quote"
     schedule:
       interval: "weekly"
-      day: "tuesday"
+      day: "monday"
     cooldown:
-      default-days: 7
+      default-days: 15
     labels:
       - "dependencies"
     assignees:
@@ -59,7 +59,7 @@ updates:
     directory: "/.github/actions/fetch-quote"
     schedule:
       interval: "weekly"
-      day: "wednesday"
+      day: "monday"
     cooldown:
       default-days: 7
     labels:
@@ -77,7 +77,7 @@ updates:
     directory: "/.github/actions/k6-sitemap"
     schedule:
       interval: "weekly"
-      day: "wednesday"
+      day: "monday"
     cooldown:
       default-days: 7
     labels:
@@ -113,7 +113,7 @@ updates:
     directory: "/.github/actions/element-screenshot"
     schedule:
       interval: "weekly"
-      day: "wednesday"
+      day: "monday"
     cooldown:
       default-days: 7
     labels:
@@ -151,7 +151,7 @@ updates:
       interval: "weekly"
       day: "wednesday"
     cooldown:
-      default-days: 7
+      default-days: 15
     labels:
       - "dependencies"
     assignees:
@@ -167,9 +167,9 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-      day: "thursday"
+      day: "tuesday"
     cooldown:
-      default-days: 7
+      default-days: 15
     labels:
       - "dependencies"
     assignees:
