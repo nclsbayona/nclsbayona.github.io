@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Gautama_Buddha_11.jpg/960px-Gautama_Buddha_11.jpg"
-  author: "Buddha"
-  text: "What we think, we become."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/960px-Nietzsche187a.jpg"
+  author: "Friedrich Nietzsche"
+  text: "He who has a why to live can bear almost any how"
 
 menu:
     main:
