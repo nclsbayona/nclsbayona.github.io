@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/960px-Nietzsche187a.jpg"
-  author: "Friedrich Nietzsche"
-  text: "He who has a why to live can bear almost any how"
+  image: "https://upload.wikimedia.org/wikipedia/commons/7/76/Bernardbaruch.jpg"
+  author: "Bernard Baruch"
+  text: "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind."
 
 menu:
     main:
