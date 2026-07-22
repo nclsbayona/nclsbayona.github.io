@@ -3,7 +3,7 @@ run-name: ${{ github.workflow }} (#${{ github.run_id }})
 
 on:
   schedule:
-    - cron: '0 0 10 * *'
+    - cron: '0 0 27 * *'
   workflow_dispatch:
 
 jobs:
