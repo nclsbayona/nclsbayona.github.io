@@ -1,0 +1,57 @@
+name: Usage Report
+run-name: ${{ github.workflow }} (#${{ github.run_id }})
+
+on:
+  schedule:
+    - cron: '0 0 10 * *'
+  workflow_dispatch:
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate usage report
+        uses: actions/github-script@v7
+        with:
+          script: |
+            // Get workflow runs for the past month
+            const thirtyDaysAgo = new Date();
+            thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+            
+            const workflows = await github.rest.actions.listRepoWorkflows({
+              owner: context.repo.owner,
+              repo: context.repo.repo
+            });
+            
+            let totalMinutes = 0;
+            let report = [];
+            
+            for (const workflow of workflows.data.workflows) {
+              const runs = await github.rest.actions.listWorkflowRuns({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                workflow_id: workflow.id,
+                created: `>=${thirtyDaysAgo.toISOString().split('T')[0]}`
+              });
+              
+              let workflowMinutes = 0;
+              for (const run of runs.data.workflow_runs) {
+                if (run.conclusion) {
+                  const duration = new Date(run.updated_at) - new Date(run.run_started_at);
+                  workflowMinutes += duration / 60000;
+                }
+              }
+              
+              report.push({
+                name: workflow.name,
+                runs: runs.data.total_count,
+                minutes: Math.round(workflowMinutes)
+              });
+              totalMinutes += workflowMinutes;
+            }
+            
+            // Output report
+            console.log('## Monthly Usage Report');
+            console.log(`Total Minutes: ${Math.round(totalMinutes)}`);
+            console.log(`Estimated Cost: $${(totalMinutes * 0.008).toFixed(2)}`);
+            report.forEach(w => console.log(`- ${w.name}: ${w.runs} runs, ${w.minutes} minutes`));
