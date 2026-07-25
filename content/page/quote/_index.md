@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Babe_Ruth_cropped.jpg/960px-Babe_Ruth_cropped.jpg"
-  author: "Babe Ruth"
-  text: "You just can't beat the person who never gives up."
+  image: "https://upload.wikimedia.org/wikipedia/commons/7/76/Bernardbaruch.jpg"
+  author: "Bernard Baruch"
+  text: "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind."
 
 menu:
     main:
