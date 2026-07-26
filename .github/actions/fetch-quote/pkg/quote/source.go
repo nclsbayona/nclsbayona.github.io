@@ -110,6 +110,7 @@ func GetFavoriteQuote() Quote {
 		{Text: "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.", Author: "Bernard Baruch", Image: "https://upload.wikimedia.org/wikipedia/commons/7/76/Bernardbaruch.jpg"},
   {Text: "Don't be afraid to give up the good to go for the great.", Author: "John D. Rockefeller", Image: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Portrait_of_J._D._Rockefeller.jpg"},
 		{Text: "Happiness is not something ready made. It comes from your own actions.", Author: "Dalai Lama", Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dalailama1_20121014_4639.jpg/960px-Dalailama1_20121014_4639.jpg"},
+  {Text: "Luck is what happens when preparation meets opportunity.", Author: "Seneca", Image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/SenecaELWI.jpg"},
 		{Text: "Believe that you can and you're halfway there.", Author: "Theodore Roosevelt", Image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Theodore_Roosevelt_by_the_Pach_Bros.jpg/960px-Theodore_Roosevelt_by_the_Pach_Bros.jpg"},
 	}
 	randIndex := randomGenerator.Intn(len(favorites))
