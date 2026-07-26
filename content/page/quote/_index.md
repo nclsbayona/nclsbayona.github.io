@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/7/76/Bernardbaruch.jpg"
-  author: "Bernard Baruch"
-  text: "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind."
+  image: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Portrait_of_J._D._Rockefeller.jpg"
+  author: "John D. Rockefeller"
+  text: "Don't be afraid to give up the good to go for the great."
 
 menu:
     main:
