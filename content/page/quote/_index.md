@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Theodore_Roosevelt_by_the_Pach_Bros.jpg/960px-Theodore_Roosevelt_by_the_Pach_Bros.jpg"
-  author: "Theodore Roosevelt"
-  text: "Believe that you can and you're halfway there."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Gautama_Buddha_11.jpg/960px-Gautama_Buddha_11.jpg"
+  author: "Buddha"
+  text: "What we think, we become."
 
 menu:
     main:
