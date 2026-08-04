@@ -5,6 +5,6 @@ COPY cmd/fetch-quote ./cmd/fetch-quote
 COPY pkg/quote ./pkg/quote
 RUN CGO_ENABLED=0 go build -o /bin/main ./cmd/fetch-quote
 
-FROM scratch
+FROM alpine
 COPY --from=build /bin/main /bin/main
 ENTRYPOINT ["/bin/main"]
