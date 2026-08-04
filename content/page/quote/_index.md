@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Stevejobs.jpg/960px-Stevejobs.jpg"
-  author: "Steve Jobs"
-  text: "The only way to do great work is to love what you do."
+  image: "https://upload.wikimedia.org/wikipedia/commons/7/76/Bernardbaruch.jpg"
+  author: "Bernard Baruch"
+  text: "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind."
 
 menu:
     main:
