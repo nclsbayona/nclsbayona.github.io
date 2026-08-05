@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/7/76/Bernardbaruch.jpg"
-  author: "Bernard Baruch"
-  text: "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind."
+  image: "https://zenquotes.io/img/epictetus.jpg"
+  author: "Epictetus"
+  text: "It is the nature of the wise to resist pleasures, but the foolish to be a slave to them."
 
 menu:
     main:
