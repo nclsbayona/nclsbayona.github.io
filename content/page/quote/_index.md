@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://zenquotes.io/img/epictetus.jpg"
-  author: "Epictetus"
-  text: "It is the nature of the wise to resist pleasures, but the foolish to be a slave to them."
+  image: "https://zenquotes.io/img/euripides.jpg"
+  author: "Euripides"
+  text: "Talk sense to a fool and he calls you foolish."
 
 menu:
     main:
