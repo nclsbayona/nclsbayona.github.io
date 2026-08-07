@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://zenquotes.io/img/euripides.jpg"
-  author: "Euripides"
-  text: "Talk sense to a fool and he calls you foolish."
+  image: "https://zenquotes.io/img/john-wooden.jpg"
+  author: "John Wooden"
+  text: "Ability is a poor man's wealth."
 
 menu:
     main:
