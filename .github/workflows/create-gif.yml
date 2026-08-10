@@ -42,7 +42,7 @@ jobs:
     steps:
     # - name: Configure monitor
     #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
-    - uses: actions/checkout@v7.0.0
+    - uses: actions/checkout@v7.0.1
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         ref: ${{ github.ref }}
