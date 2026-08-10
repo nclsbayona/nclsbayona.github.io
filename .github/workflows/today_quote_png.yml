@@ -95,7 +95,7 @@ jobs:
             pr_number: ${{ steps.create_pr.outputs.pull-request-number }}
         steps:
             - name: Checkout repository
-              uses: actions/checkout@v7.0.0
+              uses: actions/checkout@v7.0.1
               with:
                   ref: ${{ github.ref }}
                   fetch-depth: 1
