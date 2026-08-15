@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://zenquotes.io/img/gary-keller.jpg"
-  author: "Gary Keller"
-  text: "Extraordinary results happen only when you give the best you have to become the best you can be at your most important work."
+  image: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Plato_and_Aristotle.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  author: "Plato"
+  text: "No human thing is of serious importance."
 
 menu:
     main:
