@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Charlie_Munger_%28cropped%29_%282%29.jpg/250px-Charlie_Munger_%28cropped%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  author: "Charlie Munger"
-  text: "Assume life will be really tough, and then ask if you can handle it. If the answer is yes, you’ve won."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Marcus_Annius_Verus_Caesar.jpg/250px-Marcus_Annius_Verus_Caesar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  author: "Marcus Aurelius"
+  text: "All you need are these: certainty of judgment in the present moment; action for the common good in the present moment; and an attitude of gratitude in the present moment for anything that comes your way."
 
 menu:
     main:
