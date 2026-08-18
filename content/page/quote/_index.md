@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Marcus_Annius_Verus_Caesar.jpg/250px-Marcus_Annius_Verus_Caesar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  author: "Marcus Aurelius"
-  text: "All you need are these: certainty of judgment in the present moment; action for the common good in the present moment; and an attitude of gratitude in the present moment for anything that comes your way."
+  image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/SenecaELWI.jpg"
+  author: "Seneca"
+  text: "Luck is what happens when preparation meets opportunity."
 
 menu:
     main:
