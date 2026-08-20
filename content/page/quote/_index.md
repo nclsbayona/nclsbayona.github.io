@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Socrates_%28futebolista%29_Diretas_J%C3%A1_cropped.jpg/250px-Socrates_%28futebolista%29_Diretas_J%C3%A1_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  author: "Socrates"
-  text: "Why should we pay so much attention to what the majority thinks?"
+  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
+  author: "Haemin Sunim"
+  text: "Your true self is not your emotion such as anger, frustration or hate. It is the inner witness that knows the rise and fall of your emotion."
 
 menu:
     main:
