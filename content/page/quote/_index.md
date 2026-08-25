@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Babe_Ruth_cropped.jpg/960px-Babe_Ruth_cropped.jpg"
-  author: "Babe Ruth"
-  text: "You just can't beat the person who never gives up."
+  image: "https://zenquotes.io/img/denis-waitley.jpg"
+  author: "Denis Waitley"
+  text: "Mistakes are painful when they happen, but years later a collection of mistakes is what is called experience."
 
 menu:
     main:
