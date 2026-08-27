@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/The_Death_of_Seneca_%28La_mort_de_S%C3%A9n%C3%A8que%29_-_Pierre_Peyron.jpg/250px-The_Death_of_Seneca_%28La_mort_de_S%C3%A9n%C3%A8que%29_-_Pierre_Peyron.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/SenecaELWI.jpg"
   author: "Seneca"
-  text: "Let us prepare our minds as if we’d come to the very end of life. Let us postpone nothing."
+  text: "Luck is what happens when preparation meets opportunity."
 
 menu:
     main:
