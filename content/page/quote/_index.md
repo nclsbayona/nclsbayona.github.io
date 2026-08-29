@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://zenquotes.io/img/paulo-coelho.jpg"
-  author: "Paulo Coelho"
-  text: "Whatever you decide to do, make sure it makes you happy."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Unknown_%28pel%C3%ADcula%29.svg/500px-Unknown_%28pel%C3%ADcula%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  author: "Unknown"
+  text: "Be an island of calm in the sea of craziness."
 
 menu:
     main:
