@@ -17,19 +17,5 @@
     ],
     "@semantic-release/release-notes-generator",
     "@semantic-release/github",
-    [
-      "@semantic-release/changelog",
-      {
-        "changelogFile": "CHANGELOG.md",
-        "changelogTitle": "# The Changelog for nclsbayona.github.io",
-      }
-    ],
-    [
-      '@semantic-release/git',
-      {
-        message:
-          'chore: :bookmark: Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
-      },
-    ],
   ]
 }
