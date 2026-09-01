@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/960px-Nietzsche187a.jpg"
-  author: "Friedrich Nietzsche"
-  text: "He who has a why to live can bear almost any how"
+  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Marcus_Annius_Verus_Caesar.jpg/250px-Marcus_Annius_Verus_Caesar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  author: "Marcus Aurelius"
+  text: "What people say or think about him, or how they treat him, isn’t something he worries about."
 
 menu:
     main:
