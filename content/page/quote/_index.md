@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Marcus_Annius_Verus_Caesar.jpg/250px-Marcus_Annius_Verus_Caesar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  author: "Marcus Aurelius"
-  text: "What people say or think about him, or how they treat him, isn’t something he worries about."
+  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Norman_Vincent_Peale_in_1924.png/120px-Norman_Vincent_Peale_in_1924.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  author: "Norman Vincent Peale"
+  text: "Imagination is the true magic carpet."
 
 menu:
     main:
