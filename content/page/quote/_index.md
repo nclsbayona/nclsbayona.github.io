@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://zenquotes.io/img/arnold-schwarzenegger.jpg"
-  author: "Arnold Schwarzenegger"
-  text: "If you don't find the time, if you don't do the work, you don't get the results."
+  image: "https://upload.wikimedia.org/wikipedia/commons/7/76/Bernardbaruch.jpg"
+  author: "Bernard Baruch"
+  text: "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind."
 
 menu:
     main:
