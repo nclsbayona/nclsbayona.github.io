@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/7/76/Bernardbaruch.jpg"
-  author: "Bernard Baruch"
-  text: "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind."
+  image: "https://zenquotes.io/img/stephen-hawking.jpg"
+  author: "Stephen Hawking"
+  text: "However difficult life may seem, there is always something you can do and succeed at."
 
 menu:
     main:
