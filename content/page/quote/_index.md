@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://zenquotes.io/img/aristophanes.jpg"
-  author: "Aristophanes"
-  text: "High thoughts must have high language."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/960px-Albert_Einstein_Head.jpg"
+  author: "Albert Einstein"
+  text: "In the middle of every difficulty lies opportunity."
 
 menu:
     main:
