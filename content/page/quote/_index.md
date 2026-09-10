@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/960px-Albert_Einstein_Head.jpg"
-  author: "Albert Einstein"
-  text: "In the middle of every difficulty lies opportunity."
+  image: "https://zenquotes.io/img/maxime-lagace.jpg"
+  author: "Maxime Lagace"
+  text: "Simple words, repeated daily, can change your life."
 
 menu:
     main:
