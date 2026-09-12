@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
-  author: "TheStoicEmperor"
-  text: "Do not act when the tide of rage flows in. Wait for it to go out. Then act with reason and proportion. @"
+  image: "https://upload.wikimedia.org/wikipedia/commons/1/12/Hans_Christian_Andersen_Medal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  author: "Hans Christian Andersen"
+  text: "We cannot expect to be happy always... by experiencing evil as well as good we become wise."
 
 menu:
     main:
