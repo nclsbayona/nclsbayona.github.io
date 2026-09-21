@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://zenquotes.io/img/henry-ward-beecher.jpg"
-  author: "Henry Ward Beecher"
-  text: "A person without a sense of humor is like a wagon without springs, jolted by every pebble in the road."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Gautama_Buddha_11.jpg/960px-Gautama_Buddha_11.jpg"
+  author: "Buddha"
+  text: "What we think, we become."
 
 menu:
     main:
