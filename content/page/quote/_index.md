@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Gautama_Buddha_11.jpg/960px-Gautama_Buddha_11.jpg"
-  author: "Buddha"
-  text: "What we think, we become."
+  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Antoninianus_Marcus_Aurelius_Marius-s3155.3.jpg/500px-Antoninianus_Marcus_Aurelius_Marius-s3155.3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  author: "Marcus Aurelius UPDATED"
+  text: "Waste no more time arguing about what a good man should be. Be one."
 
 menu:
     main:
