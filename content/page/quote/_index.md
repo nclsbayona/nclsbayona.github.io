@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Epictetus.jpg/250px-Epictetus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  author: "Epictetus"
-  text: "Now is the time to get serious about living your ideals. How long can you afford to put off who you really want to be? Your nobler self cannot wait any longer. Put your principles into practice – now. Stop the excuses and the procrastination. This is your life! […] Decide to be extraordinary and do what you need to do – now."
+  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Socrates_%28futebolista%29_Diretas_J%C3%A1_cropped.jpg/250px-Socrates_%28futebolista%29_Diretas_J%C3%A1_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  author: "Socrates"
+  text: "Having the fewest wants, I am nearest to the gods."
 
 menu:
     main:
