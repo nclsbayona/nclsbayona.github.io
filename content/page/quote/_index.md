@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Carl_Jung_%28maler%29.jpg/250px-Carl_Jung_%28maler%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  author: "Carl Jung"
-  text: "You are what you do, not what you say you'll do."
+  image: "https://zenquotes.io/img/lolly-daskal.jpg"
+  author: "Lolly Daskal"
+  text: "When you stop questioning, you stop learning."
 
 menu:
     main:
