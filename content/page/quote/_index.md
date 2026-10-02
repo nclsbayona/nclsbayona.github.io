@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://zenquotes.io/img/lolly-daskal.jpg"
-  author: "Lolly Daskal"
-  text: "When you stop questioning, you stop learning."
+  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Nassim_Taleb_Lecturing.jpg/250px-Nassim_Taleb_Lecturing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  author: "Nassim Nicholas Taleb"
+  text: "Intelligence consists in ignoring things that are irrelevant."
 
 menu:
     main:
