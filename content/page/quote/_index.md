@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Nassim_Taleb_Lecturing.jpg/250px-Nassim_Taleb_Lecturing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  author: "Nassim Nicholas Taleb"
-  text: "Intelligence consists in ignoring things that are irrelevant."
+  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Marcus_Annius_Verus_Caesar.jpg/250px-Marcus_Annius_Verus_Caesar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  author: "Marcus Aurelius"
+  text: "Whatever happens to you has been waiting to happen since the beginning of time."
 
 menu:
     main:
