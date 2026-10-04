@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Marcus_Annius_Verus_Caesar.jpg/250px-Marcus_Annius_Verus_Caesar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  author: "Marcus Aurelius"
-  text: "Whatever happens to you has been waiting to happen since the beginning of time."
+  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Maxime_Lagac%C3%A9_%28cropped%29.jpg/330px-Maxime_Lagac%C3%A9_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  author: "Maxime Lagace"
+  text: "Simple words, repeated daily, can change your life."
 
 menu:
     main:
