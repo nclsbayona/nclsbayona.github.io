@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Caricature_of_Charlie_Chaplin_from_Cin%C3%A9a%2C_1922.svg/120px-Caricature_of_Charlie_Chaplin_from_Cin%C3%A9a%2C_1922.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  author: "Charlie Chaplin"
-  text: "We think too much and feel too little."
+  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Charlie_Munger_%28cropped%29_%282%29.jpg/250px-Charlie_Munger_%28cropped%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  author: "Charlie Munger"
+  text: "What are the secret of success? -one word answer: “rational”."
 
 menu:
     main:
