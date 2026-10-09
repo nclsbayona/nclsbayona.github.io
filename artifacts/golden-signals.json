@@ -1,14 +1,14 @@
 {
   "latency": {
-    "http_req_duration_p95": 15.224944249999997,
-    "gs_latency_p95": 15.224894
+    "http_req_duration_p95": 3.869350999999997,
+    "gs_latency_p95": 3.86923175
   },
   "traffic": {
-    "http_reqs_count": 175740,
-    "data_received_bytes": 5133389368,
-    "data_sent_bytes": 35578194,
+    "http_reqs_count": 179147,
+    "data_received_bytes": 5235114497,
+    "data_sent_bytes": 36219691,
     "pages_discovered": 50,
-    "pages_tested": 175739
+    "pages_tested": 179146
   },
   "errors": {
     "http_req_failed_rate": 0,
@@ -16,13 +16,13 @@
     "gs_error_rate": 0
   },
   "saturation": {
-    "vus": 6,
+    "vus": 2,
     "vus_max": 100,
-    "iteration_duration_p95": 961.7360986000001,
-    "gs_iteration_p95": 962
+    "iteration_duration_p95": 952.209886,
+    "gs_iteration_p95": 952
   },
   "http_status_codes": {
-    "200": 175739,
+    "200": 179146,
     "204": 0,
     "301": 0,
     "302": 0,
@@ -38,7 +38,7 @@
     "other": 0
   },
   "http_status_families": {
-    "2xx": 175739,
+    "2xx": 179146,
     "3xx": 0,
     "4xx": 0,
     "5xx": 0
