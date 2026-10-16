@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://zenquotes.io/img/adi-da-samraj.jpg"
-  author: "Adi Da Samraj"
-  text: "Everything eaten is killed. Every meal is a sacrifice."
+  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/DavidGogginsMay08.jpg/120px-DavidGogginsMay08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  author: "David Goggins"
+  text: "When you think you’re done, you’re only at 40% of your body’s capability."
 
 menu:
     main:
