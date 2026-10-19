@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://zenquotes.io/img/lolly-daskal.jpg"
-  author: "Lolly Daskal"
-  text: "The greater the impact you want to make, the greater your influence needs to be."
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Babe_Ruth_cropped.jpg/960px-Babe_Ruth_cropped.jpg"
+  author: "Babe Ruth"
+  text: "You just can't beat the person who never gives up."
 
 menu:
     main:
