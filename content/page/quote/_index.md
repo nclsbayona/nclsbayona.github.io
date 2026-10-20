@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Babe_Ruth_cropped.jpg/960px-Babe_Ruth_cropped.jpg"
-  author: "Babe Ruth"
-  text: "You just can't beat the person who never gives up."
+  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Burkle_Building%2C_Drucker_Centenial.jpg/330px-Burkle_Building%2C_Drucker_Centenial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  author: "Peter Drucker"
+  text: "Management is doing things right; leadership is doing the right things."
 
 menu:
     main:
