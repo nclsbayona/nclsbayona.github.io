@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Burkle_Building%2C_Drucker_Centenial.jpg/330px-Burkle_Building%2C_Drucker_Centenial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  author: "Peter Drucker"
-  text: "Management is doing things right; leadership is doing the right things."
+  image: "https://zenquotes.io/img/ming--dao-deng.jpg"
+  author: "Ming-Dao Deng"
+  text: "Each day your life grows a day shorter. Make every move count."
 
 menu:
     main:
