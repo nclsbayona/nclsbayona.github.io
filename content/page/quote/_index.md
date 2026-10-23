@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Stevejobs.jpg/960px-Stevejobs.jpg"
-  author: "Steve Jobs"
-  text: "The only way to do great work is to love what you do."
+  image: "https://upload.wikimedia.org/wikipedia/commons/a/a5/EB1911_-_N_-_longer_limb.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  author: "n"
+  text: "Fear is a atural reaction to moving closer to the truth. Pema Chödrön"
 
 menu:
     main:
