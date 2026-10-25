@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Elon_Musk_Signature.svg/500px-Elon_Musk_Signature.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  author: "Elon Musk"
-  text: "Life needs to be more than just solving problems every day. You need to wake up and be excited about the future."
+  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
+  author: "TheStoicEmperor"
+  text: "Life is full of suffering. Yes. Why should it be otherwise? Embrace. Endure. @"
 
 menu:
     main:
