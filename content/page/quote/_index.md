@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
-  author: "TheStoicEmperor"
-  text: "Life is full of suffering. Yes. Why should it be otherwise? Embrace. Endure. @"
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Babe_Ruth_cropped.jpg/960px-Babe_Ruth_cropped.jpg"
+  author: "Babe Ruth"
+  text: "You just can't beat the person who never gives up."
 
 menu:
     main:
