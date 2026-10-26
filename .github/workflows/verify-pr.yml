@@ -25,7 +25,7 @@ jobs:
       # - name: Configure monitor
       #   uses: GitHubSecurityLab/actions-permissions/monitor@v1
 
-      - uses: thehanimo/pr-title-checker@v1.4.3
+      - uses: thehanimo/pr-title-checker@v2.0.0
         id: check
         continue-on-error: true
         with:
