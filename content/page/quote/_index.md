@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/960px-Albert_Einstein_Head.jpg"
-  author: "Albert Einstein"
-  text: "In the middle of every difficulty lies opportunity."
+  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/DogenP2.JPG/250px-DogenP2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  author: "Dogen"
+  text: "If you want to see things just as they are, then you yourself must practice just as you are."
 
 menu:
     main:
