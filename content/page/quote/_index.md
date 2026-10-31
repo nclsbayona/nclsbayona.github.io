@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/DogenP2.JPG/250px-DogenP2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  author: "Dogen"
-  text: "If you want to see things just as they are, then you yourself must practice just as you are."
+  image: "https://zenquotes.io/img/walt-disney.jpg"
+  author: "Walt Disney"
+  text: "When you believe in a thing, believe in it all the way, implicitly and unquestionable."
 
 menu:
     main:
