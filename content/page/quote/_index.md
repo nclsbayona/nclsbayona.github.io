@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://zenquotes.io/img/walt-disney.jpg"
-  author: "Walt Disney"
-  text: "When you believe in a thing, believe in it all the way, implicitly and unquestionable."
+  image: "https://zenquotes.io/img/kamal-ravikant.jpg"
+  author: "Kamal Ravikant"
+  text: "When something comes from within, when it is a part of you, you have no choice but to live it, to express it."
 
 menu:
     main:
