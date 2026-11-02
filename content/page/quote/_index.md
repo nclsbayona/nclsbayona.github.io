@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://zenquotes.io/img/kamal-ravikant.jpg"
-  author: "Kamal Ravikant"
-  text: "When something comes from within, when it is a part of you, you have no choice but to live it, to express it."
+  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
+  author: "Steve Maraboli"
+  text: "The right thing to do and the hard thing to do are usually the same."
 
 menu:
     main:
