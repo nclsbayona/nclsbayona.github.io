@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
-  author: "Steve Maraboli"
-  text: "The right thing to do and the hard thing to do are usually the same."
+  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Laozi.jpg/250px-Laozi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  author: "Lao Tzu"
+  text: "The key to growth is the introduction of higher dimensions of consciousness into our awareness."
 
 menu:
     main:
