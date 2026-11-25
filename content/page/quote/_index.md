@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://static.vecteezy.com/system/resources/previews/000/566/866/original/vector-person-icon.jpg"
-  author: "TheAncientSage"
-  text: "Don’t argue with people nor insist on showing them truth. Maybe it is you who needs to change your mind. Even if you are right you only incur resentment by trying to correct others. @"
+  image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Silhouette_of_Johann_Wolfgang_von_Goethe.svg/250px-Silhouette_of_Johann_Wolfgang_von_Goethe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  author: "Johann Wolfgang von Goethe"
+  text: "Enjoy when you can, and endure when you must."
 
 menu:
     main:
