@@ -4,9 +4,9 @@ slug: "quote"
 layout: "quote"
 
 quote:
-  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Gautama_Buddha_11.jpg/960px-Gautama_Buddha_11.jpg"
-  author: "Buddha"
-  text: "What we think, we become."
+  image: "https://zenquotes.io/img/napoleon-hill.jpg"
+  author: "Napoleon Hill"
+  text: "It takes half your life before you discover life is a do-it-yourself project."
 
 menu:
     main:
